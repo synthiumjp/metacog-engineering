@@ -1,0 +1,76 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "seed": 42,
+  "probe_layers": {
+    "first": 1,
+    "middle": 17,
+    "last": 34
+  },
+  "probe_positions": [
+    "pre_answer_token",
+    "last_answer_token"
+  ],
+  "teval": {
+    "split": "T-eval",
+    "n": 1000,
+    "accuracy": 0.572,
+    "confidence_parse_rate": 0.982,
+    "auroc2_verbal": 0.5542074913247601,
+    "auroc2_entropy_E5": 0.7010326122475654,
+    "vrs": {
+      "L": 0.994908350305499,
+      "Fp": 0.002036659877800407,
+      "RBS": 0.5454545454545454,
+      "TRIN": 0.840122199592668,
+      "r": 0.05897704344716441,
+      "tier": "Invalid",
+      "n": 982
+    },
+    "confidence_histogram": {
+      "0": 2,
+      "10": 2,
+      "20": 0,
+      "30": 0,
+      "40": 0,
+      "50": 0,
+      "60": 0,
+      "70": 1,
+      "80": 0,
+      "90": 152,
+      "100": 825
+    },
+    "mean_confidence": 98.84419551934828
+  },
+  "meval": {
+    "split": "M-eval",
+    "n": 498,
+    "accuracy": 0.5421686746987951,
+    "confidence_parse_rate": 1.0,
+    "auroc2_verbal": 0.5347465886939571,
+    "auroc2_entropy_E5": 0.5401559454191033,
+    "vrs": {
+      "L": 0.9337349397590361,
+      "Fp": 0.0,
+      "RBS": 0.5454545454545454,
+      "TRIN": 0.7168674698795181,
+      "r": 0.08486152271853376,
+      "tier": "Invalid",
+      "n": 498
+    },
+    "confidence_histogram": {
+      "0": 0,
+      "10": 0,
+      "20": 0,
+      "30": 0,
+      "40": 0,
+      "50": 0,
+      "60": 1,
+      "70": 2,
+      "80": 10,
+      "90": 357,
+      "100": 128
+    },
+    "mean_confidence": 95.73092369477912
+  },
+  "timestamp": "2026-04-24 22:26:09"
+}

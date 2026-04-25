@@ -1,0 +1,8 @@
+.venv_metacog/
+data/hidden_states/*.pt
+data/step2_calibration.json
+data/step2_training_set.json
+data/step2_shuffled_training_set.json
+__pycache__/
+*.pyc
+*.pt
