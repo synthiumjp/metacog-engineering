@@ -269,14 +269,14 @@ def main():
     with open(DATA_DIR / "step2_conflict_set.json") as f:
         conflict_items = json.load(f)
 
-    # Baseline arrays
-    base_teval_conf = np.array([r["confidence"] for r in base_teval])
+    # Baseline arrays — Step 1 uses 'parsed_confidence'/'parsed_answer' keys
+    base_teval_conf = np.array([r["parsed_confidence"] for r in base_teval])
     base_teval_corr = np.array([int(r["correct"]) for r in base_teval])
-    base_meval_conf = np.array([r["confidence"] for r in base_meval])
+    base_meval_conf = np.array([r["parsed_confidence"] for r in base_meval])
     base_meval_corr = np.array([int(r["correct"]) for r in base_meval])
 
     # Entropy AUROC2 from Step 1
-    base_entropy_auroc2 = base_metrics["teval"].get("auroc2_entropy", None)
+    base_entropy_auroc2 = base_metrics["teval"].get("auroc2_entropy_E5", None)
 
     print(f"[base] T-eval: n={len(base_teval)}, "
           f"AUROC2={base_metrics['teval']['auroc2_verbal']:.3f}")
@@ -303,8 +303,18 @@ def main():
         })
 
     # Load MMLU items (same as Step 1)
-    from step1_baseline import load_mmlu_meval
-    meval_items = load_mmlu_meval()
+    from step1_baseline import load_mmlu_stratified
+    meval_items_raw = load_mmlu_stratified(500, SEED)
+    # Adapt to Step 4 format: add A/B/C/D keys and gold key
+    meval_items = []
+    for item in meval_items_raw:
+        adapted = dict(item)
+        adapted["A"] = item["choices"][0]
+        adapted["B"] = item["choices"][1]
+        adapted["C"] = item["choices"][2]
+        adapted["D"] = item["choices"][3]
+        adapted["gold"] = item["answer_letter"]
+        meval_items.append(adapted)
 
     if args.dry_run:
         teval_items = teval_items[:5]
@@ -329,7 +339,7 @@ def main():
     _split_start = time.time()
     ft_teval_records, ft_teval_hs = evaluate_split(
         ft_model, tokenizer, teval_items, "triviaqa",
-        label="ft-T-eval", cache_hidden=True, probe_layers=probe_layers,
+        label="ft-T-eval", cache_hidden=False,
     )
 
     print("\n=== Step 4A: Real-target model on M-eval ===")
@@ -400,10 +410,26 @@ def main():
     print(f"  AUROC2 ft M-eval:      {results['auroc2_ft_meval']:.3f}")
 
     # --- H2: Shuffled-target adjustment ---
+    # Align array lengths (dry-run evaluates fewer items than baseline)
+    n_teval = min(len(base_teval_conf), len(ft_teval_conf), len(shuf_teval_conf))
+    base_teval_conf_aligned = base_teval_conf[:n_teval]
+    base_teval_corr_aligned = base_teval_corr[:n_teval]
+    ft_teval_conf_aligned = ft_teval_conf[:n_teval]
+    ft_teval_corr_aligned = ft_teval_corr[:n_teval]
+    shuf_teval_conf_aligned = shuf_teval_conf[:n_teval]
+    shuf_teval_corr_aligned = shuf_teval_corr[:n_teval]
+
     shuf_vs_base = paired_bootstrap_auroc2_delta(
-        shuf_teval_conf, base_teval_conf, base_teval_corr,
+        shuf_teval_conf_aligned, base_teval_conf_aligned, base_teval_corr_aligned,
         n_resamples=BOOTSTRAP_N, seed=SEED,
     )
+    # Use aligned arrays for all downstream T-eval comparisons
+    base_teval_conf = base_teval_conf_aligned
+    base_teval_corr = base_teval_corr_aligned
+    ft_teval_conf = ft_teval_conf_aligned
+    ft_teval_corr = ft_teval_corr_aligned
+    shuf_teval_conf = shuf_teval_conf_aligned
+    shuf_teval_corr = shuf_teval_corr_aligned
     results["h2_shuf_vs_base"] = shuf_vs_base
     shuf_moved = shuf_vs_base["lo"] > 0  # CI excludes zero and positive
 
@@ -465,8 +491,9 @@ def main():
           f"-> {'improved' if vrs_improved else 'not improved'}")
 
     # --- H4: Cross-benchmark transfer (M-eval) ---
+    n_meval = min(len(base_meval_conf), len(ft_meval_conf))
     h4_delta = paired_bootstrap_auroc2_delta(
-        ft_meval_conf, base_meval_conf, base_meval_corr,
+        ft_meval_conf[:n_meval], base_meval_conf[:n_meval], base_meval_corr[:n_meval],
         n_resamples=BOOTSTRAP_N, seed=SEED,
     )
     results["h4_delta"] = h4_delta
@@ -500,20 +527,29 @@ def main():
         by = base_teval_corr[bin_mask]
         fy = ft_teval_corr[bin_mask]
 
-        bin_delta = paired_bootstrap_auroc2_delta(
-            fc, bc, by, n_resamples=BOOTSTRAP_N, seed=SEED,
-        )
-        bin_met = bin_delta["lo"] > 0
+        try:
+            bin_delta = paired_bootstrap_auroc2_delta(
+                fc, bc, by, n_resamples=BOOTSTRAP_N, seed=SEED,
+            )
+            bin_met = bin_delta["lo"] > 0
+        except Exception as e:
+            print(f"    {bin_name} (n={n_bin}): bootstrap failed ({e}), skipping")
+            h3_bins[bin_name] = {"n": n_bin, "skipped": True, "error": str(e)}
+            continue
 
         # Residualisation: subtract bin mean from confidence
         bc_resid = bc - np.nanmean(bc)
         fc_resid = fc - np.nanmean(fc)
         resid_auroc2_base = auroc2(bc_resid, by)
         resid_auroc2_ft = auroc2(fc_resid, fy)
-        resid_delta = paired_bootstrap_auroc2_delta(
-            fc_resid, bc_resid, by, n_resamples=BOOTSTRAP_N, seed=SEED,
-        )
-        resid_met = resid_delta["lo"] > 0
+        try:
+            resid_delta = paired_bootstrap_auroc2_delta(
+                fc_resid, bc_resid, by, n_resamples=BOOTSTRAP_N, seed=SEED,
+            )
+            resid_met = resid_delta["lo"] > 0
+        except Exception:
+            resid_delta = {"point_delta": float("nan"), "lo": float("nan"), "hi": float("nan")}
+            resid_met = False
 
         h3_bins[bin_name] = {
             "n": n_bin,
@@ -574,7 +610,7 @@ def main():
         for ci in conflict_items[:n_conflict]:
             br = base_qid_map.get(ci["question_id"])
             if br:
-                base_conflict_conf_list.append(br["confidence"])
+                base_conflict_conf_list.append(br["parsed_confidence"])
                 base_conflict_corr_list.append(int(br["correct"]))
             else:
                 base_conflict_conf_list.append(float("nan"))

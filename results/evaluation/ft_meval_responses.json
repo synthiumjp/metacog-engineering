@@ -1,0 +1,3488 @@
+[
+  {
+    "question_id": "high_school_chemistry:1241",
+    "response": "a. 53.0 g/mol\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:317",
+    "response": "c. cortical reaction\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:1002",
+    "response": "b. 30 m\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:349",
+    "response": "c. ovary, oviduct, uterus, vagina\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "abstract_algebra:85",
+    "response": "d. False, True\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_computer_science:1657",
+    "response": "b. nextAvailableID\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:383",
+    "response": "c. Southern blot hybridization\n\nConfidence: 95%\n\n**Explanation:**\n\n*   **Southern blot hybridization** specifically detects DNA sequences. It uses a labeled probe that hybridizes to a particular DNA sequence of interest.\n\nLet's look at why the other options are incorrect:\n\n*   **Western blot",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "electrical_engineering:1935",
+    "response": "c. capacitance.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "electrical_engineering:1894",
+    "response": "b. minority carriers\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1456",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1322",
+    "response": "a. mitochondrial matrix\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:708",
+    "response": "let's analyze each option:\n\nA. f(x) = x^3 + 2x^2 \u2013 9x \u2013 18.  We can try to factor this polynomial.\nf(x) = x^2(x + 2) - 9(x + ",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:937",
+    "response": "c. It will be halved.\n\nConfidence: 95%\n\n**Explanation:**\n\nThe power dissipated in a circuit is given by the formula: P = V<sup>2</sup> / R\n\nIf the voltage (V) remains constant, and the resistance (R) is doubled (R\u2019 = 2R",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:372",
+    "response": "a. ige\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_computer_science:534",
+    "response": "b. 5\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1452",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "astronomy:1712",
+    "response": "d. a b and c\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1369",
+    "response": "b. endosymbiotic model\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:822",
+    "response": "b. $24,000\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:726",
+    "response": "the list is $25, 26, 27, \\ldots, 99, 100$.\nwe want to find the number of integers in this list.\nThe first term is $a_1 = 25$ and the last term is $a_n =",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "college_chemistry:244",
+    "response": "b. NH2\u2212\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_computer_science:1598",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_chemistry:301",
+    "response": "a. becl2\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1351",
+    "response": "b.\n\nConfidence: 95%\n\n**Explanation:**\n\n*   **Homology** arises from shared ancestry. Identical protein sequences and nucleotide coding sequences strongly suggest a recent common ancestor.\n\nLet's look at why the other options are less suitable:\n\n*   **A. The two species live",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_computer_science:447",
+    "response": "the correct answer is **A. {-6,-2, -1, 1, 2, 6}**\n\nConfidence: 95%\n\nExplanation:\n\n*   **Definition of common divisors:** A common divisor of two integers *x* and *y* must divide both *x* and",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:437",
+    "response": "d. a given prey organism is less likely to undergo a population surge\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:149",
+    "response": "c. 0.5 GeV/c^2\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:131",
+    "response": "b. The planets would move in spiral orbits.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_chemistry:255",
+    "response": "a. cu\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:177",
+    "response": "d. potential difference necessary to stop the emitted electrons is a linear function of the frequency above the threshold frequency\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "astronomy:1775",
+    "response": "b. alternating bands of rising and falling air at different latitudes.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_chemistry:1236",
+    "response": "b. 1 \u00d7 10^-9 M\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_computer_science:1606",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1451",
+    "response": "a. Subsequent generations of a population should have greater proportions of individuals that possess traits better suited for success.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:862",
+    "response": "a. \u20133 \u2264 y \u2264 3\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_mathematics:638",
+    "response": "b. 7/12\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "electrical_engineering:1857",
+    "response": "c. 10 MHz.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:710",
+    "response": "let's solve the equation $|x-4| - 10 = 2$.\nAdd 10 to both sides:\n$|x-4| = 12$\nThis means either $x-4 = 12$ or $x-4 = -12$.\n\n",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1478",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:832",
+    "response": "the correct answer is C. 3.\n\nHere's how to evaluate $\\log_8 2$:\n\nwe want to find the value of $x$ such that $8^x = 2$.\n\nsince $8 = 2^3$, we can rewrite the equation as $(2^3",
+    "answer": "",
+    "confidence": 3.0,
+    "correct": false
+  },
+  {
+    "question_id": "astronomy:1777",
+    "response": "c. 380 to 740 nm.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:123",
+    "response": "b. 1 x 10^-5 N\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "electrical_engineering:1883",
+    "response": "c. instrument errors.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:910",
+    "response": "the upward velocity at t = 1 is given by the derivative of the y-coordinate with respect to time, evaluated at t = 1.\n\ndy/dt = d(4 sin(t) + sin(12t))/dt = 4 cos(t) + 12 cos(1",
+    "answer": "",
+    "confidence": 1.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:909",
+    "response": "the correct answer is **A. 640**\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1563",
+    "response": "d. gastrulation\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_computer_science:1631",
+    "response": "c. max(list)\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "electrical_engineering:1859",
+    "response": "a. all of below.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:163",
+    "response": "b. 2\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1467",
+    "response": "b. The surface water warms.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:853",
+    "response": "the correct answer is **A. 46/3**\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:773",
+    "response": "the length of the curve y = f(x) from x = a to x = b is given by the integral:\n\ns = \u222b[a, b] \u221a(1 + (f'(x))^2) dx\n\nin this case, f(x) = ln x.  so f'(x)",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_chemistry:1113",
+    "response": "b. 2 sigma and 1 pi\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:867",
+    "response": "let $s_o$ be the speed of the old computer and $p_o$ be the price of the old computer.\nlet $s_c$ be the speed of the current computer and $p_c$ be the price of the current computer.\n\nwe are given that five years ago,",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1356",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1501",
+    "response": "a. a species' gene frequency\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:319",
+    "response": "c. both instinctive and learned\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_computer_science:1581",
+    "response": "a. int(x [,base])\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_chemistry:1221",
+    "response": "here's the solution and confidence assessment:\n\n**Solution:**\n\n1. **Write the balanced neutralization equation:**\n   HA(aq) + KOH(aq) \u2192 K+(aq) + A-(aq)\n\n2. **Calculate the moles of KOH used:**\n   moles KOH = Molarity \u00d7",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:865",
+    "response": "to find the value of $b$ such that the parabola $y_1 = x^2 + 2x + 7$ and the line $y_2 = 6x + b$ intersect at only one point, we need to set the two equations equal to each other and solve for $x",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1317",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1513",
+    "response": "b. 32 percent\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:169",
+    "response": "a. rate of change of the electric flux through S\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:863",
+    "response": "let's first find the value of t where y = 4.\nwe have F(t) = (t^2 + 1, 2^t).\nwe are given that y = 2^t = 4.\nTaking the logarithm base 2 of both sides, we get",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1403",
+    "response": "c. sister chromatids separate during meiosis i.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:970",
+    "response": "b. f\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_physics:179",
+    "response": "the correct answer is **C. 0.36c**\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:687",
+    "response": "c. 10\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "astronomy:1734",
+    "response": "b. Kirkwood Gaps.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:980",
+    "response": "a. a cubic relationship between C^3 and T\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe circumference of a balloon is affected by temperature due to thermal expansion and contraction. Helium expands when heated and contracts when cooled.  The volume of a sphere (like a balloon) is proportional to the cube",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:958",
+    "response": "b.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:650",
+    "response": "let $f(x)$ be a strictly convex function. This means that for any $a < b$, the graph of $y=f(x)$ between $x=a$ and $x=b$ lies below the line segment connecting $(a, f(a))$ and $(b, f(b",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:1048",
+    "response": "b. it is quadrupled.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:717",
+    "response": "we are asked to evaluate the expression $\\frac{-\\frac{18}{7}}{-\\frac{6}{5}}$.\nWe can rewrite this as\n$$ \\frac{-\\frac{18}{7}}{-\\frac{6}{5}} = \\frac{-18}{7} \\div \\left(-\\frac",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "astronomy:1803",
+    "response": "d. molecules scatter blue light more effectively than red light.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_chemistry:1069",
+    "response": "c. covalent network bonding\n\nConfidence: 95%\n\nConfidence explanation:\n\nHere\u2019s why:\n\n*   **High melting point:** Indicates strong intermolecular forces or strong bonding within the substance.\n*   **Poor conductor of electricity:**  Suggests the absence of free-moving electrons, which are essential",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_mathematics:804",
+    "response": "b. 72\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1334",
+    "response": "c. taiga\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1499",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_biology:1326",
+    "response": "a. enhancer\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:1066",
+    "response": "b. The satellite now orbits in an ellipse, with P as the closest approach to Earth.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_biology:378",
+    "response": "c. kinetochore\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_physics:922",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:1000",
+    "response": "c. rebelled against king ferdinand\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:413",
+    "response": "c. treating another person as a mere means.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2092",
+    "response": "b. wrong, not wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:985",
+    "response": "c. showing how Muslims were on the whole kinder than christians in the middle east during the crusading era.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:557",
+    "response": "a. chunkey.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:239",
+    "response": "d. are nonempirical in character.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:243",
+    "response": "d. none of the above.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "formal_logic:1509",
+    "response": "b. Invalid. Counterexample when L, N, O, Q, and R are true and M, P are false\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:843",
+    "response": "b. the differing views of Catholics and reformers on the appropriate use and interpretation of biblical texts\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1988",
+    "response": "c. Not wrong, Wrong\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1938",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_us_history:1233",
+    "response": "c. other southern states seceded from the union, forming the confederacy.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "world_religions:53",
+    "response": "c. indonesia\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1716",
+    "response": "d. a prescription of how we should treat humans.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2543",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1745",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:217",
+    "response": "b. we must first know whether something conforms to god\u2019s will before we can know that it is right.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:286",
+    "response": "b. pleasure or pain inflicted by a judge in accordance with a rule.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:451",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2230",
+    "response": "c. Not wrong, Wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_us_history:1229",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:450",
+    "response": "c. the preservation of their property\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2626",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2440",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2134",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:264",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:727",
+    "response": "a. his horses and guns frightened the incas into submission.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:716",
+    "response": "a. argon/argon and potassium argon dating\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:934",
+    "response": "a. the exchange of food sources between the americas and europe\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2023",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1362",
+    "response": "c. low taxes on the peasants and middle class\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2195",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1885",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1738",
+    "response": "b.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:488",
+    "response": "b. random scratches and not a meaningful script or written language.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1890",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1966",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_us_history:1196",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1353",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:388",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:925",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1346",
+    "response": "a. cesare beccaria\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2165",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2750",
+    "response": "b. wrong, not wrong\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:855",
+    "response": "c. The country sent emissaries to study western democracies and industry.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:722",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2097",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1990",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:322",
+    "response": "b. psychological egoistic hedonism.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:820",
+    "response": "d. agriculture was collectivized, with the result that entire communities shared fields instead of individuals owning the land as private property.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1803",
+    "response": "d. whether that action is required, permitted, or prohibited by a rule the consequences of which are best.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "world_religions:61",
+    "response": "b. silla\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2104",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1836",
+    "response": "a. what we are free to do.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:262",
+    "response": "b. knowledge of individual examples alone would not prepare someone for situations of justice or virtue to which the examples do not immediately apply.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1654",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:649",
+    "response": "b. within the past 12,000 years\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:351",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1953",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:866",
+    "response": "d. suffrage\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1349",
+    "response": "b. The lack of new land to assign to well-connected Spaniards and conquistadores\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2483",
+    "response": "c. Not wrong, Wrong\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_us_history:1155",
+    "response": "c. middle-class college students.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:1035",
+    "response": "b. The British sought to end what they considered an inhumane practice without endangering their own authority.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe passage explicitly states that the British are concerned about the potential threat to the \u201csafety of the British Empire in India\u201d if they *don\u2019t* suppress",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2616",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1913",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2366",
+    "response": "b. wrong, not wrong\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1598",
+    "response": "a. murder\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_us_history:1212",
+    "response": "d.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:1941",
+    "response": "c. Not wrong, Wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1254",
+    "response": "the best answer is **B. Columbus was biased in favor of himself in his writings.**\n\nHere\u2019s why:\n\n*   **Columbus\u2019s account** presents a carefully constructed narrative designed to justify his actions and portray the Spanish as benevolent traders and potential converts. He emphasizes giving gifts and attempting to establish a positive",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2654",
+    "response": "a. wrong, wrong\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:436",
+    "response": "a. the thing in itself.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_scenarios:2086",
+    "response": "b. wrong, not wrong\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1619",
+    "response": "d. all of the above\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1250",
+    "response": "b. The duke, as a member of the French nobility, is biased against the king because of his suppression of the nobility.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nThe passage details how Louis XIV actively sought to control the nobility through lavish spending requirements and dependence on his favor. The duke\u2019",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "prehistory:747",
+    "response": "b. Gravettian; Solutrean\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "moral_disputes:1861",
+    "response": "a. freedom of speech\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "philosophy:234",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1251",
+    "response": "b. that the lyrics from the popular song *deutschland \u00fcber alles* (which eventually became the german national anthem) were evidence of germany\u2019s aggressive attitude\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1358",
+    "response": "c. the steam engine\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_world_history:902",
+    "response": "b. The portuguese conquest of india\n\nConfidence: 95%\n\n**Explanation:**\n\nThe passage describes a complex trade network centered around China and Japan, with Portugal acting as a key intermediary. The key to understanding this trade is the Portuguese control of sea routes to India. This control allowed them to monopolize",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_european_history:1279",
+    "response": "d. Lutherans insisted upon maintaining all of the seven sacraments while the Calvinists chose to honor only two of them.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1230",
+    "response": "b. basilar membrane\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:433",
+    "response": "d.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1254",
+    "response": "a. paranoid schizophrenia\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2299",
+    "response": "a. Increase government spending with a matching decrease in taxes.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "us_foreign_policy:587",
+    "response": "c. Provide fora for discussion\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "public_relations:219",
+    "response": "c. The information can be generalized to describe a larger population.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_geography:897",
+    "response": "c. pastoralism.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2301",
+    "response": "c. Buying Treasury securities from commercial banks\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "us_foreign_policy:638",
+    "response": "b. Class consciousness\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_geography:906",
+    "response": "c. bathe in the ganges river.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:739",
+    "response": "a. woman-on-top\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2148",
+    "response": "c. medium of exchange\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_geography:813",
+    "response": "b. british (english, scotch-irish, welsh, scottish)\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_government_and_politics:1135",
+    "response": "c. increasing concentration of ownership in the news media\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1489",
+    "response": "d. major depressive disorder\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1907",
+    "response": "b. spillover benefits are received by society.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:786",
+    "response": "b. become less permissive; become more accepting\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:696",
+    "response": "d. clitoris\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:764",
+    "response": "the correct answer is **D. mutual self-disclosure, sexuality, and trusting**\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_government_and_politics:1066",
+    "response": "b. coalition building\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:687",
+    "response": "b. immediately before orgasm\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:539",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:34",
+    "response": "a. women's susceptibility to stress depended on their levels of social support\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:688",
+    "response": "d. all of the above\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1281",
+    "response": "a. naturalistic\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:395",
+    "response": "b. epistemic violence.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:12",
+    "response": "a. socialization into working class families and communities\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1869",
+    "response": "c. very few competitors.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2246",
+    "response": "b. determined by supply and demand.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:374",
+    "response": "c. An 'energy security nexus' exists in the international system because the geographical distribution of energy supply and demand are not equal; thus states are drawn into complex and intertwined relationships with one another.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1805",
+    "response": "b. firms and how they make profits.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1303",
+    "response": "c. observation and imitation of significant role models\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1761",
+    "response": "b. decrease price as demand is inelastic.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "public_relations:229",
+    "response": "b. crisis management\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2027",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2280",
+    "response": "a. Higher disposable income higher consumption higher real GDP lower unemployment\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:1979",
+    "response": "b. a higher price level.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2150",
+    "response": "b. Increased demand \u00a0\u00a0\u00a0 Rising \u00a0\u00a0\u00a0 Appreciates\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2333",
+    "response": "b. Real GDP will decrease.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nHere\u2019s why:\n\n*   **Real GDP** is calculated as total output (production) minus total imports, plus total exports.\n*   **Decreasing exports** means less revenue is coming in from selling",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2140",
+    "response": "b. expansionary 4 3\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "econometrics:2386",
+    "response": "b. The roots of the characteristic equation must all lie on the unit circle.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:109",
+    "response": "c. local communities, extended kinship networks and shared leisure pursuits\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:481",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:107",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1603",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2151",
+    "response": "a. eliminate a recessionary gap\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1234",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1466",
+    "response": "a. psychoanalysis\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1789",
+    "response": "a. substitute goods.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "us_foreign_policy:613",
+    "response": "d. all of the above\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2158",
+    "response": "b. this has no effect on GDP.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nGDP (Gross Domestic Product) measures the *total value of goods and services produced within a country's borders* during a specific period. Buying shares on the stock market represents a transaction between investors. It doesn",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:438",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "econometrics:2389",
+    "response": "c. Ensure that there is no autocorrelation in the test regression residuals.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:760",
+    "response": "c. self-discovery\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "econometrics:2378",
+    "response": "the correct answer is **D. Such an estimator will always be unbiased**\n\nConfidence: 95%\n\nConfidence level explanation:\n\nConfidence level: 95%\n\nConfidence level explanation:\n\nConfidence level: 95%\n\nConfidence level explanation:\n\nConfidence level: 95%\nConfidence level",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2177",
+    "response": "a. a decline in labor productivity.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:718",
+    "response": "b. in vitro fertilization\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_government_and_politics:1098",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:429",
+    "response": "d. all of these options.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "public_relations:280",
+    "response": "a. it adapts to changing organizational environments.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_sexuality:757",
+    "response": "c. hypothalamus releases gnrs\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:365",
+    "response": "c.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:484",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1226",
+    "response": "a. Behavior is under the control of external stimuli that either reinforce or punish actions, thereby affecting the likelihood of the occurrence of these behaviors.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_geography:923",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1930",
+    "response": "b. Market equilibrium quantity rises as firms exit the industry.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1814",
+    "response": "b. In the short run, all inputs are variable.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "us_foreign_policy:565",
+    "response": "d. congress.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "public_relations:299",
+    "response": "c. Conduct a situation analysis to gain a better understanding of the issue.\n\nConfidence: 95%\n\n**Explanation:**\n\nA situation analysis is the most crucial first step. It involves understanding the current landscape \u2013 the market, the competition, the target audience, and the overall context surrounding college tuition savings. This",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_microeconomics:1824",
+    "response": "b. product differentiation.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2170",
+    "response": "c. raise the price level in the economy.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2040",
+    "response": "d.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_government_and_politics:994",
+    "response": "c. judicial review\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:164",
+    "response": "b. stability and the structure of society\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2307",
+    "response": "b. surplus recession deficit expansion\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "econometrics:2448",
+    "response": "the correct answer is **D. (i), (ii), (iii), and (iv)**\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:53",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_government_and_politics:1046",
+    "response": "b. The voter's political party affiliation\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_macroeconomics:2279",
+    "response": "b. the euro has depreciated.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "security_studies:353",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "sociology:77",
+    "response": "a. nurses perform a great deal of emotional labour for which they are not paid\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_geography:884",
+    "response": "a. a water divider.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "high_school_psychology:1519",
+    "response": "b. hypochondriasis\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:566",
+    "response": "b. 5-10 seconds.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:231",
+    "response": "c. 0.5\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:642",
+    "response": "c. florida\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:85",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:680",
+    "response": "c. japan\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:406",
+    "response": "a. heart surgery patients who cannot run on treadmills may benefit from sauna use.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1446",
+    "response": "a. chronic lymphocytic thyroiditis (hashimoto disease)\n\nConfidence: 95%\n\nConfidence level explanation:\n\nHere\u2019s why I chose option A and why the others are less likely:\n\n*   **Chronic lymphocytic thyroiditis (Hashimoto\u2019s disease):** This is the *most* likely diagnosis",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1136",
+    "response": "b. CO2 production alone\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:185",
+    "response": "a. every 4 hours.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:801",
+    "response": "b. proceeded much more successfully as large numbers of DNA markers became available.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:371",
+    "response": "c. carcinoma.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:831",
+    "response": "a. recessive inheritance has\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1307",
+    "response": "c. smoking cessation program\n\nConfidence: 95%\n\n**Rationale:**\n\nWhile all the options are potentially beneficial, smoking cessation is the *most* essential first step. Here\u2019s why:\n\n*   **Smoking is a primary risk factor for CAD:** It significantly increases the risk of atherosclerosis, plaque buildup",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1626",
+    "response": "c. hygiene and social distancing\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:280",
+    "response": "d. store of calcium ions.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:940",
+    "response": "a. day-to-day basis\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:422",
+    "response": "d. all of the above.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:953",
+    "response": "d. bound to transferrin\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1591",
+    "response": "b. haemorrhagic fever\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1295",
+    "response": "b. Decreased serum angiotensin ii concentrations\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:372",
+    "response": "c. herniation around the stoma.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:166",
+    "response": "c. tophi can sometimes be seen over affected joints\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1549",
+    "response": "a. africa\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1337",
+    "response": "b. acute tubular necrosis\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:728",
+    "response": "a. negative stereotypes about older memory\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:245",
+    "response": "c. when the korotkoff sounds disappear then return during phase 2 as the bladder is deflated.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:461",
+    "response": "b. i and iii\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:711",
+    "response": "a. activities of daily living\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1456",
+    "response": "d. incision and drainage\n\nConfidence: 95%\n\n**Explanation:**\n\nThis patient presents with a classic presentation of a Bartholin\u2019s abscess. The key features are:\n\n*   **Age and parity:** Young, nulligravid woman.\n*   **Symptoms:** Moderate-to-severe",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:429",
+    "response": "b.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:263",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1466",
+    "response": "c. ultrasonography\n\nConfidence: 95%\n\n**Explanation:**\n\nAn elevated MSAFP level, particularly at 16 weeks, is a strong indicator of an increased risk of neural tube defects (NTDs) in the fetus. While MSAFP measurement is important, it can be affected by factors like gestational",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:295",
+    "response": "b. two molecules of ATP.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:389",
+    "response": "c. cause an auscultatory gap.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:513",
+    "response": "a. elevating the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:80",
+    "response": "b. bartholin\u2019s\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:105",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1564",
+    "response": "b. Early and accurate diagnosis with molecular kits\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1019",
+    "response": "a. potassium\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1512",
+    "response": "b. Non-enveloped with an icosahedral structure\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1097",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:177",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:583",
+    "response": "a. many pessimists die at a younger age\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:870",
+    "response": "b. low risk of insertional mutagenesis.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:833",
+    "response": "b. substitutes one body part for another in development\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:505",
+    "response": "b. patriarchal\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:228",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1286",
+    "response": "a. antigenic variation\n\nConfidence: 95%\n\n**Explanation:**\n\nHere\u2019s why the answer is A:\n\n*   **Antigenic variation (drift)** is the key mechanism by which *Neisseria gonorrhoeae* (the most likely cause of this presentation) rapidly evolves resistance to",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:454",
+    "response": "c. glycosylation.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:751",
+    "response": "a. anger and guilt\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:184",
+    "response": "b. as lipoproteins.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:33",
+    "response": "a. dorsal\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:858",
+    "response": "b. 0.32\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:304",
+    "response": "c. uracil\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1324",
+    "response": "d. do upper endoscopy\n\nConfidence: 95%\n\nConfidence level explanation:\n\nThis patient is exhibiting classic signs and symptoms of a variceal bleed \u2013 bright red hematemesis, hypotension, tachycardia, and altered mental status. The immediate priority is to identify the source of the bleeding and stop it. Upper",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "college_medicine:492",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:312",
+    "response": "c. IV administration allows titration of a drug with its desired effect.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1048",
+    "response": "b. the sarcomere\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:864",
+    "response": "a. trisomy.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:88",
+    "response": "a. the anterior ethmoidal sinuses\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1380",
+    "response": "b. Arrange for consultation with a home hospice team\n\nConfidence: 95%\n\nRationale:\n\nHere\u2019s why option B is the most appropriate:\n\n*   **Patient\u2019s Wishes:** The patient has clearly and repeatedly expressed her desire to die at home. Her advance directive reflects this. Ignoring her wishes",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1417",
+    "response": "a. hypertension\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:922",
+    "response": "a. liver glycogen\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1335",
+    "response": "a. administer an epidural anesthetic\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:248",
+    "response": "d. 100 micrograms/mL\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:951",
+    "response": "c. Antiobesity agents (Orlistat, Sibutramine)\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1392",
+    "response": "a. clostridium perfringens\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:11",
+    "response": "a. pupillary constriction and a medial strabismus\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1174",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1284",
+    "response": "b. bipolar I disorder, mixed\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:635",
+    "response": "c. older adults smoke less than younger adults\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "medical_genetics:816",
+    "response": "c. 22\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:1191",
+    "response": "b. 60 g glucose plus fructose per hour\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:611",
+    "response": "b. Are more visual\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:690",
+    "response": "c. working as a system\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "clinical_knowledge:385",
+    "response": "a. it works to dilate the airways quickly, allowing better deposition of other medications.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1467",
+    "response": "b. Cyclin-dependent kinases\n\nConfidence: 95%\n\n**Explanation:**\n\nThe endometrial biopsy findings \u2013 regular tubular glands with abundant mitotic figures \u2013 strongly suggest endometrial hyperplasia. This is a condition characterized by excessive growth of the uterine lining, often due to hormonal imbalances. Cyclin-dependent kinases (CDKs",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "human_aging:665",
+    "response": "a. are young survivors\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1517",
+    "response": "b. china, the u.s. and russia\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "anatomy:70",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "virology:1506",
+    "response": "b. Identifying genetic variation\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_medicine:1358",
+    "response": "b. meconium aspiration syndrome\n\nConfidence: 95%\n\n**Explanation:**\n\nHere\u2019s why meconium aspiration syndrome (MAS) is the most likely diagnosis:\n\n*   **Meconium-stained amniotic fluid:** This is a strong indicator of MAS.\n*   **Apg",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "nutrition:932",
+    "response": "a. processed meat\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1436",
+    "response": "c. recover both for damage to the boat and for his personal injury.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThis scenario involves a complex legal issue of negligence and trespass. Here\u2019s a breakdown of why the boat owner has a strong case for both damages:\n\n*   **Damage to the",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1265",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "business_ethics:19",
+    "response": "this question is missing context. without knowing what \"the Anglo-american model\" refers to and what the \"recession in the late 2000s\" is, it's impossible to answer accurately.\n\nConfidence: 5%",
+    "answer": "A",
+    "confidence": 5.0,
+    "correct": true
+  },
+  {
+    "question_id": "international_law:204",
+    "response": "c. The Pinochet case confirmed that former heads of state cease to enjoy personal immunity once removed from office\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2323",
+    "response": "a. the carpenter detrimentally relied on the general contractor's conditional promise in preparing his bid.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2265",
+    "response": "d. yes, he is liable because an owner who knows of the dog's dangerous propensities is strictly liable for ensuing damages.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1661",
+    "response": "the correct answer is **D. The proffered oral agreement regarding payment of the additional $150 concerned a new medical procedure that was unrelated to the subject matter of the prior written contract.**\n\nHere\u2019s why:\n\nthe key legal principle at play here is the \u201csubject matter rule\u201d of contract law. this",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2227",
+    "response": "c. No, because by requiring the defendant to reveal information before he is tactically ready to do so substantially impairs his ability to successfully defend himself.\n\nConfidence: 95%\n\n**Explanation:**\n\nThis scenario deals with the delicate balance between the prosecution\u2019s right to investigate and the defendant\u2019s right to",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2264",
+    "response": "b. the neighbor's mowing of the lawn created a unilateral contract.\n\nConfidence: 95%\n\nConfidence Explanation:\n\n*   **Unilateral Contract:** A unilateral contract is formed when a promise is accepted by performance of a requested act. The man offered payment ($25) *if* the neighbor",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "international_law:219",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1784",
+    "response": "b. The objective intent of the parties.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1501",
+    "response": "b. No, because the search was incident to the man\u2019s arrest.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1936",
+    "response": "b. it is necessary to further a compelling state interest.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nHere's why option B is the best answer and why the others are less suitable:\n\n*   **B. it is necessary to further a compelling state interest:** This is the most common and",
+    "answer": "A",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2421",
+    "response": "a. guilty, because the owner was placed in fear.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1624",
+    "response": "the best rationale for the outcome is **A. The fact that the antebellum mansion was insured for $450,000 is irrelevant.**\n\nHere\u2019s why:\n\n*   **Equitable Conversion:** This case revolves around the doctrine of equitable conversion. This doctrine allows a landowner to seek specific performance",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1942",
+    "response": "d. excuse the condition and require the owner to pay damages to the contractor.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1438",
+    "response": "a. The evidence is too prejudicial and must be excluded.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2301",
+    "response": "a. succeed, because a life tenant must account for permissive waste to the reversioner or remainderman.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nThis scenario deals with the concept of \u201cwaste\u201d in a life estate. Permissive waste occurs when a life tenant uses the property in a way",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "business_ethics:84",
+    "response": "i need the question to answer the multiple-choice question. please provide the full question.",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2295",
+    "response": "d.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nOption D is the most accurate answer. Courts generally disfavor exculpatory clauses that are unconscionable, particularly when there\u2019s a significant imbalance in bargaining power between the parties. The fine print, mass-printed lease, and",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2291",
+    "response": "c. denied, because the witness was unavailable, and there was adequate opportunity for cross-examination at the preliminary hearing.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1403",
+    "response": "b. No, because the first student\u2019s statement was unequivocal notice that he no longer wished to contract with the second student.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThis scenario deals with the concept of option contracts. An option contract requires consideration (something of value exchanged) to be binding. The",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1141",
+    "response": "the correct answer is **A. The landlord may recover against the tenant for past rent due.**\n\nHere\u2019s why:\n\n*   **Landlord-Tenant Relationship:** The primary obligation for rent is between the landlord and the *original* tenant. The subsequent leases are essentially assignments or subleases, but they don",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1808",
+    "response": "a. claim preclusion (res judicata) bars the motorcyclist's action against the company.\n\nConfidence: 95%\n\nConfidence Explanation:\n\n*   **Res judicata** (claim preclusion) prevents a party from relitigating a claim that has already been decided in a prior lawsuit,",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2071",
+    "response": "b. The charges will be dismissed because the intent to steal is a required element of both theft and larceny and this man did not intend to steal because he thought that he had a right to the money.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1962",
+    "response": "c. a bilateral contract.\n\nConfidence: 95%\n\n**Explanation:**\n\n*   **Bilateral contract:** A bilateral contract involves a *promise for a promise*. In this scenario, the man promises to pay $20, and the woman promises to repair the speakers. This perfectly fits the definition of",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1891",
+    "response": "b. Yes, because the building owner can testify and be questioned about what the janitor told him.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nConfidence: 95%\n\nConfidence Explanation:\n\nConfidence: 95%\n\nConfidence Explanation:\n\nConfidence: 95%\n\nConfidence Explanation",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1209",
+    "response": "a. not recover, because under the circumstances the manufacturer substantially performed.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1800",
+    "response": "b. No, because a person of that age in that factual situation could have reasonably been placed in fear of immediate bodily harm, and thus be entitled to act in his own defense.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2026",
+    "response": "b. The police were justified in halting the rally and arresting the demonstrators, because of the threat of imminent physical disturbance.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe key here is the police chief\u2019s justification for denial \u2013 \u201che believed that the demonstration would incite the protestors and threaten imminent violence or",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:318",
+    "response": "a. effectiveness of rehabilitation of multiplied by hazard to the community.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:294",
+    "response": "b. void contract\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1440",
+    "response": "d. granted, because the police did not secure a warrant before installing the listening device.\n\nConfidence: 95%\n\n**Explanation:**\n\nThis scenario centers around the illegal wiretapping of the defendants\u2019 conversation. The Fourth Amendment protects against unreasonable searches and seizures. The installation of the listening device without a warrant is",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1381",
+    "response": "a.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1752",
+    "response": "b. For the cousin, because the friend failed to first record.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe recording act clearly states that unrecorded conveyances are not good against subsequent purchasers for value without notice. The cousin recorded her deed *after* the friend recorded his. This makes her the",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:486",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1873",
+    "response": "d.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nHere\u2019s why:\n\n*   **Felony murder** typically requires a *mens rea* (criminal intent) element \u2013 the defendant must have intended to commit a dangerous felony (like arson) that results in a death.\n\nLet\u2019s",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1504",
+    "response": "a. win, because the player\u2019s conduct was extreme and outrageous.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2278",
+    "response": "b. prevail, because the employee was under the control and direction of the drugstore at the time of the accident.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThis scenario involves *respondeat superior*, a legal doctrine that holds an employer liable for the negligent acts of an employee committed within the scope of",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1764",
+    "response": "d. yes, because it serves a legitimate government interest in protecting public health.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThis scenario directly involves a First Amendment challenge to a law restricting commercial speech. The Supreme Court has consistently held that restrictions on commercial speech are permissible if they serve a *legitimate government",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_accounting:826",
+    "response": "the correct answer is **C. $8,400**\n\nHere's the breakdown of the calculation:\n\n*   **Initial Basis:** 2000 shares * $10.50/share = $21,000\n*   **Non-taxable Dividend:**",
+    "answer": "",
+    "confidence": NaN,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1750",
+    "response": "c. not prevail, because one who settles without judgment cannot recover contribution.\n\nConfidence: 95%\n\n**Explanation:**\n\nThe general rule is that a party who has settled a claim cannot then seek contribution from a co-tortfeasor. This is based on the principle that settlement represents a full and final",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:418",
+    "response": "b. By geographical location.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1664",
+    "response": "b.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThis scenario deals with the concept of *vesting of title*.  The key here is that the contract specified a *date for settlement*.  The fire occurred *before* settlement.  Because the settlement date hadn't passed, the seller retained",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2080",
+    "response": "d. yes, based on the denial of counsel at both stages of the proceeding.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe Supreme Court case *United States v. Wade*, 388 U.S. 218 (1967), established that the Sixth Amendment right",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1270",
+    "response": "b. Implied warranty\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1034",
+    "response": "b. attempted robbery.\n\nConfidence: 95%\n\n**Explanation:**\n\nHere's why attempted robbery is the correct answer:\n\n*   **Attempted robbery** requires an attempt to commit a robbery, with the intent to steal. The customer\u2019s actions \u2013 pointing the gun, making the threat,",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:229",
+    "response": "b. The principles of natural law are discoverable by reason.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1670",
+    "response": "c. admissible, but the jury must be cautioned that it does not pertain to felony murder or second-degree murder.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1271",
+    "response": "b. prevail, because the substitute accommodations offered by the hotel were not comparable to the suite they reserved.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1778",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:316",
+    "response": "c. fuller misconstrued the purpose of the law.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "international_law:122",
+    "response": "c. treaties, custom and general principles of law\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:424",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2257",
+    "response": "c.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nThe owner\u2019s defense hinges on the First Amendment right to freedom of speech. The police\u2019s actions \u2013 entering the store and purchasing materials \u2013 constitute a search. To be constitutional, a search must be conducted pursuant to a valid warrant based on probable",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1474",
+    "response": "c.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nOption C is the most helpful because it directly addresses the issue of negligence \u2013 the bus driver\u2019s actions were deemed safe (functioning properly) prior to the accident. This strengthens the argument that the bus driver had a duty to exercise reasonable care, and",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:332",
+    "response": "b. Performance-value.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "international_law:216",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1080",
+    "response": "d. guilty, because she did not consent, and his belief that she was consenting was unreasonable.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nConfidence is high because the scenario directly addresses the legal concept of *honest but unreasonable belief*. This is a key defense in cases involving intoxication and criminal intent. The",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1758",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1400",
+    "response": "c. No, because privity of contract does not exist between the woman and the owner of the lumber yard.\n\nConfidence: 95%\n\nConfidence Explanation:\n\n*   **Privity of contract** is a fundamental principle of contract law. It dictates that only parties to a contract can sue to enforce it",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1574",
+    "response": "c. recover the retail value of the car.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "management:579",
+    "response": "c. A theoretical model\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:342",
+    "response": "b. price elasticity.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "management:616",
+    "response": "c. global competition\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:515",
+    "response": "a. perpetual inventory\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1165",
+    "response": "c. to the daughter and her heirs and assigns.\n\nConfidence: 95%\n\nConfidence Explanation:\n\nHere's why:\n\n*   **Tenants in Common:** When people hold property as tenants in common, each has an undivided interest.\n*   **Death Intestate:** When the assistant died",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2212",
+    "response": "c. guilty of second-degree murder.\n\nConfidence: 95%\n\n**Explanation:**\n\nHere\u2019s why option C is the most accurate answer:\n\n*   **Second-degree murder** aligns with the provided statute, which defines it as a killing that occurs during the commission or attempted commission of a",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:986",
+    "response": "b. She gets a reversion in case the cousin has no heir of his body at his death.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1280",
+    "response": "c. unconstitutional, because it constitutes a violation of the equal protection clause of the fourteenth amendment.\n\nConfidence: 95%\n\n**Explanation:**\n\nHere\u2019s why option C is the most likely outcome and why the others are less suitable:\n\n*   **Equal Protection Clause:** The core issue here is",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1932",
+    "response": "a. the homeowner will recover $600, which is the cost of completing the work at prevailing market rates.\n\nConfidence: 95%\n\nConfidence level explanation: This scenario involves a breach of contract. The landscaper had a contract for six months at $300/month. They only performed",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:231",
+    "response": "b. stammler\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1204",
+    "response": "b. admissible as a declaration against interest.\n\nConfidence: 95%\n\n**Explanation:**\n\nHere's why the answer is B and why the others are incorrect:\n\n*   **Declaration Against Interest:** A \u201cdeclaration against interest\u201d is a statement made by a person who is subject to the declaration and",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1210",
+    "response": "c. not prevail, because the driver had the last clear chance to avoid the accident.\n\nConfidence: 95%\n\n**Explanation:**\n\nHere's why option C is the most likely outcome:\n\n*   **Last Clear Chance Doctrine:** This legal principle states that if a plaintiff (the driver) is",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1481",
+    "response": "c. Recovery of double the rent prorated on a monthly basis for the number of months the artist was on the premises beyond the three- year period.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1914",
+    "response": "b.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1534",
+    "response": "a.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1829",
+    "response": "b.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:410",
+    "response": "d. critical marketing analysis\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "marketing:409",
+    "response": "b. luxury goods.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:1900",
+    "response": "b. No, because the manufacturer paid the expert to render a certain opinion, in violation of rules barring paid testimony.\n\nConfidence: 95%\n\nConfidence Level Explanation:\n\nThis scenario directly addresses the issue of *paid expert testimony*, which is a significant concern in legal proceedings. Rule 702 of",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "jurisprudence:288",
+    "response": "b.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "professional_law:2324",
+    "response": "a. prevail, if the professor proves malice.\n\nConfidence: 95%\n\n**Explanation:**\n\nThis scenario involves a classic defamation case. Here\u2019s why option A is the most likely outcome:\n\n*   **Defamation Requires Fault:** To win a defamation lawsuit, the professor must prove that the",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:828",
+    "response": "b. Seine\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1397",
+    "response": "c. false dilemma\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:208",
+    "response": "b. martin luther\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:8",
+    "response": "b. 38%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:101",
+    "response": "b. discipline-based inquiry\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:433",
+    "response": "d. undergo adiabatic cooling\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:445",
+    "response": "d. 20th\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:229",
+    "response": "d. north pole\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1693",
+    "response": "b. 12 over 27\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1410",
+    "response": "c. reprehensible personality\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1503",
+    "response": "the correct answer is **C. 200 + 450 + 200**\n\nConfidence: 95%\n\n**Explanation:**\n\n*   182 miles is approximately 200 miles.\n*   439 miles is approximately 450 miles.\n",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1281",
+    "response": "b. minus 1\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1820",
+    "response": "b. 5/6\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1642",
+    "response": "b. 4(3) + 4(2)\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1218",
+    "response": "b. 2 km/h\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1534",
+    "response": "b. w < 2.4\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1606",
+    "response": "a. 687\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:29",
+    "response": "b. 41%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "computer_security:969",
+    "response": "c.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "machine_learning:1009",
+    "response": "b. they have high variance\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1749",
+    "response": "b. 8 \u00d7 t = 56\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:161",
+    "response": "b. theology\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1219",
+    "response": "a. ohm\u2019s law\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:769",
+    "response": "d. french\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "machine_learning:993",
+    "response": "d. False, True\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:130",
+    "response": "b. skunk\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1570",
+    "response": "d. 5 over 6\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:370",
+    "response": "a. chicken little\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:158",
+    "response": "b. flat bread\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1546",
+    "response": "a. 120 miles\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:51",
+    "response": "c. supported mainly by time-series, not cross-section studies\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:26",
+    "response": "c. 6%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1358",
+    "response": "c. Changing the meaning of a word or phrase from one part of the argument to another.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "computer_security:927",
+    "response": "d. False, True\n\nConfidence: 95%\n\n**Explanation:**\n\nLet's break down why the answer is D:\n\n*   **Attack 1: An attacker replacing bytes sent by a client with bytes of the attacker\u2019s own choosing.** This is known as a man-in-the",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:857",
+    "response": "c. books\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:282",
+    "response": "a. galant style\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1650",
+    "response": "b. 9 stickers\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1316",
+    "response": "c. speed\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1485",
+    "response": "c. Irrelevant to the truth of the claims\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:356",
+    "response": "b. eliminate a shortage in the market\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1547",
+    "response": "b. divide both sides by 6\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1455",
+    "response": "b. significance\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1392",
+    "response": "a. attacking the person (ad hominem)\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "computer_security:947",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:818",
+    "response": "c. prevent business behavior that hampers competition\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:441",
+    "response": "d.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:432",
+    "response": "b. Hierarchical\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:93",
+    "response": "b. 31%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:73",
+    "response": "c. $10,000\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1808",
+    "response": "b. 830\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1136",
+    "response": "d. all of these\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:185",
+    "response": "b. milhous\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1098",
+    "response": "a. always.\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1161",
+    "response": "b. doesn\u2019t become radioactive\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:257",
+    "response": "b. st louis\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1371",
+    "response": "b. logically flawed\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1777",
+    "response": "a. 167,213, 161,455, 17,400, 11,633\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:219",
+    "response": "b. Big Gulp\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:521",
+    "response": "c. Receiving a recommendation from a current employee\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1500",
+    "response": "a. 3.6\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:104",
+    "response": "b. meriwether and william\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:501",
+    "response": "a. government authority is created as the result of a social contract.\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1454",
+    "response": "a. attacking the person (ad hominem)\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:9",
+    "response": "b. 26%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1765",
+    "response": "a. 1 problem per minute\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1326",
+    "response": "b. 0.25 g\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1184",
+    "response": "b. light waves\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1536",
+    "response": "let's evaluate the expression step by step:\n\n2(3(4^2 + 1)) - 2^3\n\nFirst, we calculate 4^2 = 16.\nSo the expression becomes:\n2(3(16 + 1)) - 2^3\n\n",
+    "answer": "",
+    "confidence": 3.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:323",
+    "response": "b. chicago\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1148",
+    "response": "b. interference\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:98",
+    "response": "c. 80%\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:408",
+    "response": "b. an increase in government spending\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:65",
+    "response": "a. 260\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:286",
+    "response": "c. hemlock\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "conceptual_physics:1276",
+    "response": "c. the earth\u2019s magnetic field at any point and the vertical\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "logical_fallacies:1460",
+    "response": "b. argument from authority\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:836",
+    "response": "b. Pop artists\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "global_facts:78",
+    "response": "d. was approximately 3.0% per year\n\nConfidence: 5%",
+    "answer": "",
+    "confidence": 5.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:523",
+    "response": "c. to hold a ship in place\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1641",
+    "response": "b. 17\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:357",
+    "response": "d.\n\nConfidence: 95%\n\nConfidence level explanation:\n\nOption D directly addresses the problem \u2013 poor audibility. Relaxing the rib cage and maintaining good posture are key techniques for projecting a stronger, clearer voice. The other options are distractions or ineffective strategies for improving sound.",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "miscellaneous:814",
+    "response": "c. school\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  },
+  {
+    "question_id": "elementary_mathematics:1545",
+    "response": "c. Mitch bought 20 containers of flowers at a plant store. Each container had 8 flowers in it. How many flowers did Mitch buy?\n\nConfidence: 95%",
+    "answer": "",
+    "confidence": 95.0,
+    "correct": false
+  }
+]

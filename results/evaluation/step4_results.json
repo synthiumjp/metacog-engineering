@@ -1,0 +1,160 @@
+{
+  "auroc2_base_teval": 0.5542074913247601,
+  "auroc2_ft_teval": 0.7742123923961284,
+  "auroc2_shuf_teval": 0.5,
+  "auroc2_ft_meval": 0.18503118503118499,
+  "auroc2_base_meval": 0.5347465886939571,
+  "h2_shuf_vs_base": {
+    "point_a": 0.5,
+    "point_b": 0.5542074913247601,
+    "point_delta": -0.054207491324760104,
+    "lo": -0.07832863851381577,
+    "hi": -0.030154870101381147,
+    "ci": 0.95,
+    "n_resamples": 10000,
+    "n_valid": 10000,
+    "seed": 42
+  },
+  "primary_delta_comparator": "base",
+  "primary_delta": {
+    "point_a": 0.7223176143668865,
+    "point_b": 0.5542074913247601,
+    "point_delta": 0.16811012304212636,
+    "lo": 0.13183908823421495,
+    "hi": 0.2034209731916617,
+    "ci": 0.95,
+    "n_resamples": 10000,
+    "n_valid": 10000,
+    "seed": 42
+  },
+  "h1_met": true,
+  "accuracy_base": 0.572,
+  "accuracy_ft": 0.497,
+  "accuracy_drop": 0.07499999999999996,
+  "e4_accuracy_ok": false,
+  "ceiling_base": 0.977,
+  "ceiling_ft": 0.498,
+  "vrs_base": {
+    "L": 0.994908350305499,
+    "Fp": 0.002036659877800407,
+    "RBS": 0.5454545454545454,
+    "TRIN": 0.840122199592668,
+    "r": 0.05897704344716441,
+    "tier": "Invalid",
+    "n": 982
+  },
+  "vrs_ft": {
+    "L": 0.5015105740181269,
+    "Fp": 0.49748237663645517,
+    "RBS": 0.7272727272727273,
+    "TRIN": 0.5015105740181269,
+    "r": 0.5486866674006018,
+    "tier": "Indeterminate",
+    "n": 993
+  },
+  "vrs_improved": true,
+  "h4_delta": {
+    "point_a": 0.6132980569049271,
+    "point_b": 0.5347465886939571,
+    "point_delta": 0.07855146821097003,
+    "lo": 0.029395009730061712,
+    "hi": 0.12913212787137848,
+    "ci": 0.95,
+    "n_resamples": 10000,
+    "n_valid": 10000,
+    "seed": 42
+  },
+  "h4_met": true,
+  "h3_bins": {
+    "Easy": {
+      "n": 550,
+      "skipped": true,
+      "error": "index -1 is out of bounds for axis 0 with size 0"
+    },
+    "Medium": {
+      "n": 41,
+      "delta": {
+        "point_a": 0.3937198067632851,
+        "point_b": 0.6262626262626263,
+        "point_delta": -0.2325428194993412,
+        "lo": -0.4432382146838668,
+        "hi": -0.02052853260869562,
+        "ci": 0.95,
+        "n_resamples": 10000,
+        "n_valid": 10000,
+        "seed": 42
+      },
+      "bin_met": false,
+      "resid_auroc2_base": 0.6262626262626263,
+      "resid_auroc2_ft": 0.5741626794258373,
+      "resid_delta": {
+        "point_a": 0.3937198067632851,
+        "point_b": 0.6262626262626263,
+        "point_delta": -0.2325428194993412,
+        "lo": -0.4432382146838668,
+        "hi": -0.02052853260869562,
+        "ci": 0.95,
+        "n_resamples": 10000,
+        "n_valid": 10000,
+        "seed": 42
+      },
+      "resid_met": false
+    },
+    "Hard": {
+      "n": 409,
+      "delta": {
+        "point_a": 0.5065625,
+        "point_b": 0.33067602040816324,
+        "point_delta": 0.1758864795918368,
+        "lo": -0.2144289025204368,
+        "hi": 0.37432719151312127,
+        "ci": 0.95,
+        "n_resamples": 10000,
+        "n_valid": 9807,
+        "seed": 42
+      },
+      "bin_met": false,
+      "resid_auroc2_base": 0.33067602040816324,
+      "resid_auroc2_ft": 0.6278219395866456,
+      "resid_delta": {
+        "point_a": 0.5065625,
+        "point_b": 0.33067602040816324,
+        "point_delta": 0.1758864795918368,
+        "lo": -0.2144289025204368,
+        "hi": 0.37432719151312127,
+        "ci": 0.95,
+        "n_resamples": 10000,
+        "n_valid": 9807,
+        "seed": 42
+      },
+      "resid_met": false
+    }
+  },
+  "h3_met": false,
+  "conflict_n": 0,
+  "h5_met": false,
+  "h5_power_limited": true,
+  "e5_entropy_auroc2": 0.7010326122475654,
+  "e5_ft_verbal_auroc2": 0.7742123923961284,
+  "e5_entropy_exceeds_ft": false,
+  "e8_aurc_base": 0.37731898500251765,
+  "e8_aurc_ft": 0.3092875837747706,
+  "probe_results": {},
+  "regime": null,
+  "regime_label": "Cannot classify - no post-SFT probe",
+  "decision": {
+    "checks": {
+      "h1": true,
+      "ceiling_below_70": true,
+      "vrs_improved": true,
+      "accuracy_ok": false,
+      "h4": true,
+      "h3": false,
+      "h5": false,
+      "regime_1_or_2": false
+    },
+    "terminal": "Proceed with Caution",
+    "action": "Partial: accuracy drop 0.075; H3 (within-bin) not met; H5 (conflict set) not met"
+  },
+  "timestamp": "2026-04-27 00:07:08"
+}

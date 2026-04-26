@@ -1,0 +1,31 @@
+{
+  "n_tcal": 2000,
+  "n_training": 1107,
+  "n_conflict": 893,
+  "difficulty_distribution_tcal": {
+    "Hard": 856,
+    "Easy": 1041,
+    "Medium": 103
+  },
+  "n_correct_distribution": {
+    "0": 729,
+    "1": 56,
+    "2": 42,
+    "3": 29,
+    "4": 30,
+    "5": 27,
+    "6": 29,
+    "7": 17,
+    "8": 27,
+    "9": 51,
+    "10": 963
+  },
+  "e7_pearson_r": -0.026536495141759615,
+  "e7_spearman_rho": -0.011993849919991622,
+  "model_id": "google/gemma-3-4b-it",
+  "seed": 42,
+  "shuffled_seed": 43,
+  "n_samples": 10,
+  "temperature": 0.7,
+  "timestamp": "2026-04-26 00:36:22"
+}

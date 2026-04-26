@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "h1": true,
+    "ceiling_below_70": true,
+    "vrs_improved": true,
+    "accuracy_ok": false,
+    "h4": true,
+    "h3": false,
+    "h5": false,
+    "regime_1_or_2": false
+  },
+  "terminal": "Proceed with Caution",
+  "action": "Partial: accuracy drop 0.075; H3 (within-bin) not met; H5 (conflict set) not met"
+}
