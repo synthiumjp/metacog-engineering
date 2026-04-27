@@ -32,10 +32,10 @@
   "target_modules": [
     "up_proj",
     "v_proj",
-    "o_proj",
     "k_proj",
-    "q_proj",
     "gate_proj",
+    "q_proj",
+    "o_proj",
     "down_proj"
   ],
   "target_parameters": null,
