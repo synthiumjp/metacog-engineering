@@ -1,0 +1,3699 @@
+{
+  "greedy_results": [
+    {
+      "question_id": "odql_13057",
+      "question": "What was the name of the racehorse owned by the Queen Mother and ridden by Dick Francis that collapsed whilst leading the 1956 Grand National with just 45 metres to the winning post?",
+      "raw_output": "The horse was called Devon Loch.\n\nConfidence: 95% (It's a well-known and dramatic moment in Grand National history, but there's always a slight chance of misremembering details.)",
+      "parsed_answer": "The horse was called Devon Loch.",
+      "correct": true,
+      "elapsed_s": 2.287
+    },
+    {
+      "question_id": "dpql_5975",
+      "question": "Cain dwelt in the Land of Nod, which was where on the Biblical compass?",
+      "raw_output": "Cain dwelt in the Land of Nod, which was located **east** of Eden.\n\nConfidence: 95% (The Bible states this directly in Genesis 4:16.)",
+      "parsed_answer": "Cain dwelt in the Land of Nod, which was located **east** of Eden.",
+      "correct": true,
+      "elapsed_s": 1.772
+    },
+    {
+      "question_id": "sfq_2213",
+      "question": "Which mountain range extends almost the length of Italy?",
+      "raw_output": "The Apennine Mountains.\n\nConfidence: 95%",
+      "parsed_answer": "The Apennine Mountains.",
+      "correct": true,
+      "elapsed_s": 0.78
+    },
+    {
+      "question_id": "qw_11743",
+      "question": "Which Spaniard, from 1518, overcame Montezuma, captured Mexico City and became Governor-General of much of Mexico?",
+      "raw_output": "The Spaniard you're referring to is Hern\u00e1n Cort\u00e9s.\n\nConfidence: 99%",
+      "parsed_answer": "The Spaniard you're referring to is Hern\u00e1n Cort\u00e9s.",
+      "correct": true,
+      "elapsed_s": 1.09
+    },
+    {
+      "question_id": "wh_4198",
+      "question": "Of which organ is otitis an inflammation ?",
+      "raw_output": "Otitis is an inflammation of the ear.\n\nConfidence: 100%\n",
+      "parsed_answer": "Otitis is an inflammation of the ear.",
+      "correct": true,
+      "elapsed_s": 0.97
+    },
+    {
+      "question_id": "qg_4628",
+      "question": "What is the name of the parson mentioned in the lyrics of the Christmas carol \"Winter Wonderland\"?",
+      "raw_output": "The parson's name is Mr. Sycamore.\n\nConfidence: 95% (It's a fairly well-known detail from the song, but I always double-check these!)",
+      "parsed_answer": "The parson's name is Mr. Sycamore.",
+      "correct": false,
+      "elapsed_s": 1.849
+    },
+    {
+      "question_id": "qz_5143",
+      "question": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city?",
+      "raw_output": "Dakar is the capital city of Senegal.\n\nConfidence: 100%\n",
+      "parsed_answer": "Dakar is the capital city of Senegal.",
+      "correct": true,
+      "elapsed_s": 0.972
+    },
+    {
+      "question_id": "qw_11461",
+      "question": "When Sir Alex Ferguson retired in May 2013 after 26 years as manager for Manchester United Football Club who succeeded him ?",
+      "raw_output": "David Moyes succeeded Sir Alex Ferguson.\n\nConfidence: 100%\n",
+      "parsed_answer": "David Moyes succeeded Sir Alex Ferguson.",
+      "correct": true,
+      "elapsed_s": 0.933
+    },
+    {
+      "question_id": "odql_6161",
+      "question": "Which company produces the 'Fireblade' motorcycle?",
+      "raw_output": "Honda produces the 'Fireblade' motorcycle.\n\nConfidence: 100%\n",
+      "parsed_answer": "Honda produces the 'Fireblade' motorcycle.",
+      "correct": true,
+      "elapsed_s": 0.973
+    },
+    {
+      "question_id": "qw_10270",
+      "question": "Argentina invaded UK's Falkland Islands, Israel invaded Southern Lebanon, Canada became officially independent of the UK, Leonid Brezhnev, leader of the USSR, died, all in what year?",
+      "raw_output": "The year was 1982.\n\nConfidence: 95%",
+      "parsed_answer": "The year was 1982.",
+      "correct": true,
+      "elapsed_s": 0.952
+    },
+    {
+      "question_id": "odql_15054",
+      "question": "\"Who composed the \"\"Christmas Oratorio\"\" and \"\"The Coffee Cantata\"\"?\"",
+      "raw_output": "The answer is Johann Sebastian Bach.\n\nConfidence: 100%",
+      "parsed_answer": "The answer is Johann Sebastian Bach.",
+      "correct": true,
+      "elapsed_s": 0.858
+    },
+    {
+      "question_id": "bb_4735",
+      "question": "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with?",
+      "raw_output": "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with **algebra**.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with **algebra**.",
+      "correct": true,
+      "elapsed_s": 1.509
+    },
+    {
+      "question_id": "dpql_2379",
+      "question": "Who wrote the collection of Gothic horror stories entitled In A Glass Darkly in 1872?",
+      "raw_output": "Joseph Sheridan Le Fanu wrote *In A Glass Darkly* in 1872.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Joseph Sheridan Le Fanu wrote *In A Glass Darkly* in 1872.",
+      "correct": true,
+      "elapsed_s": 1.356
+    },
+    {
+      "question_id": "sfq_23359",
+      "question": "Karl Eisner created which multitool?",
+      "raw_output": "Karl Eisner created the Swiss Army Knife.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Karl Eisner created the Swiss Army Knife.",
+      "correct": true,
+      "elapsed_s": 0.935
+    },
+    {
+      "question_id": "sfq_18522",
+      "question": "Which actress played Queen Victoria in the 1970s TV drama Edward the Seventh?",
+      "raw_output": "That would be Sylvia Sims.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be Sylvia Sims.",
+      "correct": false,
+      "elapsed_s": 0.82
+    },
+    {
+      "question_id": "qw_5904",
+      "question": "What is the name of the tallest skyscraper in Saudi Arabia, one of the world's 50th tallest buildings, that is in Riyadh?",
+      "raw_output": "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Rafee Tower.\n\nConfidence: 95% (I'm very sure, but there's always a slight chance of a newer, unnamed structure emerging!)",
+      "parsed_answer": "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Rafee Tower.",
+      "correct": false,
+      "elapsed_s": 2.166
+    },
+    {
+      "question_id": "wh_4195",
+      "question": "What type of creature is a margay ?",
+      "raw_output": "A margay is a small wild cat.\n\nConfidence: 95%",
+      "parsed_answer": "A margay is a small wild cat.",
+      "correct": true,
+      "elapsed_s": 0.896
+    },
+    {
+      "question_id": "qg_749",
+      "question": "With 47 attacks in the year 2010 alone, what body of water is known as Pirate Alley?",
+      "raw_output": "The body of water known as Pirate Alley with 47 attacks in 2010 is the Gulf of Aden.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The body of water known as Pirate Alley with 47 attacks in 2010 is the Gulf of Aden.",
+      "correct": true,
+      "elapsed_s": 1.548
+    },
+    {
+      "question_id": "qw_10332",
+      "question": "Which ocean is closest to the capital of the USA?",
+      "raw_output": "The Atlantic Ocean is closest to the capital of the USA (Washington, D.C.).\n\nConfidence: 100%\n",
+      "parsed_answer": "The Atlantic Ocean is closest to the capital of the USA (Washington, D.C.).",
+      "correct": true,
+      "elapsed_s": 1.316
+    },
+    {
+      "question_id": "bb_752",
+      "question": "'The Umbrellas' is the work of which French impressionist?",
+      "raw_output": "Pierre-Auguste Renoir.\n\nConfidence: 95%",
+      "parsed_answer": "Pierre-Auguste Renoir.",
+      "correct": true,
+      "elapsed_s": 0.821
+    },
+    {
+      "question_id": "sfq_8526",
+      "question": "Which real life astronaut was played by Tom Hanks in the film 'Apollo 13'?",
+      "raw_output": "Jim Lovell.\n\nConfidence: 100%",
+      "parsed_answer": "Jim Lovell.",
+      "correct": true,
+      "elapsed_s": 0.746
+    },
+    {
+      "question_id": "tc_288",
+      "question": "Which highway was Revisited in a classic 60s album by Bob Dylan?",
+      "raw_output": "Highway 61 Revisited.\n\nConfidence: 100%",
+      "parsed_answer": "Highway 61 Revisited.",
+      "correct": true,
+      "elapsed_s": 0.821
+    },
+    {
+      "question_id": "dpql_4066",
+      "question": "What is the Latin motto of the film company Metro-Goldwyn-Mayer has the motto?",
+      "raw_output": "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artibus.\"\n\nConfidence: 100%",
+      "parsed_answer": "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artibus.\"",
+      "correct": false,
+      "elapsed_s": 1.355
+    },
+    {
+      "question_id": "sfq_11641",
+      "question": "Which brewery is based in Southwold, Suffolk?",
+      "raw_output": "Adnams.\n\nConfidence: 100%",
+      "parsed_answer": "Adnams.",
+      "correct": true,
+      "elapsed_s": 0.743
+    },
+    {
+      "question_id": "qw_4205",
+      "question": "Who according to legend was the son of Zeus and Europa and became King of Crete?",
+      "raw_output": "Minos.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Minos.",
+      "correct": true,
+      "elapsed_s": 0.707
+    },
+    {
+      "question_id": "bb_1172",
+      "question": "Which element is mixed with gold to make red gold?",
+      "raw_output": "Copper.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Copper.",
+      "correct": true,
+      "elapsed_s": 0.668
+    },
+    {
+      "question_id": "dpql_5301",
+      "question": "What is connected to the European mainland by a sand Isthmus called the North Front?",
+      "raw_output": "This is a tricky one! The answer is the island of **Vlieland**.\n\nConfidence: 75%\n\n\n\nHere's why I'm not 100% confident: The \"North Front\" is a very specific and somewhat obscure term referring to the shifting sandbar connecting Vlieland to the mainland. It's not widely known, and I've encountered it only a few times. There's a possibility of misremembering or a more nuanced geographical detail I'm missing.",
+      "parsed_answer": "This is a tricky one! The answer is the island of **Vlieland**.",
+      "correct": false,
+      "elapsed_s": 4.31
+    },
+    {
+      "question_id": "qb_4444",
+      "question": "Spelunking is the exploration of what, especially as a hobby?",
+      "raw_output": "Spelunking is the exploration of caves, especially as a hobby.\n\nConfidence: 100%\n",
+      "parsed_answer": "Spelunking is the exploration of caves, especially as a hobby.",
+      "correct": true,
+      "elapsed_s": 1.37
+    },
+    {
+      "question_id": "sfq_9018",
+      "question": "Who played Hotlips Houlihan in the 1972 film MASH?",
+      "raw_output": "Sally Struthers played Hotlips Houlihan in the 1972 film MASH.\n\nConfidence: 95% (I'm very sure, but there have been a *lot* of actors associated with the MASH franchise!)",
+      "parsed_answer": "Sally Struthers played Hotlips Houlihan in the 1972 film MASH.",
+      "correct": false,
+      "elapsed_s": 2.453
+    },
+    {
+      "question_id": "sfq_26227",
+      "question": "To within a year either side, in which year was the complete English FA Cup Final first shown live on television?",
+      "raw_output": "The complete English FA Cup Final was first shown live on television in 1938.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The complete English FA Cup Final was first shown live on television in 1938.",
+      "correct": true,
+      "elapsed_s": 1.487
+    },
+    {
+      "question_id": "qw_13933",
+      "question": "\"In 2011 the Classic Brit Awards named who as \"\"Artist of the Decade\"\"?\"",
+      "raw_output": "The Classic Brit Awards named U2 as \"Artist of the Decade\" in 2011.\n\nConfidence: 100%",
+      "parsed_answer": "The Classic Brit Awards named U2 as \"Artist of the Decade\" in 2011.",
+      "correct": false,
+      "elapsed_s": 1.563
+    },
+    {
+      "question_id": "qb_498",
+      "question": "In which James Bond film does actress Jane Seymour play Solitaire?",
+      "raw_output": "Jane Seymour plays Solitaire in *Live and Let Die*.\n\nConfidence: 100%",
+      "parsed_answer": "Jane Seymour plays Solitaire in *Live and Let Die*.",
+      "correct": true,
+      "elapsed_s": 1.209
+    },
+    {
+      "question_id": "dpql_3955",
+      "question": "What is the official summer sport of Canada?",
+      "raw_output": "Lacrosse.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Lacrosse.",
+      "correct": true,
+      "elapsed_s": 0.722
+    },
+    {
+      "question_id": "qg_2138",
+      "question": "Proclaiming himself \"the luckiest man on the face of the earth\", what baseball legend announced his retirement from the New York Yankees on July 4, 1939, following an amazing streak of 2130 straight games?",
+      "raw_output": "Lou Gehrig.\n\nConfidence: 100%",
+      "parsed_answer": "Lou Gehrig.",
+      "correct": true,
+      "elapsed_s": 0.841
+    },
+    {
+      "question_id": "qb_8707",
+      "question": "In the 1962 film \u2018Lolita\u2019, what is Lolita\u2019s first name?",
+      "raw_output": "Lolita's first name is Dolores.\n\nConfidence: 95% (It's a fairly well-known detail, but I always like to be cautious!)",
+      "parsed_answer": "Lolita's first name is Dolores.",
+      "correct": true,
+      "elapsed_s": 1.624
+    },
+    {
+      "question_id": "qb_6105",
+      "question": "In the game of golf, an Albatross is how many strokes under par for a given hole?",
+      "raw_output": "An Albatross is three strokes under par for a given hole.\n\nConfidence: 100%\n",
+      "parsed_answer": "An Albatross is three strokes under par for a given hole.",
+      "correct": true,
+      "elapsed_s": 1.128
+    },
+    {
+      "question_id": "bb_1742",
+      "question": "The International Bureau of Weights and Measures is based in which European country?",
+      "raw_output": "France.\n\nConfidence: 100%",
+      "parsed_answer": "France.",
+      "correct": true,
+      "elapsed_s": 0.669
+    },
+    {
+      "question_id": "qz_3708",
+      "question": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq?",
+      "raw_output": "The Tigris River.\n\nConfidence: 95%",
+      "parsed_answer": "The Tigris River.",
+      "correct": false,
+      "elapsed_s": 0.745
+    },
+    {
+      "question_id": "qb_5097",
+      "question": "A rinkhals is what type of creature?",
+      "raw_output": "A rinkhals is a type of spitting cobra.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "A rinkhals is a type of spitting cobra.",
+      "correct": false,
+      "elapsed_s": 1.011
+    },
+    {
+      "question_id": "qb_7060",
+      "question": "Who became the host of the BBC Radio 1 weekday breakfast show in September 2012?",
+      "raw_output": "Greg James became the host of the BBC Radio 1 weekday breakfast show in September 2012.\n\nConfidence: 100%",
+      "parsed_answer": "Greg James became the host of the BBC Radio 1 weekday breakfast show in September 2012.",
+      "correct": false,
+      "elapsed_s": 1.435
+    },
+    {
+      "question_id": "sfq_20746",
+      "question": "Who was the RAF captain that Princess Margaret declined to marry in 1955-bowing to pressure from the Court and Government?",
+      "raw_output": "Group Captain Peter Townsend.\n\nConfidence: 100%",
+      "parsed_answer": "Group Captain Peter Townsend.",
+      "correct": true,
+      "elapsed_s": 0.784
+    },
+    {
+      "question_id": "tc_1124",
+      "question": "Which movie was a biopic about the life of David Helfgott?",
+      "raw_output": "Shine.\n\nConfidence: 100%",
+      "parsed_answer": "Shine.",
+      "correct": true,
+      "elapsed_s": 0.709
+    },
+    {
+      "question_id": "qw_2610",
+      "question": "Who won a Nobel prize in 1918 for his Law of Radiation and is the originator of Quantum Theory?",
+      "raw_output": "Max Planck won the Nobel Prize in Physics in 1918 for his Law of Radiation. He is widely considered the originator of Quantum Theory.\n\nConfidence: 100%\n",
+      "parsed_answer": "Max Planck won the Nobel Prize in Physics in 1918 for his Law of Radiation. He is widely considered the originator of Quantum Theory.",
+      "correct": true,
+      "elapsed_s": 1.779
+    },
+    {
+      "question_id": "qb_4761",
+      "question": "In Ian Fleming\u2019s novel \u2018Moonraker\u2019, Sir Hugo Drax is suspected of cheating at which game in the Mayfair club \u2018Blades\u2019?",
+      "raw_output": "Sir Hugo Drax is suspected of cheating at baccarat.\n\nConfidence: 100%",
+      "parsed_answer": "Sir Hugo Drax is suspected of cheating at baccarat.",
+      "correct": false,
+      "elapsed_s": 1.099
+    },
+    {
+      "question_id": "qz_3911",
+      "question": "Who did Top of the Pops mistakenly portray in a Dexys Midnight Runners song?",
+      "raw_output": "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners performance of \"Come On Eileen.\" They used a look-alike, and the resemblance was quite striking!\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners performance of \"Come On Eileen.\" They used a look-alike, and the resemblance was quite striking!",
+      "correct": false,
+      "elapsed_s": 1.932
+    },
+    {
+      "question_id": "bb_5577",
+      "question": "Minyan is a quorum of ten adult males required for public worship in?",
+      "raw_output": "Minyan is a quorum of ten adult males required for public worship in Judaism.\n\nConfidence: 100%\n",
+      "parsed_answer": "Minyan is a quorum of ten adult males required for public worship in Judaism.",
+      "correct": true,
+      "elapsed_s": 1.281
+    },
+    {
+      "question_id": "odql_8192",
+      "question": "In the English translations of the 'Asterix' comics, what is the name of the village leader, a middle-aged, obese man with red hair, pigtails and a huge moustache?",
+      "raw_output": "The village leader is Vitalstatistix.\n\nConfidence: 100%",
+      "parsed_answer": "The village leader is Vitalstatistix.",
+      "correct": true,
+      "elapsed_s": 0.994
+    },
+    {
+      "question_id": "sfq_24346",
+      "question": "In which city did Dylan Thomas die?",
+      "raw_output": "Dylan Thomas died in New York City.\n\nConfidence: 100%\n",
+      "parsed_answer": "Dylan Thomas died in New York City.",
+      "correct": true,
+      "elapsed_s": 0.936
+    },
+    {
+      "question_id": "bt_1722",
+      "question": "Who played the role of painter Vincent Van Gogh in the film Lust For Life",
+      "raw_output": "Kirk Douglas played Vincent Van Gogh in Lust for Life.\n\nConfidence: 100%",
+      "parsed_answer": "Kirk Douglas played Vincent Van Gogh in Lust for Life.",
+      "correct": true,
+      "elapsed_s": 1.014
+    },
+    {
+      "question_id": "sfq_23371",
+      "question": "In which English county is Lake Rudyard?",
+      "raw_output": "Lake Rudyard is in Staffordshire.\n\nConfidence: 100%\n",
+      "parsed_answer": "Lake Rudyard is in Staffordshire.",
+      "correct": true,
+      "elapsed_s": 0.899
+    },
+    {
+      "question_id": "odql_11191",
+      "question": "In which Italian city is the newspaper 'La Stampa' published?",
+      "raw_output": "The newspaper 'La Stampa' is published in Turin.\n\nConfidence: 100%\n",
+      "parsed_answer": "The newspaper 'La Stampa' is published in Turin.",
+      "correct": true,
+      "elapsed_s": 1.091
+    },
+    {
+      "question_id": "sfq_22964",
+      "question": "HRH Princess Anne?s Gloucestershire country home is called what?",
+      "raw_output": "Highgrove House.\n\nConfidence: 25% (It's a tricky one! Highgrove is famously associated with King Charles, and I'm second-guessing myself. There are other royal residences in Gloucestershire, so I'm not super confident.)",
+      "parsed_answer": "Highgrove House.",
+      "correct": false,
+      "elapsed_s": 2.314
+    },
+    {
+      "question_id": "odql_13172",
+      "question": "Who painted 'Gypsy Girl' found in the Louvre, Paris?",
+      "raw_output": "That would be Henri Rousseau.\n\nConfidence: 95%",
+      "parsed_answer": "That would be Henri Rousseau.",
+      "correct": false,
+      "elapsed_s": 0.785
+    },
+    {
+      "question_id": "sfq_6576",
+      "question": "What type of fruit is a Blenheim Orange?",
+      "raw_output": "A Blenheim Orange is a type of mandarin orange.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "A Blenheim Orange is a type of mandarin orange.",
+      "correct": false,
+      "elapsed_s": 1.013
+    },
+    {
+      "question_id": "tc_2257",
+      "question": "In what month was the attack on Pearl Harbor?",
+      "raw_output": "December.\n\nConfidence: 100%",
+      "parsed_answer": "December.",
+      "correct": true,
+      "elapsed_s": 0.669
+    },
+    {
+      "question_id": "sfq_25365",
+      "question": "\"Who composed the music for the 1924 ballet 'The Miraculous Mandarin\"\"?\"",
+      "raw_output": "B\u00e9la Bart\u00f3k composed the music for \"The Miraculous Mandarin.\"\n\nConfidence: 95%",
+      "parsed_answer": "B\u00e9la Bart\u00f3k composed the music for \"The Miraculous Mandarin.\"",
+      "correct": true,
+      "elapsed_s": 1.166
+    },
+    {
+      "question_id": "tc_1867",
+      "question": "The Suez Canal connects the Mediterranean Sea to which other Sea?",
+      "raw_output": "The Suez Canal connects the Mediterranean Sea to the Red Sea.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Suez Canal connects the Mediterranean Sea to the Red Sea.",
+      "correct": true,
+      "elapsed_s": 1.138
+    },
+    {
+      "question_id": "qf_1082",
+      "question": "Everton FC beat Rapid Vienna in the Final of the European Cup Winners Cup, what year?",
+      "raw_output": "Everton FC beat Rapid Vienna in the final of the European Cup Winners' Cup in **1995**.\n\nConfidence: 100%",
+      "parsed_answer": "Everton FC beat Rapid Vienna in the final of the European Cup Winners' Cup in **1995**.",
+      "correct": false,
+      "elapsed_s": 1.472
+    },
+    {
+      "question_id": "sfq_4033",
+      "question": "In which Cornish town is there a branch of the Tate Gallery?",
+      "raw_output": "St Ives.\n\nConfidence: 100%\n",
+      "parsed_answer": "St Ives.",
+      "correct": true,
+      "elapsed_s": 0.745
+    },
+    {
+      "question_id": "bt_2281",
+      "question": "What was the first top ten entry for Ce Ce Peniston (1992)",
+      "raw_output": "\"Before I Lose Control\" was CeCe Peniston's first top ten entry in 1992.\n\nConfidence: 95%",
+      "parsed_answer": "\"Before I Lose Control\" was CeCe Peniston's first top ten entry in 1992.",
+      "correct": false,
+      "elapsed_s": 1.474
+    },
+    {
+      "question_id": "bb_7795",
+      "question": "Ari Folman's acclaimed 2008 film was 'Waltz with...' whom?",
+      "raw_output": "Ari Folman's acclaimed 2008 film was \"Waltz with Bashir.\"\n\nConfidence: 100%",
+      "parsed_answer": "Ari Folman's acclaimed 2008 film was \"Waltz with Bashir.\"",
+      "correct": true,
+      "elapsed_s": 1.358
+    },
+    {
+      "question_id": "odql_12827",
+      "question": "Who wrote the play An Inspector Calls?",
+      "raw_output": "J.B. Priestley wrote the play *An Inspector Calls*.\n\nConfidence: 100%\n",
+      "parsed_answer": "J.B. Priestley wrote the play *An Inspector Calls*.",
+      "correct": true,
+      "elapsed_s": 1.164
+    },
+    {
+      "question_id": "sfq_2452",
+      "question": "Which car manufacturer produces a model called the RAV4?",
+      "raw_output": "Toyota produces the RAV4.\n\nConfidence: 100%\n",
+      "parsed_answer": "Toyota produces the RAV4.",
+      "correct": true,
+      "elapsed_s": 0.859
+    },
+    {
+      "question_id": "qf_3611",
+      "question": "Who founded the Jaguar motor company?",
+      "raw_output": "William Lyons and William Walmsley founded the Jaguar motor company.\n\nConfidence: 100%",
+      "parsed_answer": "William Lyons and William Walmsley founded the Jaguar motor company.",
+      "correct": true,
+      "elapsed_s": 1.087
+    },
+    {
+      "question_id": "bb_7898",
+      "question": "In which film did Roger Moore first play James Bond?",
+      "raw_output": "Roger Moore first played James Bond in *Live and Let Die*.\n\nConfidence: 100%",
+      "parsed_answer": "Roger Moore first played James Bond in *Live and Let Die*.",
+      "correct": true,
+      "elapsed_s": 1.089
+    },
+    {
+      "question_id": "dpql_4627",
+      "question": "Which early Bob Dylan album and its title song reference a Texan gunfighter?",
+      "raw_output": "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references the legendary Texas gunfighter, Bill Longley.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references the legendary Texas gunfighter, Bill Longley.",
+      "correct": false,
+      "elapsed_s": 1.74
+    },
+    {
+      "question_id": "odql_1127",
+      "question": "2004 is the 300th anniversary of Britain\u2019s first victory on European soil since Agincourt when Marlborough defeated the French in which battle?",
+      "raw_output": "The Battle of Blenheim.\n\nConfidence: 95%",
+      "parsed_answer": "The Battle of Blenheim.",
+      "correct": true,
+      "elapsed_s": 0.839
+    },
+    {
+      "question_id": "qb_6527",
+      "question": "How often does a national census take place in Britain?",
+      "raw_output": "A national census takes place in Britain every 10 years.\n\nConfidence: 100%\n",
+      "parsed_answer": "A national census takes place in Britain every 10 years.",
+      "correct": false,
+      "elapsed_s": 1.127
+    },
+    {
+      "question_id": "sfq_14039",
+      "question": "Which car manufacturer has its headquarters at Martorell near Barcelona?",
+      "raw_output": "That would be SEAT.\n\nConfidence: 100%\n",
+      "parsed_answer": "That would be SEAT.",
+      "correct": true,
+      "elapsed_s": 0.86
+    },
+    {
+      "question_id": "qw_8793",
+      "question": "The mountain massif called Maxwell Montes contains the highest point on the surface of which planet?",
+      "raw_output": "The mountain massif called Maxwell Montes contains the highest point on the surface of Venus.\n\nConfidence: 100%\n",
+      "parsed_answer": "The mountain massif called Maxwell Montes contains the highest point on the surface of Venus.",
+      "correct": true,
+      "elapsed_s": 1.244
+    },
+    {
+      "question_id": "qw_15539",
+      "question": "Which is the style of music, characterised by staccato offbeat rhythms, and owing much to the influence of mento, jazz, ska and rhythm and blues?",
+      "raw_output": "That would be reggae!\n\nConfidence: 95%",
+      "parsed_answer": "That would be reggae!",
+      "correct": true,
+      "elapsed_s": 0.801
+    },
+    {
+      "question_id": "bb_1886",
+      "question": "What is the climate change agreement aimed at stabilizing greenhouse gas levels in the atmosphere, named after the Japanese city in which participating nations agreed its framework in 1997?",
+      "raw_output": "The climate change agreement you're referring to is the Kyoto Protocol.\n\nConfidence: 100%\n",
+      "parsed_answer": "The climate change agreement you're referring to is the Kyoto Protocol.",
+      "correct": true,
+      "elapsed_s": 1.22
+    },
+    {
+      "question_id": "sfq_16585",
+      "question": "In which Verdi opera do the gypsies sing the 'Anvil Chorus'?",
+      "raw_output": "The gypsies sing the \"Anvil Chorus\" in Verdi's opera *Il Trovatore*.\n\nConfidence: 100%\n",
+      "parsed_answer": "The gypsies sing the \"Anvil Chorus\" in Verdi's opera *Il Trovatore*.",
+      "correct": true,
+      "elapsed_s": 1.431
+    },
+    {
+      "question_id": "bb_9141",
+      "question": "The Orinoco river meets the sea on which country's coast?",
+      "raw_output": "The Orinoco River meets the sea on Venezuela's coast.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Orinoco River meets the sea on Venezuela's coast.",
+      "correct": true,
+      "elapsed_s": 1.164
+    },
+    {
+      "question_id": "qw_13811",
+      "question": "\"Judi Dench won an Oscar for Best Supporting Actressfor playing which character in the 1998 film \"\"Shakespeare in Love\"\"?\"",
+      "raw_output": "Judi Dench won an Oscar for playing Queen Elizabeth I in \"Shakespeare in Love.\"\n\nConfidence: 100%",
+      "parsed_answer": "Judi Dench won an Oscar for playing Queen Elizabeth I in \"Shakespeare in Love.\"",
+      "correct": true,
+      "elapsed_s": 1.326
+    },
+    {
+      "question_id": "odql_15009",
+      "question": "\"\"\"Abracadabra\"\" (1982) and \"\"The Joker\"\" (1990) were big hits for which group?\"",
+      "raw_output": "The Steve Miller Band.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The Steve Miller Band.",
+      "correct": true,
+      "elapsed_s": 0.832
+    },
+    {
+      "question_id": "qg_1500",
+      "question": "Inspiring such things as a television program, a breakfast cereal, and hit song, what immensely popular video game was first released by Namco on May 22, 1980?",
+      "raw_output": "The immensely popular video game is Pac-Man.\n\nConfidence: 100%",
+      "parsed_answer": "The immensely popular video game is Pac-Man.",
+      "correct": true,
+      "elapsed_s": 1.028
+    },
+    {
+      "question_id": "qf_2140",
+      "question": "In which country would you find the city of 'Ghent'?",
+      "raw_output": "Ghent is in Belgium.\n\nConfidence: 100%\n",
+      "parsed_answer": "Ghent is in Belgium.",
+      "correct": true,
+      "elapsed_s": 0.866
+    },
+    {
+      "question_id": "sfq_11409",
+      "question": "What was the capital of Poland prior to Warsaw?",
+      "raw_output": "Krak\u00f3w.\n\nConfidence: 95%",
+      "parsed_answer": "Krak\u00f3w.",
+      "correct": true,
+      "elapsed_s": 0.72
+    },
+    {
+      "question_id": "odql_7598",
+      "question": "Often flavoured with fruits or herbs and sometimes used in soups, what is the name of the mildly alcoholic beverage made from black or rye bread that is popular in Russia and several ex-soviet states?",
+      "raw_output": "That would be Kvass.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be Kvass.",
+      "correct": true,
+      "elapsed_s": 0.877
+    },
+    {
+      "question_id": "dpql_1477",
+      "question": "What is the name of the O\u2019Haras\u2019 plantation in \u2018Gone with the Wind\u2019?",
+      "raw_output": "The O'Haras' plantation in 'Gone with the Wind' is Tara.\n\nConfidence: 100%",
+      "parsed_answer": "The O'Haras' plantation in 'Gone with the Wind' is Tara.",
+      "correct": true,
+      "elapsed_s": 1.242
+    },
+    {
+      "question_id": "sfq_1278",
+      "question": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke?",
+      "raw_output": "The lake is called the IJsselmeer.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The lake is called the IJsselmeer.",
+      "correct": true,
+      "elapsed_s": 0.985
+    },
+    {
+      "question_id": "qw_1816",
+      "question": "Which French artist joined a Post-Impressionist group, started the Synthetist movement and worked in Tahiti from 1891 to 1893, and 1895 to 1901?",
+      "raw_output": "That would be Paul Gauguin.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be Paul Gauguin.",
+      "correct": true,
+      "elapsed_s": 0.914
+    },
+    {
+      "question_id": "odql_579",
+      "question": "Whose picture is on the US 20 dollar note?",
+      "raw_output": "Andrew Jackson.\n\nConfidence: 100%",
+      "parsed_answer": "Andrew Jackson.",
+      "correct": true,
+      "elapsed_s": 0.706
+    },
+    {
+      "question_id": "jp_355",
+      "question": "What NHL hockey team was originally named after a Disney movie?",
+      "raw_output": "The Anaheim Ducks! They were originally the Mighty Ducks of Anaheim, named after the 1986 Disney film \"The Mighty Ducks.\"\n\nConfidence: 100%",
+      "parsed_answer": "The Anaheim Ducks! They were originally the Mighty Ducks of Anaheim, named after the 1986 Disney film \"The Mighty Ducks.\"",
+      "correct": true,
+      "elapsed_s": 1.66
+    },
+    {
+      "question_id": "qb_345",
+      "question": "Which British monarch famously said \u2018I don\u2019t wish to open windows into men\u2019s souls\u2019?",
+      "raw_output": "That would be George IV. He's known for that rather blunt statement about not wanting to pry into people's private lives.\n\nConfidence: 95%",
+      "parsed_answer": "That would be George IV. He's known for that rather blunt statement about not wanting to pry into people's private lives.",
+      "correct": false,
+      "elapsed_s": 1.586
+    },
+    {
+      "question_id": "tc_664",
+      "question": "In which state was Gene Vincent born?",
+      "raw_output": "Gene Vincent was born in Norfolk, Virginia.\n\nConfidence: 100%",
+      "parsed_answer": "Gene Vincent was born in Norfolk, Virginia.",
+      "correct": true,
+      "elapsed_s": 0.935
+    },
+    {
+      "question_id": "odql_10602",
+      "question": "Where in the human body can you find the 'Olfactory Bulb'?",
+      "raw_output": "The Olfactory Bulb is located in the brain. Specifically, it's a structure in the forebrain involved in processing the sense of smell.\n\nConfidence: 95%",
+      "parsed_answer": "The Olfactory Bulb is located in the brain. Specifically, it's a structure in the forebrain involved in processing the sense of smell.",
+      "correct": false,
+      "elapsed_s": 1.661
+    },
+    {
+      "question_id": "qz_690",
+      "question": "Which type of animal was Robin Hood in the Disney cartoon film 'Robin Hood'?",
+      "raw_output": "Robin Hood was a fox in the Disney cartoon film 'Robin Hood'.\n\nConfidence: 100%",
+      "parsed_answer": "Robin Hood was a fox in the Disney cartoon film 'Robin Hood'.",
+      "correct": true,
+      "elapsed_s": 1.129
+    },
+    {
+      "question_id": "odql_4483",
+      "question": "Which vegetable do the French call Chou-Fleur?",
+      "raw_output": "Cauliflower.\n\nConfidence: 100%\n",
+      "parsed_answer": "Cauliflower.",
+      "correct": true,
+      "elapsed_s": 0.783
+    },
+    {
+      "question_id": "wh_2528",
+      "question": "What in the human body are enclosed in the Pleura ?",
+      "raw_output": "The lungs are enclosed in the pleura.\n\nConfidence: 100%\n",
+      "parsed_answer": "The lungs are enclosed in the pleura.",
+      "correct": true,
+      "elapsed_s": 0.974
+    },
+    {
+      "question_id": "qb_7132",
+      "question": "British band Lindisfarne had a 1971 hit album entitled \u2018The Fog on the \u2018where\u2019?",
+      "raw_output": "The Fog on the Tyne.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Fog on the Tyne.",
+      "correct": true,
+      "elapsed_s": 0.86
+    },
+    {
+      "question_id": "qw_14911",
+      "question": "The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else?",
+      "raw_output": "Gin.\n\nConfidence: 95%",
+      "parsed_answer": "Gin.",
+      "correct": true,
+      "elapsed_s": 0.631
+    },
+    {
+      "question_id": "qb_6552",
+      "question": "The Suez Canal joins the Red Sea and which other body of water?",
+      "raw_output": "The Suez Canal joins the Red Sea and the Mediterranean Sea.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Suez Canal joins the Red Sea and the Mediterranean Sea.",
+      "correct": true,
+      "elapsed_s": 1.088
+    },
+    {
+      "question_id": "qw_15697",
+      "question": "Who of these musicians was inducted into the Rock and Roll Hall of Fame in 2014?",
+      "raw_output": "The correct answer is Stevie Wonder.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The correct answer is Stevie Wonder.",
+      "correct": false,
+      "elapsed_s": 0.86
+    },
+    {
+      "question_id": "qb_6323",
+      "question": "What is the extra murder weapon in the 1999 50th Anniversary Cluedo game?",
+      "raw_output": "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Robot.\n\nConfidence: 100%\n\n\n\n",
+      "parsed_answer": "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Robot.",
+      "correct": false,
+      "elapsed_s": 1.548
+    },
+    {
+      "question_id": "qb_2710",
+      "question": "\u2018Quicksilver\u2019 is another name for which metallic element?",
+      "raw_output": "Mercury.\n\nConfidence: 100%\n",
+      "parsed_answer": "Mercury.",
+      "correct": true,
+      "elapsed_s": 0.706
+    },
+    {
+      "question_id": "bt_4495",
+      "question": "Which of the Great Train Robbers became a florist outside Waterloo station until he was found hanged in a lock up",
+      "raw_output": "That would be Ronnie Biggs. He famously escaped from prison and lived in Brazil for many years, eventually returning to England and working as a florist near Waterloo station before his death.\n\nConfidence: 95%",
+      "parsed_answer": "That would be Ronnie Biggs. He famously escaped from prison and lived in Brazil for many years, eventually returning to England and working as a florist near Waterloo station before his death.",
+      "correct": false,
+      "elapsed_s": 1.931
+    },
+    {
+      "question_id": "qw_15677",
+      "question": "Zirconium, hafnium and rutherfordium are elements in the same group in the periodic table of elements, and transition metals; what is the fourth member of this group?",
+      "raw_output": "The fourth member of that group is Niobium.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The fourth member of that group is Niobium.",
+      "correct": false,
+      "elapsed_s": 1.031
+    },
+    {
+      "question_id": "qw_15382",
+      "question": "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of what?",
+      "raw_output": "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of quinine.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of quinine.",
+      "correct": true,
+      "elapsed_s": 1.827
+    },
+    {
+      "question_id": "qz_4606",
+      "question": "In 1969, a man was stabbed to death by a member of the Hell's Angels at a Rolling Stones concert. Where was the concert held?",
+      "raw_output": "The concert was held at Altamont Speedway in California.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The concert was held at Altamont Speedway in California.",
+      "correct": true,
+      "elapsed_s": 1.105
+    },
+    {
+      "question_id": "qg_2784",
+      "question": "August 17, 1908 saw the opening of what public farmers market, the longest continually running public farmers market in the US?",
+      "raw_output": "The Dane County Farmers' Market in Madison, Wisconsin.\n\nConfidence: 95%\n\n\n\nI'm pretty sure of this one. It's a well-known fact and frequently cited as the oldest continuously running public farmers market in the US.",
+      "parsed_answer": "The Dane County Farmers' Market in Madison, Wisconsin.",
+      "correct": false,
+      "elapsed_s": 2.283
+    },
+    {
+      "question_id": "odql_6624",
+      "question": "Which town is the administrative headquarters of Northumberland?",
+      "raw_output": "Morpeth.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Morpeth.",
+      "correct": true,
+      "elapsed_s": 0.744
+    },
+    {
+      "question_id": "dpql_2624",
+      "question": "Which country was founded by Muhammed Ali Jinnah?",
+      "raw_output": "Pakistan was founded by Muhammad Ali Jinnah.\n\nConfidence: 100%",
+      "parsed_answer": "Pakistan was founded by Muhammad Ali Jinnah.",
+      "correct": true,
+      "elapsed_s": 0.935
+    },
+    {
+      "question_id": "jp_2645",
+      "question": "What is the capital of Oz?",
+      "raw_output": "The capital of Oz is Emerald City.\n\nConfidence: 100%",
+      "parsed_answer": "The capital of Oz is Emerald City.",
+      "correct": true,
+      "elapsed_s": 0.896
+    },
+    {
+      "question_id": "sfq_23329",
+      "question": "A gerber was an alternative name for which traditional trade/craftsman?",
+      "raw_output": "A gerber was an alternative name for a cobbler, someone who makes and repairs shoes.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "A gerber was an alternative name for a cobbler, someone who makes and repairs shoes.",
+      "correct": false,
+      "elapsed_s": 1.319
+    },
+    {
+      "question_id": "jp_3557",
+      "question": "What is the term for a person whose body doesn't produce melanin?",
+      "raw_output": "Albinism.\n\nConfidence: 99%\n\n\n\n",
+      "parsed_answer": "Albinism.",
+      "correct": true,
+      "elapsed_s": 0.744
+    },
+    {
+      "question_id": "odql_12328",
+      "question": "Which European city is served by Domodedovo Airport?",
+      "raw_output": "Moscow.\n\nConfidence: 100%",
+      "parsed_answer": "Moscow.",
+      "correct": true,
+      "elapsed_s": 0.668
+    },
+    {
+      "question_id": "qw_1551",
+      "question": "Whose play about the Salem witch trials in the 17th century drew parallels to McCarthyism in the 1950s?",
+      "raw_output": "Arthur Miller's play, *The Crucible*, drew those parallels.\n\nConfidence: 100%",
+      "parsed_answer": "Arthur Miller's play, *The Crucible*, drew those parallels.",
+      "correct": true,
+      "elapsed_s": 1.128
+    },
+    {
+      "question_id": "qb_275",
+      "question": "The pilgrim route to Santiago de Compostela in Northern Spain is known as the \u2018Way\u2019 of which saint?",
+      "raw_output": "The pilgrim route to Santiago de Compostela is known as the 'Way' of Saint James.\n\nConfidence: 100%\n",
+      "parsed_answer": "The pilgrim route to Santiago de Compostela is known as the 'Way' of Saint James.",
+      "correct": true,
+      "elapsed_s": 1.356
+    },
+    {
+      "question_id": "sfq_21174",
+      "question": "Which Shakespeare comedy is set in Messina, Italy?",
+      "raw_output": "That would be *Much Ado About Nothing*.\n\nConfidence: 95%",
+      "parsed_answer": "That would be *Much Ado About Nothing*.",
+      "correct": true,
+      "elapsed_s": 0.937
+    },
+    {
+      "question_id": "dpql_4988",
+      "question": "What was Margot\u2019s surname in \u201cThe Good Life\u201d TV series?",
+      "raw_output": "Margot's surname in \"The Good Life\" was Lemon.\n\nConfidence: 100%",
+      "parsed_answer": "Margot's surname in \"The Good Life\" was Lemon.",
+      "correct": false,
+      "elapsed_s": 1.128
+    },
+    {
+      "question_id": "odql_5927",
+      "question": "The Crossbill belongs to which bird family?",
+      "raw_output": "The Crossbill belongs to the Fringillidae family.\n\nConfidence: 95%",
+      "parsed_answer": "The Crossbill belongs to the Fringillidae family.",
+      "correct": true,
+      "elapsed_s": 1.013
+    },
+    {
+      "question_id": "qg_1800",
+      "question": "The inaugural issue of what comic book, which was released in June, 1938, introduced Superman?",
+      "raw_output": "Action Comics.\n\nConfidence: 100%",
+      "parsed_answer": "Action Comics.",
+      "correct": true,
+      "elapsed_s": 0.709
+    },
+    {
+      "question_id": "sfq_20324",
+      "question": "After he left Barcelona, football manager Pep Guardiola went on to manage which European club in 2013?",
+      "raw_output": "Pep Guardiola went on to manage Bayern Munich in 2013.\n\nConfidence: 100%\n",
+      "parsed_answer": "Pep Guardiola went on to manage Bayern Munich in 2013.",
+      "correct": true,
+      "elapsed_s": 1.205
+    },
+    {
+      "question_id": "qw_2462",
+      "question": "Which international treaties of 1899 and 1907 cover the use of weapons in war?",
+      "raw_output": "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907. They addressed limitations on warfare, including rules regarding weaponry.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907. They addressed limitations on warfare, including rules regarding weaponry.",
+      "correct": true,
+      "elapsed_s": 1.854
+    },
+    {
+      "question_id": "bt_4521",
+      "question": "Who was the oldest man to play test cricket for England",
+      "raw_output": "That would be Les Dailey. He was 49 years and 338 days old when he played his final Test match against the West Indies in 1951.\n\nConfidence: 95% (Pretty sure on this one, but there's always a tiny chance of a forgotten record!)",
+      "parsed_answer": "That would be Les Dailey. He was 49 years and 338 days old when he played his final Test match against the West Indies in 1951.",
+      "correct": false,
+      "elapsed_s": 2.762
+    },
+    {
+      "question_id": "qw_15432",
+      "question": "The actor John Wayne was known by what nickname?",
+      "raw_output": "The Duke.\n\nConfidence: 95%",
+      "parsed_answer": "The Duke.",
+      "correct": true,
+      "elapsed_s": 0.666
+    },
+    {
+      "question_id": "bb_6943",
+      "question": "Gluteus medius, Gluteus maximus and Piriformis are muscles in human?",
+      "raw_output": "Yes, those are all muscles found in the human body, specifically in the hip and buttock region.\n\nConfidence: 100%\n",
+      "parsed_answer": "Yes, those are all muscles found in the human body, specifically in the hip and buttock region.",
+      "correct": true,
+      "elapsed_s": 1.433
+    },
+    {
+      "question_id": "bb_1886",
+      "question": "What is the climate change agreement aimed at stabilizing greenhouse gas levels in the atmosphere, named after the Japanese city in which participating nations agreed its framework in 1997?",
+      "raw_output": "The climate change agreement you're referring to is the Kyoto Protocol.\n\nConfidence: 100%\n",
+      "parsed_answer": "The climate change agreement you're referring to is the Kyoto Protocol.",
+      "correct": true,
+      "elapsed_s": 1.221
+    },
+    {
+      "question_id": "sfq_5770",
+      "question": "In 'Alice In Wonderland' what was used as the ball in the game of croquet?",
+      "raw_output": "Hedgehogs! Alice uses hedgehogs as balls in the croquet game with the Queen of Hearts.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Hedgehogs! Alice uses hedgehogs as balls in the croquet game with the Queen of Hearts.",
+      "correct": true,
+      "elapsed_s": 1.472
+    },
+    {
+      "question_id": "odql_2223",
+      "question": "In which play by Harold Brighouse is 'Willie Mossop' employed at a shoe shop?",
+      "raw_output": "Willie Mossop is employed at a shoe shop in \"Hobgoblin\" by Harold Brighouse.\n\nConfidence: 100%",
+      "parsed_answer": "Willie Mossop is employed at a shoe shop in \"Hobgoblin\" by Harold Brighouse.",
+      "correct": false,
+      "elapsed_s": 1.435
+    },
+    {
+      "question_id": "odql_5149",
+      "question": "Which flower has the Latin name Hyacinthoides non scripta?",
+      "raw_output": "Bluebell.\n\nConfidence: 100%\n",
+      "parsed_answer": "Bluebell.",
+      "correct": true,
+      "elapsed_s": 0.754
+    },
+    {
+      "question_id": "sfq_15066",
+      "question": "Which river enters the sea at Whitby in Yorkshire?",
+      "raw_output": "The River Esk enters the sea at Whitby.\n\nConfidence: 100%\n",
+      "parsed_answer": "The River Esk enters the sea at Whitby.",
+      "correct": true,
+      "elapsed_s": 1.012
+    },
+    {
+      "question_id": "sfq_26244",
+      "question": "Who painted \u2018Le dejeuner sur I\u2019herbe\u2019 in 1863?",
+      "raw_output": "\u00c9douard Manet painted 'Le d\u00e9jeuner sur l'herbe' in 1863.\n\nConfidence: 100%",
+      "parsed_answer": "\u00c9douard Manet painted 'Le d\u00e9jeuner sur l'herbe' in 1863.",
+      "correct": true,
+      "elapsed_s": 1.433
+    },
+    {
+      "question_id": "odql_2437",
+      "question": "What is carnophobia the fear of?",
+      "raw_output": "Carnophobia is the fear of meat.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Carnophobia is the fear of meat.",
+      "correct": true,
+      "elapsed_s": 0.899
+    },
+    {
+      "question_id": "odql_15015",
+      "question": "Which French chemist produced the first vaccine against Anthrax?",
+      "raw_output": "Louis Pasteur produced the first vaccine against Anthrax.\n\nConfidence: 100%\n",
+      "parsed_answer": "Louis Pasteur produced the first vaccine against Anthrax.",
+      "correct": true,
+      "elapsed_s": 1.014
+    },
+    {
+      "question_id": "sfq_2721",
+      "question": "Who first achieved stardom as the gangster Duke Mantee in the film 'The Petrified Forest'?",
+      "raw_output": "Humphrey Bogart.\n\nConfidence: 95%\n\n\n\nI'm pretty sure Bogart's role as Duke Mantee was his breakthrough role, launching him to wider fame.",
+      "parsed_answer": "Humphrey Bogart.",
+      "correct": true,
+      "elapsed_s": 1.784
+    },
+    {
+      "question_id": "tc_298",
+      "question": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?",
+      "raw_output": "Romania was the only Eastern Bloc country to participate in the 1984 Los Angeles Olympics.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Romania was the only Eastern Bloc country to participate in the 1984 Los Angeles Olympics.",
+      "correct": true,
+      "elapsed_s": 1.361
+    },
+    {
+      "question_id": "bb_8093",
+      "question": "Who is the voice of baby Mikey in the 1989 film Look Who's Talking?",
+      "raw_output": "Bruce Willis is the voice of baby Mikey in *Look Who's Talking*.\n\nConfidence: 100%",
+      "parsed_answer": "Bruce Willis is the voice of baby Mikey in *Look Who's Talking*.",
+      "correct": true,
+      "elapsed_s": 1.213
+    },
+    {
+      "question_id": "jp_89",
+      "question": "What Ford automobile came in any color you want - as long as it was black?",
+      "raw_output": "The Ford Model T.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Ford Model T.",
+      "correct": true,
+      "elapsed_s": 0.85
+    },
+    {
+      "question_id": "bb_338",
+      "question": "Vermillion is a shade of which colour?",
+      "raw_output": "Vermillion is a shade of red.\n\nConfidence: 100%\n",
+      "parsed_answer": "Vermillion is a shade of red.",
+      "correct": true,
+      "elapsed_s": 0.936
+    },
+    {
+      "question_id": "sfq_19322",
+      "question": "To which family of animals does the okapi belong?",
+      "raw_output": "The okapi belongs to the giraffe family (Giraffidae).\n\nConfidence: 100%\n",
+      "parsed_answer": "The okapi belongs to the giraffe family (Giraffidae).",
+      "correct": true,
+      "elapsed_s": 1.13
+    },
+    {
+      "question_id": "odql_6850",
+      "question": "On which course will 'The Ebor Handicap' and 'The Knavesmire Stakes' be run in August?",
+      "raw_output": "The Ebor Handicap and the Knavesmire Stakes will be run on the York Racecourse.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Ebor Handicap and the Knavesmire Stakes will be run on the York Racecourse.",
+      "correct": true,
+      "elapsed_s": 1.365
+    },
+    {
+      "question_id": "qg_1241",
+      "question": "Approximately what percentage of an incandescent light bulb's energy is wasted as heat?",
+      "raw_output": "Approximately 90% of an incandescent light bulb's energy is wasted as heat.\n\nConfidence: 95%\n",
+      "parsed_answer": "Approximately 90% of an incandescent light bulb's energy is wasted as heat.",
+      "correct": true,
+      "elapsed_s": 1.284
+    },
+    {
+      "question_id": "wh_1908",
+      "question": "\"Which French artist, along with Picasso, was a founder of Cubism ? He designed sets for Diaghilev ballets and was awarded the Legion D'Honneur. Among his works are \"\"The Woman Musician\"\" and \"\"The Candlestick\"\".\"",
+      "raw_output": "The answer is Georges Braque.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The answer is Georges Braque.",
+      "correct": true,
+      "elapsed_s": 0.92
+    },
+    {
+      "question_id": "qw_14501",
+      "question": "What country lies to north of the Republic of Chad?",
+      "raw_output": "Libya.\n\nConfidence: 95%",
+      "parsed_answer": "Libya.",
+      "correct": true,
+      "elapsed_s": 0.67
+    },
+    {
+      "question_id": "sfq_10885",
+      "question": "Who was king of Great Britain and Ireland when the American colonies were lost?",
+      "raw_output": "King George III was the king of Great Britain and Ireland when the American colonies were lost.\n\nConfidence: 100%",
+      "parsed_answer": "King George III was the king of Great Britain and Ireland when the American colonies were lost.",
+      "correct": true,
+      "elapsed_s": 1.283
+    },
+    {
+      "question_id": "sfq_10673",
+      "question": "What 1859 historical novel contains chapters called 'Knitting', 'Still Knitting' and 'The Knitting Done'?",
+      "raw_output": "That would be *A Tale of Two Cities* by Charles Dickens.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be *A Tale of Two Cities* by Charles Dickens.",
+      "correct": true,
+      "elapsed_s": 1.131
+    },
+    {
+      "question_id": "qb_76",
+      "question": "Buenos Aires is the capital of which South American country?",
+      "raw_output": "Buenos Aires is the capital of Argentina.\n\nConfidence: 100%\n",
+      "parsed_answer": "Buenos Aires is the capital of Argentina.",
+      "correct": true,
+      "elapsed_s": 0.939
+    },
+    {
+      "question_id": "qw_10923",
+      "question": "\"Who played Vyvyan, a psychotic punk metal medical student with orange-dyed & spiked hair and four metal stars embedded in his forehead, in the UK TV series \"\"The Young Ones\"\"?\"",
+      "raw_output": "That would be Ade Edmondson!\n\nConfidence: 95%",
+      "parsed_answer": "That would be Ade Edmondson!",
+      "correct": true,
+      "elapsed_s": 0.878
+    },
+    {
+      "question_id": "dpql_6346",
+      "question": "Who was Wolfe\u2019s opposing French general who died with him on the Plains of Abraham?",
+      "raw_output": "The opposing French general was Louis-Joseph de Montcalm.\n\nConfidence: 100%",
+      "parsed_answer": "The opposing French general was Louis-Joseph de Montcalm.",
+      "correct": true,
+      "elapsed_s": 1.094
+    },
+    {
+      "question_id": "bb_1007",
+      "question": "The new \u00a3340m Aviva Stadium in Ireland opened in 2010 on the site of which previous famous sports ground?",
+      "raw_output": "The new Aviva Stadium opened on the site of Lansdowne Road.\n\nConfidence: 100%\n",
+      "parsed_answer": "The new Aviva Stadium opened on the site of Lansdowne Road.",
+      "correct": true,
+      "elapsed_s": 1.256
+    },
+    {
+      "question_id": "jp_3148",
+      "question": "What musician formed a singing duo with Art Garfunkel in 1963?",
+      "raw_output": "Paul Simon formed a singing duo with Art Garfunkel in 1963.\n\nConfidence: 100%",
+      "parsed_answer": "Paul Simon formed a singing duo with Art Garfunkel in 1963.",
+      "correct": true,
+      "elapsed_s": 1.284
+    },
+    {
+      "question_id": "odql_15051",
+      "question": "What is the name of Mo Farah's coach who has recently been at the centre of doping allegations?",
+      "raw_output": "The name of Mo Farah's former coach who has been at the centre of doping allegations is Alberto Salazar.\n\nConfidence: 99%",
+      "parsed_answer": "The name of Mo Farah's former coach who has been at the centre of doping allegations is Alberto Salazar.",
+      "correct": true,
+      "elapsed_s": 1.397
+    },
+    {
+      "question_id": "tc_379",
+      "question": "What was Truman Capote's last name before he was adopted by his stepfather?",
+      "raw_output": "Truman Capote's last name before being adopted was Billingsly.\n\nConfidence: 100%",
+      "parsed_answer": "Truman Capote's last name before being adopted was Billingsly.",
+      "correct": false,
+      "elapsed_s": 1.131
+    },
+    {
+      "question_id": "qw_1393",
+      "question": "What is the next in this series: Conrad Hilton, Michael Wilding, Michael Todd, Eddie Fisher, Richard Burton?",
+      "raw_output": "This is a tricky one! The series lists husbands of Elizabeth Taylor. The next husband was Alan Bates.\n\nConfidence: 85%\n\n\n\n",
+      "parsed_answer": "This is a tricky one! The series lists husbands of Elizabeth Taylor. The next husband was Alan Bates.",
+      "correct": false,
+      "elapsed_s": 1.401
+    },
+    {
+      "question_id": "bb_2",
+      "question": "Arctic King, Saladin and Tom Thumb are which types of vegetable?",
+      "raw_output": "These are all varieties of potatoes!\n\nConfidence: 95%",
+      "parsed_answer": "These are all varieties of potatoes!",
+      "correct": false,
+      "elapsed_s": 0.825
+    },
+    {
+      "question_id": "jp_3613",
+      "question": "What alphabet is used in Russia?",
+      "raw_output": "The Russian alphabet, also known as Kirillic.\n\nConfidence: 100%",
+      "parsed_answer": "The Russian alphabet, also known as Kirillic.",
+      "correct": false,
+      "elapsed_s": 1.015
+    },
+    {
+      "question_id": "qw_8802",
+      "question": "Which of the continents is the smallest in area?",
+      "raw_output": "Australia.\n\nConfidence: 99%",
+      "parsed_answer": "Australia.",
+      "correct": true,
+      "elapsed_s": 0.633
+    },
+    {
+      "question_id": "odql_2293",
+      "question": "Which detective, played on TV by Martin Shaw, was created by Alan Hunter?",
+      "raw_output": "That would be Adam Dalgliesh.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be Adam Dalgliesh.",
+      "correct": false,
+      "elapsed_s": 0.94
+    },
+    {
+      "question_id": "bb_3818",
+      "question": "What is the traditional Italian name for the text of an opera or musical?",
+      "raw_output": "The traditional Italian name for the text of an opera or musical is \"libretto.\"\n\nConfidence: 100%\n",
+      "parsed_answer": "The traditional Italian name for the text of an opera or musical is \"libretto.\"",
+      "correct": true,
+      "elapsed_s": 1.282
+    },
+    {
+      "question_id": "jp_674",
+      "question": "\"What has been described as the \"\"fifth\"\" taste, after sweet, sour, bitter, and salty?\"",
+      "raw_output": "Umami.\n\nConfidence: 95%\n\n\n\nIt's the widely accepted \"fifth\" taste, linked to savory flavors and glutamate. There's always a *tiny* chance a very obscure source might propose something else, but umami is overwhelmingly the correct answer.",
+      "parsed_answer": "Umami.",
+      "correct": true,
+      "elapsed_s": 2.436
+    },
+    {
+      "question_id": "qb_5234",
+      "question": "In 1784, who designed the first power loom?",
+      "raw_output": "Edmund Cartwright designed the first power loom in 1784.\n\nConfidence: 95%",
+      "parsed_answer": "Edmund Cartwright designed the first power loom in 1784.",
+      "correct": true,
+      "elapsed_s": 1.131
+    },
+    {
+      "question_id": "qg_2042",
+      "question": "The 1999 Spike Lee film Summer of Sam focuses on the crimes of what famous serial killer?",
+      "raw_output": "The 1999 Spike Lee film *Summer of Sam* focuses on the crimes of David Berkowitz, also known as the \"Son of Sam.\"\n\nConfidence: 100%",
+      "parsed_answer": "The 1999 Spike Lee film *Summer of Sam* focuses on the crimes of David Berkowitz, also known as the \"Son of Sam.\"",
+      "correct": true,
+      "elapsed_s": 1.824
+    },
+    {
+      "question_id": "wh_2893",
+      "question": "In the human body, what eight letter word is used to describe the purulent inflammation of the gums and tooth sockets often leading to lossening of the teeth ?",
+      "raw_output": "The answer is **periodontitis**.\n\nConfidence: 95%\n\n\n\nI'm pretty confident because it's a common dental term and fits the description perfectly. There might be other, more specific terms, but periodontitis is the most likely answer given the word length and description.",
+      "parsed_answer": "The answer is **periodontitis**.",
+      "correct": true,
+      "elapsed_s": 2.637
+    },
+    {
+      "question_id": "bb_1523",
+      "question": "A banderillero is a member of a team called a cuadrilla, in which controversial activity?",
+      "raw_output": "A banderillero is a member of a team in bullfighting.\n\nConfidence: 100%\n",
+      "parsed_answer": "A banderillero is a member of a team in bullfighting.",
+      "correct": true,
+      "elapsed_s": 1.209
+    },
+    {
+      "question_id": "bt_750",
+      "question": "What was the name of the American World War 11 bomber designated the B24",
+      "raw_output": "The American World War II bomber designated the B-24 was called the **Liberator**.\n\nConfidence: 100%\n",
+      "parsed_answer": "The American World War II bomber designated the B-24 was called the **Liberator**.",
+      "correct": true,
+      "elapsed_s": 1.361
+    },
+    {
+      "question_id": "qw_10833",
+      "question": "The legendary Hercules was said to have what quality?",
+      "raw_output": "The legendary Hercules was said to have incredible strength.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "The legendary Hercules was said to have incredible strength.",
+      "correct": true,
+      "elapsed_s": 0.976
+    },
+    {
+      "question_id": "jp_4324",
+      "question": "What Monopoly square is furthest from Go?",
+      "raw_output": "The Monopoly square furthest from Go is Boardwalk.\n\nConfidence: 100%",
+      "parsed_answer": "The Monopoly square furthest from Go is Boardwalk.",
+      "correct": false,
+      "elapsed_s": 0.942
+    },
+    {
+      "question_id": "qb_4358",
+      "question": "What is the system of raised dots called which blind people use to read with their fingers?",
+      "raw_output": "That would be Braille.\n\nConfidence: 100%\n",
+      "parsed_answer": "That would be Braille.",
+      "correct": true,
+      "elapsed_s": 0.865
+    },
+    {
+      "question_id": "odql_11797",
+      "question": "Anne of Bohemia was the wife of which English king?",
+      "raw_output": "Anne of Bohemia was the wife of Richard II.\n\nConfidence: 100%",
+      "parsed_answer": "Anne of Bohemia was the wife of Richard II.",
+      "correct": true,
+      "elapsed_s": 0.979
+    },
+    {
+      "question_id": "wh_1906",
+      "question": "What are the membranes enveloping the brain and spinal cord called ?",
+      "raw_output": "The membranes enveloping the brain and spinal cord are called the meninges.\n\nConfidence: 100%\n",
+      "parsed_answer": "The membranes enveloping the brain and spinal cord are called the meninges.",
+      "correct": true,
+      "elapsed_s": 1.169
+    },
+    {
+      "question_id": "qf_1931",
+      "question": "The song 'Everybody's Talkin' by Nilsson, featured in which film?",
+      "raw_output": "The song \"Everybody's Talkin'\" by Nilsson featured in the film *Midnight Cowboy*.\n\nConfidence: 100%",
+      "parsed_answer": "The song \"Everybody's Talkin'\" by Nilsson featured in the film *Midnight Cowboy*.",
+      "correct": true,
+      "elapsed_s": 1.325
+    },
+    {
+      "question_id": "bt_3665",
+      "question": "In which country did the carrot originate",
+      "raw_output": "The carrot originated in Persia (modern-day Iran and Afghanistan).\n\nConfidence: 95%",
+      "parsed_answer": "The carrot originated in Persia (modern-day Iran and Afghanistan).",
+      "correct": true,
+      "elapsed_s": 1.055
+    },
+    {
+      "question_id": "odql_7290",
+      "question": "Who was the driver of the limousine at the time of Diana Princess of Wales' death?",
+      "raw_output": "Henri Paul was the driver of the limousine at the time of Diana, Princess of Wales' death.\n\nConfidence: 99%",
+      "parsed_answer": "Henri Paul was the driver of the limousine at the time of Diana, Princess of Wales' death.",
+      "correct": true,
+      "elapsed_s": 1.326
+    },
+    {
+      "question_id": "bb_9396",
+      "question": "Ireland is known as The 'what' Isle?",
+      "raw_output": "Ireland is known as the Emerald Isle.\n\nConfidence: 100%\n",
+      "parsed_answer": "Ireland is known as the Emerald Isle.",
+      "correct": true,
+      "elapsed_s": 0.941
+    },
+    {
+      "question_id": "dpql_4810",
+      "question": "What was Her Majesty's Prison Manchester called until 1990?",
+      "raw_output": "Her Majesty's Prison Manchester was called Strangeways Prison until 1990.\n\nConfidence: 100%\n",
+      "parsed_answer": "Her Majesty's Prison Manchester was called Strangeways Prison until 1990.",
+      "correct": true,
+      "elapsed_s": 1.325
+    },
+    {
+      "question_id": "qg_577",
+      "question": "What company encourages you to \"Think Outside the Bun\"?",
+      "raw_output": "That would be Wendy's!\n\nConfidence: 100%",
+      "parsed_answer": "That would be Wendy's!",
+      "correct": false,
+      "elapsed_s": 0.863
+    },
+    {
+      "question_id": "qg_233",
+      "question": "The Springfield, Mass YMCA saw the first game of what played on January 20, 1892, when 9 players ended the game with a 1-0 score?",
+      "raw_output": "The first game of basketball was played at the Springfield, Mass YMCA on January 20, 1892.\n\nConfidence: 100%",
+      "parsed_answer": "The first game of basketball was played at the Springfield, Mass YMCA on January 20, 1892.",
+      "correct": true,
+      "elapsed_s": 1.612
+    },
+    {
+      "question_id": "sfq_18945",
+      "question": "The dance fitness programme, the Zumba, originated in which country?",
+      "raw_output": "The Zumba dance fitness program originated in Colombia.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Zumba dance fitness program originated in Colombia.",
+      "correct": true,
+      "elapsed_s": 0.982
+    },
+    {
+      "question_id": "sfq_25944",
+      "question": "In which body of water are the Mascarene Islands?",
+      "raw_output": "The Mascarene Islands are located in the Indian Ocean.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Mascarene Islands are located in the Indian Ocean.",
+      "correct": true,
+      "elapsed_s": 1.094
+    },
+    {
+      "question_id": "sfq_20740",
+      "question": "Who won the World Professional Snooker Championship six times in the 1970s?",
+      "raw_output": "That would be Steve Davis.\n\nConfidence: 95% (It's a well-known fact, but I always like to double-check these historical sports questions!)",
+      "parsed_answer": "That would be Steve Davis.",
+      "correct": false,
+      "elapsed_s": 1.671
+    },
+    {
+      "question_id": "odql_12886",
+      "question": "In which Spanish city is the Alhambra Palace located?",
+      "raw_output": "The Alhambra Palace is located in Granada.\n\nConfidence: 100%\n",
+      "parsed_answer": "The Alhambra Palace is located in Granada.",
+      "correct": true,
+      "elapsed_s": 0.98
+    },
+    {
+      "question_id": "sfq_21194",
+      "question": "Batavia is the former name of which Asian capital city?",
+      "raw_output": "Batavia is the former name of Jakarta, the capital of Indonesia.\n\nConfidence: 100%\n",
+      "parsed_answer": "Batavia is the former name of Jakarta, the capital of Indonesia.",
+      "correct": true,
+      "elapsed_s": 1.171
+    },
+    {
+      "question_id": "bb_7801",
+      "question": "What was Julian Schnabel's acclaimed 2008 film of the book written by a stroke victim's blinking eye?",
+      "raw_output": "The answer is *The Diving Bell and the Butterfly*.\n\nConfidence: 100%\n\n\n\n",
+      "parsed_answer": "The answer is *The Diving Bell and the Butterfly*.",
+      "correct": true,
+      "elapsed_s": 1.058
+    },
+    {
+      "question_id": "dpql_3002",
+      "question": "On August 15th 1914, the SS Ancon became the first ship to officially do what?",
+      "raw_output": "The SS Ancon became the first ship to officially cross the Panama Canal.\n\nConfidence: 100%",
+      "parsed_answer": "The SS Ancon became the first ship to officially cross the Panama Canal.",
+      "correct": false,
+      "elapsed_s": 1.174
+    },
+    {
+      "question_id": "qw_7018",
+      "question": "In 1968, what telephone number was established as the national emergency number for the United States?",
+      "raw_output": "The national emergency number established in 1968 was 911.\n\nConfidence: 100%\n",
+      "parsed_answer": "The national emergency number established in 1968 was 911.",
+      "correct": true,
+      "elapsed_s": 1.289
+    },
+    {
+      "question_id": "odql_2838",
+      "question": "Which metal is created by the 'Bessemer Process'?",
+      "raw_output": "Steel.\n\nConfidence: 95%\n\n\n\nThe Bessemer Process was a revolutionary method for mass-producing steel. While it involved iron, the resulting product was steel. There are other steelmaking processes now, but the Bessemer Process is historically significant for its role in steel production.",
+      "parsed_answer": "Steel.",
+      "correct": true,
+      "elapsed_s": 2.513
+    },
+    {
+      "question_id": "sfq_10536",
+      "question": "How many symphonies did Brahms compose?",
+      "raw_output": "Johannes Brahms composed four symphonies.\n\nConfidence: 100%",
+      "parsed_answer": "Johannes Brahms composed four symphonies.",
+      "correct": true,
+      "elapsed_s": 0.939
+    },
+    {
+      "question_id": "sfq_10974",
+      "question": "In the Sudanese wars, which British general won the Battle of Omdurman?",
+      "raw_output": "The British general who won the Battle of Omdurman in the Sudanese wars was Horatio Herbert Kitchener.\n\nConfidence: 100%",
+      "parsed_answer": "The British general who won the Battle of Omdurman in the Sudanese wars was Horatio Herbert Kitchener.",
+      "correct": false,
+      "elapsed_s": 1.487
+    },
+    {
+      "question_id": "qb_8445",
+      "question": "In medicine, if something is subcutaneous it is applied or located under which organ of the body?",
+      "raw_output": "Subcutaneous means applied or located under the skin.\n\nConfidence: 100%\n",
+      "parsed_answer": "Subcutaneous means applied or located under the skin.",
+      "correct": true,
+      "elapsed_s": 1.097
+    },
+    {
+      "question_id": "sfq_24050",
+      "question": "Who is associated with the words \u2018Live long and prosper\u2019?",
+      "raw_output": "Spock from Star Trek is associated with the words \"Live long and prosper.\"\n\nConfidence: 100%",
+      "parsed_answer": "Spock from Star Trek is associated with the words \"Live long and prosper.\"",
+      "correct": true,
+      "elapsed_s": 1.226
+    },
+    {
+      "question_id": "qw_881",
+      "question": "Which US State ended prohibition in November 1948, a law that had been in place there for 68 years?",
+      "raw_output": "Connecticut ended prohibition in November 1948, after 68 years.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Connecticut ended prohibition in November 1948, after 68 years.",
+      "correct": false,
+      "elapsed_s": 1.382
+    },
+    {
+      "question_id": "qz_5919",
+      "question": "Which TV comedy had characters McLaren, Blanco & Warren",
+      "raw_output": "That would be *Night Court*.\n\nConfidence: 95%",
+      "parsed_answer": "That would be *Night Court*.",
+      "correct": false,
+      "elapsed_s": 0.968
+    },
+    {
+      "question_id": "qb_2932",
+      "question": "What is the official language of Nicaragua?",
+      "raw_output": "The official language of Nicaragua is Spanish.\n\nConfidence: 100%\n",
+      "parsed_answer": "The official language of Nicaragua is Spanish.",
+      "correct": true,
+      "elapsed_s": 1.086
+    },
+    {
+      "question_id": "jp_4300",
+      "question": "What does Mexican Coke have that American Coke doesn't?",
+      "raw_output": "Mexican Coke is typically made with cane sugar, while American Coke uses high-fructose corn syrup.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Mexican Coke is typically made with cane sugar, while American Coke uses high-fructose corn syrup.",
+      "correct": true,
+      "elapsed_s": 1.532
+    },
+    {
+      "question_id": "bb_1009",
+      "question": "Name Google's service launched in 2009 from which support was withdrawn in 2010, which offered 'next-generation email', messaging and twitter-style micro-blogging?",
+      "raw_output": "That would be Google Wave.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "That would be Google Wave.",
+      "correct": true,
+      "elapsed_s": 1.026
+    },
+    {
+      "question_id": "odql_882",
+      "question": "Which actor and producer married Anne Bancroft?",
+      "raw_output": "Mel Brooks married Anne Bancroft.\n\nConfidence: 100%",
+      "parsed_answer": "Mel Brooks married Anne Bancroft.",
+      "correct": true,
+      "elapsed_s": 0.968
+    },
+    {
+      "question_id": "jp_3062",
+      "question": "What movie takes place at Shermer High School's detention?",
+      "raw_output": "The Breakfast Club.\n\nConfidence: 100%",
+      "parsed_answer": "The Breakfast Club.",
+      "correct": true,
+      "elapsed_s": 0.888
+    },
+    {
+      "question_id": "tc_2833",
+      "question": "What is the most abundant substance in the plant kingdom, which no mammal produces the enzyme to digest?",
+      "raw_output": "Cellulose.\n\nConfidence: 95%\n\n\n\nCellulose is the primary structural component of plant cell walls and makes up a huge proportion of plant biomass. Mammals lack the enzyme cellulase needed to break down cellulose, making it indigestible for them (though some animals, like cows, have symbiotic bacteria that *do* produce cellulase).",
+      "parsed_answer": "Cellulose.",
+      "correct": true,
+      "elapsed_s": 3.039
+    },
+    {
+      "question_id": "wh_4343",
+      "question": "Which superhero film, produced by Marvel Studios and written and directed by Joss whedon, was the highest grossing film world-wide in 2012 ?",
+      "raw_output": "The answer is *The Avengers*.\n\nConfidence: 100%",
+      "parsed_answer": "The answer is *The Avengers*.",
+      "correct": true,
+      "elapsed_s": 0.919
+    },
+    {
+      "question_id": "qb_8947",
+      "question": "The French town of Bordeaux lies on which river?",
+      "raw_output": "The French town of Bordeaux lies on the Garonne River.\n\nConfidence: 100%\n",
+      "parsed_answer": "The French town of Bordeaux lies on the Garonne River.",
+      "correct": true,
+      "elapsed_s": 1.094
+    },
+    {
+      "question_id": "bt_2220",
+      "question": "According to the Kennel Club what is the most popular pedigree dog in Britain",
+      "raw_output": "According to The Kennel Club, the most popular pedigree dog in Britain is the **Labrador Retriever**.\n\nConfidence: 100%",
+      "parsed_answer": "According to The Kennel Club, the most popular pedigree dog in Britain is the **Labrador Retriever**.",
+      "correct": true,
+      "elapsed_s": 1.364
+    },
+    {
+      "question_id": "jp_1846",
+      "question": "Juan Valdez advertises the coffee of which country?",
+      "raw_output": "Colombia.\n\nConfidence: 100%",
+      "parsed_answer": "Colombia.",
+      "correct": true,
+      "elapsed_s": 0.673
+    },
+    {
+      "question_id": "sfq_11567",
+      "question": "Which actress is the mother of actress Carrie Fisher?",
+      "raw_output": "Debbie Reynolds.\n\nConfidence: 100%",
+      "parsed_answer": "Debbie Reynolds.",
+      "correct": true,
+      "elapsed_s": 0.712
+    },
+    {
+      "question_id": "sfq_8671",
+      "question": "According to Greek myth, who built the labyrinth on Crete for King Minos?",
+      "raw_output": "Daedalus built the labyrinth on Crete for King Minos.\n\nConfidence: 100%",
+      "parsed_answer": "Daedalus built the labyrinth on Crete for King Minos.",
+      "correct": true,
+      "elapsed_s": 1.097
+    },
+    {
+      "question_id": "odql_8649",
+      "question": "Paul McCartney and Heather Mills became parents together, Michael Howard became leader of the Conservative Party and Saddam Hussein was captured. Which year?",
+      "raw_output": "2003.\n\nConfidence: 95%\n\n\n\nHere's why: All three events occurred in 2003. Paul and Heather's child was born in June, Michael Howard took over the Conservative Party in May, and Saddam Hussein was captured in December.",
+      "parsed_answer": "2003.",
+      "correct": true,
+      "elapsed_s": 2.519
+    },
+    {
+      "question_id": "jp_1393",
+      "question": "What video game, created by Notch, is the best-selling PC game of all-time?",
+      "raw_output": "Minecraft.\n\nConfidence: 100%",
+      "parsed_answer": "Minecraft.",
+      "correct": true,
+      "elapsed_s": 0.675
+    },
+    {
+      "question_id": "qb_10267",
+      "question": "What was disestablished as the state religion of Japan after WWII?",
+      "raw_output": "Shinto.\n\nConfidence: 95%\n\n\n\n",
+      "parsed_answer": "Shinto.",
+      "correct": true,
+      "elapsed_s": 0.713
+    }
+  ],
+  "sc_results": [
+    {
+      "question_id": "odql_13057",
+      "n_correct": 3,
+      "modal_answer": "The horse was called Devonshire Charm.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The horse was called Devon Loch.": 2,
+        "The racehorse was called Devonshire.": 2,
+        "That was Esbsand.": 1,
+        "The racehorse was called Devon Loch.": 1,
+        "The horse was called Devonshire Charm.": 3,
+        "The horse was named Devonshire Charm.": 1
+      }
+    },
+    {
+      "question_id": "dpql_5975",
+      "n_correct": 9,
+      "modal_answer": "Cain dwelt in the Land of Nod, which was located **east** of Eden.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Cain dwelt in the Land of Nod, which was located **east** of Eden.": 7,
+        "Cain dwelt in the Land of Nod, which was located to the **east** on the Biblical compass.": 1,
+        "Cain dwelt in the Land of Nod, which was located east of Eden.": 2
+      }
+    },
+    {
+      "question_id": "sfq_2213",
+      "n_correct": 10,
+      "modal_answer": "The Apennine Mountains.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Apennine Mountains.": 10
+      }
+    },
+    {
+      "question_id": "qw_11743",
+      "n_correct": 10,
+      "modal_answer": "Hern\u00e1n Cort\u00e9s.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is Hern\u00e1n Cort\u00e9s.": 1,
+        "The Spaniard you're referring to is Hern\u00e1n Cort\u00e9s. He famously arrived in Mexico in 1519 (not 1518), allied with various indigenous groups, and ultimately conquered the Aztec Empire, capturing Tenochtitlan (Mexico City) and becoming Governor-General.": 1,
+        "That would be Hern\u00e1n Cort\u00e9s.": 1,
+        "Hern\u00e1n Cort\u00e9s.": 5,
+        "The Spaniard who overcame Montezuma, captured Mexico City, and became Governor-General of much of Mexico starting in 1519 (not 1518, but very close!) was Hern\u00e1n Cort\u00e9s.": 2
+      }
+    },
+    {
+      "question_id": "wh_4198",
+      "n_correct": 10,
+      "modal_answer": "Otitis is an inflammation of the ear.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Otitis is an inflammation of the ear.": 10
+      }
+    },
+    {
+      "question_id": "qg_4628",
+      "n_correct": 0,
+      "modal_answer": "The parson's name is Mr. Sycamore.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The parson's name is Mr. Sycamore.": 7,
+        "The parson is Mr. Sycamore.": 2,
+        "The parson is called Mr. Sycamore.": 1
+      }
+    },
+    {
+      "question_id": "qz_5143",
+      "n_correct": 10,
+      "modal_answer": "Dakar is the capital city of Senegal.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Dakar is the capital city of Senegal.": 10
+      }
+    },
+    {
+      "question_id": "qw_11461",
+      "n_correct": 10,
+      "modal_answer": "David Moyes succeeded Sir Alex Ferguson.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "David Moyes succeeded Sir Alex Ferguson.": 10
+      }
+    },
+    {
+      "question_id": "odql_6161",
+      "n_correct": 10,
+      "modal_answer": "Honda produces the 'Fireblade' motorcycle.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Honda produces the 'Fireblade' motorcycle.": 10
+      }
+    },
+    {
+      "question_id": "qw_10270",
+      "n_correct": 10,
+      "modal_answer": "The year was 1982.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "All of those events occurred in **1982**.": 4,
+        "The year was 1982.": 5,
+        "1982.": 1
+      }
+    },
+    {
+      "question_id": "odql_15054",
+      "n_correct": 10,
+      "modal_answer": "The answer is Johann Sebastian Bach.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is Johann Sebastian Bach.": 7,
+        "The composer of both the \"Christmas Oratorio\" and \"The Coffee Cantata\" is Johann Sebastian Bach.": 3
+      }
+    },
+    {
+      "question_id": "bb_4735",
+      "n_correct": 10,
+      "modal_answer": "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with **algebra**.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with **algebra**.": 9,
+        "The Arabic term 'Al-jebr' (reunion of broken parts) is famously associated with **algebra**. It's where the word \"algebra\" originates!": 1
+      }
+    },
+    {
+      "question_id": "dpql_2379",
+      "n_correct": 10,
+      "modal_answer": "Joseph Sheridan Le Fanu wrote *In A Glass Darkly* in 1872.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Joseph Sheridan Le Fanu wrote *In a Glass Darkly* in 1872.": 2,
+        "Joseph Sheridan Le Fanu wrote *In A Glass Darkly* in 1872.": 8
+      }
+    },
+    {
+      "question_id": "sfq_23359",
+      "n_correct": 10,
+      "modal_answer": "Karl Eisner created the Swiss Army Knife.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Karl Eisner created the Swiss Army Knife.": 10
+      }
+    },
+    {
+      "question_id": "sfq_18522",
+      "n_correct": 0,
+      "modal_answer": "That would be Sylvia Sims.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Wendy Hiller.": 2,
+        "That would be Sylvia Lancaster.": 1,
+        "That would be Sylvia Sims.": 3,
+        "That would be Sylvia Millward.": 2,
+        "Sylvia Miles played Queen Victoria in *Edward the Seventh*.": 1,
+        "That would be Sylvia Miles.": 1
+      }
+    },
+    {
+      "question_id": "qw_5904",
+      "n_correct": 1,
+      "modal_answer": "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Rafee Tower.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Rafee Tower.": 6,
+        "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Hamra Tower.": 1,
+        "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Raouf Tower.": 1,
+        "The tallest skyscraper in Saudi Arabia, located in Riyadh, is the Al Raef Tower.": 1,
+        "The tallest skyscraper in Saudi Arabia, located in Riyadh and among the world's 50 tallest, is the Kingdom Centre Tower.": 1
+      }
+    },
+    {
+      "question_id": "wh_4195",
+      "n_correct": 10,
+      "modal_answer": "A margay is a small wild cat.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "A margay is a small wild cat.": 10
+      }
+    },
+    {
+      "question_id": "qg_749",
+      "n_correct": 10,
+      "modal_answer": "The body of water known as Pirate Alley with 47 attacks in 2010 is the Gulf of Aden.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The body of water known as Pirate Alley with 47 attacks in 2010 is the Gulf of Aden.": 4,
+        "The Caribbean Sea is known as Pirate Alley.": 1,
+        "The body of water known as Pirate Alley, with 47 attacks in 2010, is the Gulf of Aden.": 3,
+        "The body of water known as \"Pirate Alley\" with 47 attacks in 2010 is the Gulf of Aden.": 1,
+        "The Gulf of Aden is known as Pirate Alley.": 1
+      }
+    },
+    {
+      "question_id": "qw_10332",
+      "n_correct": 10,
+      "modal_answer": "The Atlantic Ocean is closest to the capital of the USA (Washington, D.C.).",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Atlantic Ocean is closest to the capital of the USA (Washington, D.C.).": 8,
+        "The Atlantic Ocean.": 2
+      }
+    },
+    {
+      "question_id": "bb_752",
+      "n_correct": 10,
+      "modal_answer": "Pierre-Auguste Renoir.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Pierre-Auguste Renoir.": 10
+      }
+    },
+    {
+      "question_id": "sfq_8526",
+      "n_correct": 10,
+      "modal_answer": "Jim Lovell.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Jim Lovell.": 10
+      }
+    },
+    {
+      "question_id": "tc_288",
+      "n_correct": 10,
+      "modal_answer": "Highway 61 Revisited.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be Highway 61.": 1,
+        "That would be Highway 61. It's famously referenced in Bob Dylan's album \"Highway 61 Revisited.\"": 1,
+        "Highway 61 Revisited.": 8
+      }
+    },
+    {
+      "question_id": "dpql_4066",
+      "n_correct": 1,
+      "modal_answer": "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artibus.\"",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artibus.\"": 8,
+        "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artis.\" It translates to \"Art for Art's Sake.\"": 1,
+        "The Latin motto of Metro-Goldwyn-Mayer is \"Ars Gratia Artibus.\" It translates to \"Art for the sake of Art.\"": 1
+      }
+    },
+    {
+      "question_id": "sfq_11641",
+      "n_correct": 10,
+      "modal_answer": "Adnams.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Adnams.": 9,
+        "Adnams Brewery.": 1
+      }
+    },
+    {
+      "question_id": "qw_4205",
+      "n_correct": 10,
+      "modal_answer": "Minos.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is Minos.": 2,
+        "That would be Minos.": 1,
+        "Minos.": 5,
+        "According to legend, it was Minos who was the son of Zeus and Europa and became King of Crete.": 2
+      }
+    },
+    {
+      "question_id": "bb_1172",
+      "n_correct": 10,
+      "modal_answer": "Copper.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Copper.": 10
+      }
+    },
+    {
+      "question_id": "dpql_5301",
+      "n_correct": 0,
+      "modal_answer": "This is a tricky one! The answer is the island of **Poel**.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "This is a tricky one! The answer is the island of **Texel**. It's part of the Dutch Wadden Islands and is connected to the mainland by a sand isthmus called the North Front.": 1,
+        "This is a tricky one! The answer is the **Kaliningrad Oblast**. It's a Russian exclave bordered by Poland and Lithuania, and connected to Russia by the Curonian Spit, which is often referred to as the North Front.": 1,
+        "This is a tricky one! The answer is the island of **Poel**.": 2,
+        "This is a tricky one! The answer is the island of **Vlieland**.": 2,
+        "This is a tricky one! The place connected to the European mainland by a sand isthmus called the North Front is the **Kaliningrad Oblast**. It's a Russian exclave bordered by Poland and Lithuania.": 1,
+        "This is a tricky one! The answer is the **Kaliningrad Oblast**.": 1,
+        "This is a tricky one! The answer is the island of **Zeeland**.": 2
+      }
+    },
+    {
+      "question_id": "qb_4444",
+      "n_correct": 10,
+      "modal_answer": "Spelunking is the exploration of caves, especially as a hobby.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Spelunking is the exploration of caves, especially as a hobby.": 10
+      }
+    },
+    {
+      "question_id": "sfq_9018",
+      "n_correct": 0,
+      "modal_answer": "Sally Struthers played Hotlips Houlihan in the 1972 film MASH.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Sally Struthers played Hotlips Houlihan in the 1972 film MASH.": 5,
+        "Sally Struthers played Hotlips Houlihan in the 1972 film *MASH*.": 5
+      }
+    },
+    {
+      "question_id": "sfq_26227",
+      "n_correct": 10,
+      "modal_answer": "The complete English FA Cup Final was first shown live on television in 1938.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The complete English FA Cup Final was first shown live on television in 1938.": 8,
+        "The complete English FA Cup Final was first shown live on television in **1938**.": 1,
+        "1938.": 1
+      }
+    },
+    {
+      "question_id": "qw_13933",
+      "n_correct": 0,
+      "modal_answer": "The Classic Brit Awards in 2011 named David Bowie as \"Artist of the Decade.\"",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Classic Brit Awards in 2011 named David Bowie as \"Artist of the Decade.\"": 3,
+        "The Classic Brit Awards in 2011 named **Queen** as \"Artist of the Decade.\"": 1,
+        "The Classic Brit Awards in 2011 named George Michael as \"Artist of the Decade.\"": 1,
+        "The Classic Brit Awards named Robbie Williams \"Artist of the Decade\" in 2011.": 1,
+        "The Classic Brit Awards named U2 as \"Artist of the Decade\" in 2011.": 3,
+        "The Classic Brit Awards named Queen as \"Artist of the Decade\" in 2011.": 1
+      }
+    },
+    {
+      "question_id": "qb_498",
+      "n_correct": 10,
+      "modal_answer": "Jane Seymour plays Solitaire in *Live and Let Die*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Jane Seymour plays Solitaire in *Live and Let Die*.": 9,
+        "Jane Seymour plays Solitaire in the James Bond film *Live and Let Die*.": 1
+      }
+    },
+    {
+      "question_id": "dpql_3955",
+      "n_correct": 10,
+      "modal_answer": "Lacrosse.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Lacrosse.": 8,
+        "The official summer sport of Canada is lacrosse.": 2
+      }
+    },
+    {
+      "question_id": "qg_2138",
+      "n_correct": 10,
+      "modal_answer": "Lou Gehrig.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Lou Gehrig.": 10
+      }
+    },
+    {
+      "question_id": "qb_8707",
+      "n_correct": 10,
+      "modal_answer": "Lolita's first name is Dolores.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Lolita's first name is Dolores.": 10
+      }
+    },
+    {
+      "question_id": "qb_6105",
+      "n_correct": 10,
+      "modal_answer": "An Albatross is 3 strokes under par for a given hole.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "An Albatross is three strokes under par for a given hole.": 4,
+        "An Albatross is 3 strokes under par for a given hole.": 6
+      }
+    },
+    {
+      "question_id": "bb_1742",
+      "n_correct": 10,
+      "modal_answer": "France.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "France.": 5,
+        "The International Bureau of Weights and Measures is based in France.": 5
+      }
+    },
+    {
+      "question_id": "qz_3708",
+      "n_correct": 0,
+      "modal_answer": "The Tigris River.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Tigris River.": 10
+      }
+    },
+    {
+      "question_id": "qb_5097",
+      "n_correct": 3,
+      "modal_answer": "A rinkhals is a type of spitting cobra.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "A rinkhals is a type of spitting cobra.": 7,
+        "A rinkhals is a type of snake.": 3
+      }
+    },
+    {
+      "question_id": "qb_7060",
+      "n_correct": 2,
+      "modal_answer": "Greg James became the host of the BBC Radio 1 weekday breakfast show in September 2012.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Greg James became the host of the BBC Radio 1 weekday breakfast show in September 2012.": 8,
+        "The host of the BBC Radio 1 weekday breakfast show in September 2012 was Nick Grimshaw.": 1,
+        "Nick Grimshaw became the host of the BBC Radio 1 weekday breakfast show in September 2012.": 1
+      }
+    },
+    {
+      "question_id": "sfq_20746",
+      "n_correct": 10,
+      "modal_answer": "Group Captain Peter Townsend.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Group Captain Peter Townsend.": 9,
+        "The RAF captain Princess Margaret declined to marry was Group Captain Peter Townsend.": 1
+      }
+    },
+    {
+      "question_id": "tc_1124",
+      "n_correct": 10,
+      "modal_answer": "Shine.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Shine.": 10
+      }
+    },
+    {
+      "question_id": "qw_2610",
+      "n_correct": 10,
+      "modal_answer": "Max Planck.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Max Planck.": 4,
+        "Max Planck won the Nobel Prize in Physics in 1918 for his Law of Radiation. He is widely considered the originator of quantum theory.": 1,
+        "Max Planck won the Nobel Prize in Physics in 1918 for his Law of Radiation. He is widely considered the originator of Quantum Theory.": 3,
+        "Max Planck won the Nobel Prize in Physics in 1918 for his Law of Radiation. He is considered the originator of Quantum Theory.": 1,
+        "Max Planck won the Nobel Prize in 1918 for his Law of Radiation and is considered the originator of Quantum Theory.": 1
+      }
+    },
+    {
+      "question_id": "qb_4761",
+      "n_correct": 0,
+      "modal_answer": "Sir Hugo Drax is suspected of cheating at baccarat.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Sir Hugo Drax is suspected of cheating at baccarat.": 7,
+        "Sir Hugo Drax is suspected of cheating at baccarat in Ian Fleming's 'Moonraker'.": 1,
+        "Sir Hugo Drax is suspected of cheating at baccarat in Ian Fleming\u2019s 'Moonraker'.": 1,
+        "Sir Hugo Drax is suspected of cheating at baccarat in Ian Fleming's *Moonraker*.": 1
+      }
+    },
+    {
+      "question_id": "qz_3911",
+      "n_correct": 0,
+      "modal_answer": "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners performance of \"Come On Eileen.\" They used a look-alike, and the resemblance was quite striking!",
+      "modal_correct": false,
+      "answer_distribution": {
+        "They mistakenly portrayed Prince Edward as being the subject of the song \"Come On Eileen.\"": 1,
+        "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners performance of \"Come On Eileen.\" They used a lookalike, and the resemblance was striking enough to cause a bit of a stir.": 1,
+        "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners performance of \"Come On Eileen.\" They used a look-alike, and the resemblance was quite striking!": 2,
+        "They mistakenly portrayed Prince Edward as being the subject of Dexys Midnight Runners' song \"Come On Eileen.\"": 2,
+        "They mistakenly portrayed James II as being in the video for \"Come On Eileen.\"": 1,
+        "Top of the Pops mistakenly portrayed Prince Edward as being the subject of Dexys Midnight Runners' song \"Come On Eileen.\"": 1,
+        "Top of the Pops mistakenly portrayed Prince Charles in a Dexys Midnight Runners song. Specifically, it was during their performance of \"Come On Eileen.\"": 2
+      }
+    },
+    {
+      "question_id": "bb_5577",
+      "n_correct": 10,
+      "modal_answer": "Minyan is a quorum of ten adult males required for public worship in Judaism.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Minyan is a quorum of ten adult males required for public worship in Judaism.": 10
+      }
+    },
+    {
+      "question_id": "odql_8192",
+      "n_correct": 10,
+      "modal_answer": "The village leader is Vitalstatistix.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The village leader is Vitalstatistix.": 9,
+        "That would be Vitalstatistix!": 1
+      }
+    },
+    {
+      "question_id": "sfq_24346",
+      "n_correct": 10,
+      "modal_answer": "Dylan Thomas died in New York City.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Dylan Thomas died in New York City.": 10
+      }
+    },
+    {
+      "question_id": "bt_1722",
+      "n_correct": 10,
+      "modal_answer": "Kirk Douglas played Vincent Van Gogh in Lust for Life.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Kirk Douglas played Vincent Van Gogh in *Lust for Life*.": 3,
+        "Kirk Douglas played Vincent Van Gogh in Lust for Life.": 7
+      }
+    },
+    {
+      "question_id": "sfq_23371",
+      "n_correct": 10,
+      "modal_answer": "Lake Rudyard is in Staffordshire.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Lake Rudyard is in Staffordshire.": 9,
+        "Lake Rudyard is located in Staffordshire.": 1
+      }
+    },
+    {
+      "question_id": "odql_11191",
+      "n_correct": 10,
+      "modal_answer": "La Stampa is published in Turin.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "La Stampa is published in Turin.": 5,
+        "The newspaper 'La Stampa' is published in Turin.": 4,
+        "La Stampa is published in Turin (Torino).": 1
+      }
+    },
+    {
+      "question_id": "sfq_22964",
+      "n_correct": 0,
+      "modal_answer": "Highgrove House.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Highgrove House.": 10
+      }
+    },
+    {
+      "question_id": "odql_13172",
+      "n_correct": 0,
+      "modal_answer": "That would be Henri Rousseau.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Henri Rousseau.": 5,
+        "That would be Pablo Picasso.": 2,
+        "The painting \"Gypsy Girl\" in the Louvre is attributed to \u00c9douard Manet.": 1,
+        "The painting \"Gypsy Girl\" (also known as \"The Little Gypsy\") in the Louvre, Paris, was painted by \u00c9douard Manet.": 1,
+        "That would be Pascal Dagnan-Boucher.": 1
+      }
+    },
+    {
+      "question_id": "sfq_6576",
+      "n_correct": 0,
+      "modal_answer": "A Blenheim Orange is a type of mandarin orange.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "A Blenheim Orange is a type of mandarin orange.": 8,
+        "A Blenheim Orange is a type of **apricot**.": 2
+      }
+    },
+    {
+      "question_id": "tc_2257",
+      "n_correct": 10,
+      "modal_answer": "December.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "December.": 10
+      }
+    },
+    {
+      "question_id": "sfq_25365",
+      "n_correct": 10,
+      "modal_answer": "B\u00e9la Bart\u00f3k composed the music for \"The Miraculous Mandarin.\"",
+      "modal_correct": true,
+      "answer_distribution": {
+        "B\u00e9la Bart\u00f3k composed the music for \"The Miraculous Mandarin.\"": 8,
+        "The music for \"The Miraculous Mandarin\" was composed by B\u00e9la Bart\u00f3k.": 2
+      }
+    },
+    {
+      "question_id": "tc_1867",
+      "n_correct": 10,
+      "modal_answer": "The Suez Canal connects the Mediterranean Sea to the Red Sea.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Suez Canal connects the Mediterranean Sea to the Red Sea.": 10
+      }
+    },
+    {
+      "question_id": "qf_1082",
+      "n_correct": 0,
+      "modal_answer": "Everton FC beat Rapid Vienna in the final of the European Cup Winners' Cup in **1995**.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Everton FC beat Rapid Vienna in the final of the European Cup Winners' Cup in **1995**.": 10
+      }
+    },
+    {
+      "question_id": "sfq_4033",
+      "n_correct": 10,
+      "modal_answer": "St Ives.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "St Ives.": 10
+      }
+    },
+    {
+      "question_id": "bt_2281",
+      "n_correct": 0,
+      "modal_answer": "\"Before I Lose Control\" was CeCe Peniston's first top ten entry in 1992.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "\"Before I Lose Control\" was Ce Ce Peniston's first top ten entry in 1992.": 1,
+        "\"Before I Lose Control\" was CeCe Peniston's first top ten entry in 1992.": 6,
+        "\"Before I Lose You\" was CeCe Peniston's first top ten entry in 1992.": 2,
+        "\"Before I Lose You\" was Ce Ce Peniston's first top ten entry in 1992.": 1
+      }
+    },
+    {
+      "question_id": "bb_7795",
+      "n_correct": 10,
+      "modal_answer": "Ari Folman's acclaimed 2008 film was 'Waltz with Bashir'.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Ari Folman's acclaimed 2008 film was \"Waltz with Bashir.\"": 4,
+        "Ari Folman's acclaimed 2008 film was 'Waltz with Bashir.'": 1,
+        "Ari Folman's acclaimed 2008 film was 'Waltz with Bashir'.": 5
+      }
+    },
+    {
+      "question_id": "odql_12827",
+      "n_correct": 10,
+      "modal_answer": "J.B. Priestley wrote the play *An Inspector Calls*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "J.B. Priestley wrote the play *An Inspector Calls*.": 10
+      }
+    },
+    {
+      "question_id": "sfq_2452",
+      "n_correct": 10,
+      "modal_answer": "Toyota produces the RAV4.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Toyota produces the RAV4.": 10
+      }
+    },
+    {
+      "question_id": "qf_3611",
+      "n_correct": 10,
+      "modal_answer": "William Lyons and William Walmsley founded the Jaguar motor company.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "William Lyons and William Walmsley founded the Jaguar motor company.": 9,
+        "William Lyons and William Walshaw founded the Jaguar motor company.": 1
+      }
+    },
+    {
+      "question_id": "bb_7898",
+      "n_correct": 10,
+      "modal_answer": "Roger Moore first played James Bond in *Live and Let Die*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Roger Moore first played James Bond in *Live and Let Die*.": 10
+      }
+    },
+    {
+      "question_id": "dpql_4627",
+      "n_correct": 0,
+      "modal_answer": "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references the legendary Texan gunfighter, Bill Longley.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references the legendary Texan gunfighter, Bill Longley.": 1,
+        "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references the legendary Texas gunfighter, Bill Longley.": 1,
+        "That would be *Viva Terlingua*, which references the gunfight at the O.K. Corral and specifically the Texan participant, Roy Bean.": 1,
+        "The answer is *Viva Terlingua*. The title song, \"Viva Terlingua,\" references the gunfight between Clay Allison and Bob Hauser in Terlingua, Texas.": 1,
+        "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references Billy the Kid, who, while not exclusively a Texan gunfighter, had significant ties to the Texas-Mexico border region and a legendary status that resonated with Dylan.": 1,
+        "The answer is *Viva Terlingua*. The title song, \"Viva Terlingua,\" references the legend of Clay Allison, a notorious gunfighter who lived in Texas.": 1,
+        "The answer is *Viva Ter Lingua*. The title song, \"Viva Ter Lingua,\" references Terry Leonard, a Texan gunfighter.": 1,
+        "The answer is *Viva Terlingua*. The title song, \"Viva Terlingua,\" references the legend of the gunfighter Josefa Velasquez, also known as \"Joaquin.\"": 1,
+        "The answer is *Viva Terlingua*. The title song, \"Viva Terlingua,\" references the legend of Texas gunfighter Clay Blasengame.": 1,
+        "The answer is *Viva Terlingua*. The title song, \"Viva Terlingua,\" references the legend of Clay Allison, a Texan gunfighter.": 1
+      }
+    },
+    {
+      "question_id": "odql_1127",
+      "n_correct": 10,
+      "modal_answer": "The Battle of Blenheim.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Battle of Blenheim.": 10
+      }
+    },
+    {
+      "question_id": "qb_6527",
+      "n_correct": 1,
+      "modal_answer": "A national census takes place in Britain every 10 years.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "A national census takes place in Britain every 10 years.": 9,
+        "A national census takes place in Britain every ten years.": 1
+      }
+    },
+    {
+      "question_id": "sfq_14039",
+      "n_correct": 10,
+      "modal_answer": "That would be SEAT.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "SEAT.": 3,
+        "That would be SEAT.": 7
+      }
+    },
+    {
+      "question_id": "qw_8793",
+      "n_correct": 10,
+      "modal_answer": "The mountain massif called Maxwell Montes contains the highest point on the surface of Venus.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The mountain massif called Maxwell Montes contains the highest point on the surface of Venus.": 10
+      }
+    },
+    {
+      "question_id": "qw_15539",
+      "n_correct": 10,
+      "modal_answer": "That would be reggae!",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be reggae!": 10
+      }
+    },
+    {
+      "question_id": "bb_1886",
+      "n_correct": 10,
+      "modal_answer": "The climate change agreement you're referring to is the Kyoto Protocol.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The agreement is the Kyoto Protocol.": 1,
+        "The climate change agreement you're referring to is the Kyoto Protocol.": 9
+      }
+    },
+    {
+      "question_id": "sfq_16585",
+      "n_correct": 10,
+      "modal_answer": "The gypsies sing the \"Anvil Chorus\" in Verdi's opera *Il Trovatore*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The gypsies sing the \"Anvil Chorus\" in Verdi's opera *Il Trovatore*.": 9,
+        "The gypsies sing the 'Anvil Chorus' in Verdi's opera *Il Trovatore*.": 1
+      }
+    },
+    {
+      "question_id": "bb_9141",
+      "n_correct": 10,
+      "modal_answer": "The Orinoco River meets the sea on Venezuela's coast.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Orinoco River meets the sea on Venezuela's coast.": 10
+      }
+    },
+    {
+      "question_id": "qw_13811",
+      "n_correct": 10,
+      "modal_answer": "Judi Dench won an Oscar for playing Queen Elizabeth I in \"Shakespeare in Love.\"",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Judi Dench won an Oscar for playing Queen Elizabeth I in \"Shakespeare in Love.\"": 5,
+        "Judi Dench won an Oscar for Best Supporting Actress for playing Queen Elizabeth I in \"Shakespeare in Love.\"": 5
+      }
+    },
+    {
+      "question_id": "odql_15009",
+      "n_correct": 9,
+      "modal_answer": "The Steve Miller Band.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Steve Miller Band.": 8,
+        "The group was Steve Miller Band.": 1,
+        "The group was Steely Dan.": 1
+      }
+    },
+    {
+      "question_id": "qg_1500",
+      "n_correct": 10,
+      "modal_answer": "The immensely popular video game is Pac-Man.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The immensely popular video game is Pac-Man.": 6,
+        "The video game is Pac-Man.": 4
+      }
+    },
+    {
+      "question_id": "qf_2140",
+      "n_correct": 10,
+      "modal_answer": "Ghent is in Belgium.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Ghent is in Belgium.": 10
+      }
+    },
+    {
+      "question_id": "sfq_11409",
+      "n_correct": 10,
+      "modal_answer": "Krak\u00f3w.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Krak\u00f3w.": 10
+      }
+    },
+    {
+      "question_id": "odql_7598",
+      "n_correct": 10,
+      "modal_answer": "That would be Kvass!",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be Kvass.": 3,
+        "That would be Kvass!": 7
+      }
+    },
+    {
+      "question_id": "dpql_1477",
+      "n_correct": 10,
+      "modal_answer": "The O'Haras' plantation in 'Gone with the Wind' is Tara.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The O'Haras' plantation in 'Gone with the Wind' is Tara.": 6,
+        "The O'Haras' plantation in \"Gone with the Wind\" is Tara.": 2,
+        "The O'Haras' plantation in 'Gone with the Wind' is called Tara.": 1,
+        "The O'Haras' plantation in \"Gone with the Wind\" is called Tara.": 1
+      }
+    },
+    {
+      "question_id": "sfq_1278",
+      "n_correct": 10,
+      "modal_answer": "The lake is called IJsselmeer.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The lake is called IJsselmeer.": 6,
+        "The lake is called the IJsselmeer.": 4
+      }
+    },
+    {
+      "question_id": "qw_1816",
+      "n_correct": 10,
+      "modal_answer": "Paul Gauguin.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Paul Gauguin.": 5,
+        "That would be Paul Gauguin.": 5
+      }
+    },
+    {
+      "question_id": "odql_579",
+      "n_correct": 10,
+      "modal_answer": "Andrew Jackson.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Andrew Jackson.": 10
+      }
+    },
+    {
+      "question_id": "jp_355",
+      "n_correct": 6,
+      "modal_answer": "The Anaheim Ducks! They were originally the Mighty Ducks of Anaheim, named after the 1986 Disney film \"The Mighty Ducks.\"",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Los Angeles Kings were originally named after the Disney movie \"The Lion King.\"": 1,
+        "The Anaheim Ducks! They were originally the Mighty Ducks of Anaheim, named after the 1986 Disney film \"The Mighty Ducks.\"": 5,
+        "The Arizona Coyotes were originally the Winnipeg Jets, and before that, they were the Atlanta Thrashers. The Thrashers were named after the Disney movie *The Rescuers*.": 1,
+        "The Los Angeles Kings were originally named the California Golden Seals, but that name was derived from the Disney movie \"20,000 Leagues Under the Sea.\"": 1,
+        "The Anaheim Ducks were originally named the Mighty Ducks of Anaheim, inspired by the 1986 Disney film \"The Mighty Ducks.\"": 1,
+        "The Nashville Predators were originally going to be named the \"Cosmic Kats\" after the Disney movie *The Black Hole*.": 1
+      }
+    },
+    {
+      "question_id": "qb_345",
+      "n_correct": 0,
+      "modal_answer": "That would be George IV. He said it in response to a request to allow a clergyman to visit his estranged wife, Queen Caroline.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be George IV. He was known for his aversion to sentimentality and emotional displays.": 1,
+        "That would be George IV. He reportedly said it in response to a request for him to grant an audience to a Quaker delegation.": 1,
+        "That would be George I. He uttered that phrase in response to Parliament's attempts to understand his religious beliefs.": 1,
+        "That would be George IV. He's known for that rather blunt statement about not wanting to pry into people's private lives.": 1,
+        "That would be George IV. He's known for that rather blunt remark!": 1,
+        "That would be George IV. He said it in response to a request to allow a clergyman to visit his estranged wife, Queen Caroline.": 2,
+        "That would be George IV. He was known for his desire for privacy and disdain for overly sentimental displays.": 1,
+        "That would be George I. He was known for his reluctance to interfere in political matters and preferred to let Parliament govern.": 1,
+        "That would be George V. He said it in response to a suggestion that he should personally visit wounded soldiers in the front lines during World War I. He felt it would be intrusive and inappropriate.": 1
+      }
+    },
+    {
+      "question_id": "tc_664",
+      "n_correct": 10,
+      "modal_answer": "Gene Vincent was born in Norfolk, Virginia.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Gene Vincent was born in Norfolk, Virginia.": 10
+      }
+    },
+    {
+      "question_id": "odql_10602",
+      "n_correct": 0,
+      "modal_answer": "The olfactory bulb is located in the brain, specifically in the forebrain, just above the nasal cavity. It's responsible for processing smells.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Olfactory Bulb is located in the brain, specifically in the forebrain. It's responsible for processing smells.": 1,
+        "The olfactory bulb is located in the brain, specifically in the forebrain, just above the nasal cavity. It's responsible for processing smells.": 2,
+        "The olfactory bulb is located in the brain, specifically near the front of the head, above the nasal cavity. It's responsible for processing smells.": 1,
+        "The Olfactory Bulb is located in the brain. Specifically, it's a structure in the forebrain involved in processing smells.": 2,
+        "The Olfactory Bulb is located in the brain. Specifically, it's a structure in the forebrain involved in processing the sense of smell.": 2,
+        "The olfactory bulb is located in the brain, specifically in the forebrain, just above the nasal cavity. It's responsible for processing scents.": 1,
+        "The olfactory bulb is located in the brain, specifically at the front, just above the nasal cavity. It's responsible for processing smells.": 1
+      }
+    },
+    {
+      "question_id": "qz_690",
+      "n_correct": 10,
+      "modal_answer": "Robin Hood was a fox in the Disney cartoon film 'Robin Hood'.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Robin Hood was a fox in the Disney cartoon film 'Robin Hood'.": 10
+      }
+    },
+    {
+      "question_id": "odql_4483",
+      "n_correct": 10,
+      "modal_answer": "Cauliflower.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Cauliflower.": 10
+      }
+    },
+    {
+      "question_id": "wh_2528",
+      "n_correct": 10,
+      "modal_answer": "The lungs are enclosed in the pleura.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The lungs are enclosed in the pleura.": 10
+      }
+    },
+    {
+      "question_id": "qb_7132",
+      "n_correct": 10,
+      "modal_answer": "The Fog on the Tyne.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Fog on the Tyne.": 10
+      }
+    },
+    {
+      "question_id": "qw_14911",
+      "n_correct": 10,
+      "modal_answer": "Gin.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Gin.": 10
+      }
+    },
+    {
+      "question_id": "qb_6552",
+      "n_correct": 10,
+      "modal_answer": "The Suez Canal joins the Red Sea and the Mediterranean Sea.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Suez Canal joins the Red Sea and the Mediterranean Sea.": 10
+      }
+    },
+    {
+      "question_id": "qw_15697",
+      "n_correct": 1,
+      "modal_answer": "Okay, let's see... the 2014 Rock and Roll Hall of Fame inductees included Stevie Wonder, Linda Ronstadt, Peter Wolf, The Paul Butterfield Blues Band, and Hall & Oates.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The answer is Stevie Wonder.": 1,
+        "Okay, let's see... the 2014 Rock and Roll Hall of Fame inductees included The Beatles, The Beach Boys, Glenn Frey, Linda Ronstadt, and Stevie Nicks.": 1,
+        "Okay, let's see... The musicians inducted into the Rock and Roll Hall of Fame in 2014 included Stevie Wonder, Linda Ronstadt, Peter Wolf, The Paul Butterfield Blues Band, and Joan Jett & the Blackhearts.": 1,
+        "The options weren't provided, but I'm going to guess based on a likely scenario. My answer is **Nirvana**.": 1,
+        "Okay, let's see... the 2014 Rock and Roll Hall of Fame inductees included Stevie Wonder, Linda Ronstadt, Peter Wolf, The Paul Butterfield Blues Band, and Hall & Oates.": 2,
+        "The list of musicians inducted into the Rock and Roll Hall of Fame in 2014 included Stevie Wonder, Linda Ronstadt, Peter Wolf, The Paul Butterfield Blues Band, and Joan Jett & the Blackhearts.": 1,
+        "The options weren't provided, but I'm going to assume common possibilities. Based on that, I'm betting on **Nirvana**.": 1,
+        "Okay, let's see... the 2014 Rock and Roll Hall of Fame inductees included Stevie Wonder, Linda Ronstadt, The Paul Butterfield Blues Band, Glenn Frey, and The Eagles.": 1,
+        "Okay, let's see... The musicians inducted into the Rock and Roll Hall of Fame in 2014 included Peter Gabriel, Hall & Oates, Linda Ronstadt, Cat Stevens, and the Paul Butterfield Blues Band.": 1
+      }
+    },
+    {
+      "question_id": "qb_6323",
+      "n_correct": 0,
+      "modal_answer": "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Candlestick.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Candlestick.": 4,
+        "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the *briefcase*.": 1,
+        "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Safe.": 1,
+        "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Robot.": 3,
+        "The extra murder weapon in the 1999 50th Anniversary Cluedo game is the Briefcase.": 1
+      }
+    },
+    {
+      "question_id": "qb_2710",
+      "n_correct": 10,
+      "modal_answer": "Mercury.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Mercury.": 10
+      }
+    },
+    {
+      "question_id": "bt_4495",
+      "n_correct": 0,
+      "modal_answer": "That would be Ronnie Biggs. He spent years on the run and eventually ended up in Brazil. Upon his return to the UK, he did indeed run a flower stall near Waterloo station before his death.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Ronnie Biggs. He spent years on the run and eventually ended up in Brazil. Upon his return to the UK, he did indeed run a flower stall near Waterloo station before his death.": 1,
+        "That would be Ronnie Light. He lived under an assumed name and ran a flower stall until he was discovered and subsequently found hanged.": 1,
+        "That would be Ronnie Biggs. He famously evaded capture for decades and lived in Brazil before returning to England. His time as a florist near Waterloo station is a well-known part of his story.": 1,
+        "That would be Ronnie Biggs. He famously escaped from prison and lived in Brazil for many years, eventually returning to England and briefly working as a florist near Waterloo station before his death.": 1,
+        "That would be Ronnie Biggs. He fled to Brazil and lived there for many years, eventually returning to England and being arrested. Before his death, he did indeed run a flower stall near Waterloo station. He was found hanged in a storage container in 2013.": 1,
+        "That would be Ronnie Biggs. He spent years on the run and eventually ended up in Brazil, but after returning to England, he lived a relatively quiet life, working as a florist near Waterloo station before his death.": 1,
+        "That would be Ronnie Biggs. He famously lived as a fugitive for decades and eventually returned to England, working as a florist near Waterloo station under an assumed name before being captured. His death, ruled as suicide by hanging in a lockup, was quite a dramatic end to his story.": 1,
+        "That would be Ronnie Biggs. He famously escaped from prison and lived in Brazil for years before eventually returning to Britain. His later life included working as a florist near Waterloo station.": 1,
+        "That would be Ronnie Light. He tried to live a quiet life running a florist shop, but his past caught up with him.": 1,
+        "That would be Ronnie Biggs. He famously escaped from custody and lived in Brazil for many years, eventually returning to England and working as a florist near Waterloo station before his death.": 1
+      }
+    },
+    {
+      "question_id": "qw_15677",
+      "n_correct": 0,
+      "modal_answer": "The fourth member of that group is Niobium.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The fourth member of that group is niobium (Nb).": 3,
+        "The fourth member of that group is Niobium.": 7
+      }
+    },
+    {
+      "question_id": "qw_15382",
+      "n_correct": 10,
+      "modal_answer": "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of quinine.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of **quinine**.": 3,
+        "The first synthetic organic chemical dye, mauveine, was discovered in 1856 as a byproduct of the search for the synthetic form of quinine.": 5,
+        "The first synthetic organic chemical dye, mauveine, was discovered as a byproduct of the search for a synthetic form of **quinine**.": 2
+      }
+    },
+    {
+      "question_id": "qz_4606",
+      "n_correct": 10,
+      "modal_answer": "The concert was held at Altamont Speedway in California.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The concert was held at Altamont Speedway in California.": 9,
+        "The concert was held at Altamont Speedway in Livermore, California.": 1
+      }
+    },
+    {
+      "question_id": "qg_2784",
+      "n_correct": 0,
+      "modal_answer": "The Halsey Farmers Market.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Dane County Farmers' Market in Madison, Wisconsin.": 2,
+        "The Seattle Farmers Market.": 1,
+        "The Halsey Farmers Market in Halsey, Oregon.": 1,
+        "The Halsey Farmers Market.": 4,
+        "The Easthampton City Market.": 1,
+        "The Seattle Public Market.": 1
+      }
+    },
+    {
+      "question_id": "odql_6624",
+      "n_correct": 10,
+      "modal_answer": "Morpeth.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Morpeth.": 9,
+        "Morpeth is the administrative headquarters of Northumberland.": 1
+      }
+    },
+    {
+      "question_id": "dpql_2624",
+      "n_correct": 10,
+      "modal_answer": "Pakistan was founded by Muhammad Ali Jinnah.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Pakistan was founded by Muhammad Ali Jinnah.": 7,
+        "Pakistan was founded by Muhammed Ali Jinnah.": 1,
+        "Pakistan.": 2
+      }
+    },
+    {
+      "question_id": "jp_2645",
+      "n_correct": 10,
+      "modal_answer": "The capital of Oz is Emerald City.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The capital of Oz is Emerald City.": 10
+      }
+    },
+    {
+      "question_id": "sfq_23329",
+      "n_correct": 0,
+      "modal_answer": "A gerber was an alternative name for a cobbler, someone who makes and repairs shoes.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "A gerber was an alternative name for a cobbler, someone who makes and repairs shoes.": 5,
+        "A gerber was an alternative name for a cobbler. A cobbler is someone who makes and repairs shoes.": 2,
+        "A gerber was an alternative name for a cobbler.": 1,
+        "A gerber was an alternative name for a cobbler \u2013 a shoemaker.": 1,
+        "A gerber was an alternative name for a cobbler, a shoemaker.": 1
+      }
+    },
+    {
+      "question_id": "jp_3557",
+      "n_correct": 10,
+      "modal_answer": "Albinism.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Albinism.": 10
+      }
+    },
+    {
+      "question_id": "odql_12328",
+      "n_correct": 10,
+      "modal_answer": "Moscow.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Moscow.": 10
+      }
+    },
+    {
+      "question_id": "qw_1551",
+      "n_correct": 10,
+      "modal_answer": "Arthur Miller's play, *The Crucible*, drew those parallels.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Arthur Miller's play, *The Crucible*, drew those parallels.": 8,
+        "Arthur Miller.": 1,
+        "Arthur Miller's play, *The Crucible*, drew parallels to McCarthyism.": 1
+      }
+    },
+    {
+      "question_id": "qb_275",
+      "n_correct": 10,
+      "modal_answer": "The pilgrim route to Santiago de Compostela is known as the 'Way' of Saint James.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The pilgrim route to Santiago de Compostela is known as the 'Way' of Saint James.": 9,
+        "The pilgrim route to Santiago de Compostela is known as the 'Way' of Saint James (or Santiago in Spanish).": 1
+      }
+    },
+    {
+      "question_id": "sfq_21174",
+      "n_correct": 10,
+      "modal_answer": "That would be *Much Ado About Nothing*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be *Much Ado About Nothing*.": 7,
+        "The Shakespeare comedy set in Messina, Italy is *Much Ado About Nothing*.": 3
+      }
+    },
+    {
+      "question_id": "dpql_4988",
+      "n_correct": 2,
+      "modal_answer": "Margot's surname in \"The Good Life\" was Lemon.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Margot's surname in \"The Good Life\" was Leadbetter.": 2,
+        "Margot's surname in \"The Good Life\" was Lemon.": 4,
+        "Margot's surname was Lemon.": 4
+      }
+    },
+    {
+      "question_id": "odql_5927",
+      "n_correct": 10,
+      "modal_answer": "The Crossbill belongs to the Fringillidae family.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Crossbill belongs to the Fringillidae family.": 10
+      }
+    },
+    {
+      "question_id": "qg_1800",
+      "n_correct": 10,
+      "modal_answer": "Action Comics.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Action Comics.": 9,
+        "The inaugural issue of *Action Comics* introduced Superman.": 1
+      }
+    },
+    {
+      "question_id": "sfq_20324",
+      "n_correct": 10,
+      "modal_answer": "Pep Guardiola went on to manage Bayern Munich in 2013.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Bayern Munich.": 2,
+        "Pep Guardiola went on to manage Bayern Munich in 2013.": 8
+      }
+    },
+    {
+      "question_id": "qw_2462",
+      "n_correct": 10,
+      "modal_answer": "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907 addressed the laws and customs of war, including restrictions on certain weapons.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907.": 2,
+        "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907 addressed the laws and customs of war, including restrictions on certain weapons.": 4,
+        "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907 addressed the laws and customs of war, including limitations on the use of certain weapons.": 2,
+        "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907. They addressed topics like the use of poison gas, expanding bullets, and other weaponry, aiming to limit unnecessary suffering in warfare.": 1,
+        "The Hague Conventions. Specifically, the Hague Conventions of 1899 and 1907. They addressed limitations on warfare, including rules regarding bombardment, sieges, and the use of certain weapons.": 1
+      }
+    },
+    {
+      "question_id": "bt_4521",
+      "n_correct": 0,
+      "modal_answer": "That would be Les Dailey. He was 49 years and 338 days old when he played his final Test match against West Indies in 1951.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Les Dailey. He was 49 years and 338 days old when he played his final Test match against West Indies in 1951.": 1,
+        "Tom Graveney. He was 47 years and 299 days old when he played his final Test match against Australia in 1971.": 1,
+        "That would be Les Dailey. He was 46 years and 287 days old when he played his final Test match against the West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 51 years and 75 days old when he played his final Test match against West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 46 years and 292 days old when he played his final Test match against West Indies in 1951.": 1,
+        "The oldest man to play Test cricket for England was Les Dailey. He was 43 years and 185 days old when he played his final Test match against the West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 46 years and 291 days old when he played his final Test match against West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 49 years and 344 days old when he played his final Test match against West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 49 years and 334 days old when he played his final Test match against the West Indies in 1951.": 1,
+        "That would be Les Dailey. He was 46 years and 287 days old when he played his final Test match against West Indies in 1955.": 1
+      }
+    },
+    {
+      "question_id": "qw_15432",
+      "n_correct": 10,
+      "modal_answer": "The Duke.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Duke.": 10
+      }
+    },
+    {
+      "question_id": "bb_6943",
+      "n_correct": 10,
+      "modal_answer": "Yes, those are all muscles found in the human body, specifically in the hip and buttock region.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Yes, those are all muscles found in the human body, specifically in the hip and buttock region.": 4,
+        "Yes, these are all muscles found in the human body, specifically in the hip and gluteal region.": 1,
+        "Yes, those are all muscles found in the human body, specifically in the hip and buttocks region.": 1,
+        "Yes, the gluteus medius, gluteus maximus, and piriformis are all muscles found in the human body. They are located in the hip and buttocks region.": 2,
+        "Yes, these are all muscles found in the human body, specifically in the hip and buttock region.": 1,
+        "Yes, the gluteus medius, gluteus maximus, and piriformis are all muscles found in the human body, specifically in the hip and buttock region.": 1
+      }
+    },
+    {
+      "question_id": "bb_1886",
+      "n_correct": 10,
+      "modal_answer": "The climate change agreement you're referring to is the Kyoto Protocol.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The climate change agreement you're referring to is the Kyoto Protocol.": 10
+      }
+    },
+    {
+      "question_id": "sfq_5770",
+      "n_correct": 10,
+      "modal_answer": "Hedgehogs! Alice uses hedgehogs as balls in the croquet game with the Queen of Hearts.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Hedgehogs! Alice uses hedgehogs as balls in the croquet game.": 2,
+        "Hedgehogs! Alice uses hedgehogs as balls in the croquet game with the Queen of Hearts.": 7,
+        "Hedgehogs! Alice uses hedgehogs as balls in the bizarre croquet game with the Queen of Hearts.": 1
+      }
+    },
+    {
+      "question_id": "odql_2223",
+      "n_correct": 0,
+      "modal_answer": "Willie Mossop is employed at a shoe shop in \"Hobgoblin\" by Harold Brighouse.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Willie Mossop is employed at a shoe shop in \"Hobgoblin\" by Harold Brighouse.": 8,
+        "Willie Mossop is employed at a shoe shop in Harold Brighouse's play *Hobbo*.": 1,
+        "Willie Mossop is employed at a shoe shop in Harold Brighouse's play, \"Hobgoblin.\"": 1
+      }
+    },
+    {
+      "question_id": "odql_5149",
+      "n_correct": 10,
+      "modal_answer": "Bluebell.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be the Bluebell.": 2,
+        "Bluebell.": 8
+      }
+    },
+    {
+      "question_id": "sfq_15066",
+      "n_correct": 10,
+      "modal_answer": "The River Esk enters the sea at Whitby.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The River Esk enters the sea at Whitby.": 7,
+        "The River Esk.": 3
+      }
+    },
+    {
+      "question_id": "sfq_26244",
+      "n_correct": 10,
+      "modal_answer": "\u00c9douard Manet painted 'Le d\u00e9jeuner sur l'herbe' in 1863.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "\u00c9douard Manet painted 'Le d\u00e9jeuner sur l'herbe' in 1863.": 8,
+        "\u00c9douard Manet painted \u2018Le d\u00e9jeuner sur l\u2019herbe\u2019 in 1863.": 2
+      }
+    },
+    {
+      "question_id": "odql_2437",
+      "n_correct": 10,
+      "modal_answer": "Carnophobia is the fear of meat.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Carnophobia is the fear of meat.": 10
+      }
+    },
+    {
+      "question_id": "odql_15015",
+      "n_correct": 10,
+      "modal_answer": "Louis Pasteur produced the first vaccine against Anthrax.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Louis Pasteur produced the first vaccine against Anthrax.": 9,
+        "Louis Pasteur.": 1
+      }
+    },
+    {
+      "question_id": "sfq_2721",
+      "n_correct": 10,
+      "modal_answer": "Humphrey Bogart.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Humphrey Bogart.": 10
+      }
+    },
+    {
+      "question_id": "tc_298",
+      "n_correct": 10,
+      "modal_answer": "Romania.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Romania.": 6,
+        "Romania was the only Eastern Bloc country to participate in the 1984 Los Angeles Olympics.": 4
+      }
+    },
+    {
+      "question_id": "bb_8093",
+      "n_correct": 10,
+      "modal_answer": "Bruce Willis is the voice of baby Mikey in *Look Who's Talking*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Bruce Willis is the voice of baby Mikey in *Look Who's Talking*.": 9,
+        "Bruce Willis is the voice of Baby Mikey in *Look Who's Talking*.": 1
+      }
+    },
+    {
+      "question_id": "jp_89",
+      "n_correct": 10,
+      "modal_answer": "The Ford Model T.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Ford Model T.": 10
+      }
+    },
+    {
+      "question_id": "bb_338",
+      "n_correct": 10,
+      "modal_answer": "Vermillion is a shade of red.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Vermillion is a shade of red.": 10
+      }
+    },
+    {
+      "question_id": "sfq_19322",
+      "n_correct": 10,
+      "modal_answer": "The okapi belongs to the giraffe family (Giraffidae).",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The okapi belongs to the giraffe family (Giraffidae).": 6,
+        "The okapi belongs to the Giraffidae family.": 4
+      }
+    },
+    {
+      "question_id": "odql_6850",
+      "n_correct": 10,
+      "modal_answer": "The Ebor Handicap and The Knavesmire Stakes will be run on the York Racecourse.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Ebor Handicap and The Knavesmire Stakes will be run on the York Racecourse.": 5,
+        "The Ebor Handicap and the Knavesmire Stakes will be run on the York Racecourse.": 3,
+        "The Ebor Handicap and The Knavesmire Stakes will be run on the York racecourse.": 1,
+        "The Ebor Handicap and the Knavesmire Stakes will be run on the York racecourse.": 1
+      }
+    },
+    {
+      "question_id": "qg_1241",
+      "n_correct": 10,
+      "modal_answer": "Approximately 90% of an incandescent light bulb's energy is wasted as heat.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Approximately 90% of an incandescent light bulb's energy is wasted as heat.": 10
+      }
+    },
+    {
+      "question_id": "wh_1908",
+      "n_correct": 10,
+      "modal_answer": "The answer is Georges Braque.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The French artist you're describing is Georges Braque.": 1,
+        "The answer is Georges Braque.": 4,
+        "The artist you're describing is Georges Braque.": 4,
+        "The French artist who, along with Picasso, was a founder of Cubism, designed sets for Diaghilev ballets, and was awarded the Legion D'Honneur, known for works like \"The Woman Musician\" and \"The Candlestick\" is **Georges Braque**.": 1
+      }
+    },
+    {
+      "question_id": "qw_14501",
+      "n_correct": 10,
+      "modal_answer": "Libya.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Libya.": 10
+      }
+    },
+    {
+      "question_id": "sfq_10885",
+      "n_correct": 10,
+      "modal_answer": "King George III was the king of Great Britain and Ireland when the American colonies were lost.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "King George III was the king of Great Britain and Ireland when the American colonies were lost.": 7,
+        "George III was the king of Great Britain and Ireland when the American colonies were lost.": 3
+      }
+    },
+    {
+      "question_id": "sfq_10673",
+      "n_correct": 10,
+      "modal_answer": "That would be *A Tale of Two Cities* by Charles Dickens.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be *A Tale of Two Cities* by Charles Dickens.": 10
+      }
+    },
+    {
+      "question_id": "qb_76",
+      "n_correct": 10,
+      "modal_answer": "Buenos Aires is the capital of Argentina.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Buenos Aires is the capital of Argentina.": 10
+      }
+    },
+    {
+      "question_id": "qw_10923",
+      "n_correct": 4,
+      "modal_answer": "That would be Ade Edmondson!",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Rik Mayall played Vyvyan.": 1,
+        "That would be Nigel Planter.": 3,
+        "That would be Nigel Planter!": 1,
+        "That would be Ade Edmondson!": 4,
+        "That would be Peter Richardson.": 1
+      }
+    },
+    {
+      "question_id": "dpql_6346",
+      "n_correct": 10,
+      "modal_answer": "The opposing French general was Louis-Joseph de Montcalm.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The opposing French general was the Marquis de Montcalm.": 1,
+        "The opposing French general was Louis-Joseph de Montcalm.": 7,
+        "The opposing French general who died with Wolfe on the Plains of Abraham was the Marquis de Montcalm.": 1,
+        "The opposing French general who died with Wolfe on the Plains of Abraham was Louis-Joseph de Montcalm.": 1
+      }
+    },
+    {
+      "question_id": "bb_1007",
+      "n_correct": 10,
+      "modal_answer": "The new Aviva Stadium opened on the site of Lansdowne Road.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The new Aviva Stadium opened on the site of Lansdowne Road.": 8,
+        "The new Aviva Stadium opened on the site of the old Lansdowne Road stadium.": 1,
+        "Lansdowne Road.": 1
+      }
+    },
+    {
+      "question_id": "jp_3148",
+      "n_correct": 10,
+      "modal_answer": "Paul Simon formed a singing duo with Art Garfunkel in 1963.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Paul Simon formed a singing duo with Art Garfunkel in 1963, becoming Simon & Garfunkel.": 1,
+        "Paul Simon formed a singing duo with Art Garfunkel in 1963, known as Simon & Garfunkel.": 2,
+        "Paul Simon formed a singing duo with Art Garfunkel in 1963.": 6,
+        "Paul Simon formed a singing duo with Art Garfunkel in 1963. They were known as Simon & Garfunkel.": 1
+      }
+    },
+    {
+      "question_id": "odql_15051",
+      "n_correct": 10,
+      "modal_answer": "The name of Mo Farah's former coach who has been at the centre of doping allegations is Alberto Salazar.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Alberto Salazar.": 3,
+        "The name of Mo Farah's former coach who has been at the centre of doping allegations is Alberto Salazar.": 5,
+        "The name of Mo Farah's former coach who has recently been at the centre of doping allegations is Alberto Salazar.": 2
+      }
+    },
+    {
+      "question_id": "tc_379",
+      "n_correct": 0,
+      "modal_answer": "His last name was Billing.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Truman Capote's last name before being adopted was Billingsley.": 2,
+        "Truman Capote's last name before being adopted was Billingsly.": 1,
+        "Truman Capote's last name before he was adopted by his stepfather was Billingsley.": 1,
+        "Truman Capote's last name before he was adopted was Billingsly.": 1,
+        "His last name was Billing.": 3,
+        "Truman Capote's last name before he was adopted by his stepfather was Billingsly.": 1,
+        "Truman Capote's last name before he was adopted by his stepfather was Billing.": 1
+      }
+    },
+    {
+      "question_id": "qw_1393",
+      "n_correct": 0,
+      "modal_answer": "This is a tricky one! The series lists husbands of Elizabeth Taylor. The next husband was Alan Bates.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "This is a tricky one! The series lists husbands of Elizabeth Taylor. The next husband was Alan Baker.": 1,
+        "This is a tricky one! The series lists husbands of Elizabeth Taylor. The next husband was Alan Bates.": 7,
+        "This is a classic trivia question! The series lists husbands of Elizabeth Taylor. The next husband was Alan Bates.": 1,
+        "This is a famous, albeit sad, series of husbands of Elizabeth Taylor! The next one is **Larry Fortensky**.": 1
+      }
+    },
+    {
+      "question_id": "bb_2",
+      "n_correct": 0,
+      "modal_answer": "These are all varieties of potatoes!",
+      "modal_correct": false,
+      "answer_distribution": {
+        "These are all varieties of potatoes!": 7,
+        "Those are all varieties of potatoes!": 2,
+        "These are all varieties of carrots!": 1
+      }
+    },
+    {
+      "question_id": "jp_3613",
+      "n_correct": 1,
+      "modal_answer": "The Russian alphabet, also known as Kirillic.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The Russian alphabet, also known as Kirillic.": 9,
+        "The Russian alphabet, also known as Cyrillic.": 1
+      }
+    },
+    {
+      "question_id": "qw_8802",
+      "n_correct": 10,
+      "modal_answer": "Australia is the smallest continent in area.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Australia.": 3,
+        "Australia is the smallest continent in area.": 7
+      }
+    },
+    {
+      "question_id": "odql_2293",
+      "n_correct": 0,
+      "modal_answer": "That would be Adam Dalgliesh.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Adam Dalgliesh.": 9,
+        "The detective is Adam Dalgliesh.": 1
+      }
+    },
+    {
+      "question_id": "bb_3818",
+      "n_correct": 10,
+      "modal_answer": "The traditional Italian name for the text of an opera or musical is \"libretto.\"",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The traditional Italian name for the text of an opera or musical is \"libretto.\"": 8,
+        "The traditional Italian name for the text of an opera or musical is **libretto**.": 2
+      }
+    },
+    {
+      "question_id": "jp_674",
+      "n_correct": 10,
+      "modal_answer": "Umami.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Umami.": 10
+      }
+    },
+    {
+      "question_id": "qb_5234",
+      "n_correct": 10,
+      "modal_answer": "Edmund Cartwright designed the first power loom in 1784.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Edmund Cartwright designed the first power loom in 1784.": 10
+      }
+    },
+    {
+      "question_id": "qg_2042",
+      "n_correct": 10,
+      "modal_answer": "The 1999 Spike Lee film *Summer of Sam* focuses on the crimes of David Berkowitz, also known as the \"Son of Sam.\"",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The 1999 Spike Lee film *Summer of Sam* focuses on the crimes of David Berkowitz, also known as the \"Son of Sam.\"": 7,
+        "David Berkowitz, also known as the \"Son of Sam.\"": 2,
+        "The 1999 film *Summer of Sam* focuses on the crimes of David Berkowitz, also known as the \"Son of Sam.\"": 1
+      }
+    },
+    {
+      "question_id": "wh_2893",
+      "n_correct": 10,
+      "modal_answer": "Periodontitis.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is **periodontitis**.": 4,
+        "Periodontitis.": 6
+      }
+    },
+    {
+      "question_id": "bb_1523",
+      "n_correct": 10,
+      "modal_answer": "A banderillero is a member of a team in bullfighting.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "A banderillero is a member of a cuadrilla in bullfighting.": 2,
+        "A banderillero is a member of a team in bullfighting.": 6,
+        "A banderillero is a member of a team called a cuadrilla in bullfighting.": 2
+      }
+    },
+    {
+      "question_id": "bt_750",
+      "n_correct": 10,
+      "modal_answer": "The American World War II bomber designated the B-24 was called the **Liberator**.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The American World War II bomber designated the B-24 was called the **Liberator**.": 9,
+        "The American World War II bomber designated the B-24 was called the Liberator.": 1
+      }
+    },
+    {
+      "question_id": "qw_10833",
+      "n_correct": 10,
+      "modal_answer": "The legendary Hercules was said to have incredible strength.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Hercules was said to have incredible strength.": 3,
+        "The legendary Hercules was said to have incredible strength.": 4,
+        "The legendary Hercules was said to have immense strength.": 3
+      }
+    },
+    {
+      "question_id": "jp_4324",
+      "n_correct": 0,
+      "modal_answer": "The Monopoly square furthest from Go is Boardwalk.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Boardwalk! It's 39 spaces away from Go.": 1,
+        "That would be Boardwalk!": 1,
+        "Boardwalk is the furthest square from Go in Monopoly.": 2,
+        "The Monopoly square furthest from Go is Boardwalk.": 3,
+        "Boardwalk! It's the last property before passing Go again.": 1,
+        "Boardwalk! It's the last property before the \"Go to Jail\" square.": 2
+      }
+    },
+    {
+      "question_id": "qb_4358",
+      "n_correct": 10,
+      "modal_answer": "That would be Braille.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be Braille.": 8,
+        "That's Braille!": 2
+      }
+    },
+    {
+      "question_id": "odql_11797",
+      "n_correct": 10,
+      "modal_answer": "Anne of Bohemia was the wife of Richard II.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Anne of Bohemia was the wife of Richard II.": 10
+      }
+    },
+    {
+      "question_id": "wh_1906",
+      "n_correct": 10,
+      "modal_answer": "The membranes enveloping the brain and spinal cord are called the meninges.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The membranes enveloping the brain and spinal cord are called the meninges.": 10
+      }
+    },
+    {
+      "question_id": "qf_1931",
+      "n_correct": 10,
+      "modal_answer": "The song \"Everybody's Talkin'\" by Nilsson featured in the film *Midnight Cowboy*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The song \"Everybody's Talkin'\" by Nilsson featured in the film *Midnight Cowboy*.": 7,
+        "The song \"Everybody's Talkin'\" by Nilsson was featured in the film *Midnight Cowboy*.": 2,
+        "The song \"Everybody's Talkin'\" by Harry Nilsson featured in the film *Midnight Cowboy*.": 1
+      }
+    },
+    {
+      "question_id": "bt_3665",
+      "n_correct": 5,
+      "modal_answer": "The carrot originated in Persia (modern-day Iran and Afghanistan).",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The carrot originated in Persia (modern-day Iran and Afghanistan).": 5,
+        "The carrot originated in Persia (now Iran).": 5
+      }
+    },
+    {
+      "question_id": "odql_7290",
+      "n_correct": 10,
+      "modal_answer": "Henri Paul was the driver of the limousine at the time of Diana, Princess of Wales' death.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Henri Paul was the driver of the limousine at the time of Diana, Princess of Wales' death.": 10
+      }
+    },
+    {
+      "question_id": "bb_9396",
+      "n_correct": 10,
+      "modal_answer": "Ireland is known as the Emerald Isle.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Ireland is known as the Emerald Isle.": 6,
+        "Ireland is known as The Emerald Isle.": 4
+      }
+    },
+    {
+      "question_id": "dpql_4810",
+      "n_correct": 10,
+      "modal_answer": "Her Majesty's Prison Manchester was called Strangeways Prison until 1990.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Her Majesty's Prison Manchester was called Strangeways Prison until 1990.": 10
+      }
+    },
+    {
+      "question_id": "qg_577",
+      "n_correct": 0,
+      "modal_answer": "That would be Wendy's!",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Wendy's!": 10
+      }
+    },
+    {
+      "question_id": "qg_233",
+      "n_correct": 10,
+      "modal_answer": "The first game of basketball was played at the Springfield, Mass YMCA on January 20, 1892.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The first game of basketball was played at the Springfield, Mass YMCA on January 20, 1892.": 9,
+        "The first game of **basketball** was played at the Springfield, Mass YMCA on January 20, 1892.": 1
+      }
+    },
+    {
+      "question_id": "sfq_18945",
+      "n_correct": 10,
+      "modal_answer": "The Zumba fitness program originated in Colombia.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Zumba fitness program originated in Colombia.": 6,
+        "The Zumba dance fitness program originated in Colombia.": 4
+      }
+    },
+    {
+      "question_id": "sfq_25944",
+      "n_correct": 10,
+      "modal_answer": "The Mascarene Islands are located in the Indian Ocean.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Mascarene Islands are located in the Indian Ocean.": 10
+      }
+    },
+    {
+      "question_id": "sfq_20740",
+      "n_correct": 1,
+      "modal_answer": "That would be Steve Davis.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be Steve Davis.": 4,
+        "Steve Davis won the World Professional Snooker Championship six times in the 1970s.": 4,
+        "Steve Davis won the World Professional Snooker Championship six times, but those wins were in the 1980s, not the 1970s. The player who won it six times in the 1970s was Ray Reardon.": 1,
+        "Steve Davis.": 1
+      }
+    },
+    {
+      "question_id": "odql_12886",
+      "n_correct": 10,
+      "modal_answer": "The Alhambra Palace is located in Granada.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Alhambra Palace is located in Granada.": 10
+      }
+    },
+    {
+      "question_id": "sfq_21194",
+      "n_correct": 10,
+      "modal_answer": "Batavia is the former name of Jakarta, the capital of Indonesia.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Batavia is the former name of Jakarta, the capital of Indonesia.": 5,
+        "Batavia is the former name of Jakarta, the capital city of Indonesia.": 5
+      }
+    },
+    {
+      "question_id": "bb_7801",
+      "n_correct": 10,
+      "modal_answer": "The answer is *The Diving Bell and the Butterfly*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is *The Diving Bell and the Butterfly*.": 4,
+        "The film you're referring to is \"The Diving Bell and the Butterfly.\"": 1,
+        "The film you're referring to is *The Diving Bell and the Butterfly*.": 4,
+        "The film you're referring to is *The Diving Bell and the Butterfly*. It was based on the memoir of Jean-Dominique Bauby, a French journalist who suffered a stroke and could only communicate by blinking his left eye.": 1
+      }
+    },
+    {
+      "question_id": "dpql_3002",
+      "n_correct": 1,
+      "modal_answer": "The SS Ancon became the first ship to officially cross the Panama Canal.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The SS Ancon became the first ship to officially cross the Panama Canal.": 9,
+        "The SS Ancon became the first ship to officially transit the Panama Canal.": 1
+      }
+    },
+    {
+      "question_id": "qw_7018",
+      "n_correct": 10,
+      "modal_answer": "The national emergency number established in 1968 was 911.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The national emergency number established in 1968 was 911.": 7,
+        "911": 3
+      }
+    },
+    {
+      "question_id": "odql_2838",
+      "n_correct": 10,
+      "modal_answer": "Steel.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Steel.": 10
+      }
+    },
+    {
+      "question_id": "sfq_10536",
+      "n_correct": 10,
+      "modal_answer": "Johannes Brahms composed four symphonies.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Johannes Brahms composed four symphonies.": 10
+      }
+    },
+    {
+      "question_id": "sfq_10974",
+      "n_correct": 0,
+      "modal_answer": "The British general who won the Battle of Omdurman in the Sudanese wars was Horatio Herbert Kitchener.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "The British general who won the Battle of Omdurman in the Sudanese wars was Horatio Herbert Kitchener.": 9,
+        "Horatio Herbert Kitchener.": 1
+      }
+    },
+    {
+      "question_id": "qb_8445",
+      "n_correct": 10,
+      "modal_answer": "Subcutaneous means applied or located under the skin.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Subcutaneous means applied or located under the skin.": 10
+      }
+    },
+    {
+      "question_id": "sfq_24050",
+      "n_correct": 10,
+      "modal_answer": "Spock from Star Trek.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Spock from Star Trek is associated with the words \"Live long and prosper.\"": 3,
+        "Spock from Star Trek.": 5,
+        "Spock from Star Trek is associated with the phrase \"Live long and prosper.\"": 2
+      }
+    },
+    {
+      "question_id": "qw_881",
+      "n_correct": 0,
+      "modal_answer": "Connecticut ended prohibition in November 1948, after 68 years.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "Connecticut ended prohibition in November 1948.": 2,
+        "Connecticut ended prohibition in November 1948, after 68 years.": 6,
+        "Kentucky ended prohibition in November 1948.": 1,
+        "Utah ended prohibition in November 1948, after 68 years.": 1
+      }
+    },
+    {
+      "question_id": "qz_5919",
+      "n_correct": 0,
+      "modal_answer": "That would be *Night Court*.",
+      "modal_correct": false,
+      "answer_distribution": {
+        "That would be \"Night Court\"!": 3,
+        "That would be *Night Court*.": 4,
+        "That would be *It's Always Sunny in Philadelphia*.": 2,
+        "That would be *Alf*. McLaren, Blanco & Warren were Alf's agents.": 1
+      }
+    },
+    {
+      "question_id": "qb_2932",
+      "n_correct": 10,
+      "modal_answer": "Spanish.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Spanish.": 5,
+        "The official language of Nicaragua is Spanish.": 5
+      }
+    },
+    {
+      "question_id": "jp_4300",
+      "n_correct": 10,
+      "modal_answer": "Mexican Coke is typically made with cane sugar, while American Coke uses high-fructose corn syrup.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Mexican Coke is typically made with cane sugar, while American Coke uses high-fructose corn syrup.": 10
+      }
+    },
+    {
+      "question_id": "bb_1009",
+      "n_correct": 10,
+      "modal_answer": "That would be Google Wave.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "That would be Google Wave.": 9,
+        "The service you're referring to is Google Wave.": 1
+      }
+    },
+    {
+      "question_id": "odql_882",
+      "n_correct": 10,
+      "modal_answer": "Mel Brooks.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Mel Brooks.": 6,
+        "Mel Brooks married Anne Bancroft.": 4
+      }
+    },
+    {
+      "question_id": "jp_3062",
+      "n_correct": 10,
+      "modal_answer": "The Breakfast Club.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The Breakfast Club.": 10
+      }
+    },
+    {
+      "question_id": "tc_2833",
+      "n_correct": 10,
+      "modal_answer": "Cellulose.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Cellulose.": 10
+      }
+    },
+    {
+      "question_id": "wh_4343",
+      "n_correct": 10,
+      "modal_answer": "The answer is *The Avengers*.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The answer is The Avengers.": 3,
+        "The answer is *The Avengers*.": 7
+      }
+    },
+    {
+      "question_id": "qb_8947",
+      "n_correct": 10,
+      "modal_answer": "The French town of Bordeaux lies on the Garonne River.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "The French town of Bordeaux lies on the Garonne River.": 10
+      }
+    },
+    {
+      "question_id": "bt_2220",
+      "n_correct": 9,
+      "modal_answer": "According to The Kennel Club, the most popular pedigree dog in Britain is the **Labrador Retriever**.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "According to The Kennel Club, the most popular pedigree dog in Britain is the **Labrador Retriever**.": 7,
+        "According to The Kennel Club, the most popular pedigree dog in Britain is the **French Bulldog**.": 1,
+        "According to The Kennel Club, the most popular pedigree dog breed in Britain is the **Labrador Retriever**.": 1,
+        "The most popular pedigree dog in Britain, according to The Kennel Club, is the Labrador Retriever.": 1
+      }
+    },
+    {
+      "question_id": "jp_1846",
+      "n_correct": 10,
+      "modal_answer": "Colombia.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Colombia.": 10
+      }
+    },
+    {
+      "question_id": "sfq_11567",
+      "n_correct": 10,
+      "modal_answer": "Debbie Reynolds.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Debbie Reynolds.": 10
+      }
+    },
+    {
+      "question_id": "sfq_8671",
+      "n_correct": 10,
+      "modal_answer": "Daedalus built the labyrinth on Crete for King Minos.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Daedalus built the labyrinth on Crete for King Minos.": 10
+      }
+    },
+    {
+      "question_id": "odql_8649",
+      "n_correct": 10,
+      "modal_answer": "2003.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "2003.": 10
+      }
+    },
+    {
+      "question_id": "jp_1393",
+      "n_correct": 10,
+      "modal_answer": "Minecraft.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Minecraft.": 9,
+        "Minecraft!": 1
+      }
+    },
+    {
+      "question_id": "qb_10267",
+      "n_correct": 10,
+      "modal_answer": "Shinto.",
+      "modal_correct": true,
+      "answer_distribution": {
+        "Shinto.": 6,
+        "Shinto was disestablished as the state religion of Japan after WWII.": 1,
+        "Shintoism was disestablished as the state religion of Japan after World War II.": 1,
+        "Shintoism was disestablished as the state religion of Japan after WWII.": 2
+      }
+    }
+  ]
+}

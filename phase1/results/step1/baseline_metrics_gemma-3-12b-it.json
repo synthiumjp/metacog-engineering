@@ -1,0 +1,76 @@
+{
+  "model": "gemma-3-12b-it",
+  "model_path": "/Users/chrismarmo/mnt/models-lan/foresight/synthesis-archive/gemma-3-12b-it",
+  "seed": 42,
+  "n_layers": 48,
+  "layer_indices": {
+    "first": 0,
+    "middle": 24,
+    "last": 47
+  },
+  "teval": {
+    "split": "T-eval",
+    "n": 1000,
+    "accuracy": 0.748,
+    "parse_rate": 1.0,
+    "auroc2_verbal": 0.683730689245395,
+    "auroc2_entropy": 0.5327646209999152,
+    "vrs": {
+      "L": 0.993,
+      "Fp": 0.0,
+      "RBS": 0.6363636363636364,
+      "TRIN": 0.549,
+      "r": 0.3245929766490372,
+      "tier": "Invalid",
+      "n": 1000
+    },
+    "confidence_histogram": {
+      "0": 0,
+      "10": 0,
+      "20": 0,
+      "30": 0,
+      "40": 0,
+      "50": 0,
+      "60": 0,
+      "70": 1,
+      "80": 6,
+      "90": 444,
+      "100": 549
+    },
+    "entropy_mean": 0.8209862046058733,
+    "entropy_std": 0.8768716500136685
+  },
+  "meval": {
+    "split": "M-eval",
+    "n": 498,
+    "accuracy": 0.6867469879518072,
+    "parse_rate": 1.0,
+    "auroc2_verbal": 0.5192495126705653,
+    "auroc2_entropy": 0.5555368121157594,
+    "vrs": {
+      "L": 0.927710843373494,
+      "Fp": 0.002008032128514056,
+      "RBS": 0.5454545454545454,
+      "TRIN": 0.5120481927710844,
+      "r": 0.0675204101783741,
+      "tier": "Invalid",
+      "n": 498
+    },
+    "confidence_histogram": {
+      "0": 1,
+      "10": 0,
+      "20": 0,
+      "30": 0,
+      "40": 0,
+      "50": 0,
+      "60": 0,
+      "70": 1,
+      "80": 10,
+      "90": 255,
+      "100": 231
+    },
+    "entropy_mean": 1.6165121812934438,
+    "entropy_std": 0.7869709342809803
+  },
+  "timestamp": "2026-05-07 00:45:07"
+}
