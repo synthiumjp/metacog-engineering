@@ -1,0 +1,156 @@
+{
+  "first_pre_answer_token": {
+    "layer": "first",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.1,
+    "auroc2_probe_teval": 0.7077574848620767,
+    "auroc2_probe_minus_chance": 0.20775748486207668,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.7077574848620767,
+      "point_b": 0.7169874130971069,
+      "point_delta": -0.009229928235030216,
+      "lo": -0.05841944230449228,
+      "hi": 0.039689171990699115,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "first_last_answer_token": {
+    "layer": "first",
+    "position": "last_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.1,
+    "auroc2_probe_teval": 0.7397678851760485,
+    "auroc2_probe_minus_chance": 0.23976788517604852,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.7397678851760485,
+      "point_b": 0.7169874130971069,
+      "point_delta": 0.022780472078941627,
+      "lo": -0.02034358010224537,
+      "hi": 0.06426947924978671,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "middle_pre_answer_token": {
+    "layer": "middle",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8650972751738057,
+    "auroc2_probe_minus_chance": 0.36509727517380575,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8650972751738057,
+      "point_b": 0.7169874130971069,
+      "point_delta": 0.14810986207669885,
+      "lo": 0.11510566087187529,
+      "hi": 0.18169973424447408,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "middle_last_answer_token": {
+    "layer": "middle",
+    "position": "last_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8523211482395155,
+    "auroc2_probe_minus_chance": 0.35232114823951555,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8523211482395155,
+      "point_b": 0.7169874130971069,
+      "point_delta": 0.13533373514240865,
+      "lo": 0.09946092543465153,
+      "hi": 0.17092252231576083,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "last_pre_answer_token": {
+    "layer": "last",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8290816326530612,
+    "auroc2_probe_minus_chance": 0.32908163265306123,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8290816326530612,
+      "point_b": 0.7169874130971069,
+      "point_delta": 0.11209421955595433,
+      "lo": 0.07820810152467854,
+      "hi": 0.14596807063043082,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "last_last_answer_token": {
+    "layer": "last",
+    "position": "last_answer_token",
+    "is_primary": true,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 5376,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8068443036555282,
+    "auroc2_probe_minus_chance": 0.30684430365552817,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8068443036555282,
+      "point_b": 0.7169874130971069,
+      "point_delta": 0.08985689055842128,
+      "lo": 0.05750361185115683,
+      "hi": 0.1228305805644815,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "_meta": {
+    "model_name": "gemma-3-27b-it",
+    "primary_config": "last_last_answer_token",
+    "elapsed_s": 132.5023431777954,
+    "bootstrap_n": 10000,
+    "bootstrap_seed": 42,
+    "lr_cv_folds": 5,
+    "lr_cs": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "first_pre_answer_token": {
+    "layer": "first",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.1,
+    "auroc2_probe_teval": 0.7086879381885821,
+    "auroc2_probe_minus_chance": 0.2086879381885821,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.7086879381885821,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.027325797682071884,
+      "lo": -0.02007819330895721,
+      "hi": 0.07453166816104137,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "first_last_answer_token": {
+    "layer": "first",
+    "position": "last_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.01,
+    "auroc2_probe_teval": 0.7489311775647447,
+    "auroc2_probe_minus_chance": 0.2489311775647447,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.7489311775647447,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.06756903705823447,
+      "lo": 0.024998060765620205,
+      "hi": 0.11033673686908824,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "middle_pre_answer_token": {
+    "layer": "middle",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8752439547860925,
+    "auroc2_probe_minus_chance": 0.3752439547860925,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8752439547860925,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.1938818142795823,
+      "lo": 0.1569417252276882,
+      "hi": 0.23059805569685285,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "middle_last_answer_token": {
+    "layer": "middle",
+    "position": "last_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8795593074831879,
+    "auroc2_probe_minus_chance": 0.3795593074831879,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8795593074831879,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.19819716697667766,
+      "lo": 0.1625216824338485,
+      "hi": 0.23498021943042507,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "last_pre_answer_token": {
+    "layer": "last",
+    "position": "pre_answer_token",
+    "is_primary": false,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8465474316783517,
+    "auroc2_probe_minus_chance": 0.34654743167835167,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8465474316783517,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.16518529117184144,
+      "lo": 0.1299126337336943,
+      "hi": 0.20025406052935538,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "last_last_answer_token": {
+    "layer": "last",
+    "position": "last_answer_token",
+    "is_primary": true,
+    "skipped": false,
+    "n_train": 1920,
+    "n_eval": 966,
+    "hidden_dim": 3840,
+    "best_C": 0.001,
+    "auroc2_probe_teval": 0.8566204034912005,
+    "auroc2_probe_minus_chance": 0.3566204034912005,
+    "paired_ci_probe_minus_verbal": {
+      "point_a": 0.8566204034912005,
+      "point_b": 0.6813621405065102,
+      "point_delta": 0.17525826298469027,
+      "lo": 0.1404047064260963,
+      "hi": 0.2102214888562207,
+      "ci": 0.95,
+      "n_resamples": 10000,
+      "n_valid": 10000,
+      "seed": 42
+    }
+  },
+  "_meta": {
+    "model_name": "gemma-3-12b-it",
+    "primary_config": "last_last_answer_token",
+    "elapsed_s": 106.12548804283142,
+    "bootstrap_n": 10000,
+    "bootstrap_seed": 42,
+    "lr_cv_folds": 5,
+    "lr_cs": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  }
+}
