@@ -1,115 +1,124 @@
 # metacog-engineering
 
-Confidence-conditioned supervised fine-tuning (CSFT) with self-consistency targets for verbal metacognitive readout in small LLMs.
+Closing the metacognitive gap in LLMs: from diagnosis to intervention.
 
-**Paper:** [Distilling Self-Consistency into Verbal Confidence: A Pre-Registered Negative Result and Post-Hoc Rescue on Gemma 3 4B](https://arxiv.org/abs/TODO)
+**Phase 0 paper:** [arXiv:2604.24070](https://arxiv.org/abs/2604.24070)
+**Phase 1 paper:** *In preparation for JAIR*
 **Pre-registration:** [OSF (osf.io/mpcr5)](https://osf.io/mpcr5)
 
-## Overview
+## The Problem
 
-Instruct-tuned LLMs at the 3-9B scale produce degenerate verbal confidence: ceiling rates above 95%, near-chance Type-2 AUROC, and Invalid validity profiles under the CMM programme's psychometric assessment pipeline. Internal representations carry substantially more correctness information than the verbal channel transmits. This project investigates whether CSFT can close the gap.
+Instruct-tuned LLMs report 95–100% confidence regardless of correctness. Linear probes on hidden states achieve AUROC₂ of 0.76–0.88 on the same items. The information is there internally — the verbal channel just doesn't transmit it. This project builds methods to close that gap.
 
-The confidence targets are derived from 10-sample self-consistency at T = 0.7: the proportion of samples producing a correct answer is mapped to a confidence percentage. The model is then fine-tuned (LoRA) to output these confidence values alongside its answers. Evaluation uses Type-2 signal detection theory (AUROC2, VRS screening, paired-bootstrap CIs) with a shuffled-target control.
+## What We Found
 
-## Phase 0 Result (Gemma 3 4B-it)
+**Phase 0 (Gemma 4B):** Self-consistency-derived confidence targets produce a binary verbal correctness discriminator (AUROC₂ = 0.774) at 4B scale, but the self-consistency signal becomes bimodally degenerate at 12B and 27B (84.6% → 91.4% → 94.5% extreme items). SC-CSFT does not scale.
 
-**Pre-registered result (with modal filter): negative.** A modal filter restricting training to items with correct modal answers produced label-entropy collapse. AUROC2 dropped from 0.554 to 0.509. Decision tree: Stop.
+**Phase 1 (6 models, 3 architecture classes):** Probe-targeted CSFT (PT-CSFT) replaces the self-consistency signal with the output of a linear probe trained on the model's own hidden states. Results:
 
-**Post-hoc result (no modal filter): positive.** Removing the filter produced a binary verbal correctness discriminator.
+| Model | Baseline AUROC₂ | PT-CSFT AUROC₂ | ECE | VRS |
+|-------|----------------|----------------|-----|-----|
+| Gemma 12B | 0.684 | **0.842** | 0.108 | Invalid → Invalid |
+| Gemma 27B | 0.717 | **0.785** | — | Invalid → Indeterminate |
+| Qwen 7B | 0.581 | **0.754** | 0.068 | Invalid → **Valid** |
+| Llama 8B | 0.711 | 0.513 | 0.276 | Invalid → Invalid |
+| Llama 70B | 0.760 | 0.582 | — | Invalid → Invalid |
+| Mistral 7B | 0.584 | diverged | — | n/a |
 
-![Signal Comparison](figures/fig2_signal_comparison.png)
+PT-CSFT succeeds on GemmaForCausalLM and Qwen2ForCausalLM. All LlamaForCausalLM models fail under the same configuration. The failure is not scale-dependent (8B and 70B both fail).
 
-The intervention compresses a 10-sample self-consistency signal (AUROC2 = 0.999) into a single-pass verbal readout (AUROC2 = 0.774), recovering ~77.5% of available discrimination at 1/10th the inference cost.
-
-On MMLU (absent from training): accuracy improved from 54.2% to 77.4%, AUROC2 from 0.535 to 0.616. Shuffled-target control stayed at baseline (56.1%, 0.523), confirming the effect is target-dependent.
-
-### Why the modal filter fails
-
-The self-consistency distribution at 4B scale is strongly bimodal: 84.6% of items fall at n_correct = 0 or 10. The modal filter excludes all n_correct = 0 items, collapsing the training target distribution to near-uniform high confidence.
-
-![Self-Consistency Distribution](figures/fig1_self_consistency_distribution.png)
-
-![Label-Entropy Collapse](figures/fig3_label_entropy_collapse.png)
-
-**Design principle:** Confidence training requires label entropy. Any filter that removes low-confidence examples collapses the target distribution and guarantees failure.
-
-## Programme Structure
-
-This is Phase 0 of a multi-phase programme:
-
-- **Phase 0** (this study): Feasibility on Gemma 3 4B-it. Single model, single seed. Establishes the method and identifies design principles.
-- **Phase 1** (planned): Scale replication on Gemma 3 12B-it and 27B-it. Tests whether binary confidence smooths to continuous, accuracy drop resolves, and MMLU improvement replicates with full controls.
+**Key controls:**
+- Shuffled-target control: no improvement (AUROC₂ ≈ 0.50)
+- E10 answer-unchanged diagnostic: AUROC₂ improves +0.08 to +0.21 on items where the answer didn't change
+- Cross-benchmark: confidence calibration transfers from TriviaQA to MMLU
+- Retrained probes: correctness information preserved in Llama after PT-CSFT (middle-layer δ = −0.004) but inaccessible to verbal output
+- Steering: additive inference-time steering along the probe direction has no effect on verbal confidence
 
 ## Repository Structure
 
 ```
 metacog-engineering/
-├── scripts/
-│   ├── utils_phase0.py             # Data partitioning, disjointness filter
-│   ├── step0_substrate_check.py    # Substrate pre-check (500 items)
-│   ├── step1_baseline.py           # Baseline characterisation
-│   ├── step1b_probe.py             # Linear probe on hidden states
-│   ├── step2_calibration.py        # Self-consistency sampling (T=0.7)
-│   ├── step2b_no_filter.py         # Target derivation (no modal filter)
-│   ├── step3_finetune.py           # LoRA fine-tuning (real targets)
-│   └── step4_evaluation.py         # Post-SFT evaluation
-├── data/
-│   ├── step0_substrate_check.json  # Step 0 pass/fail
-│   ├── step2_summary.json          # Self-consistency distribution
-│   ├── step2_conflict_set.json     # Items excluded by modal filter
-│   └── step2_teval_difficulty.json # T-eval difficulty bins
-├── results/
-│   ├── baseline/                   # Baseline metrics and responses
-│   ├── probe/                      # Probe AUROC2 across layer x position grid
-│   ├── finetune/lora_real/         # LoRA adapter weights and config
-│   └── evaluation/                 # Post-SFT evaluation and decision
-├── figures/                        # Figures for README
-├── metacog_env.ps1                 # Environment activation (Windows/ROCm)
+├── scripts/                        # Phase 0 pipeline (Windows/ROCm)
+│   ├── utils_phase0.py
+│   ├── step0_substrate_check.py
+│   ├── step1_baseline.py
+│   ├── step1b_probe.py
+│   ├── step2_calibration.py
+│   ├── step2b_no_filter.py
+│   ├── step3_finetune.py
+│   └── step4_evaluation.py
+├── phase1/
+│   ├── scripts/                    # Phase 1 pipeline (Mac/MLX)
+│   │   ├── model_config.py
+│   │   ├── gen_helpers.py
+│   │   ├── step0_spike_phase1.py
+│   │   ├── step1_baseline_phase1.py
+│   │   ├── step1b_probe_phase1.py
+│   │   ├── step2_calibration_phase1.py
+│   │   ├── step3_finetune_phase1.py
+│   │   ├── step4_eval_phase1.py
+│   │   ├── step_probe_target.py
+│   │   ├── step_steering.py
+│   │   ├── step_exp4_post_pt_probes.py
+│   │   ├── step_prereg_compliance.py
+│   │   └── step_reviewer_experiments.py
+│   └── results/                    # Phase 1 results (JSONs)
+│       ├── step4/                  # PT-CSFT evaluation metrics
+│       ├── steering/               # Steering sweep results
+│       ├── prereg_compliance/      # E10 + meta-d' compliance
+│       ├── reviewer_experiments/   # Retrained probes + ECE/Brier
+│       └── step1_post_pt/          # Post-PT baseline metrics
+├── data/                           # Phase 0 data splits
+├── results/                        # Phase 0 results
+├── figures/                        # Phase 0 figures
 └── .gitignore
 ```
 
-## Data Partitioning
+## Data
 
-All items drawn from TriviaQA rc.nocontext validation (17,944 items) and MMLU. A programmatic disjointness filter excludes 524 items from a prior saturation study. The remaining 17,420 items are shuffled with seed 42 and sliced:
+All items from TriviaQA rc.nocontext validation and MMLU. Shuffled with seed 42, partitioned:
 
-- **T-eval:** 1,000 items (held-out evaluation)
-- **T-cal:** 2,000 items (calibration and training)
-- **Step 0:** 500 items (substrate pre-check)
-- **M-eval:** 498 MMLU items (cross-benchmark evaluation)
+- **T-eval:** 1,000 items (held-out evaluation — never used for training or probe fitting)
+- **T-cal:** 2,000 items (probe training + CSFT fine-tuning)
+- **M-eval:** 498 MMLU items (cross-benchmark transfer)
 
-Pairwise disjointness is verified programmatically in `scripts/utils_phase0.py`.
+Partitions identical across Phase 0 and Phase 1. Disjointness verified programmatically.
 
 ## Hardware
 
-Phase 0 ran on AMD Radeon RX 7900 GRE (gfx1100, 16GB VRAM) with ROCm PyTorch 2.8.0. Hardware-specific adaptations: bfloat16 (fp16 produces NaN on Gemma 3), eager attention (no SDPA for gfx1100), direct GPU placement (no accelerate device-map). These do not affect the analysis pipeline.
+- **Phase 0:** AMD Radeon RX 7900 GRE (16GB VRAM), ROCm PyTorch 2.8.0, Windows 11
+- **Phase 1:** Apple M3 Ultra (512GB unified memory), MLX framework, macOS
 
-## Pre-registration
+## Method: PT-CSFT Pipeline
 
-Phase 0 pre-registered on OSF: [osf.io/mpcr5](https://osf.io/mpcr5) (filed prior to baseline characterisation).
-
-The pre-registered protocol with modal filter produced a confirmatory negative result (Stop). The positive result reported here is from a post-hoc no-filter modification and is exploratory. Phase 1 pre-registers the no-filter design as the confirmatory protocol.
+1. **Baseline** → greedy generation, extract hidden states at 3 layers × 2 token positions
+2. **Probe** → L2-regularised logistic regression on hidden states, 5-fold CV
+3. **Target** → probe P(correct) scaled to 0–100 as confidence target
+4. **Fine-tune** → LoRA (rank 16, α=32) with probe-derived targets
+5. **Evaluate** → AUROC₂, VRS, ECE, Brier, E10, paired-bootstrap CIs
 
 ## Related Work
 
-This project is part of the CMM (Classical Minds, Modern Machines) research programme applying Type-2 signal detection theory to LLM metacognition. Related papers:
+Part of the CMM (Classical Minds, Modern Machines) programme applying Type-2 signal detection theory to LLM metacognition:
 
-- Saturation of degenerate verbal confidence across seven frontier LLMs (Cacioli, 2026g)
-- Model scale is dissociable from metacognitive monitoring quality (Cacioli, 2026c)
-- Quantisation reshapes confidence distributions without improving metacognitive sensitivity (Cacioli, 2026e)
-- Cross-entropy is load-bearing: bPC scope test (Cacioli, 2026l) — [github.com/synthiumjp/ima](https://github.com/synthiumjp/ima)
+- [Do LLMs Know What They Know?](https://arxiv.org/abs/2603.25112) — M1: domain-specific metacognitive profiles
+- [The Metacognitive Monitoring Battery](https://arxiv.org/abs/2604.15702) — M2: cross-domain benchmark (submitted NeurIPS 2026)
+- [Quantisation Reshapes Metacognitive Geometry](https://arxiv.org/abs/2604.08976) — M-ratio profiles restructure across formats
+- [Screen Before You Interpret](https://arxiv.org/abs/2604.17714) — VRS validity protocol
+- [Domain-Level Metacognitive Monitoring](https://arxiv.org/abs/2605.06673) — 33-model atlas
 
 ## Citation
 
 ```bibtex
-@article{cacioli2026csft,
-  title={Distilling Self-Consistency into Verbal Confidence: A Pre-Registered 
-         Negative Result and Post-Hoc Rescue on {Gemma} 3 {4B}},
+@article{cacioli2026ptcsft,
+  title={Bridging the Metacognitive Gap: Probe-Targeted Fine-Tuning
+         Improves Verbal Confidence Calibration Across {LLM} Architectures},
   author={Cacioli, Jon-Paul},
   year={2026},
-  note={Preprint}
+  note={In preparation}
 }
 ```
 
 ## License
 
-Code: MIT. Data splits are deterministic from publicly available benchmarks (TriviaQA, MMLU). Model: Gemma 3 4B-it (Apache 2.0).
+Code: MIT. Data splits are deterministic from publicly available benchmarks (TriviaQA, MMLU).
