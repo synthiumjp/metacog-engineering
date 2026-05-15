@@ -1,0 +1,23 @@
+{
+  "model": "gemma-3-12b-it",
+  "adapter_label": "probe_target_middle",
+  "e10": {
+    "n_unchanged": 832,
+    "n_changed": 134,
+    "auroc_baseline_unchanged": 0.6931413572732806,
+    "auroc_ft_unchanged": 0.830047930614729,
+    "delta_unchanged": 0.1369065733414484,
+    "auroc_baseline_all": 0.6813621405065102,
+    "auroc_ft_all": 0.8157563443881147,
+    "delta_all": 0.1343942038816045,
+    "passed": true
+  },
+  "e3_meta_d": {
+    "skipped": true
+  },
+  "distribution": {
+    "ft_mean": 85.93374741200829,
+    "ft_std": 15.266499401281408,
+    "ft_pct_intermediate": 6.521739130434782
+  }
+}

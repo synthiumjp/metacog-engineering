@@ -1,0 +1,64 @@
+{
+  "model": "Qwen2.5-7B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "retrained_probes": {
+    "first_pre_answer_token": {
+      "auroc_baseline_cv": 0.6399801587301587,
+      "auroc_post_pt_cv": 0.6182322532645783,
+      "delta": -0.021747905465580364,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "first_last_answer_token": {
+      "auroc_baseline_cv": 0.7318121693121693,
+      "auroc_post_pt_cv": 0.645091267092537,
+      "delta": -0.08672090221963236,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "middle_pre_answer_token": {
+      "auroc_baseline_cv": 0.7144510582010583,
+      "auroc_post_pt_cv": 0.6790608404525514,
+      "delta": -0.035390217748506814,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "middle_last_answer_token": {
+      "auroc_baseline_cv": 0.6851521164021164,
+      "auroc_post_pt_cv": 0.6919883142204777,
+      "delta": 0.0068361978183613115,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "last_pre_answer_token": {
+      "auroc_baseline_cv": 0.7177579365079365,
+      "auroc_post_pt_cv": 0.7062876805459349,
+      "delta": -0.011470255962001574,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "last_last_answer_token": {
+      "auroc_baseline_cv": 0.7279761904761906,
+      "auroc_post_pt_cv": 0.6577907334718696,
+      "delta": -0.070185457004321,
+      "n_baseline": 830,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    }
+  },
+  "calibration_metrics": {
+    "baseline_ece": 0.3117699999999999,
+    "baseline_brier": 0.3120829,
+    "ft_ece": 0.06803607214428857,
+    "ft_brier": 0.19307414829659317,
+    "ece_delta": -0.2437339278557113,
+    "brier_delta": -0.11900875170340683,
+    "baseline_accuracy": 0.666,
+    "ft_accuracy": 0.624
+  }
+}

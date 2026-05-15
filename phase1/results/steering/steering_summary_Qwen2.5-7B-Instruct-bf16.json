@@ -1,0 +1,92 @@
+{
+  "model_name": "Qwen2.5-7B-Instruct-bf16",
+  "probe_config": "middle_pre_answer_token",
+  "target_layer": "middle",
+  "target_layer_idx": 14,
+  "direction_norm_before_normalisation": 0.448251336812973,
+  "baseline_auroc2": 0.580952958946971,
+  "sweep": {
+    "-5.0": {
+      "accuracy": 0.648,
+      "auroc2": 0.6352,
+      "confidence_mean": 97.32,
+      "confidence_std": 10.4,
+      "parse_rate": 1.0,
+      "n": 1000
+    },
+    "-2.0": {
+      "accuracy": 0.661,
+      "auroc2": 0.6173,
+      "confidence_mean": 97.57,
+      "confidence_std": 9.32,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "-1.0": {
+      "accuracy": 0.666,
+      "auroc2": 0.6024,
+      "confidence_mean": 97.7,
+      "confidence_std": 9.31,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "-0.5": {
+      "accuracy": 0.664,
+      "auroc2": 0.6,
+      "confidence_mean": 97.46,
+      "confidence_std": 10.47,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "0.0": {
+      "accuracy": 0.666,
+      "auroc2": 0.581,
+      "confidence_mean": 97.58,
+      "confidence_std": 10.03,
+      "parse_rate": 1.0,
+      "n": 1000
+    },
+    "0.5": {
+      "accuracy": 0.664,
+      "auroc2": 0.5854,
+      "confidence_mean": 97.5,
+      "confidence_std": 10.74,
+      "parse_rate": 1.0,
+      "n": 1000
+    },
+    "1.0": {
+      "accuracy": 0.663,
+      "auroc2": 0.5953,
+      "confidence_mean": 97.77,
+      "confidence_std": 9.53,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "2.0": {
+      "accuracy": 0.659,
+      "auroc2": 0.5925,
+      "confidence_mean": 98.1,
+      "confidence_std": 6.9,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "5.0": {
+      "accuracy": 0.659,
+      "auroc2": 0.5985,
+      "confidence_mean": 97.89,
+      "confidence_std": 8.59,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "10.0": {
+      "accuracy": 0.663,
+      "auroc2": 0.6126,
+      "confidence_mean": 97.94,
+      "confidence_std": 7.36,
+      "parse_rate": 1.0,
+      "n": 1000
+    }
+  },
+  "total_time_seconds": 51232.8,
+  "timestamp": "2026-05-14T10:30:27"
+}

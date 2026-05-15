@@ -1,0 +1,50 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct-bf16",
+  "model_path": "/Users/chrismarmo/mnt/models-lan/foresight/synthesis-archive/Meta-Llama-3.1-8B-Instruct-bf16",
+  "adapter_path": "/Users/chrismarmo/jpwork/results/finetune/Meta-Llama-3.1-8B-Instruct-bf16/probe_target/adapters",
+  "mode": "Post-Training Probe",
+  "seed": 42,
+  "n_layers": 32,
+  "hidden_dim": 4096,
+  "layer_indices": {
+    "first": 0,
+    "middle": 16,
+    "last": 31
+  },
+  "scale_embeddings": false,
+  "bos_id": 128000,
+  "teval": {
+    "split": "T-eval",
+    "n": 1000,
+    "accuracy": 0.658,
+    "parse_rate": 0.986,
+    "auroc2_verbal": 0.5088706538661132,
+    "auroc2_entropy_E5": 0.41827085444106726,
+    "vrs": {
+      "L": 0.9908722109533469,
+      "Fp": 0.0,
+      "RBS": 0.6363636363636364,
+      "TRIN": 0.9949290060851927,
+      "r": 0.08837252351979605,
+      "tier": "Invalid",
+      "n": 986
+    },
+    "confidence_histogram": {
+      "0": 2,
+      "10": 0,
+      "20": 0,
+      "30": 0,
+      "40": 0,
+      "50": 2,
+      "60": 0,
+      "70": 0,
+      "80": 1,
+      "90": 981,
+      "100": 0
+    },
+    "entropy_mean": 10.748431653976441,
+    "entropy_std": 0.07169476596751445
+  },
+  "meval": null,
+  "timestamp": "2026-05-14 15:04:45"
+}

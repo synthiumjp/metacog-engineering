@@ -1,0 +1,94 @@
+{
+  "model_name": "gemma-3-27b-it",
+  "timestamp": "2026-05-09T12:01:14",
+  "baseline": {
+    "label": "baseline",
+    "n_items": 1000,
+    "accuracy": 0.81,
+    "auroc2": 0.7167,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.988,
+      "Fp_floor": 0.0,
+      "RBS": 0.6364,
+      "TRIN": 0.545,
+      "r_conf_correct": 0.346
+    },
+    "confidence_mean": 97.67,
+    "confidence_std": 3.21,
+    "parseable_rate": 1.0
+  },
+  "real_ft": {
+    "label": "real-ft",
+    "n_items": 1000,
+    "accuracy": 0.714,
+    "auroc2": 0.4993,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.999,
+      "Fp_floor": 0.0,
+      "RBS": 0.8182,
+      "TRIN": 0.999,
+      "r_conf_correct": -0.02
+    },
+    "confidence_mean": 94.92,
+    "confidence_std": 2.53,
+    "parseable_rate": 1.0
+  },
+  "shuffled_ft": {
+    "label": "shuffled-ft",
+    "n_items": 1000,
+    "accuracy": 0.723,
+    "auroc2": 0.5,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 1.0,
+      "Fp_floor": 0.0,
+      "RBS": 0.9091,
+      "TRIN": 1.0,
+      "r_conf_correct": 0.0
+    },
+    "confidence_mean": 95.0,
+    "confidence_std": 0.0,
+    "parseable_rate": 1.0
+  },
+  "comparisons": {
+    "h1_real_vs_baseline": {
+      "auroc2_a": 0.4993,
+      "auroc2_b": 0.6713,
+      "delta": -0.172,
+      "ci95_lo": -0.2057,
+      "ci95_hi": -0.1389,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "e7_real_vs_shuffled": {
+      "auroc2_a": 0.4993,
+      "auroc2_b": 0.5,
+      "delta": -0.0007,
+      "ci95_lo": -0.0022,
+      "ci95_hi": 0.0,
+      "significant": false,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "regime_real_vs_probe": {
+      "auroc2_a": 0.4993,
+      "auroc2_b": 0.7562,
+      "delta": -0.2569,
+      "ci95_lo": -0.29,
+      "ci95_hi": -0.2232,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    }
+  },
+  "n_teval_items": 1000,
+  "n_paired": 966,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

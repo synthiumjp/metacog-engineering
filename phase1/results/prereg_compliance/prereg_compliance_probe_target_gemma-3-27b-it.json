@@ -1,0 +1,23 @@
+{
+  "model": "gemma-3-27b-it",
+  "adapter_label": "probe_target",
+  "e10": {
+    "n_unchanged": 824,
+    "n_changed": 142,
+    "auroc_baseline_unchanged": 0.7290393953634086,
+    "auroc_ft_unchanged": 0.8058971933144119,
+    "delta_unchanged": 0.07685779795100334,
+    "auroc_baseline_all": 0.7169874130971069,
+    "auroc_ft_all": 0.7832419912572585,
+    "delta_all": 0.06625457816015157,
+    "passed": true
+  },
+  "e3_meta_d": {
+    "skipped": true
+  },
+  "distribution": {
+    "ft_mean": NaN,
+    "ft_std": NaN,
+    "ft_pct_intermediate": 21.94616977225673
+  }
+}

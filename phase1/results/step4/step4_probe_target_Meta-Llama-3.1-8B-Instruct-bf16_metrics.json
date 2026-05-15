@@ -1,0 +1,69 @@
+{
+  "model_name": "Meta-Llama-3.1-8B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "timestamp": "2026-05-09T14:35:03",
+  "baseline": {
+    "label": "baseline",
+    "n_items": 1000,
+    "accuracy": 0.782,
+    "auroc2": 0.7109,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 962,
+      "L_ceiling": 0.9252,
+      "Fp_floor": 0.0021,
+      "RBS": 0.3636,
+      "TRIN": 0.5738,
+      "r_conf_correct": 0.3361
+    },
+    "confidence_mean": 95.73,
+    "confidence_std": 8.13,
+    "parseable_rate": 0.962
+  },
+  "probe_target_ft": {
+    "label": "probe_target-ft",
+    "n_items": 1000,
+    "accuracy": 0.67,
+    "auroc2": 0.5128,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 973,
+      "L_ceiling": 0.9908,
+      "Fp_floor": 0.001,
+      "RBS": 0.8182,
+      "TRIN": 0.9979,
+      "r_conf_correct": 0.0716
+    },
+    "confidence_mean": 95.81,
+    "confidence_std": 4.2,
+    "parseable_rate": 0.973
+  },
+  "shuffled_ft": null,
+  "comparisons": {
+    "h1_ft_vs_baseline": {
+      "auroc2_a": 0.5163,
+      "auroc2_b": 0.6835,
+      "delta": -0.1672,
+      "ci95_lo": -0.2044,
+      "ci95_hi": -0.1298,
+      "significant": true,
+      "n_paired": 905,
+      "n_boot": 10000
+    },
+    "e7_ft_vs_shuffled": null,
+    "regime_ft_vs_probe": {
+      "auroc2_a": 0.5096,
+      "auroc2_b": 0.8078,
+      "delta": -0.2982,
+      "ci95_lo": -0.3341,
+      "ci95_hi": -0.2617,
+      "significant": true,
+      "n_paired": 694,
+      "n_boot": 10000
+    }
+  },
+  "n_teval_items": 1000,
+  "n_paired": 966,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

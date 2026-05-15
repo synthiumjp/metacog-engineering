@@ -1,0 +1,23 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "e10": {
+    "n_unchanged": 774,
+    "n_changed": 155,
+    "auroc_baseline_unchanged": 0.7375166461922803,
+    "auroc_ft_unchanged": 0.5124446719175031,
+    "delta_unchanged": -0.2250719742747772,
+    "auroc_baseline_all": 0.7091843575418993,
+    "auroc_ft_all": 0.5132508091295027,
+    "delta_all": -0.19593354841239663,
+    "passed": false
+  },
+  "e3_meta_d": {
+    "skipped": true
+  },
+  "distribution": {
+    "ft_mean": NaN,
+    "ft_std": NaN,
+    "ft_pct_intermediate": 0.0
+  }
+}

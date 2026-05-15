@@ -1,0 +1,94 @@
+{
+  "model_name": "gemma-3-12b-it",
+  "timestamp": "2026-05-08T12:46:00",
+  "baseline": {
+    "label": "baseline",
+    "n_items": 1000,
+    "accuracy": 0.748,
+    "auroc2": 0.6837,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.993,
+      "Fp_floor": 0.0,
+      "RBS": 0.6364,
+      "TRIN": 0.549,
+      "r_conf_correct": 0.3246
+    },
+    "confidence_mean": 97.82,
+    "confidence_std": 2.76,
+    "parseable_rate": 1.0
+  },
+  "real_ft": {
+    "label": "real-ft",
+    "n_items": 1000,
+    "accuracy": 0.656,
+    "auroc2": 0.5399,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.971,
+      "Fp_floor": 0.029,
+      "RBS": 0.8182,
+      "TRIN": 0.971,
+      "r_conf_correct": 0.2261
+    },
+    "confidence_mean": 92.39,
+    "confidence_std": 15.1,
+    "parseable_rate": 1.0
+  },
+  "shuffled_ft": {
+    "label": "shuffled-ft",
+    "n_items": 1000,
+    "accuracy": 0.627,
+    "auroc2": 0.5013,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.999,
+      "Fp_floor": 0.001,
+      "RBS": 0.8182,
+      "TRIN": 0.999,
+      "r_conf_correct": 0.041
+    },
+    "confidence_mean": 94.91,
+    "confidence_std": 2.84,
+    "parseable_rate": 1.0
+  },
+  "comparisons": {
+    "h1_real_vs_baseline": {
+      "auroc2_a": 0.5398,
+      "auroc2_b": 0.6495,
+      "delta": -0.1098,
+      "ci95_lo": -0.1455,
+      "ci95_hi": -0.0732,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "e7_real_vs_shuffled": {
+      "auroc2_a": 0.5398,
+      "auroc2_b": 0.5015,
+      "delta": 0.0382,
+      "ci95_lo": 0.0244,
+      "ci95_hi": 0.0534,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "regime_real_vs_probe": {
+      "auroc2_a": 0.5398,
+      "auroc2_b": 0.8115,
+      "delta": -0.2718,
+      "ci95_lo": -0.3015,
+      "ci95_hi": -0.2406,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    }
+  },
+  "n_teval_items": 1000,
+  "n_paired": 966,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

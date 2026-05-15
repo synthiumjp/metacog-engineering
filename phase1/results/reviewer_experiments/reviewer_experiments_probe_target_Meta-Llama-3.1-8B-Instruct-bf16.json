@@ -1,0 +1,64 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "retrained_probes": {
+    "first_pre_answer_token": {
+      "auroc_baseline_cv": 0.680162099498311,
+      "auroc_post_pt_cv": 0.6447790251087495,
+      "delta": -0.03538307438956145,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "first_last_answer_token": {
+      "auroc_baseline_cv": 0.645975281040041,
+      "auroc_post_pt_cv": 0.5681839748178332,
+      "delta": -0.07779130622220776,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "middle_pre_answer_token": {
+      "auroc_baseline_cv": 0.831497671443705,
+      "auroc_post_pt_cv": 0.8277258904153589,
+      "delta": -0.0037717810283460773,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "middle_last_answer_token": {
+      "auroc_baseline_cv": 0.8284235916588859,
+      "auroc_post_pt_cv": 0.7775733887175816,
+      "delta": -0.05085020294130427,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "last_pre_answer_token": {
+      "auroc_baseline_cv": 0.7646714751140008,
+      "auroc_post_pt_cv": 0.7797214498100324,
+      "delta": 0.015049974696031643,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "last_last_answer_token": {
+      "auroc_baseline_cv": 0.8063370139085198,
+      "auroc_post_pt_cv": 0.7493086088779987,
+      "delta": -0.05702840503052109,
+      "n_baseline": 714,
+      "n_post_pt": 965,
+      "interpretation": "PARTIALLY PRESERVED"
+    }
+  },
+  "calibration_metrics": {
+    "baseline_ece": 0.15375259875259867,
+    "baseline_brier": 0.16640051975051975,
+    "ft_ece": 0.2756731757451185,
+    "ft_brier": 0.2916819116135662,
+    "ece_delta": 0.12192057699251985,
+    "brier_delta": 0.12528139186304646,
+    "baseline_accuracy": 0.782,
+    "ft_accuracy": 0.67
+  }
+}

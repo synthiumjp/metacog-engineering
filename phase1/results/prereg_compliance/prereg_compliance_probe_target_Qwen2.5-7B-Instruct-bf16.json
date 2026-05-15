@@ -1,0 +1,46 @@
+{
+  "model": "Qwen2.5-7B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "e10": {
+    "n_unchanged": 841,
+    "n_changed": 125,
+    "auroc_baseline_unchanged": 0.586127710323653,
+    "auroc_ft_unchanged": 0.7968506293011796,
+    "delta_unchanged": 0.2107229189775266,
+    "auroc_baseline_all": 0.5827126135712534,
+    "auroc_ft_all": 0.7557760989010989,
+    "delta_all": 0.1730634853298455,
+    "passed": true
+  },
+  "e3_meta_d": {
+    "d_prime": 1.0488682031005703,
+    "meta_d_prime": 0.882870453688611,
+    "m_ratio": 0.8417363126070067,
+    "n_items": 964,
+    "n_correct": 600,
+    "n_incorrect": 364,
+    "n_bins_used": 4,
+    "quartiles": [
+      47.0,
+      77.0,
+      86.0
+    ],
+    "nR_S1": [
+      153,
+      100,
+      66,
+      45
+    ],
+    "nR_S2": [
+      69,
+      107,
+      166,
+      258
+    ]
+  },
+  "distribution": {
+    "ft_mean": NaN,
+    "ft_std": NaN,
+    "ft_pct_intermediate": 66.35610766045549
+  }
+}

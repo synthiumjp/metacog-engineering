@@ -1,0 +1,97 @@
+{
+  "model_name": "gemma-3-12b-it",
+  "adapter_label": "probe_target_middle",
+  "eval_split": "teval",
+  "timestamp": "2026-05-14T12:14:59",
+  "baseline": {
+    "label": "baseline-teval",
+    "n_items": 1000,
+    "accuracy": 0.748,
+    "auroc2": 0.6837,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.993,
+      "Fp_floor": 0.0,
+      "RBS": 0.6364,
+      "TRIN": 0.549,
+      "r_conf_correct": 0.3246
+    },
+    "confidence_mean": 97.82,
+    "confidence_std": 2.76,
+    "parseable_rate": 1.0
+  },
+  "probe_target_middle_ft": {
+    "label": "probe_target_middle-ft-teval",
+    "n_items": 1000,
+    "accuracy": 0.673,
+    "auroc2": 0.8167,
+    "vrs": {
+      "tier": "Valid",
+      "n": 1000,
+      "L_ceiling": 0.287,
+      "Fp_floor": 0.0,
+      "RBS": 0.7273,
+      "TRIN": 0.504,
+      "r_conf_correct": 0.4737
+    },
+    "confidence_mean": 85.98,
+    "confidence_std": 15.15,
+    "parseable_rate": 1.0
+  },
+  "shuffled_ft": {
+    "label": "shuffled-ft",
+    "n_items": 1000,
+    "accuracy": 0.627,
+    "auroc2": 0.5013,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.999,
+      "Fp_floor": 0.001,
+      "RBS": 0.8182,
+      "TRIN": 0.999,
+      "r_conf_correct": 0.041
+    },
+    "confidence_mean": 94.91,
+    "confidence_std": 2.84,
+    "parseable_rate": 1.0
+  },
+  "comparisons": {
+    "H1_ft_vs_baseline": {
+      "auroc2_a": 0.8158,
+      "auroc2_b": 0.6546,
+      "delta": 0.1611,
+      "ci95_lo": 0.1224,
+      "ci95_hi": 0.1993,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "e7_ft_vs_shuffled": {
+      "auroc2_a": 0.8158,
+      "auroc2_b": 0.5016,
+      "delta": 0.3142,
+      "ci95_lo": 0.2888,
+      "ci95_hi": 0.3382,
+      "significant": true,
+      "n_paired": 966,
+      "n_boot": 10000
+    },
+    "regime_ft_vs_probe": {
+      "auroc2_a": 0.8158,
+      "auroc2_b": 0.8095,
+      "delta": 0.0062,
+      "ci95_lo": -0.0231,
+      "ci95_hi": 0.0359,
+      "significant": false,
+      "n_paired": 966,
+      "n_boot": 10000
+    }
+  },
+  "accuracy_delta": -0.075,
+  "n_eval_items": 1000,
+  "n_paired": 966,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

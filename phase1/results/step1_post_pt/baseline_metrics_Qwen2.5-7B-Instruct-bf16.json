@@ -1,0 +1,50 @@
+{
+  "model": "Qwen2.5-7B-Instruct-bf16",
+  "model_path": "/Users/chrismarmo/mnt/models-lan/foresight/synthesis-archive/Qwen2.5-7B-Instruct-bf16",
+  "adapter_path": "/Users/chrismarmo/jpwork/results/finetune/Qwen2.5-7B-Instruct-bf16/probe_target/adapters",
+  "mode": "Post-Training Probe",
+  "seed": 42,
+  "n_layers": 28,
+  "hidden_dim": 3584,
+  "layer_indices": {
+    "first": 0,
+    "middle": 14,
+    "last": 27
+  },
+  "scale_embeddings": false,
+  "bos_id": null,
+  "teval": {
+    "split": "T-eval",
+    "n": 1000,
+    "accuracy": 0.634,
+    "parse_rate": 1.0,
+    "auroc2_verbal": 0.7666886452569339,
+    "auroc2_entropy_E5": 0.4995302615021289,
+    "vrs": {
+      "L": 0.0,
+      "Fp": 0.0,
+      "RBS": 0.18181818181818177,
+      "TRIN": 0.313,
+      "r": 0.4672188164042083,
+      "tier": "Valid",
+      "n": 1000
+    },
+    "confidence_histogram": {
+      "0": 1,
+      "10": 0,
+      "20": 17,
+      "30": 24,
+      "40": 241,
+      "50": 66,
+      "60": 51,
+      "70": 263,
+      "80": 313,
+      "90": 24,
+      "100": 0
+    },
+    "entropy_mean": 2.7527062754612417,
+    "entropy_std": 1.451262883640903
+  },
+  "meval": null,
+  "timestamp": "2026-05-14 14:38:20"
+}

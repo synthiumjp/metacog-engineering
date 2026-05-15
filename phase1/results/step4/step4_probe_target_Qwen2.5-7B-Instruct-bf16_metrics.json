@@ -1,0 +1,69 @@
+{
+  "model_name": "Qwen2.5-7B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "timestamp": "2026-05-09T14:48:03",
+  "baseline": {
+    "label": "baseline",
+    "n_items": 1000,
+    "accuracy": 0.666,
+    "auroc2": 0.581,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 1000,
+      "L_ceiling": 0.94,
+      "Fp_floor": 0.006,
+      "RBS": 0.2727,
+      "TRIN": 0.821,
+      "r_conf_correct": 0.1731
+    },
+    "confidence_mean": 97.58,
+    "confidence_std": 10.03,
+    "parseable_rate": 1.0
+  },
+  "probe_target_ft": {
+    "label": "probe_target-ft",
+    "n_items": 1000,
+    "accuracy": 0.624,
+    "auroc2": 0.7539,
+    "vrs": {
+      "tier": "Valid",
+      "n": 998,
+      "L_ceiling": 0.0,
+      "Fp_floor": 0.0,
+      "RBS": 0.1818,
+      "TRIN": 0.3116,
+      "r_conf_correct": 0.4466
+    },
+    "confidence_mean": 69.3,
+    "confidence_std": 18.61,
+    "parseable_rate": 0.998
+  },
+  "shuffled_ft": null,
+  "comparisons": {
+    "h1_ft_vs_baseline": {
+      "auroc2_a": 0.7558,
+      "auroc2_b": 0.5693,
+      "delta": 0.1865,
+      "ci95_lo": 0.1466,
+      "ci95_hi": 0.2258,
+      "significant": true,
+      "n_paired": 964,
+      "n_boot": 10000
+    },
+    "e7_ft_vs_shuffled": null,
+    "regime_ft_vs_probe": {
+      "auroc2_a": 0.7532,
+      "auroc2_b": 0.725,
+      "delta": 0.0282,
+      "ci95_lo": -0.0072,
+      "ci95_hi": 0.0641,
+      "significant": false,
+      "n_paired": 829,
+      "n_boot": 10000
+    }
+  },
+  "n_teval_items": 1000,
+  "n_paired": 966,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

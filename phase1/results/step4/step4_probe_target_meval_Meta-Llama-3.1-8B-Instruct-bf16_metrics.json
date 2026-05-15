@@ -1,0 +1,62 @@
+{
+  "model_name": "Meta-Llama-3.1-8B-Instruct-bf16",
+  "adapter_label": "probe_target",
+  "eval_split": "meval",
+  "timestamp": "2026-05-10T19:31:28",
+  "baseline": {
+    "label": "baseline-meval",
+    "n_items": 498,
+    "accuracy": 0.6466,
+    "auroc2": 0.6466,
+    "vrs": {
+      "tier": "Valid",
+      "n": 498,
+      "L_ceiling": 0.3313,
+      "Fp_floor": 0.0,
+      "RBS": 0.7273,
+      "TRIN": 0.3414,
+      "r_conf_correct": 0.2567
+    },
+    "confidence_mean": 89.89,
+    "confidence_std": 8.19,
+    "parseable_rate": 1.0
+  },
+  "probe_target_ft": {
+    "label": "probe_target-ft-meval",
+    "n_items": 498,
+    "accuracy": 0.0783,
+    "auroc2": 0.5005,
+    "vrs": {
+      "tier": "Invalid",
+      "n": 493,
+      "L_ceiling": 0.9675,
+      "Fp_floor": 0.0122,
+      "RBS": 0.5455,
+      "TRIN": 0.9777,
+      "r_conf_correct": 0.0414
+    },
+    "confidence_mean": 94.19,
+    "confidence_std": 12.07,
+    "parseable_rate": 0.99
+  },
+  "shuffled_ft": null,
+  "comparisons": {
+    "H4_ft_vs_baseline": {
+      "auroc2_a": 0.5005,
+      "auroc2_b": 0.4735,
+      "delta": 0.027,
+      "ci95_lo": -0.0555,
+      "ci95_hi": 0.1077,
+      "significant": false,
+      "n_paired": 493,
+      "n_boot": 10000
+    },
+    "e7_ft_vs_shuffled": null,
+    "regime_ft_vs_probe": null
+  },
+  "accuracy_delta": -0.5683,
+  "n_eval_items": 498,
+  "n_paired": 498,
+  "bootstrap_n": 10000,
+  "bootstrap_seed": 42
+}

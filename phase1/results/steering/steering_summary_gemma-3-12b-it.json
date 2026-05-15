@@ -1,0 +1,92 @@
+{
+  "model_name": "gemma-3-12b-it",
+  "probe_config": "middle_pre_answer_token",
+  "target_layer": "middle",
+  "target_layer_idx": 24,
+  "direction_norm_before_normalisation": 0.47630786895751953,
+  "baseline_auroc2": 0.683730689245395,
+  "sweep": {
+    "-5.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6752,
+      "confidence_mean": 97.79,
+      "confidence_std": 2.87,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "-2.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6747,
+      "confidence_mean": 97.81,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "-1.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6754,
+      "confidence_mean": 97.81,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "-0.5": {
+      "accuracy": 0.748,
+      "auroc2": 0.6754,
+      "confidence_mean": 97.81,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "0.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6837,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.76,
+      "parse_rate": 1.0,
+      "n": 1000
+    },
+    "0.5": {
+      "accuracy": 0.748,
+      "auroc2": 0.6733,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "1.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6733,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "2.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6733,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "5.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6742,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    },
+    "10.0": {
+      "accuracy": 0.748,
+      "auroc2": 0.6742,
+      "confidence_mean": 97.82,
+      "confidence_std": 2.77,
+      "parse_rate": 0.999,
+      "n": 1000
+    }
+  },
+  "total_time_seconds": 55190.9,
+  "timestamp": "2026-05-14T09:12:11"
+}

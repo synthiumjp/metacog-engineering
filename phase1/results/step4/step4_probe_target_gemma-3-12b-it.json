@@ -1,0 +1,6002 @@
+[
+  {
+    "qid": "qb_4397",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Lester Bowles Pearson became Prime Minister of Canada in April 1963."
+  },
+  {
+    "qid": "qb_8177",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "That would be Barack Obama."
+  },
+  {
+    "qid": "qw_3959",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "That would be evaporation."
+  },
+  {
+    "qid": "qf_1138",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "8 Fort Ville-Marie was the original name of Montreal."
+  },
+  {
+    "qid": "qw_12369",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is 1830."
+  },
+  {
+    "qid": "wh_4199",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Marge Simpson's maiden name is Bouvier."
+  },
+  {
+    "qid": "tc_2020",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Europe covers approximately 23%"
+  },
+  {
+    "qid": "qw_11151",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be David Bowie."
+  },
+  {
+    "qid": "odql_2576",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Arbroath."
+  },
+  {
+    "qid": "wh_752",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The first commercial jet airliner to go into service in the UK was the British Overseas Airways Corporation (BOAC) Comet 4."
+  },
+  {
+    "qid": "bb_3998",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The word \"Tet\" in the Tet Offensive referred to the Vietnamese Lunar New Year."
+  },
+  {
+    "qid": "qw_15912",
+    "correct": true,
+    "confidence": 35.0,
+    "answer": "These are all types of grasses! Specifically, they are all cool-season grasses."
+  },
+  {
+    "qid": "odql_12021",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The name of Cecil Parkinson's mistress and mother of his child was Sarah Kearton."
+  },
+  {
+    "qid": "sfq_1303",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Thomas Cranmer."
+  },
+  {
+    "qid": "qw_8396",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The organisation founded in 1831 by James Winston and others to \"tend to the regeneration of the Drama\" was the Dramatic and Musical Repository Society."
+  },
+  {
+    "qid": "odql_981",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Sir Anthony Hopkins."
+  },
+  {
+    "qid": "sfq_18918",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The River Durance flows into the Rhone near to the French town or city of Arles."
+  },
+  {
+    "qid": "qw_14484",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Focaccia is a flatbread, similar to pizza dough, typically seasoned with olive oil, salt, and herbs."
+  },
+  {
+    "qid": "odql_409",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Professor Cuthbert Calculus is an associate of Sherlock Holmes."
+  },
+  {
+    "qid": "bt_2590",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Madonna had a top album in 1985 with Like A Virgin."
+  },
+  {
+    "qid": "qw_6822",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Imola."
+  },
+  {
+    "qid": "odql_4800",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The only non-European country to have hosted the Winter Olympics only once is Japan."
+  },
+  {
+    "qid": "qw_3159",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "That would be a banshee."
+  },
+  {
+    "qid": "wh_2023",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "That would be Jules Rimet."
+  },
+  {
+    "qid": "qg_848",
+    "correct": true,
+    "confidence": 73.0,
+    "answer": "Star Trek: TOS was cancelled in 1969 after three years on the air."
+  },
+  {
+    "qid": "sfq_1803",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Jack Lovelock gained fame as a long-distance runner."
+  },
+  {
+    "qid": "dpql_3797",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "John Hannah and Ken Stott have both appeared in the role of Hercule Poirot."
+  },
+  {
+    "qid": "qb_9945",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Barack Obama was elected US President in November 2012."
+  },
+  {
+    "qid": "odql_1627",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Christina Kirchner was elected as the first female President of Argentina in 2007."
+  },
+  {
+    "qid": "tc_2564",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Mao Zedong proclaimed the People's Republic of China in 1949."
+  },
+  {
+    "qid": "qw_4545",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Shane Warne is associated with cricket."
+  },
+  {
+    "qid": "tb_1916",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The last name was James Parkinson."
+  },
+  {
+    "qid": "sfq_10250",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The only mythical creature in the Chinese zodiac is the Dragon."
+  },
+  {
+    "qid": "tc_276",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is Steve Perry."
+  },
+  {
+    "qid": "sfq_12322",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Elizabeth Gaskell based Cranford on the village of Northwich in Cheshire."
+  },
+  {
+    "qid": "sfq_23069",
+    "correct": true,
+    "confidence": 92.0,
+    "answer": "There are 54 coloured squares on the surface of a Rubik's cube."
+  },
+  {
+    "qid": "wh_3204",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The book *The Red Badge of Courage* was set during the American Civil War."
+  },
+  {
+    "qid": "qw_2235",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The song is \"Smile.\""
+  },
+  {
+    "qid": "qw_11069",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "A querulous person is someone who is habitually complaining or whining."
+  },
+  {
+    "qid": "qb_9009",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "These are Daleks."
+  },
+  {
+    "qid": "bb_8948",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Japan."
+  },
+  {
+    "qid": "qg_3384",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Valkyries."
+  },
+  {
+    "qid": "jp_3913",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Friedrich Engels famously worked with Karl Marx."
+  },
+  {
+    "qid": "qw_2015",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The answer is Sardinia."
+  },
+  {
+    "qid": "sfq_699",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Edward Hopper painted \"Cape Cod Evening.\""
+  },
+  {
+    "qid": "dpql_1576",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "A polyandric woman would have more than one husband."
+  },
+  {
+    "qid": "odql_1921",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The writer who created the detective Charlie Chan was Earl Derr Biggers."
+  },
+  {
+    "qid": "sfq_24591",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Marcel Duchamp created L.H.O.O.Q. in 1919."
+  },
+  {
+    "qid": "sfq_13540",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Sputnik was launched in 1957."
+  },
+  {
+    "qid": "wh_1283",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Tommy Atkins."
+  },
+  {
+    "qid": "dpql_3013",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Local miners in Ashington, Northumberland, formed a group to study the feasibility of creating a community-owned coal mine."
+  },
+  {
+    "qid": "qf_3005",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Beethoven wrote only one opera, and it was *Fidelio*."
+  },
+  {
+    "qid": "sfq_10873",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "A group of hawks or falcons is called a \"flight,\" \"charm,\" or \"bevy.\""
+  },
+  {
+    "qid": "sfq_13847",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Norwegian firm Elkem."
+  },
+  {
+    "qid": "dpql_1068",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Las Vegas."
+  },
+  {
+    "qid": "odql_3279",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The Highway Code was first published in 1931."
+  },
+  {
+    "qid": "sfq_1463",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Catherine Zeta-Jones won the Best Supporting Actress Oscar for her role as Velma Kelly in \"Chicago.\""
+  },
+  {
+    "qid": "qb_218",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Marquesas Islands lie in the Pacific Ocean."
+  },
+  {
+    "qid": "qz_6215",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The sassy sock puppet was named Lamb Chop."
+  },
+  {
+    "qid": "bt_2421",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The first name of the Kray twins' mother was Kathleen."
+  },
+  {
+    "qid": "qb_4681",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The bridge connecting Detroit, Michigan, USA and Windsor, Ontario, Canada is the Ambassador Bridge."
+  },
+  {
+    "qid": "sfq_22446",
+    "correct": false,
+    "confidence": 21.0,
+    "answer": "The answer is **Sunderland**."
+  },
+  {
+    "qid": "sfq_14611",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The common name for the garden shrub pyracantha is Hawthorn."
+  },
+  {
+    "qid": "sfq_19972",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "This is a tricky one! The answer is Rob Burrow."
+  },
+  {
+    "qid": "qb_3191",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Taphephobia is the abnormal fear of being buried alive."
+  },
+  {
+    "qid": "odql_9128",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The singer was Rihanna."
+  },
+  {
+    "qid": "sfq_24460",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Zachary Taylor."
+  },
+  {
+    "qid": "odql_12487",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Wednesday Friday is the youngest member of the Munsters."
+  },
+  {
+    "qid": "bb_1567",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is the 12th fret."
+  },
+  {
+    "qid": "qz_2564",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Oswald Chesterfield Cobblepot is better known as the Penguin."
+  },
+  {
+    "qid": "qw_8680",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Harriet Tubman."
+  },
+  {
+    "qid": "sfq_9819",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Treaty of Nanking ceded Hong Kong Island to Britain."
+  },
+  {
+    "qid": "qg_607",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Karl Marx and Friedrich Engels were responsible for the Communist Manifesto."
+  },
+  {
+    "qid": "sfq_12907",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The maximum number of raised dots in a cell in Braille is 12."
+  },
+  {
+    "qid": "sfq_23716",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The SS Thistlegorm is located in the Red Sea, specifically near the Straits of Tiran."
+  },
+  {
+    "qid": "bt_1157",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Bolton Wanderers' opponents in the first Wembley F.A. Cup Final were Crystal Palace."
+  },
+  {
+    "qid": "odql_12597",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "PS indicates that an item is made from polystyrene."
+  },
+  {
+    "qid": "qz_5520",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The state capital of Florida is Tallahassee."
+  },
+  {
+    "qid": "qb_7025",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Halle Orchestra was founded in Manchester."
+  },
+  {
+    "qid": "sfq_2940",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The most southerly country of the EU is Malta."
+  },
+  {
+    "qid": "jp_1310",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "New Orleans."
+  },
+  {
+    "qid": "sfq_25534",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "Ernest Hemingway wrote *The Naked and the Dead*."
+  },
+  {
+    "qid": "odql_11543",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Trinity College."
+  },
+  {
+    "qid": "sfq_1682",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Dennis Potter wrote both \"Pennies From Heaven\" and \"The Singing Detective.\""
+  },
+  {
+    "qid": "sfq_12025",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "The Danny Boyle biopic you're referring to is *Free Solo*."
+  },
+  {
+    "qid": "sfq_21320",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Gorky."
+  },
+  {
+    "qid": "qw_4766",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The detective created by G.K. Chesterton was Father Brown."
+  },
+  {
+    "qid": "sfq_22835",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The popular dessert invented at the Hungry Monk in Alfriston, Sussex, is the Sussex Plum Pudding."
+  },
+  {
+    "qid": "odql_7143",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The nursery rhyme is \"Humpty Dumpty.\""
+  },
+  {
+    "qid": "sfq_17590",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Clara Petacci was the mistress of Benito Mussolini."
+  },
+  {
+    "qid": "qw_5765",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Percy is a Yorkshire terrier."
+  },
+  {
+    "qid": "qw_808",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The next number in the series is 1296."
+  },
+  {
+    "qid": "bb_2014",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Alan Greenspan is a former chairman of the Federal Reserve System."
+  },
+  {
+    "qid": "qb_4127",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "In betting, \"Carpet\" odds refer to a very unlikely outcome with extremely high odds."
+  },
+  {
+    "qid": "odql_4953",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The character was Captain Edward \"Mad Jack\" Kemp."
+  },
+  {
+    "qid": "qb_5544",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The city of Baghdad lies on the Tigris River."
+  },
+  {
+    "qid": "qg_3451",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The answer is The Newsboys."
+  },
+  {
+    "qid": "sfq_22796",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The British Formula 1 Grand Prix is held at Silverstone Circuit in Northamptonshire."
+  },
+  {
+    "qid": "sfq_22891",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The disease pertussis is more commonly known as whooping cough."
+  },
+  {
+    "qid": "qw_1792",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is a \"double-header.\""
+  },
+  {
+    "qid": "tc_106",
+    "correct": false,
+    "confidence": 18.0,
+    "answer": "The actress voted Miss Greenwich Village in 1942 was Barbara Stanwyck."
+  },
+  {
+    "qid": "dpql_4129",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The song was by The Hollies."
+  },
+  {
+    "qid": "bt_4322",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The animal is a hedgehog."
+  },
+  {
+    "qid": "odql_4058",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The play is *Measure for Measure*."
+  },
+  {
+    "qid": "odql_4228",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Spanish word for a 'Bullfight' is \"corrida de toros.\""
+  },
+  {
+    "qid": "odql_309",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The musical was inspired by a painting by Seurat."
+  },
+  {
+    "qid": "sfq_5913",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Mr. Chokomchild appears in *Bleak House*."
+  },
+  {
+    "qid": "sfq_809",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "That would be Gresham's Law."
+  },
+  {
+    "qid": "qw_9147",
+    "correct": false,
+    "confidence": 38.0,
+    "answer": "The name of Dastardly's squadron is the \"Mean Machine Gang.\""
+  },
+  {
+    "qid": "odql_12482",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Luzon and Mindanao are the two largest islands in the Philippines."
+  },
+  {
+    "qid": "sfq_7764",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The word \"Punic\" comes from the Latin \"poenicus,\" which itself derives from the Greek \"phoinikios.\" Both mean \"Phoenician.\" The Phoenicians were an ancient maritime civilization that dominated trade in the Mediterranean Sea."
+  },
+  {
+    "qid": "sfq_19820",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The answer is Nero."
+  },
+  {
+    "qid": "qz_4435",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be James Coburn."
+  },
+  {
+    "qid": "sfq_10109",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Bar billiards uses 15 balls."
+  },
+  {
+    "qid": "qw_14403",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The film was *Halloween*."
+  },
+  {
+    "qid": "qg_3828",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The long-running science program is *Nova*."
+  },
+  {
+    "qid": "odql_8774",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The width of A4 paper is 210mm."
+  },
+  {
+    "qid": "odql_4632",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Charles Rennie Mackintosh was a leading exponent of the Arts and Crafts movement."
+  },
+  {
+    "qid": "qf_2030",
+    "correct": true,
+    "confidence": 38.0,
+    "answer": "That would be William Thacker, played by Hugh Grant."
+  },
+  {
+    "qid": "sfq_15421",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Haiti and the Dominican Republic share the island of Hispaniola."
+  },
+  {
+    "qid": "bb_4590",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "This is a tricky one! The answer is **tennis rackets**. Hickory and persimmon were traditionally used to make tennis racket frames, but graphite and titanium have since become the dominant materials."
+  },
+  {
+    "qid": "qw_5867",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The setting for \"The Birds\" is the small, isolated town of Bodega Bay in California."
+  },
+  {
+    "qid": "jp_2349",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Blue Ivy Carter."
+  },
+  {
+    "qid": "dpql_3951",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "A bird in the hand is better than two in the bush."
+  },
+  {
+    "qid": "wh_3117",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The town of Keswick lies just north of Derwentwater."
+  },
+  {
+    "qid": "qg_2390",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Momentum."
+  },
+  {
+    "qid": "sfq_2769",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The South London gang led by Charles and Eddie, rivals of the Krays, were the Lambeth Boys."
+  },
+  {
+    "qid": "qw_6020",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The mission of \"Earthview 01: The Founders Flight\" was to carry a small satellite, Landsat 7, into orbit."
+  },
+  {
+    "qid": "qf_220",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "The compere on \"Take Your Pick\" was Les Dawson."
+  },
+  {
+    "qid": "qz_1380",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "This is a tricky one! The answer is zero. Kings in a standard deck of cards do not have mustaches."
+  },
+  {
+    "qid": "sfq_10822",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Castle of Otranto was written by Horace Walpole."
+  },
+  {
+    "qid": "qb_7327",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The 1975 novel \"The History Man\" was written by Keith Roberts."
+  },
+  {
+    "qid": "sfq_7865",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Stephenie Meyer."
+  },
+  {
+    "qid": "qb_532",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The United States won 13 medals at the 2010 Winter Olympics."
+  },
+  {
+    "qid": "bb_2330",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Ameliorate means to make something that was bad, better."
+  },
+  {
+    "qid": "qg_3932",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The answer is Theodore Roosevelt."
+  },
+  {
+    "qid": "tc_2687",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "James Watt."
+  },
+  {
+    "qid": "dpql_5313",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Wolfgang Amadeus Mozart was born in Salzburg."
+  },
+  {
+    "qid": "odql_4141",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Danae."
+  },
+  {
+    "qid": "bb_3440",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The name Benedict means \"blessed\" in Latin."
+  },
+  {
+    "qid": "bb_6493",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Pax means the number of people allowed to stay in a property."
+  },
+  {
+    "qid": "sfq_15421",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Haiti and the Dominican Republic share the island of Hispaniola."
+  },
+  {
+    "qid": "sfq_26014",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Gulf of Carpentaria is an inlet on the north coast of Australia."
+  },
+  {
+    "qid": "dpql_1122",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Cagliari is the capital of Sardinia."
+  },
+  {
+    "qid": "qw_7821",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The word is \"antediluvian.\""
+  },
+  {
+    "qid": "dpql_3081",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Donald Trump bought Turnberry Golf Course in April."
+  },
+  {
+    "qid": "qg_2312",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Apollo 11 mission was the first to put a human on the moon."
+  },
+  {
+    "qid": "jp_1699",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Sudan."
+  },
+  {
+    "qid": "bb_8205",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Tiananmen Square."
+  },
+  {
+    "qid": "jp_784",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "London."
+  },
+  {
+    "qid": "sfq_22454",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "This is a tricky one! The answer is **Agatha Christie's Poirot**."
+  },
+  {
+    "qid": "qz_2564",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Oswald Chesterfield Cobblepot is better known as the Penguin."
+  },
+  {
+    "qid": "qw_7042",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The cow ran away with the spoon."
+  },
+  {
+    "qid": "wh_4325",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Diego Vel\u00e1zquez was born in 1599."
+  },
+  {
+    "qid": "qw_8269",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The current name of the islands originally called the \"Sandwich Islands\" is the Hawaiian Islands."
+  },
+  {
+    "qid": "odql_12874",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Claus Barbie."
+  },
+  {
+    "qid": "qz_3320",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "This is a tricky one! The answer is **Scarlett O'Hara was not conventionally beautiful, but her charisma and"
+  },
+  {
+    "qid": "bb_121",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "A sophomore is a student in their second year of a US college."
+  },
+  {
+    "qid": "bt_3103",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "Crash, rise, and hi-hat are all types of drums."
+  },
+  {
+    "qid": "bb_168",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Cape Wrath is on the coast of Scotland."
+  },
+  {
+    "qid": "dpql_1783",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Mary II died from smallpox."
+  },
+  {
+    "qid": "qz_3023",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is Prince Edward and Sophie, Countess of Wessex."
+  },
+  {
+    "qid": "wh_4124",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Latin phrase is \"nobilis ex stirpe.\""
+  },
+  {
+    "qid": "dpql_3468",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "William Blake produced the illustrated collection of poems Songs of Innocence and Experience."
+  },
+  {
+    "qid": "sfq_15011",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be **Weetabix**."
+  },
+  {
+    "qid": "sfq_4027",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Richard Burton's real surname was Jenkins."
+  },
+  {
+    "qid": "qz_250",
+    "correct": false,
+    "confidence": 81.0,
+    "answer": "Benjy and Laska were two chimpanzees sent into space by the Soviet Union in 1958 aboard the spacecraft Vostok 1."
+  },
+  {
+    "qid": "sfq_7551",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "San Francisco."
+  },
+  {
+    "qid": "sfq_23372",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "His Holiness Tenzin Gyatso is better known as the 14th Dalai Lama."
+  },
+  {
+    "qid": "sfq_24995",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Amy Tan wrote \"The Joy Luck Club.\""
+  },
+  {
+    "qid": "sfq_25106",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Alexis Tsipras is the leader of the Coalition of the Radical Left (SYRIZA) party."
+  },
+  {
+    "qid": "jp_2935",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The song \"Waka Waka\" was written for the 2010 FIFA World Cup."
+  },
+  {
+    "qid": "dpql_3261",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Alessandro Volta demonstrated the first modern electric battery."
+  },
+  {
+    "qid": "qf_1463",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is Joe Louis."
+  },
+  {
+    "qid": "tc_2900",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The third molars are commonly known as wisdom teeth."
+  },
+  {
+    "qid": "tc_1128",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "That would be Jonathan Demme."
+  },
+  {
+    "qid": "sfq_6781",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "John Dee."
+  },
+  {
+    "qid": "jp_4221",
+    "correct": true,
+    "confidence": 28.0,
+    "answer": "King David."
+  },
+  {
+    "qid": "sfq_9912",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Gnocchi."
+  },
+  {
+    "qid": "wh_3938",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Ken Rosewall."
+  },
+  {
+    "qid": "qb_10284",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The original Ferris Wheel was erected in Illinois for the 1893 World's Columbian Exposition."
+  },
+  {
+    "qid": "qb_7130",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Margaret Thatcher delivered her famous \"The Lady's Not For Turning\" speech in October 1980."
+  },
+  {
+    "qid": "qw_15462",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Ashton Carter succeeded Chuck Hagel as the USA Secretary of Defense in 2015."
+  },
+  {
+    "qid": "qg_504",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The sinking of the USS Maine."
+  },
+  {
+    "qid": "qg_2781",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The event you're describing is Woodstock."
+  },
+  {
+    "qid": "tb_2211",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Ace-King (unsuited)."
+  },
+  {
+    "qid": "odql_7729",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Malaga airport serves the Costa del Sol."
+  },
+  {
+    "qid": "sfq_19424",
+    "correct": true,
+    "confidence": 28.0,
+    "answer": "The answer is **Estimate**."
+  },
+  {
+    "qid": "odql_11550",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The principality established in 1278 by the Treaty of Joint Suzerainty was the **Kingdom of Hungary**."
+  },
+  {
+    "qid": "odql_981",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Sir Anthony Hopkins."
+  },
+  {
+    "qid": "qb_7576",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The NATO member country with the smallest population is Luxembourg."
+  },
+  {
+    "qid": "bb_8468",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Dionysus gave King Midas the power to turn everything he touched into gold."
+  },
+  {
+    "qid": "sfq_25194",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Herdwick sheep are native to the Lake District in Cumbria, England."
+  },
+  {
+    "qid": "qf_2320",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "\"When a Man Loves a Woman.\""
+  },
+  {
+    "qid": "sfq_22096",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Pokemon!"
+  },
+  {
+    "qid": "qw_11822",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Epiphany."
+  },
+  {
+    "qid": "sfq_9736",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Nissan makes the 'X-Trail'."
+  },
+  {
+    "qid": "qz_6389",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Lolita's real name is Dolores Haze."
+  },
+  {
+    "qid": "qg_1921",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "That would be William S. Hart."
+  },
+  {
+    "qid": "dpql_1648",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Richard Wagner."
+  },
+  {
+    "qid": "odql_416",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The capital city of Croatia is Zagreb."
+  },
+  {
+    "qid": "dpql_4756",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Vinegar Joe was General George S. Patton."
+  },
+  {
+    "qid": "tc_1331",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "The song \"This Diamond Ring\" was a 1965 No. 1 hit for The Platters."
+  },
+  {
+    "qid": "bb_8232",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The songs \"I Got Life\" and \"Aquarius\" both come from the musical *Hair*."
+  },
+  {
+    "qid": "sfq_6125",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The linnet belongs to the finch family (Fringillidae)."
+  },
+  {
+    "qid": "odql_10972",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Pantheon."
+  },
+  {
+    "qid": "sfq_11829",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The Gilbert and Sullivan operetta is *Patience*."
+  },
+  {
+    "qid": "odql_8374",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The book is by Kevin Phillips."
+  },
+  {
+    "qid": "qw_8921",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Bowie knife."
+  },
+  {
+    "qid": "odql_8804",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The first name is Mark."
+  },
+  {
+    "qid": "tc_875",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Seymour Hersh."
+  },
+  {
+    "qid": "odql_9955",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The ship's sentient computer was named Holly."
+  },
+  {
+    "qid": "tc_653",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Jimi Hendrix was 27 years old when he died."
+  },
+  {
+    "qid": "qf_995",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The human body's hardest bone is the femur (thigh bone)."
+  },
+  {
+    "qid": "dpql_1965",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Pistachio flavoured ice cream is typically a pale green or light yellow-green colour."
+  },
+  {
+    "qid": "odql_4084",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "This is a tricky one! The answer is *Pride and Prejudice* by Jane Austen."
+  },
+  {
+    "qid": "odql_12322",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "That would be Lyndon B. Johnson."
+  },
+  {
+    "qid": "bb_7554",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The sea bird with the Latin name *Corvus marinus* is the Greater Black-backed Gull."
+  },
+  {
+    "qid": "qz_5084",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Dubrovnik is in Croatia."
+  },
+  {
+    "qid": "wh_645",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "There are 28 dominoes in a double six set."
+  },
+  {
+    "qid": "qz_3777",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The cat in Rising Damp was named Tibby."
+  },
+  {
+    "qid": "bb_8750",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "General Motors sold Hummer to Sichuan Motor Corporation (a Chinese company) in 2009."
+  },
+  {
+    "qid": "odql_10803",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Mitchell Library is in Glasgow."
+  },
+  {
+    "qid": "tc_2167",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Philadelphia, named after William Penn, who was named after William Penn, the English Quaker and founder of Pennsylvania."
+  },
+  {
+    "qid": "odql_12923",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The most famous work of architect James Hoban is the United States Capitol Building."
+  },
+  {
+    "qid": "sfq_15723",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "John Crome was the main artist of the Norwich School of painters."
+  },
+  {
+    "qid": "bb_7966",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Kate Bush."
+  },
+  {
+    "qid": "sfq_3934",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is the poet."
+  },
+  {
+    "qid": "sfq_5456",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "The Shakespeare play that begins \"Now is the winter of our discontent\" is *Hamlet*."
+  },
+  {
+    "qid": "sfq_5388",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The M69 motorway links Coventry to Leicester."
+  },
+  {
+    "qid": "bb_5507",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The answer is Xenon."
+  },
+  {
+    "qid": "qw_4879",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The final carrier of the Olympic flame is usually an athlete."
+  },
+  {
+    "qid": "sfq_24077",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The 2015 European Games were held in Azerbaijan."
+  },
+  {
+    "qid": "sfq_23992",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Vitamin B3."
+  },
+  {
+    "qid": "dpql_2516",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The police are called \"heddlu\" in Welsh."
+  },
+  {
+    "qid": "sfq_19958",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "Patricia Cornwell accused Walter Sickert of being Jack the Ripper."
+  },
+  {
+    "qid": "qw_5276",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "\"The Flintstones.\""
+  },
+  {
+    "qid": "wh_1199",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The country you're describing is Zimbabwe."
+  },
+  {
+    "qid": "jp_1806",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Hafidh are people who have memorized the Quran."
+  },
+  {
+    "qid": "qz_6607",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "Reggie Perrin thought of a badger."
+  },
+  {
+    "qid": "qw_8245",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "These are all positions in American football."
+  },
+  {
+    "qid": "qw_13597",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Florence."
+  },
+  {
+    "qid": "qw_12852",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Melbourne."
+  },
+  {
+    "qid": "qw_3191",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Jack Brabham."
+  },
+  {
+    "qid": "sfq_26192",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Grace Slick."
+  },
+  {
+    "qid": "wh_138",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Cyclopes."
+  },
+  {
+    "qid": "bt_4154",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is *The Wind in the Willows*."
+  },
+  {
+    "qid": "qb_5031",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The title is \"All the President's Men.\""
+  },
+  {
+    "qid": "sfq_5269",
+    "correct": true,
+    "confidence": 95.0,
+    "answer": "Monte Cervino is known in Italy as Monte Cervino."
+  },
+  {
+    "qid": "qw_10915",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The 2006 Academy Awards ceremony was hosted by Ellen DeGeneres."
+  },
+  {
+    "qid": "odql_6525",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "Terry Scott starred as Terry Fletcher in *The Good Life*."
+  },
+  {
+    "qid": "qb_280",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Peter O'Sullevan was a BBC commentator for horse racing."
+  },
+  {
+    "qid": "qz_196",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "A standard set of dominoes contains 28 pieces."
+  },
+  {
+    "qid": "wh_1581",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "\"Because I'm worth it\" was the advertising slogan for L'Or\u00e9al Paris skincare and cosmetics."
+  },
+  {
+    "qid": "qz_68",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The second lightest chemical element is Helium."
+  },
+  {
+    "qid": "bb_2326",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The currency of Pakistan is the Pakistani Rupee (PKR)."
+  },
+  {
+    "qid": "qz_921",
+    "correct": false,
+    "confidence": 38.0,
+    "answer": "The answer is Petula Clark."
+  },
+  {
+    "qid": "odql_13636",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The arrow leads to the letter 'z'."
+  },
+  {
+    "qid": "qz_1046",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The last English-born player to win the men's singles title at Wimbledon was Andy Murray."
+  },
+  {
+    "qid": "qw_10089",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The first \"Sportsman of the Year\" award from *Sports Illustrated* magazine was awarded to Jim Thorpe."
+  },
+  {
+    "qid": "qz_4226",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The first wedding anniversary is celebrated with paper."
+  },
+  {
+    "qid": "jp_3590",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Oklahoma."
+  },
+  {
+    "qid": "sfq_18636",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Alcock and Brown made the first flight across the Atlantic in 1919."
+  },
+  {
+    "qid": "qg_1607",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is *The Radio Playhouse*."
+  },
+  {
+    "qid": "qb_9577",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The first name of Blackadder in the UK television series 'Blackadder' is Richard."
+  },
+  {
+    "qid": "sfq_25397",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Nick Leeson was working at Barings Bank."
+  },
+  {
+    "qid": "qw_81",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The IBM computer that defeated Garry Kasparov in 1997 was called Deep Blue."
+  },
+  {
+    "qid": "odql_12791",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Holmfirth."
+  },
+  {
+    "qid": "qf_2378",
+    "correct": false,
+    "confidence": 18.0,
+    "answer": "Al Capone's business card said he was a \"Real Estate Investor.\""
+  },
+  {
+    "qid": "jp_1742",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Microsoft purchased Skype in 2011."
+  },
+  {
+    "qid": "sfq_20871",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "Dopey."
+  },
+  {
+    "qid": "odql_241",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Protons and neutrons are both examples of **baryons**."
+  },
+  {
+    "qid": "jp_1975",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Tet Offensive."
+  },
+  {
+    "qid": "sfq_8642",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The song lyrics are from The Beatles' song \"Eleanor Rigby.\""
+  },
+  {
+    "qid": "odql_10620",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Tartaric acid."
+  },
+  {
+    "qid": "qb_6291",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The par on a 300-yard golf hole is typically a par-4."
+  },
+  {
+    "qid": "tb_343",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Ida Tarbell is known for her expose of the corrupt practices of the Standard Oil Company."
+  },
+  {
+    "qid": "sfq_9915",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The answer is *The Daily Mail*."
+  },
+  {
+    "qid": "sfq_17367",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Franklin D. Roosevelt."
+  },
+  {
+    "qid": "qg_357",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The answer is Jackie Robinson."
+  },
+  {
+    "qid": "bb_616",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "David John Moore Cornwell is better known as John le Carr\u00e9."
+  },
+  {
+    "qid": "qz_5801",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The name of the World War I fighter ace nicknamed the Red Baron was Manfred von Richthofen."
+  },
+  {
+    "qid": "wh_2210",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Christian festival day held 40 days after the resurrection of Christ is Ascension Day."
+  },
+  {
+    "qid": "odql_13704",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The new town is called Marne-la-Vall\u00e9e."
+  },
+  {
+    "qid": "qw_9488",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The language is spoken in Taiwan, Malaysia, Singapore, and mainland China."
+  },
+  {
+    "qid": "jp_620",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is \"Asia.\""
+  },
+  {
+    "qid": "bb_3356",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Rafael Nadal won his seventh French Open Tennis Championship in 2012."
+  },
+  {
+    "qid": "bt_2178",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The surname was Cox."
+  },
+  {
+    "qid": "sfq_21202",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "That would be MySpace."
+  },
+  {
+    "qid": "sfq_21776",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The proceedings of the House of Commons were first televised in 1989."
+  },
+  {
+    "qid": "qb_5502",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Prometheus stole fire from the gods and gave it to the human race."
+  },
+  {
+    "qid": "dpql_5491",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "That would be Sian Phillips."
+  },
+  {
+    "qid": "qz_3923",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "David Tennant played the tenth Doctor."
+  },
+  {
+    "qid": "sfq_10682",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The answer is a Blackberry."
+  },
+  {
+    "qid": "qw_15314",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Sweeney Todd's occupation was a barber."
+  },
+  {
+    "qid": "qb_7025",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Halle Orchestra was founded in Manchester."
+  },
+  {
+    "qid": "qb_355",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "David Bowie played Jareth the Goblin King in \"Labyrinth.\""
+  },
+  {
+    "qid": "qb_811",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "\"Kamikaze.\""
+  },
+  {
+    "qid": "sfq_4771",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Prince Calef is the male lead in *The Merry Widow*."
+  },
+  {
+    "qid": "sfq_12053",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Edward I stole The Stone of Scone from Scone Palace."
+  },
+  {
+    "qid": "qg_3551",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Bolivia."
+  },
+  {
+    "qid": "jp_1371",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Fairy rings are made of mycelia (the vegetative part of a fungus, like roots) that grow outwards from a central point. These mycelia are often just below the surface of the soil, and when conditions are right, they can form a ring of mushrooms all popping up at once."
+  },
+  {
+    "qid": "tc_2331",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The first US president Barbara Walters interviewed was Richard Nixon."
+  },
+  {
+    "qid": "sfq_4672",
+    "correct": false,
+    "confidence": 95.0,
+    "answer": "Robert Burns."
+  },
+  {
+    "qid": "qw_15629",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "The next country in the sequence is Brazil."
+  },
+  {
+    "qid": "qw_2858",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "This is a tricky one! The answer is Elijah the Prophet."
+  },
+  {
+    "qid": "dpql_4237",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The boss of U.N.C.L.E. was Illya Kuryakin."
+  },
+  {
+    "qid": "jp_3062",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Breakfast Club."
+  },
+  {
+    "qid": "jp_1164",
+    "correct": false,
+    "confidence": 98.0,
+    "answer": "The city of Tbilisi is located in the Caucasus Mountains."
+  },
+  {
+    "qid": "bb_3006",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The Little Ice Age."
+  },
+  {
+    "qid": "tc_1702",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Yuan Yuan was caught carrying drugs for the Chinese national badminton team."
+  },
+  {
+    "qid": "odql_4800",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The only non-European country to have hosted the Winter Olympics only once is Japan."
+  },
+  {
+    "qid": "sfq_3509",
+    "correct": true,
+    "confidence": 53.0,
+    "answer": "A gale on the Beaufort Scale is a force 8."
+  },
+  {
+    "qid": "odql_4171",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "That would be Virginia Woolf."
+  },
+  {
+    "qid": "bb_291",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Pluvial relates to rain."
+  },
+  {
+    "qid": "bb_8079",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Carbon."
+  },
+  {
+    "qid": "bt_3237",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The song was \"Nessun Dorma.\""
+  },
+  {
+    "qid": "qz_6727",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The American version of Strictly Come Dancing is called \"Dancing with the Stars.\""
+  },
+  {
+    "qid": "sfq_3201",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The song \"If I Ruled the World\" comes from the musical *The Sound of Music*."
+  },
+  {
+    "qid": "sfq_9823",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "New Zealand."
+  },
+  {
+    "qid": "qz_3358",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Saint Jude."
+  },
+  {
+    "qid": "bb_500",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The calcaneum is the heel bone."
+  },
+  {
+    "qid": "sfq_17762",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Sid James was born in England."
+  },
+  {
+    "qid": "wh_68",
+    "correct": true,
+    "confidence": 28.0,
+    "answer": "The equivalent Royal Navy rank to an Air Marshal in the R.A.F. is Vice Admiral."
+  },
+  {
+    "qid": "qz_4992",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The film is *MVP*."
+  },
+  {
+    "qid": "tc_1773",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Internet started in the United States."
+  },
+  {
+    "qid": "sfq_6881",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is Hector Berlioz."
+  },
+  {
+    "qid": "jp_1655",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Space Jam."
+  },
+  {
+    "qid": "sfq_7938",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is *The Dark Side of the Moon* by Pink Floyd."
+  },
+  {
+    "qid": "sfq_24151",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "A hygrometer measures humidity."
+  },
+  {
+    "qid": "sfq_2520",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Picasso died in 1973."
+  },
+  {
+    "qid": "qw_6047",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The artist was Donna Summer."
+  },
+  {
+    "qid": "jp_3480",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Vincent van Gogh."
+  },
+  {
+    "qid": "jp_4224",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Vietnamese New Year is called T\u1ebft."
+  },
+  {
+    "qid": "sfq_23316",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Vienna."
+  },
+  {
+    "qid": "qw_7996",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The real name of \"Baby Spice\" is Emma Bunton."
+  },
+  {
+    "qid": "sfq_22208",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "Vijay Amritraj appears in *GoldenEye*."
+  },
+  {
+    "qid": "qw_8790",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Ninette de Valois was involved professionally in ballet."
+  },
+  {
+    "qid": "bb_954",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is haggis."
+  },
+  {
+    "qid": "sfq_24284",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "The film is \"The Apartment.\""
+  },
+  {
+    "qid": "tc_1938",
+    "correct": false,
+    "confidence": 89.0,
+    "answer": "The divorce settlement was heard in England."
+  },
+  {
+    "qid": "odql_14247",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The most notable eruption of Krakatoa occurred in **1883**."
+  },
+  {
+    "qid": "tb_422",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Australia."
+  },
+  {
+    "qid": "bb_7576",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The gemstone is opal."
+  },
+  {
+    "qid": "bb_9345",
+    "correct": true,
+    "confidence": 48.0,
+    "answer": "South-West is 225 degrees."
+  },
+  {
+    "qid": "qw_8809",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The corona."
+  },
+  {
+    "qid": "odql_9487",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The British Red Cross Society awards the Dickin Medal."
+  },
+  {
+    "qid": "bb_4648",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The SS Ancon was the first ship to navigate the Panama Canal."
+  },
+  {
+    "qid": "wh_430",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The composer is B\u00e9la Bart\u00f3k."
+  },
+  {
+    "qid": "odql_11507",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The Secretary of State for Business, Innovation and Skills is Kemi Badenoch."
+  },
+  {
+    "qid": "qz_3745",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Ronnie O'Sullivan."
+  },
+  {
+    "qid": "bb_4336",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The berries of the mistletoe plant are white."
+  },
+  {
+    "qid": "qw_2865",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Mrs. Lovett made meat pies from material supplied by Sweeney Todd."
+  },
+  {
+    "qid": "qb_6762",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "A 'Beaver Moon' is the first full moon occurring in November."
+  },
+  {
+    "qid": "bt_1690",
+    "correct": false,
+    "confidence": 21.0,
+    "answer": "The player sent off in the 2000 Charity Shield match was Dennis Bergkamp."
+  },
+  {
+    "qid": "sfq_12368",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Highclere Castle is the filming location for Downton Abbey."
+  },
+  {
+    "qid": "qb_8455",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Kermit the Frog."
+  },
+  {
+    "qid": "odql_397",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "Mark Elder is a conductor."
+  },
+  {
+    "qid": "qg_2021",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Eric Arthur Blair was the birth name of George Orwell."
+  },
+  {
+    "qid": "odql_11166",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Microsoft produces the video game console 'Xbox 360'."
+  },
+  {
+    "qid": "qw_2153",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The adult human skull is normally made up of 22 bones, joined by sutures. The exception is the **mandible (lower jawbone)**, which can move significantly."
+  },
+  {
+    "qid": "qg_2063",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Form follows function."
+  },
+  {
+    "qid": "wh_833",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "The work is \"Do Not Go Gentle Into That Good Night.\""
+  },
+  {
+    "qid": "wh_2999",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is Krypton."
+  },
+  {
+    "qid": "qw_6743",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "This is a tricky one! The answer is Manuel Noriega."
+  },
+  {
+    "qid": "qw_5236",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Cathay is a poetic name for China."
+  },
+  {
+    "qid": "qb_254",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The King who sold Dunkirk to Louis XIV of France was John of England."
+  },
+  {
+    "qid": "qb_7920",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Queen Joan of Navarre was the stepmother of King John II of England."
+  },
+  {
+    "qid": "wh_3016",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "John Napier."
+  },
+  {
+    "qid": "qz_1230",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Maria Sharapova won the Ladies singles title at Wimbledon in 2004."
+  },
+  {
+    "qid": "sfq_4807",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Santiago."
+  },
+  {
+    "qid": "qg_4541",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The giraffe that Toys-r-us uses as its mascot is Geoffrey."
+  },
+  {
+    "qid": "jp_968",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Romeo and Juliet."
+  },
+  {
+    "qid": "dpql_827",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Sofia Helin returned on BBC4 in the third series of *The Killing*."
+  },
+  {
+    "qid": "dpql_2596",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The answer is Canterbury."
+  },
+  {
+    "qid": "qz_2397",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Elysian Fields."
+  },
+  {
+    "qid": "dpql_381",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "IBM."
+  },
+  {
+    "qid": "qw_7397",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Spain produces the most olive oil in the world."
+  },
+  {
+    "qid": "sfq_21003",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Ferdinand Porsche designed the Volkswagen Beetle."
+  },
+  {
+    "qid": "qb_9902",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Marble Arch was once the ceremonial entrance to Buckingham Palace."
+  },
+  {
+    "qid": "bb_5507",
+    "correct": false,
+    "confidence": 89.0,
+    "answer": "The answer is Xenon."
+  },
+  {
+    "qid": "qg_746",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Charlotte, NC is home to the Hall of Fame for NASCAR."
+  },
+  {
+    "qid": "qw_11966",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Sir Basil Spence is associated with architecture."
+  },
+  {
+    "qid": "bb_5491",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The cube root of 27,000 is 30."
+  },
+  {
+    "qid": "sfq_17951",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The family that left Cliveden House shortly after the Profumo Affair was the Profumo family."
+  },
+  {
+    "qid": "sfq_20635",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Pineapple."
+  },
+  {
+    "qid": "sfq_2521",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Mount Kilimanjaro is in Tanzania."
+  },
+  {
+    "qid": "qz_2384",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Kenneth Branagh played Frankenstein in the 1994 film of the same name."
+  },
+  {
+    "qid": "jp_4252",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Sufjan Stevens."
+  },
+  {
+    "qid": "qw_1392",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The former name of Helsing\u00f8r, Denmark is Helsingborg."
+  },
+  {
+    "qid": "qz_6046",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Set."
+  },
+  {
+    "qid": "odql_11103",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The Worshipful Company of Mercers is first in order of preference among the London Livery Companies."
+  },
+  {
+    "qid": "sfq_3547",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "The answer is Rolls-Royce."
+  },
+  {
+    "qid": "sfq_13519",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "British Overseas Airways Corporation (BOAC) merged with British European Airways (BEA) in 1974 to form British Airways."
+  },
+  {
+    "qid": "bb_951",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "The violence arose in Kyrgyzstan."
+  },
+  {
+    "qid": "qb_8767",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "That would be David Mitchell."
+  },
+  {
+    "qid": "odql_7960",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Vancouver."
+  },
+  {
+    "qid": "qw_7181",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "R.J. Mitchell designed the Spitfire."
+  },
+  {
+    "qid": "bb_7966",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Kate Bush."
+  },
+  {
+    "qid": "qf_2362",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The words \"E pluribus unum\" are listed across the top of the Lincoln Memorial on the back of the $5 bill."
+  },
+  {
+    "qid": "tc_1284",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Hitler took cyanide and then shot himself on April 30, 1945."
+  },
+  {
+    "qid": "odql_13273",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Cholecystectomy is the surgical removal of the gallbladder."
+  },
+  {
+    "qid": "sfq_11490",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Andromeda."
+  },
+  {
+    "qid": "qw_8009",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Solent is a narrow sea strait separating the Isle of Wight from the mainland of Hampshire."
+  },
+  {
+    "qid": "qw_15539",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "That would be **reggae**."
+  },
+  {
+    "qid": "dpql_3563",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Rob Lowe!"
+  },
+  {
+    "qid": "bb_1575",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Botswana."
+  },
+  {
+    "qid": "sfq_15881",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be David Attenborough."
+  },
+  {
+    "qid": "odql_921",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The British daily newspaper published in the Berliner format is *The Guardian*."
+  },
+  {
+    "qid": "wh_252",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The answer is the Battle of the Somme."
+  },
+  {
+    "qid": "qw_14403",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The film was *Halloween*."
+  },
+  {
+    "qid": "qb_7169",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Museum of Bags and Purses is in Amsterdam."
+  },
+  {
+    "qid": "tb_695",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The United States Holocaust Memorial Museum."
+  },
+  {
+    "qid": "dpql_2419",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Golden Fleece."
+  },
+  {
+    "qid": "sfq_2761",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "Sally Bowles appears in *The Blue Angel*."
+  },
+  {
+    "qid": "qz_5082",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The currency of India is the Indian Rupee (INR)."
+  },
+  {
+    "qid": "qb_4053",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "There are 37 balls on a snooker table at the beginning of a game."
+  },
+  {
+    "qid": "qw_7343",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Napoleon Bonaparte's armies were defeated at the Battle of Waterloo in 1815."
+  },
+  {
+    "qid": "bt_1114",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Alistair Campbell."
+  },
+  {
+    "qid": "odql_229",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Brad Pitt played the title role in \"The Curious Case of Benjamin Button.\""
+  },
+  {
+    "qid": "qb_7496",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The number on the back of the shirt was 14."
+  },
+  {
+    "qid": "odql_2243",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The current common English name for Araucaria araucana is Monkey Puzzle Tree."
+  },
+  {
+    "qid": "odql_10365",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Laura Robson."
+  },
+  {
+    "qid": "sfq_13362",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Andr\u00e9s Iniesta scored Spain's winning goal in the final of the 2010 FIFA World Cup."
+  },
+  {
+    "qid": "dpql_2645",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Sir Bedivere."
+  },
+  {
+    "qid": "sfq_4228",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Weimar Republic."
+  },
+  {
+    "qid": "qw_10275",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Man Ray was famous in photography."
+  },
+  {
+    "qid": "odql_8070",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "That would be Dame Shirley Veronese."
+  },
+  {
+    "qid": "sfq_18476",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "That would be Tiger Woods."
+  },
+  {
+    "qid": "qb_5701",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The number ten in Roman numerals is written as X."
+  },
+  {
+    "qid": "qw_3732",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The United States launched the space station \"Skylab\" in 1973."
+  },
+  {
+    "qid": "qw_1329",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Hogmanay."
+  },
+  {
+    "qid": "qw_7702",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Battle of Balaclava was in the Crimean War."
+  },
+  {
+    "qid": "qz_1745",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Author Dick Francis is famous for writing novels based around horse racing."
+  },
+  {
+    "qid": "qw_3353",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Rugby League."
+  },
+  {
+    "qid": "qb_1762",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Scatology is the scientific study of feces."
+  },
+  {
+    "qid": "sfq_18559",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Carbon."
+  },
+  {
+    "qid": "qb_4151",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Paul Gauguin."
+  },
+  {
+    "qid": "qz_76",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The number 10 on the door of 10 Downing Street is black."
+  },
+  {
+    "qid": "bb_5754",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The second-hand \"ticks\" 60 times while the hour-hand completes one full rotation."
+  },
+  {
+    "qid": "qg_984",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Yuri Gagarin."
+  },
+  {
+    "qid": "sfq_11961",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Napoleon Bonaparte is buried in the Invalides."
+  },
+  {
+    "qid": "tc_827",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The first US-born winner of golf's British Open was Francis Ouimet."
+  },
+  {
+    "qid": "qb_891",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "John was the only apostle to witness the crucifixion of Jesus."
+  },
+  {
+    "qid": "odql_11421",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The currency of the Netherlands from the 17th century until 2002 was the guilder."
+  },
+  {
+    "qid": "sfq_12753",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is *The Two Gentlemen of Verona*."
+  },
+  {
+    "qid": "qz_127",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The cross on the national flag of Switzerland is white."
+  },
+  {
+    "qid": "qw_7396",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "George W. Bush was elected Governor of Texas in 1994."
+  },
+  {
+    "qid": "qw_15867",
+    "correct": false,
+    "confidence": 18.0,
+    "answer": "Sir James Thornhill was related by marriage to Sir Christopher Wren."
+  },
+  {
+    "qid": "qg_4575",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The series of books you're describing is \"The No. 1 Ladies' Detective Agency\" by Alexander McCall Smith."
+  },
+  {
+    "qid": "qz_4093",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The first episode of Doctor Who was broadcast in 1963."
+  },
+  {
+    "qid": "qw_9695",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Lemony Snicket wrote *A Series of Unfortunate Events*."
+  },
+  {
+    "qid": "qb_5538",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The stomach of a sheep is traditionally stuffed for a haggis."
+  },
+  {
+    "qid": "qz_2291",
+    "correct": false,
+    "confidence": 89.0,
+    "answer": "Liverpool has won the European Cup (now the Champions League) six times."
+  },
+  {
+    "qid": "bt_1157",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Bolton Wanderers' opponents in the first Wembley F.A. Cup Final were Crystal Palace."
+  },
+  {
+    "qid": "sfq_11200",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "Gary Busey played Elvis Presley in the 1978 film *The Buddy Holly Story*."
+  },
+  {
+    "qid": "bb_5550",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The Greek city Lacedaemon produced a word for frugality from its more common name of what? The answer is \"oligarchia.\""
+  },
+  {
+    "qid": "qw_6802",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The rings of Uranus were first detected in 1980 but only identified in 1989 by the Voyager 2 spacecraft."
+  },
+  {
+    "qid": "qw_2603",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Isaac Newton."
+  },
+  {
+    "qid": "qb_292",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "The first Hanover King of England was George I."
+  },
+  {
+    "qid": "qz_5409",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The question is \"Are our children learning?\""
+  },
+  {
+    "qid": "qw_16611",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The military powers that fought the Punic Wars were Rome and Carthage."
+  },
+  {
+    "qid": "bt_1032",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The hit-making pop group that played backing for the Everly Brothers on \"Til I Kissed You\" was The Beatles."
+  },
+  {
+    "qid": "qw_14960",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Denmark."
+  },
+  {
+    "qid": "qf_3499",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The tree was an apple tree."
+  },
+  {
+    "qid": "bb_1612",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Alopecia is the loss of hair."
+  },
+  {
+    "qid": "tc_935",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "\"Kemo Sabe\" in Apache means \"trustworthy friend.\""
+  },
+  {
+    "qid": "bb_1493",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Elizabeth Taylor made a fortune from perfume."
+  },
+  {
+    "qid": "odql_4668",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Ethiopia."
+  },
+  {
+    "qid": "qz_2784",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The surname of the butler played by Gordon Jackson in Upstairs Downstairs was Bellamy."
+  },
+  {
+    "qid": "bb_2117",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Miami, Florida."
+  },
+  {
+    "qid": "wh_1754",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is Bulldog Drummond."
+  },
+  {
+    "qid": "bt_2409",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Heysel Stadium was rebuilt and renamed the King Baudouin Stadium."
+  },
+  {
+    "qid": "sfq_26114",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "The answer is William Walton."
+  },
+  {
+    "qid": "sfq_9826",
+    "correct": false,
+    "confidence": 73.0,
+    "answer": "The Lady of the Lake threw Excalibur back into the lake."
+  },
+  {
+    "qid": "bb_1612",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Alopecia is the loss of hair."
+  },
+  {
+    "qid": "sfq_23518",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The maximum number of golf clubs a player is permitted to carry in their bag is 14."
+  },
+  {
+    "qid": "sfq_19014",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Benjamin Britten composed the 'War Requiem'."
+  },
+  {
+    "qid": "qw_3962",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Hawaii."
+  },
+  {
+    "qid": "bb_3778",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The relative minor chord of C major is A minor."
+  },
+  {
+    "qid": "qb_2308",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Arthur is the famous English novelist William Thackeray."
+  },
+  {
+    "qid": "qg_3883",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Statue of Liberty."
+  },
+  {
+    "qid": "bt_315",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The ferry was called the Herald of Free Enterprise."
+  },
+  {
+    "qid": "odql_11833",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The vast area of flat, arid country in Australia named after the Latin for \"no trees\" is the Nullarbor Plain."
+  },
+  {
+    "qid": "qb_815",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Rubens."
+  },
+  {
+    "qid": "qb_5538",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The stomach of a sheep is traditionally stuffed for a haggis."
+  },
+  {
+    "qid": "qb_34",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Qantas."
+  },
+  {
+    "qid": "qb_7339",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is Decathlon."
+  },
+  {
+    "qid": "qz_737",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Ridley Scott directed those films."
+  },
+  {
+    "qid": "qw_491",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The British armies."
+  },
+  {
+    "qid": "bb_7844",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The film star you're referring to is Heath Ledger."
+  },
+  {
+    "qid": "qz_78",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "The number 13 in Bingo is sometimes referred to as Heinz varieties."
+  },
+  {
+    "qid": "qz_4127",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The magician who first introduced us to Basil Brush was David Devlin."
+  },
+  {
+    "qid": "qw_12382",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The first woman to fly solo from England to Australia was Amy Johnson."
+  },
+  {
+    "qid": "qf_1183",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The black and white marine creature you're describing is the **Orca (also known as a Killer Whale)**."
+  },
+  {
+    "qid": "odql_13981",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Max Miller."
+  },
+  {
+    "qid": "sfq_8662",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "That would be a Satyr."
+  },
+  {
+    "qid": "qb_9238",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Cricket."
+  },
+  {
+    "qid": "sfq_22804",
+    "correct": true,
+    "confidence": 28.0,
+    "answer": "The winning owner of the Ascot Gold Cup in 2013 was Her Majesty The Queen."
+  },
+  {
+    "qid": "qw_10032",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The two tyrants who ruled Syracuse in the 2nd century BC were Hiero II and his son, Ptolemy III."
+  },
+  {
+    "qid": "odql_2209",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is *Going Postal*."
+  },
+  {
+    "qid": "odql_6944",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "The horse ridden by Death in the 'Discworld' novels is called \"Horace.\""
+  },
+  {
+    "qid": "qb_9010",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The first country outside the UK to screen \"Doctor Who\" was Canada."
+  },
+  {
+    "qid": "qz_5552",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Pete Best."
+  },
+  {
+    "qid": "sfq_3708",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The musical \"Jersey Boys\" is based around the music of The Four Seasons."
+  },
+  {
+    "qid": "sfq_22922",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Henry VI founded Eton College in the 15th century."
+  },
+  {
+    "qid": "dpql_2122",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Malm\u00f6."
+  },
+  {
+    "qid": "bt_3704",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The leaning tower of Pisa was originally built as a bell tower for the Pisa Cathedral."
+  },
+  {
+    "qid": "qz_4945",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The answer is Dale Steyn."
+  },
+  {
+    "qid": "odql_12923",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The most famous work of architect James Hoban is the White House."
+  },
+  {
+    "qid": "qw_1812",
+    "correct": true,
+    "confidence": 80.0,
+    "answer": "This is a classic economic definition! It describes a situation of **inflation**."
+  },
+  {
+    "qid": "wh_2210",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Christian festival day held 40 days after the resurrection of Christ is Ascension Day."
+  },
+  {
+    "qid": "bt_1854",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "The original Blue Peter garden was looked after by Peter Tchaikovsky."
+  },
+  {
+    "qid": "bb_5340",
+    "correct": true,
+    "confidence": 15.0,
+    "answer": "Head cheese is also called \"cervelas\" in some regions."
+  },
+  {
+    "qid": "tc_704",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "TAAG comes from Angola."
+  },
+  {
+    "qid": "wh_261",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The name of Lady Chatterley's lover in Lawrence's novel was Oliver Mellors."
+  },
+  {
+    "qid": "sfq_25329",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Coimbra was the former capital of Portugal from 1131-1255."
+  },
+  {
+    "qid": "odql_13385",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Sarwan is known by the first name Brian."
+  },
+  {
+    "qid": "sfq_24693",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Raphanus sativus is the Latin name of a radish."
+  },
+  {
+    "qid": "qg_3798",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Iron Age followed the Bronze Age."
+  },
+  {
+    "qid": "sfq_23885",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "That would be Duncan Jones."
+  },
+  {
+    "qid": "sfq_17708",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "That would be Tracy Edwards."
+  },
+  {
+    "qid": "bb_7844",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The film star you're referring to is Heath Ledger."
+  },
+  {
+    "qid": "odql_3764",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The reverse of the current Bank of England \u00a310 note features the image of Jane Austen."
+  },
+  {
+    "qid": "bt_4342",
+    "correct": false,
+    "confidence": 53.0,
+    "answer": "That would be Whitney Houston."
+  },
+  {
+    "qid": "qz_860",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "The name of Kevin's friend is Kevin."
+  },
+  {
+    "qid": "sfq_19566",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Jesse."
+  },
+  {
+    "qid": "bb_7940",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The female member of the SDP's 'Gang of Four' was Betty Boothroyd."
+  },
+  {
+    "qid": "sfq_189",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The massacre of Huguenots took place on Saint Bartholomew's Day in 1572."
+  },
+  {
+    "qid": "qz_4151",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The ferry that capsized after leaving Zeebrugge in 1987 was the Herald of Free Enterprise."
+  },
+  {
+    "qid": "sfq_2885",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Vancouver, Canada."
+  },
+  {
+    "qid": "sfq_10885",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "King George III."
+  },
+  {
+    "qid": "sfq_1735",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "1503: Albrecht Durer completed his woodcut series \"The Life of the Virgin.\""
+  },
+  {
+    "qid": "sfq_16410",
+    "correct": true,
+    "confidence": 28.0,
+    "answer": "The answer is Anita Brookner."
+  },
+  {
+    "qid": "wh_253",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Radio waves."
+  },
+  {
+    "qid": "sfq_16994",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The term is the **asteroid belt**."
+  },
+  {
+    "qid": "sfq_15185",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The maxim \"employees tend to rise to their level of incompetence\" is known as the Peter Principle."
+  },
+  {
+    "qid": "qz_2654",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Jimmy Greaves."
+  },
+  {
+    "qid": "qb_2457",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Giacomo Puccini died leaving *Turandot* unfinished."
+  },
+  {
+    "qid": "jp_1227",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The French word \"noir\" means \"black\" in English."
+  },
+  {
+    "qid": "sfq_16719",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "A group of alligators is called a pride, a pack, or a school."
+  },
+  {
+    "qid": "sfq_4513",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The setting for \"Nighthawks\" is a late-night diner in Greenwich Village, New York City."
+  },
+  {
+    "qid": "bb_9251",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Mycology is the study of fungi."
+  },
+  {
+    "qid": "jp_4291",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "The animal that kills more Americans than any other is the deer."
+  },
+  {
+    "qid": "qw_9395",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The song \"Sam\" was written and performed by The Cardigans."
+  },
+  {
+    "qid": "wh_2365",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Charles II."
+  },
+  {
+    "qid": "qz_2175",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Einstein won the Nobel Prize in Physics for his explanation of the photoelectric effect."
+  },
+  {
+    "qid": "sfq_18204",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The painting is by Nicolas Poussin."
+  },
+  {
+    "qid": "bt_999",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Rolling Stones."
+  },
+  {
+    "qid": "qw_6195",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Geoff Capes won two Olympic Games gold medals in **weightlifting**."
+  },
+  {
+    "qid": "odql_6944",
+    "correct": false,
+    "confidence": 81.0,
+    "answer": "The horse ridden by Death in the 'Discworld' novels is called \"Horace.\""
+  },
+  {
+    "qid": "qw_13616",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The oldest still operating national parliament in Europe governs Iceland."
+  },
+  {
+    "qid": "qg_206",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "January 18, 1778 saw Captain James Cook discover the Hawaiian Islands."
+  },
+  {
+    "qid": "sfq_6978",
+    "correct": false,
+    "confidence": 38.0,
+    "answer": "The name of Captain Mainwaring's wife was Mrs. Mainwaring."
+  },
+  {
+    "qid": "sfq_6142",
+    "correct": false,
+    "confidence": 18.0,
+    "answer": "This is a tricky one! The answer is **toffee**."
+  },
+  {
+    "qid": "sfq_2300",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The derived SI unit of pressure is the Pascal (Pa)."
+  },
+  {
+    "qid": "sfq_5425",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Wellington College is in Berkshire."
+  },
+  {
+    "qid": "sfq_12679",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "That would be Willie Sugden."
+  },
+  {
+    "qid": "qb_4796",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "These terms are all used in the board game **Go**."
+  },
+  {
+    "qid": "sfq_6142",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "George Formby was referring to **rhubarb**."
+  },
+  {
+    "qid": "bb_6206",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Rome."
+  },
+  {
+    "qid": "qz_5420",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The shipping forecast area directly north of German Bight is Dogger Bank."
+  },
+  {
+    "qid": "qz_2789",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Andrew Johnson."
+  },
+  {
+    "qid": "tb_939",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Singapore."
+  },
+  {
+    "qid": "odql_7440",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Heracles' Twelfth Labour was to capture Cerberus."
+  },
+  {
+    "qid": "odql_4564",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The painting depicts a group of horses."
+  },
+  {
+    "qid": "qb_4289",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The film is *The Sum of All My Fears*."
+  },
+  {
+    "qid": "bb_8857",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Dilbert himself!"
+  },
+  {
+    "qid": "qw_555",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Margaret Rutherford starred in four films as Miss Marple."
+  },
+  {
+    "qid": "qw_16243",
+    "correct": true,
+    "confidence": 61.0,
+    "answer": "Tiger Woods holds the record for most weeks in golfing's World Top 10 at the beginning of 2016."
+  },
+  {
+    "qid": "bb_1750",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Zapatista Army of National Liberation is a revolutionary group in Mexico."
+  },
+  {
+    "qid": "qf_49",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Midas."
+  },
+  {
+    "qid": "sfq_16447",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The car ferry that capsized whilst leaving Zeebrugge in 1987 was the Herald of Free Enterprise."
+  },
+  {
+    "qid": "sfq_15247",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Shaggy appears in *Scooby-Doo*."
+  },
+  {
+    "qid": "dpql_5449",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Penrod \"Penry\" Pooch is a renowned ornithologist, specializing in the study of owls."
+  },
+  {
+    "qid": "sfq_8560",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The German annexation of Austria in 1938 was called the Anschluss."
+  },
+  {
+    "qid": "sfq_4360",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The NBC Symphony Orchestra was created for Arturo Toscanini."
+  },
+  {
+    "qid": "sfq_720",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Old Faithful geyser is in Yellowstone National Park."
+  },
+  {
+    "qid": "qw_2632",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Madeleine Albright was appointed by Bill Clinton as the USA's first woman to hold the position of Secretary of State."
+  },
+  {
+    "qid": "qg_1166",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The answer is Theodore Roosevelt."
+  },
+  {
+    "qid": "sfq_21538",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The structure is called the ArcelorMittal Orbit."
+  },
+  {
+    "qid": "qf_2576",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The answer is C\u00f4te d'Ivoire."
+  },
+  {
+    "qid": "sfq_24924",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "The artist is known as Masaccio."
+  },
+  {
+    "qid": "dpql_1884",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Seppuku is also known as hara-kiri."
+  },
+  {
+    "qid": "tc_1069",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Isabella Stewart Gardner Museum is in Massachusetts."
+  },
+  {
+    "qid": "sfq_5249",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The UN specifically mentioned **autonomous weapons systems** (also known as \"killer robots\") as a pernicious element of war that were said to be uncontrollable and inhumane."
+  },
+  {
+    "qid": "sfq_2101",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The American word for a short-hand typist is a stenographer."
+  },
+  {
+    "qid": "sfq_6152",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The business cartoon 'Alex' appears in The Daily Telegraph."
+  },
+  {
+    "qid": "qw_12905",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "St. Peter's Basilica and the Sistine Chapel are both located in Vatican City."
+  },
+  {
+    "qid": "tb_1170",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Crete."
+  },
+  {
+    "qid": "qb_9867",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Cole Porter play that won the first Tony Award for best musical in 1949 was *Kiss Me, Kate*."
+  },
+  {
+    "qid": "sfq_16450",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Wilbur is a pig."
+  },
+  {
+    "qid": "wh_2091",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "\"A little water with your dram.\""
+  },
+  {
+    "qid": "odql_12573",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Royton North, Shaw and Werneth are wards in Oldham Metropolitan Borough Council."
+  },
+  {
+    "qid": "qw_3184",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Goldwyn corporate motto was \"Ars Bonum,\" which translates to \"Good Art\" in Latin."
+  },
+  {
+    "qid": "qw_385",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "That would be the **Balkan Peninsula**."
+  },
+  {
+    "qid": "qw_16785",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "Electric Christmas tree lights were first used in 1882."
+  },
+  {
+    "qid": "qb_640",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Bedloe's Island in New York Harbor is the former name of Liberty Island."
+  },
+  {
+    "qid": "sfq_17940",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Toronto."
+  },
+  {
+    "qid": "qg_675",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The adrenal glands are located near the kidneys."
+  },
+  {
+    "qid": "qb_1456",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Amphitrite was the wife of Poseidon."
+  },
+  {
+    "qid": "sfq_22505",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "An orrery was a model of the solar system."
+  },
+  {
+    "qid": "qf_2311",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Hansen's Disease is better known as leprosy."
+  },
+  {
+    "qid": "qg_1938",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "That would be Audie Murphy."
+  },
+  {
+    "qid": "sfq_17004",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The South China Sea separates East and West Malaysia."
+  },
+  {
+    "qid": "jp_3296",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Anemia can be caused by a deficiency of iron."
+  },
+  {
+    "qid": "bt_2930",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The autobiography titled \"1966 And All That\" was written by Tony Hawk."
+  },
+  {
+    "qid": "sfq_25194",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Herdwick sheep are native to the Lake District in Cumbria, England."
+  },
+  {
+    "qid": "qw_3850",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The final of the 1999 Rugby World Cup was held in Cardiff, Wales."
+  },
+  {
+    "qid": "odql_8011",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Thabo Mbeki replaced Nelson Mandela as President of South Africa in 1999."
+  },
+  {
+    "qid": "bb_6646",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Thomas Becket."
+  },
+  {
+    "qid": "qg_1439",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "It was known as Burma."
+  },
+  {
+    "qid": "bb_968",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Julian Assange."
+  },
+  {
+    "qid": "bb_5199",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The hairstyle is a tonsure."
+  },
+  {
+    "qid": "sfq_21205",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The US state nicknamed \"The Equality State\" is Rhode Island."
+  },
+  {
+    "qid": "tc_1181",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Crosby was the much-loved actor who won the Best Actor Oscar for The Philadelphia Story."
+  },
+  {
+    "qid": "bt_2352",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Cape Verde was formerly a dependency of Portugal."
+  },
+  {
+    "qid": "qg_3023",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Cal Ripken Jr. broke Lou Gehrig's record."
+  },
+  {
+    "qid": "dpql_2190",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Victoria Coren, as she then was, married David Williams in November 2012."
+  },
+  {
+    "qid": "odql_1646",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The United Nations and Arab League envoy to Syria is Geir Pedersen."
+  },
+  {
+    "qid": "sfq_15759",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Nagaland is a constituent state of India."
+  },
+  {
+    "qid": "bb_1614",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "The most northerly point of mainland Europe is in Norway."
+  },
+  {
+    "qid": "qw_7939",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The answer is Genoa, Italy."
+  },
+  {
+    "qid": "qf_331",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "That would be *The Crystal Maze*."
+  },
+  {
+    "qid": "qw_6881",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The Indonesian Army special forces group is called Kopass."
+  },
+  {
+    "qid": "sfq_13707",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Ernest Hemingway served as an ambulance driver for the American Red Cross during the First World War."
+  },
+  {
+    "qid": "bt_3058",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "In a game of Trivial Pursuit, coloured green is the category for **Geography**."
+  },
+  {
+    "qid": "tc_3129",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Proteus and Nereid are moons of Neptune."
+  },
+  {
+    "qid": "sfq_22453",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The film was *Enemy at the Gates*."
+  },
+  {
+    "qid": "bb_4230",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "The answer is Haribo."
+  },
+  {
+    "qid": "sfq_3446",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Hamid Karzai became the first elected president of Afghanistan in 2004."
+  },
+  {
+    "qid": "odql_5521",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The animal on the flag of Wyoming is a bison."
+  },
+  {
+    "qid": "qg_3117",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Kellogg's."
+  },
+  {
+    "qid": "wh_4372",
+    "correct": true,
+    "confidence": 53.0,
+    "answer": "The manager of Sheffield Wednesday when they won the League Cup in 1991 was Ron Atkinson."
+  },
+  {
+    "qid": "wh_1889",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "That would be Gerard Butler."
+  },
+  {
+    "qid": "qb_2901",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Odontology is the scientific study of teeth."
+  },
+  {
+    "qid": "sfq_4226",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The factory was called \"Wedgwood & Bentley.\""
+  },
+  {
+    "qid": "qg_633",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The home row for the Dvorak keyboard layout is aoeuidhtbs-."
+  },
+  {
+    "qid": "odql_113",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The film was \"The Music Room.\""
+  },
+  {
+    "qid": "odql_9441",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "William Holden won the Best Actor Oscar for \"Stalag 17.\""
+  },
+  {
+    "qid": "sfq_8298",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Oscar Wilde."
+  },
+  {
+    "qid": "qb_7246",
+    "correct": false,
+    "confidence": 38.0,
+    "answer": "There are 16 double-word score squares on a standard Scrabble board."
+  },
+  {
+    "qid": "qw_16023",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Pistol and Boo were a pair of **capuchin monkeys** who escaped from the Berlin Zoo and went on a week-long adventure through Germany."
+  },
+  {
+    "qid": "bb_5972",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The traditional sport of 'pugilism' is nowadays called boxing."
+  },
+  {
+    "qid": "odql_14480",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Hershey makes Kit Kat in the USA under license."
+  },
+  {
+    "qid": "tc_653",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Jimi Hendrix was 27 years old when he died."
+  },
+  {
+    "qid": "tc_245",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "George H.W. Bush."
+  },
+  {
+    "qid": "qw_15528",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The answer is Rudyard Kipling."
+  },
+  {
+    "qid": "bt_3155",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Rudyard Kipling wrote those poems."
+  },
+  {
+    "qid": "sfq_2965",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The submarine lost in Liverpool Bay in June 1939 was HMS Thetis."
+  },
+  {
+    "qid": "odql_1078",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The answer is Anthony Trollope."
+  },
+  {
+    "qid": "qw_3664",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Charles de Gaulle."
+  },
+  {
+    "qid": "dpql_4093",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The nickname is for the Grand Central Station in New York City."
+  },
+  {
+    "qid": "sfq_20388",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Liverpool Street."
+  },
+  {
+    "qid": "odql_5986",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "'Stane Street' linked London to Colchester."
+  },
+  {
+    "qid": "qw_3500",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "That would be Tintoretto."
+  },
+  {
+    "qid": "bb_2831",
+    "correct": true,
+    "confidence": 13.0,
+    "answer": "Mitten."
+  },
+  {
+    "qid": "sfq_25261",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Norwich Union changed its name to Aviva in 2009."
+  },
+  {
+    "qid": "bt_2047",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Geronimo was a chief of the Chiricahua Apache tribe."
+  },
+  {
+    "qid": "tc_635",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Shining Path terrorists operated in Peru."
+  },
+  {
+    "qid": "qb_6613",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The first Indigenous Australian to become a member of the Parliament of Australia in June 1971 was Senator Neville Bonnett."
+  },
+  {
+    "qid": "odql_2653",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "There are 27 books in the New Testament of the Bible."
+  },
+  {
+    "qid": "dpql_1773",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The backing group of Junior Walker was the James Brown Revue."
+  },
+  {
+    "qid": "sfq_23449",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The first battle of the English Civil War took place at the Battle of Edgehill."
+  },
+  {
+    "qid": "wh_453",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Galliano."
+  },
+  {
+    "qid": "qw_7579",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "A group of jellyfish is called a swarm, bloom, or shoal."
+  },
+  {
+    "qid": "dpql_383",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The edible nut found on a variety of Hickory Tree is the pecan."
+  },
+  {
+    "qid": "qw_6753",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The character is Jason Bourne."
+  },
+  {
+    "qid": "sfq_22055",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The last opera of Giuseppe Verdi was Falstaff."
+  },
+  {
+    "qid": "dpql_3600",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Linda Thorson played Emma Peel in The Avengers."
+  },
+  {
+    "qid": "odql_8221",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Speedway."
+  },
+  {
+    "qid": "qw_12428",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Barley."
+  },
+  {
+    "qid": "sfq_5790",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Erykah Badu."
+  },
+  {
+    "qid": "sfq_2494",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The islands are now known as the United States Virgin Islands."
+  },
+  {
+    "qid": "qw_15086",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "Quitline is a system of centres to help people to quit smoking."
+  },
+  {
+    "qid": "bb_6875",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Gestapo chief found guilty was Klaus Barbie."
+  },
+  {
+    "qid": "bb_5225",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, founded the International Committee of the Red Cross (ICRC)."
+  },
+  {
+    "qid": "qg_1070",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Mr. Revere was a silversmith."
+  },
+  {
+    "qid": "bt_958",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Christian name of the landlord of The Nag's Head in Only Fools and Horses is Arthur."
+  },
+  {
+    "qid": "qb_5881",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Seven wives."
+  },
+  {
+    "qid": "sfq_26216",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The distinguishing feature of an animal described as 'palmiped' is that it has webbed feet."
+  },
+  {
+    "qid": "qw_13750",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Artem Silchenko competed in cliff diving."
+  },
+  {
+    "qid": "dpql_5239",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Scary Spice's surname was Hutchinson."
+  },
+  {
+    "qid": "bt_1384",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The model who first caused a storm modelling the Wonderbra was Eva Herzig."
+  },
+  {
+    "qid": "qg_1107",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Muhammad Ali."
+  },
+  {
+    "qid": "tb_1235",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The 1938 work *The Black Jacobins* by C.L.R. James is an account of the Haitian Revolution."
+  },
+  {
+    "qid": "qg_2467",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "\"com\" in the top-level internet domain \".com\" is short for \"commercial.\""
+  },
+  {
+    "qid": "sfq_8824",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Weber Cup is for underwater hockey."
+  },
+  {
+    "qid": "qb_9443",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The answer is St. Pancras International."
+  },
+  {
+    "qid": "dpql_359",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The bird once called \"apteryx\" is the kiwi."
+  },
+  {
+    "qid": "bb_7602",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Art Tatum excelled on the piano."
+  },
+  {
+    "qid": "bb_1549",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Suez Canal."
+  },
+  {
+    "qid": "sfq_20451",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The order is Diptera."
+  },
+  {
+    "qid": "bb_7994",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The Verdi opera is *Aida*."
+  },
+  {
+    "qid": "qz_4839",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The wand was made by Ollivander."
+  },
+  {
+    "qid": "odql_6381",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Keith Brown."
+  },
+  {
+    "qid": "qf_423",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Desperate Dan lived in the Wild West."
+  },
+  {
+    "qid": "bt_1255",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Lovely Rita was a waitress."
+  },
+  {
+    "qid": "sfq_5240",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Jetsons!"
+  },
+  {
+    "qid": "qw_2260",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The last name of \"Oprah\" is Winfrey."
+  },
+  {
+    "qid": "sfq_24379",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The word \"Litovsk\" referred to present-day Lithuania."
+  },
+  {
+    "qid": "sfq_20251",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Manzanares River."
+  },
+  {
+    "qid": "qw_7396",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "George W. Bush was elected Governor of Texas in 1994."
+  },
+  {
+    "qid": "qb_2880",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Muriel Spark wrote \"The Prime of Miss Jean Brodie.\""
+  },
+  {
+    "qid": "qw_16265",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Ginny Weasley gave Harry Potter his first kiss."
+  },
+  {
+    "qid": "qb_6545",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The Battle of the Ages took place between George Foreman and Mike Tyson."
+  },
+  {
+    "qid": "wh_154",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is Roy Huddleston."
+  },
+  {
+    "qid": "bt_1662",
+    "correct": true,
+    "confidence": 33.0,
+    "answer": "The name of Inspector Clousseau's manservant is Cato."
+  },
+  {
+    "qid": "qw_503",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "That would be Betty Grable."
+  },
+  {
+    "qid": "sfq_2748",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Gene Hackman won the Best Actor Oscar in 1971 for \"The French Connection.\""
+  },
+  {
+    "qid": "dpql_5260",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Elvis Presley."
+  },
+  {
+    "qid": "sfq_8322",
+    "correct": false,
+    "confidence": 89.0,
+    "answer": "The stage name of Chaim Reuben Weintrop was Charlie Chaplin."
+  },
+  {
+    "qid": "bb_1566",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "That would be couscous."
+  },
+  {
+    "qid": "wh_1554",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "L. Frank Baum."
+  },
+  {
+    "qid": "qz_4493",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The constellation is Leo."
+  },
+  {
+    "qid": "dpql_206",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "David Copperfield had dark brown hair."
+  },
+  {
+    "qid": "bb_2192",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Yes, that's the title of a novel by Charles Dickens."
+  },
+  {
+    "qid": "sfq_25628",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Arrabbiata."
+  },
+  {
+    "qid": "qb_8788",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The surname of Django in the 2012 film \"Django Unchained\" is Freeman."
+  },
+  {
+    "qid": "sfq_8068",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Bury City."
+  },
+  {
+    "qid": "odql_13826",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Paris terminus of Eurostar is Gare du Nord."
+  },
+  {
+    "qid": "bb_4195",
+    "correct": true,
+    "confidence": 73.0,
+    "answer": "Borneo's characteristic that ranks it among the largest five islands globally is its **land area**."
+  },
+  {
+    "qid": "qz_832",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Nick Hornby wrote those novels."
+  },
+  {
+    "qid": "qw_7381",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Shania Twain."
+  },
+  {
+    "qid": "jp_2481",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "New Orleans."
+  },
+  {
+    "qid": "qw_16440",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Artemisinin and derivatives are drugs found to act especially well on malaria."
+  },
+  {
+    "qid": "bb_3870",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Brussels."
+  },
+  {
+    "qid": "qb_2975",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Marie Antoinette was born in Austria."
+  },
+  {
+    "qid": "sfq_14434",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Florentine means garnished with spinach."
+  },
+  {
+    "qid": "jp_927",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Mossad is the intelligence agency of Israel."
+  },
+  {
+    "qid": "sfq_23110",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The answer is Frankel."
+  },
+  {
+    "qid": "qb_1167",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "The nickname of Jimmie Foxx was \"The Beast.\""
+  },
+  {
+    "qid": "qw_9705",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Norman Schwarzkopf."
+  },
+  {
+    "qid": "wh_4097",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Sumo wrestling."
+  },
+  {
+    "qid": "qw_1553",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Zanzibar."
+  },
+  {
+    "qid": "tc_2265",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Dr. Crippen murdered his wife, Harriet Crippen."
+  },
+  {
+    "qid": "odql_13823",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is a calypso song."
+  },
+  {
+    "qid": "sfq_8640",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Groucho Marx's real first name was Julius."
+  },
+  {
+    "qid": "odql_13241",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is \"The Artemis Fowl series.\""
+  },
+  {
+    "qid": "sfq_10395",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The 'Speedcell' was the official match ball in the 2010 FIFA World Cup."
+  },
+  {
+    "qid": "sfq_19691",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "Vodka."
+  },
+  {
+    "qid": "odql_12226",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is *Macbeth*."
+  },
+  {
+    "qid": "sfq_901",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The name of Beethoven's only opera is *Fidelio*."
+  },
+  {
+    "qid": "sfq_16646",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "A Japanese person would wear geta on their feet."
+  },
+  {
+    "qid": "qw_13933",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The Classic Brit Awards named The Beatles as \"Artist of the Decade\" in 2011."
+  },
+  {
+    "qid": "qw_6212",
+    "correct": true,
+    "confidence": 58.0,
+    "answer": "The answer is the United States."
+  },
+  {
+    "qid": "qb_10284",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The original Ferris Wheel was erected in Illinois."
+  },
+  {
+    "qid": "sfq_8288",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "Clement Attlee."
+  },
+  {
+    "qid": "sfq_4660",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Uriah Heep is a character in *Great Expectations*."
+  },
+  {
+    "qid": "bb_7149",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Astana is the capital of Kazakhstan."
+  },
+  {
+    "qid": "odql_13875",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "J.P. Richardson was commonly known as \"The Big Bopper.\""
+  },
+  {
+    "qid": "odql_5149",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Bluebell."
+  },
+  {
+    "qid": "odql_5141",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The answer is Canterbury Cathedral."
+  },
+  {
+    "qid": "sfq_13343",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "La Brabanconne is the national anthem of Belgium."
+  },
+  {
+    "qid": "sfq_22425",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The fragrant essential oil obtained chiefly from the Damask Rose is called Rose Otto."
+  },
+  {
+    "qid": "sfq_23467",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Brecon Beacons National Park."
+  },
+  {
+    "qid": "sfq_4725",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Aran Islands are located at the mouth of Galway Bay."
+  },
+  {
+    "qid": "sfq_2358",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The \"A\" in DEFRA stands for Agriculture."
+  },
+  {
+    "qid": "odql_14185",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Ming dynasty ruled China from 1368 to 1644."
+  },
+  {
+    "qid": "qw_16065",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Ostinato."
+  },
+  {
+    "qid": "sfq_9912",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Gnocchi."
+  },
+  {
+    "qid": "tc_2222",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Franklin D. Roosevelt."
+  },
+  {
+    "qid": "qg_2451",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "A \"coyote\" is a slang term used to describe someone who smuggles people across the U.S. border."
+  },
+  {
+    "qid": "qf_3542",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The name of Jimmy James' backing group was The Vagrants."
+  },
+  {
+    "qid": "odql_9090",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Carol Reed directed \"The Third Man.\""
+  },
+  {
+    "qid": "bt_4573",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "The song is \"Hallelujah\" by Leonard Cohen."
+  },
+  {
+    "qid": "qg_206",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "January 18, 1778 saw Captain James Cook discover the Hawaiian Islands."
+  },
+  {
+    "qid": "sfq_13836",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is the bassoon."
+  },
+  {
+    "qid": "sfq_19493",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be \"fusilli.\""
+  },
+  {
+    "qid": "sfq_5419",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "CFR Cluj play in Romania."
+  },
+  {
+    "qid": "qb_2563",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Algology is the study of pain."
+  },
+  {
+    "qid": "sfq_20692",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Frankincense."
+  },
+  {
+    "qid": "qw_502",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Asgard."
+  },
+  {
+    "qid": "jp_2673",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "This is a clever one! The answer is **Romeo**."
+  },
+  {
+    "qid": "bb_9204",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "A copperhead is a venomous snake."
+  },
+  {
+    "qid": "bb_9114",
+    "correct": false,
+    "confidence": 21.0,
+    "answer": "The tenth-largest body directly orbiting the Sun as of 2010 was Eris."
+  },
+  {
+    "qid": "qz_2908",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Duke of Edinburgh and Prince Charles both attended Eton College."
+  },
+  {
+    "qid": "odql_12299",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The sphenoid bone is found in the skull. Specifically, it's a single, complex bone that forms the base of the skull and contributes to the eye sockets."
+  },
+  {
+    "qid": "qw_11204",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The name of Tony and Cherie Blair's daughter is Euan Blair."
+  },
+  {
+    "qid": "dpql_2282",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Beano's Redskin Chum was a Native American character named Little Bear."
+  },
+  {
+    "qid": "sfq_21961",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Sampdoria plays home games in Genoa."
+  },
+  {
+    "qid": "sfq_2345",
+    "correct": true,
+    "confidence": 38.0,
+    "answer": "British Leyland."
+  },
+  {
+    "qid": "bb_1372",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "These are all types of strong, localized winds."
+  },
+  {
+    "qid": "dpql_3425",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The thoroughfare was Fleet Street."
+  },
+  {
+    "qid": "sfq_2319",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "William Henry Fox Talbot."
+  },
+  {
+    "qid": "wh_296",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The Jay belongs to the Corvidae family."
+  },
+  {
+    "qid": "wh_2073",
+    "correct": false,
+    "confidence": 33.0,
+    "answer": "Reginald Maudling was referring to Britain."
+  },
+  {
+    "qid": "wh_1998",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "Saint Aidan established a monastery and Christian community on the island of Lindisfarne in the year 635."
+  },
+  {
+    "qid": "bb_5529",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Solomon Guggenheim established a famous eponymous international network of museums."
+  },
+  {
+    "qid": "qz_3040",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "James Earl Ray killed Lee Harvey Oswald."
+  },
+  {
+    "qid": "odql_2152",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The film is *The Duchess*."
+  },
+  {
+    "qid": "qw_6538",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The first FIFA Club World Cup was held in Japan."
+  },
+  {
+    "qid": "qw_12369",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is 1835."
+  },
+  {
+    "qid": "bb_1352",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is *Tinker Tailor Soldier Spy*."
+  },
+  {
+    "qid": "qw_12732",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "General Franco was head of state of Spain until his death in November 1975."
+  },
+  {
+    "qid": "jp_189",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Eagle has landed."
+  },
+  {
+    "qid": "qz_4861",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Rosslyn Chapel."
+  },
+  {
+    "qid": "qb_6073",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Joe Clark became the 16th and youngest Prime Minister of Canada."
+  },
+  {
+    "qid": "bb_2661",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "As of 2012, Dame Marjorie Scardino was head of the Thomson Reuters Corporation."
+  },
+  {
+    "qid": "bb_7795",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Ari Folman's acclaimed 2008 film was \"Waltz with...\" Bashir."
+  },
+  {
+    "qid": "sfq_13881",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The traditional flavouring of \"water pudding\" is agar-agar."
+  },
+  {
+    "qid": "qg_965",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The shipping company that commissioned and sailed the RMS Titanic was White Star Line."
+  },
+  {
+    "qid": "sfq_7154",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is Rolls-Royce."
+  },
+  {
+    "qid": "sfq_17674",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is Beowulf."
+  },
+  {
+    "qid": "sfq_14777",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "That would be Adam Dalgliesh."
+  },
+  {
+    "qid": "odql_9298",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Volkswagen Group owns Seat."
+  },
+  {
+    "qid": "qw_15314",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Sweeney Todd's occupation was a barber."
+  },
+  {
+    "qid": "odql_416",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The capital city of Croatia is Zagreb."
+  },
+  {
+    "qid": "qz_1834",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The song is \"The Taxman\" by The Beatles."
+  },
+  {
+    "qid": "sfq_14740",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "505 in Roman numerals is DXLV."
+  },
+  {
+    "qid": "odql_7371",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Sara Jane Moore was responsible for an unsuccessful attempt to assassinate Gerald Ford."
+  },
+  {
+    "qid": "odql_7949",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Kiel Canal."
+  },
+  {
+    "qid": "odql_14992",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Karachi."
+  },
+  {
+    "qid": "qb_10189",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The US President depicted on the Purple Heart military decoration is George Washington."
+  },
+  {
+    "qid": "sfq_16444",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "J.M.W. Turner painted the picture."
+  },
+  {
+    "qid": "qb_8569",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The World's first teletext information service was Ceefax."
+  },
+  {
+    "qid": "odql_9366",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The 'Gowk' is an old dialect word for a woodcock."
+  },
+  {
+    "qid": "wh_2692",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Carmen Miranda."
+  },
+  {
+    "qid": "bb_1527",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Hippocampus is the Latin name for a seahorse."
+  },
+  {
+    "qid": "odql_13114",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Charles D. Barrow devised the game of Monopoly in 1934."
+  },
+  {
+    "qid": "qb_4606",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Idi Amin deposed Milton Obote in a coup to become President of Uganda."
+  },
+  {
+    "qid": "sfq_4792",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Ochophobia is the fear of horses."
+  },
+  {
+    "qid": "qf_158",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Winston Churchill."
+  },
+  {
+    "qid": "qb_603",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Strawberry Museum in Wepion is in Belgium."
+  },
+  {
+    "qid": "sfq_6110",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Lindisfarne."
+  },
+  {
+    "qid": "qw_5765",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Percy is a Yorkshire terrier."
+  },
+  {
+    "qid": "qb_5715",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "Anton Chekhov."
+  },
+  {
+    "qid": "tc_723",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "David Hockney."
+  },
+  {
+    "qid": "tb_1517",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The subject of the best-known works of Theodor Mommsen and Edward Gibbon is Roman history."
+  },
+  {
+    "qid": "qb_8049",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Florentine Girdle was a type of **corset**."
+  },
+  {
+    "qid": "sfq_4717",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "\"Halal\" literally means \"permissible\" or \"lawful\" in Arabic."
+  },
+  {
+    "qid": "odql_4044",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "That would be Madonna."
+  },
+  {
+    "qid": "qg_4093",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Friggatriskaidekaphobia is the fear of the number 13."
+  },
+  {
+    "qid": "bb_4306",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "That would be a fluid."
+  },
+  {
+    "qid": "qb_3798",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "That would be Malcolm Bennett."
+  },
+  {
+    "qid": "qf_1633",
+    "correct": false,
+    "confidence": 38.0,
+    "answer": "The TV comedy series was \"Lovejoy.\""
+  },
+  {
+    "qid": "odql_6188",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The play \"A Day In The Death Of Joe Egg\" was written by Peter Shaffer."
+  },
+  {
+    "qid": "qw_6986",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Chuck Yeager was the first to break the sound barrier in an aeroplane."
+  },
+  {
+    "qid": "odql_7636",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Roger Federer defeated Andy Roddick in the final to win his first Wimbledon singles title in 2003."
+  },
+  {
+    "qid": "dpql_3113",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Radiohead."
+  },
+  {
+    "qid": "dpql_1650",
+    "correct": true,
+    "confidence": 81.0,
+    "answer": "This is a tricky one! The answer is **Nellie Melba**."
+  },
+  {
+    "qid": "sfq_19572",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Horripilation is the correct medical term for goosebumps."
+  },
+  {
+    "qid": "wh_1193",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The answer is Blenheim Palace."
+  },
+  {
+    "qid": "qb_6532",
+    "correct": false,
+    "confidence": 85.0,
+    "answer": "Cartoon character Penrod Pooch is better known as Penrod."
+  },
+  {
+    "qid": "qg_2561",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The phrase adopted as the national motto on July 30, 1956, was \"In God We Trust.\""
+  },
+  {
+    "qid": "sfq_11482",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "George Harrison's first solo album was called \"All Things Must Pass.\""
+  },
+  {
+    "qid": "tb_1021",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is **Japan**."
+  },
+  {
+    "qid": "qg_3768",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Silver."
+  },
+  {
+    "qid": "dpql_2463",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Robert Hubert was hanged for confessing to being the \"Monster of Montmartre.\""
+  },
+  {
+    "qid": "qw_1277",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The Kinks."
+  },
+  {
+    "qid": "bt_264",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Amelia Earhart."
+  },
+  {
+    "qid": "jp_745",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Borgia family."
+  },
+  {
+    "qid": "qf_2320",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "\"When a Man Loves a Woman.\""
+  },
+  {
+    "qid": "sfq_13428",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Russia joined the G7 in 1997, and the group became the G8."
+  },
+  {
+    "qid": "qb_5712",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The drink known as 'The Wine of Islam' is **Qahwa**."
+  },
+  {
+    "qid": "bb_6535",
+    "correct": false,
+    "confidence": 28.0,
+    "answer": "The major UK/European mobile network corp EE was originally branded as BT Cellnet."
+  },
+  {
+    "qid": "qw_15651",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The system added in 1858 to boost communication via the transatlantic telegraph cable between the USA and the UK was the **Morse code system**."
+  },
+  {
+    "qid": "odql_8959",
+    "correct": true,
+    "confidence": 95.0,
+    "answer": "The unit of currency in Austria until the introduction of the Euro was the Austrian Schilling (ATS)."
+  },
+  {
+    "qid": "bb_5713",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "John Nash."
+  },
+  {
+    "qid": "odql_5215",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Shepherd Neame produces 'Spitfire' Kentish ale."
+  },
+  {
+    "qid": "jp_2085",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The demon barber of Fleet Street was a nickname for the British barber and surgeon Joseph Mason."
+  },
+  {
+    "qid": "sfq_1643",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Calypso originated on Trinidad and Tobago."
+  },
+  {
+    "qid": "odql_6731",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Hamlet's mother was Gertrude."
+  },
+  {
+    "qid": "sfq_10083",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "James \"Buster\" Douglas."
+  },
+  {
+    "qid": "odql_3626",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "British Airways first sponsored the big wheel called 'The London Eye'."
+  },
+  {
+    "qid": "dpql_907",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Rene's surname was Gallimard."
+  },
+  {
+    "qid": "tc_2957",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Luteinizing hormone (LH)."
+  },
+  {
+    "qid": "qf_3347",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Nigeria."
+  },
+  {
+    "qid": "odql_8576",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The Herculaneum Factory in Liverpool produced porcelain."
+  },
+  {
+    "qid": "tc_1973",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "The Fiddler was in Anatevka, a small shtetl (Jewish village) in Tsarist Russia."
+  },
+  {
+    "qid": "sfq_9389",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Phil Taylor."
+  },
+  {
+    "qid": "sfq_11012",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "King John."
+  },
+  {
+    "qid": "sfq_17743",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Peter Warlock was the father of the art critic Philip Toynbee."
+  },
+  {
+    "qid": "dpql_6316",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Sandra Bullock co-starred with George Clooney in the 2013 movie Gravity."
+  },
+  {
+    "qid": "sfq_11133",
+    "correct": false,
+    "confidence": 93.0,
+    "answer": "\"Getting to Know You\" is a song from *The Sound of Music*."
+  },
+  {
+    "qid": "qw_7952",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "Andrew Johnson."
+  },
+  {
+    "qid": "sfq_19116",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "That would be Ellie Simmonds."
+  },
+  {
+    "qid": "qz_2466",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Will Smith stars in the 2008 movie Seven Pounds."
+  },
+  {
+    "qid": "jp_4206",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Valhalla."
+  },
+  {
+    "qid": "sfq_20548",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The tree Fraxinus excelsior is more commonly known as the European ash."
+  },
+  {
+    "qid": "sfq_21572",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "Zimbabwe."
+  },
+  {
+    "qid": "sfq_25007",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Shepherd Neame brewery is located in Faversham."
+  },
+  {
+    "qid": "qw_5335",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Charlie Chan."
+  },
+  {
+    "qid": "qg_4137",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Peter Griffin."
+  },
+  {
+    "qid": "qw_180",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "\"In New Zealand, the word \"moko\" refers to a type of traditional M\u0101ori tattoo.\""
+  },
+  {
+    "qid": "bb_5000",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The expression \"Go West\" originally encouraged people to move from/within the eastern United States to the western territories."
+  },
+  {
+    "qid": "sfq_15549",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Volstead Act introduced the prohibition of alcohol in the United States."
+  },
+  {
+    "qid": "qb_5564",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Stephen Fry."
+  },
+  {
+    "qid": "qw_9369",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The answer is Cole Porter."
+  },
+  {
+    "qid": "qz_4322",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The theme song for \"Rawhide\" was sung by the Riders of the Purple Sage."
+  },
+  {
+    "qid": "wh_3298",
+    "correct": true,
+    "confidence": 89.0,
+    "answer": "The mantle."
+  },
+  {
+    "qid": "sfq_23449",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The first battle of the English Civil War took place at the Battle of Edgehill."
+  },
+  {
+    "qid": "qz_2355",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be **bocce ball**."
+  },
+  {
+    "qid": "sfq_12424",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The pasta, farfalle, is named after a butterfly."
+  },
+  {
+    "qid": "dpql_1477",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The O'Haras' plantation in 'Gone with the Wind' is called Tara."
+  },
+  {
+    "qid": "qb_9397",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The White Rose Shopping Centre is in Leeds."
+  },
+  {
+    "qid": "sfq_24225",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Cuneiform."
+  },
+  {
+    "qid": "wh_1591",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Chelmsford."
+  },
+  {
+    "qid": "wh_515",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The American chemical company that owned the plant where the leak occurred was Union Carbide."
+  },
+  {
+    "qid": "qg_3384",
+    "correct": true,
+    "confidence": 90.0,
+    "answer": "The Valkyries."
+  },
+  {
+    "qid": "qw_875",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The reptile is the Tuatara."
+  },
+  {
+    "qid": "sfq_6935",
+    "correct": false,
+    "confidence": 98.0,
+    "answer": "Brooklyn is situated in Kings County."
+  },
+  {
+    "qid": "sfq_24151",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "A hygrometer measures humidity."
+  },
+  {
+    "qid": "bb_2494",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is The Smiths."
+  },
+  {
+    "qid": "bb_6465",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The answer is \"Par.\""
+  },
+  {
+    "qid": "odql_9314",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Reading."
+  },
+  {
+    "qid": "dpql_3492",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Paul Sarstoon."
+  },
+  {
+    "qid": "sfq_7589",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "The older brother of Henry VIII was Arthur, Prince of Wales."
+  },
+  {
+    "qid": "wh_2691",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Sleeping Beauty."
+  },
+  {
+    "qid": "odql_8420",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "San Diego."
+  },
+  {
+    "qid": "sfq_3395",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Berlin."
+  },
+  {
+    "qid": "sfq_6801",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Anton Chekhov wrote the play *The Three Sisters*."
+  },
+  {
+    "qid": "dpql_4731",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be honeycomb!"
+  },
+  {
+    "qid": "bb_6860",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Jelly Roll Morton played the piano."
+  },
+  {
+    "qid": "bt_1043",
+    "correct": false,
+    "confidence": 13.0,
+    "answer": "The answer is Eton College. Eton shares its name with a type of plough called an \"Eton plough.\""
+  },
+  {
+    "qid": "sfq_14324",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "Volkswagen."
+  },
+  {
+    "qid": "sfq_12481",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "Thomas Hardy trained to be an architect."
+  },
+  {
+    "qid": "qg_2944",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Buprenorphine."
+  },
+  {
+    "qid": "sfq_18424",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Oregon."
+  },
+  {
+    "qid": "jp_1576",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Shaolin Monastery."
+  },
+  {
+    "qid": "bb_2323",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The Clostridium botulinum bacteria causes botulism."
+  },
+  {
+    "qid": "jp_1058",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "That would be Spartacus."
+  },
+  {
+    "qid": "odql_7869",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The answer is Billie Eilish."
+  },
+  {
+    "qid": "sfq_4319",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Paris wounded Achilles in the heel, leading to his death."
+  },
+  {
+    "qid": "dpql_263",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The Orbison number used in *Blue Velvet* was \"Dream Baby (How Long We've Been Dancing).\""
+  },
+  {
+    "qid": "sfq_22825",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The answer is Bristol."
+  },
+  {
+    "qid": "bb_7993",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Germany was the first team to score a 'Golden Goal' in the soccer World Cup Finals."
+  },
+  {
+    "qid": "jp_631",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The tallest kind of tree is the Coast Redwood (Sequoia sempervirens)."
+  },
+  {
+    "qid": "bb_7362",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The video game banned in 2007 for its \"unremitting bleakness and callousness\" was *Manhunt*."
+  },
+  {
+    "qid": "sfq_21538",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The structure is called the ArcelorMittal Orbit."
+  },
+  {
+    "qid": "odql_2965",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is Arvo P\u00e4rt wrote *Cantus* to mourn Arvo P\u00e4rt himself."
+  },
+  {
+    "qid": "qg_4147",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "NFL teams have 40 seconds to get a play off."
+  },
+  {
+    "qid": "sfq_18423",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "The novel is by Muriel Spark."
+  },
+  {
+    "qid": "jp_3476",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Cuba won 3 of the 5 Olympic gold medals awarded in baseball."
+  },
+  {
+    "qid": "sfq_12404",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Katharine Hepburn."
+  },
+  {
+    "qid": "sfq_15036",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Marlon Brando."
+  },
+  {
+    "qid": "wh_2256",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Switzerland."
+  },
+  {
+    "qid": "qw_1927",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The official residence provided for the Olympic athletes is called the Olympic Village."
+  },
+  {
+    "qid": "qw_5984",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "This is a tricky one! The answer is David Hilbert."
+  },
+  {
+    "qid": "sfq_12333",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The Allies called it the Maginot Line."
+  },
+  {
+    "qid": "qw_1573",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "This is a tricky one! The answer is Emma Hamilton."
+  },
+  {
+    "qid": "qf_3252",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "A tadpole becomes a frog."
+  },
+  {
+    "qid": "dpql_3963",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The SI unit the ohm is often represented by the upper-case form of the Greek letter omega (\u03a9)."
+  },
+  {
+    "qid": "bb_6487",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Angiosperms have seeds and **flowers**."
+  },
+  {
+    "qid": "tc_1007",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Christian Slater was born first."
+  },
+  {
+    "qid": "sfq_15999",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Colorado."
+  },
+  {
+    "qid": "bt_1545",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The Arsacid Dynasty ruled Parthia."
+  },
+  {
+    "qid": "qb_7327",
+    "correct": true,
+    "confidence": 35.0,
+    "answer": "The 1975 novel \"The History Man\" was written by Malcolm Bradbury."
+  },
+  {
+    "qid": "jp_3970",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Norse settlement of Vinland was located in modern-day Canada."
+  },
+  {
+    "qid": "bb_6957",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Lent is traditionally a Christian religious fast of 40 days."
+  },
+  {
+    "qid": "sfq_17011",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Mass suicide ended the defense by the zealots of Masada."
+  },
+  {
+    "qid": "odql_10868",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Lady Gaga."
+  },
+  {
+    "qid": "sfq_12365",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "The dog in \"Three Men in a Boat\" was named Jock."
+  },
+  {
+    "qid": "sfq_14862",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "High Willhays is the highest point of Dartmoor National Park."
+  },
+  {
+    "qid": "odql_13270",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "That would be Evelyn Glennie."
+  },
+  {
+    "qid": "qb_966",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The name of Penelope Pitstop's car in \"Wacky Races\" was the Pink Phantom."
+  },
+  {
+    "qid": "sfq_7281",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The answer is The Rolling Stones."
+  },
+  {
+    "qid": "qw_6080",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "Matthew Pinsent won his third rowing Olympic gold medal with Steve Redgrave in 2000."
+  },
+  {
+    "qid": "qb_8699",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "Ereuthophobia is the irrational fear of the color yellow."
+  },
+  {
+    "qid": "qb_1538",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "Boise."
+  },
+  {
+    "qid": "qw_5039",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The answer is *Ben-Hur*."
+  },
+  {
+    "qid": "qw_6561",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "This is a tricky one! The answer is **England**. These are all names of Anglo-Saxon kings who ruled over various parts of what is now England."
+  },
+  {
+    "qid": "bb_1010",
+    "correct": false,
+    "confidence": 21.0,
+    "answer": "The answer is **Bracknell**."
+  },
+  {
+    "qid": "qz_1952",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Fruit, cricket, and horseshoe are varieties of beetles."
+  },
+  {
+    "qid": "sfq_6665",
+    "correct": false,
+    "confidence": 35.0,
+    "answer": "The bird with the thickest skull relative to its size is the Kakapo."
+  },
+  {
+    "qid": "qg_3321",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "Michael Faraday."
+  },
+  {
+    "qid": "sfq_19493",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be \"fusilli.\""
+  },
+  {
+    "qid": "sfq_12061",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Cardonagh is in County Donegal."
+  },
+  {
+    "qid": "odql_10497",
+    "correct": true,
+    "confidence": 41.0,
+    "answer": "The British Prime Minister at the time of Queen Victoria's ascension to the throne was Lord Melbourne."
+  },
+  {
+    "qid": "wh_3090",
+    "correct": true,
+    "confidence": 63.0,
+    "answer": "The name was Christine Keeler."
+  },
+  {
+    "qid": "sfq_22212",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The story of Samson and Delilah is in the Book of Judges."
+  },
+  {
+    "qid": "bb_7499",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Graham Nash."
+  },
+  {
+    "qid": "wh_3000",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "Judy Teggart was British."
+  },
+  {
+    "qid": "qw_10423",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "Lapis lazuli is a deep, rich blue color."
+  },
+  {
+    "qid": "qz_418",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "The letter is Q."
+  },
+  {
+    "qid": "sfq_11360",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The capital of the French region of Burgundy is Dijon."
+  },
+  {
+    "qid": "odql_4564",
+    "correct": false,
+    "confidence": 88.0,
+    "answer": "The painting depicts a group of horses."
+  },
+  {
+    "qid": "qg_1999",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Flying Dutchman."
+  },
+  {
+    "qid": "sfq_2004",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "That would be Bill Cody."
+  },
+  {
+    "qid": "qw_11969",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The next in the series is Jack Dempsey."
+  },
+  {
+    "qid": "qf_1269",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "Dick Turpin was executed by hanging at York Castle."
+  },
+  {
+    "qid": "bt_212",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "The first words are from the song \"Bohemian Rhapsody\" by Queen."
+  },
+  {
+    "qid": "sfq_23246",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Uttoxeter Racecourse hosts the Midlands Grand National in March each year."
+  },
+  {
+    "qid": "sfq_7091",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The Scottish football club changed its name to Meadowbank United."
+  },
+  {
+    "qid": "bb_7071",
+    "correct": true,
+    "confidence": 88.0,
+    "answer": "Woad."
+  },
+  {
+    "qid": "wh_4358",
+    "correct": false,
+    "confidence": 91.0,
+    "answer": "\"E pluribus unum.\""
+  },
+  {
+    "qid": "qb_9589",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The UK television series 'Blackadder Goes Forth' is set during World War I."
+  },
+  {
+    "qid": "odql_1493",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "George Fox founded the 'Quakers' in the 17th century."
+  },
+  {
+    "qid": "dpql_1263",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "The spoken verses on Blur's \"Parklife\" are narrated by Sir David Attenborough."
+  },
+  {
+    "qid": "qf_3555",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The Vickers Vimy biplane."
+  },
+  {
+    "qid": "odql_522",
+    "correct": true,
+    "confidence": 83.0,
+    "answer": "BBC Radio 7 was rebranded as BBC Radio 4 Extra in April 2011."
+  },
+  {
+    "qid": "wh_2782",
+    "correct": false,
+    "confidence": 83.0,
+    "answer": "The Greek god was Poseidon."
+  },
+  {
+    "qid": "sfq_13585",
+    "correct": true,
+    "confidence": 23.0,
+    "answer": "This is a tricky one! The answer is Phil Woolas."
+  },
+  {
+    "qid": "sfq_25562",
+    "correct": false,
+    "confidence": 23.0,
+    "answer": "That would be Tony Bloom."
+  },
+  {
+    "qid": "qb_10292",
+    "correct": false,
+    "confidence": 15.0,
+    "answer": "That would be David Tennant!"
+  },
+  {
+    "qid": "jp_3580",
+    "correct": true,
+    "confidence": 98.0,
+    "answer": "The island is Hispaniola."
+  },
+  {
+    "qid": "qw_9914",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "These musicians are all best known as blues musicians."
+  },
+  {
+    "qid": "odql_11586",
+    "correct": true,
+    "confidence": 91.0,
+    "answer": "The answer is Alberto Juantorena."
+  },
+  {
+    "qid": "jp_1922",
+    "correct": true,
+    "confidence": 93.0,
+    "answer": "The Tigris River flows parallel to the Euphrates."
+  },
+  {
+    "qid": "qw_10155",
+    "correct": false,
+    "confidence": 90.0,
+    "answer": "The unit is usually represented as *i* or *j*."
+  }
+]

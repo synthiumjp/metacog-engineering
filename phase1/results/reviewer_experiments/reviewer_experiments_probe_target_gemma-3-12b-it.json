@@ -1,0 +1,64 @@
+{
+  "model": "gemma-3-12b-it",
+  "adapter_label": "probe_target",
+  "retrained_probes": {
+    "first_pre_answer_token": {
+      "auroc_baseline_cv": 0.6909711470795215,
+      "auroc_post_pt_cv": 0.6602342956791187,
+      "delta": -0.03073685140040272,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "first_last_answer_token": {
+      "auroc_baseline_cv": 0.7077046680741261,
+      "auroc_post_pt_cv": 0.685882378678242,
+      "delta": -0.021822289395884154,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PARTIALLY PRESERVED"
+    },
+    "middle_pre_answer_token": {
+      "auroc_baseline_cv": 0.8221522402064274,
+      "auroc_post_pt_cv": 0.843241948894787,
+      "delta": 0.021089708688359576,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "middle_last_answer_token": {
+      "auroc_baseline_cv": 0.8202034951911801,
+      "auroc_post_pt_cv": 0.8435595313136741,
+      "delta": 0.02335603612249404,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "last_pre_answer_token": {
+      "auroc_baseline_cv": 0.7752357494722026,
+      "auroc_post_pt_cv": 0.8190662734322389,
+      "delta": 0.04383052396003628,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    },
+    "last_last_answer_token": {
+      "auroc_baseline_cv": 0.8067487684729064,
+      "auroc_post_pt_cv": 0.844135629586329,
+      "delta": 0.0373868611134226,
+      "n_baseline": 966,
+      "n_post_pt": 966,
+      "interpretation": "PRESERVED (info moved, not lost)"
+    }
+  },
+  "calibration_metrics": {
+    "baseline_ece": 0.2301599999999999,
+    "baseline_brier": 0.2344414,
+    "ft_ece": 0.10816999999999999,
+    "ft_brier": 0.17378829999999998,
+    "ece_delta": -0.1219899999999999,
+    "brier_delta": -0.060653100000000015,
+    "baseline_accuracy": 0.748,
+    "ft_accuracy": 0.657
+  }
+}
