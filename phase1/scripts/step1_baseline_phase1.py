@@ -345,7 +345,12 @@ def get_hidden_states_and_logits(model, tokenizer, prompt: str,
 
     # Get hidden states by hooking into the transformer layers
     # We need to run through the model's layers manually
-    lm = model.language_model
+    if hasattr(model, "language_model"):
+        lm = model.language_model
+        scale_embeddings = True
+    else:
+        lm = model
+        scale_embeddings = False
 
     # Get embeddings
     if hasattr(lm.model, 'embed_tokens'):
@@ -353,8 +358,8 @@ def get_hidden_states_and_logits(model, tokenizer, prompt: str,
     else:
         h = lm.model.embed_tokens(x)
 
-    # Apply RMS norm scaling for Gemma (embedding * sqrt(hidden_dim))
-    if hasattr(lm.model, 'embed_tokens') and hasattr(lm, 'args'):
+    # Apply RMS norm scaling for Gemma only
+    if scale_embeddings:
         hidden_size = h.shape[-1]
         h = h * (hidden_size ** 0.5)
 
@@ -585,7 +590,10 @@ def main():
     print(f"  Loaded in {time.time()-t0:.1f}s\n")
 
     # Determine layer indices for probe
-    n_layers = len(model.language_model.model.layers)
+    if hasattr(model, "language_model"):
+        n_layers = len(model.language_model.model.layers)
+    else:
+        n_layers = len(model.model.layers)
     layer_indices = {
         "first": 0,
         "middle": n_layers // 2,

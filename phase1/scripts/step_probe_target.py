@@ -65,6 +65,12 @@ MAX_SEQ_LENGTH = 512
 MODEL_LAYERS = {
     "gemma-3-12b-it": 48,
     "gemma-3-27b-it": 62,
+    "Qwen2.5-7B-Instruct-bf16": 28,
+    "Qwen2.5-32B-Instruct-bf16": 64,
+    "Qwen2.5-72B-Instruct-bf16": 80,
+    "Meta-Llama-3.1-8B-Instruct-bf16": 32,
+    "Meta-Llama-3.1-70B-Instruct-bf16-CORRECTED": 80,
+    "Mistral-7B-Instruct-v0.3": 32,
 }
 
 STEP1_DIR = Path(os.path.expanduser("~/jpwork/results/step1"))

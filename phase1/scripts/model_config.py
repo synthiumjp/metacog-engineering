@@ -13,6 +13,8 @@ MODEL_LAYERS = {
     "Meta-Llama-3.1-8B-Instruct-bf16": 32,
     "Meta-Llama-3.1-70B-Instruct-bf16-CORRECTED": 80,
     "Qwen2.5-7B-Instruct-bf16": 28,
+    "Qwen2.5-32B-Instruct-bf16": 64,
+    "Qwen2.5-72B-Instruct-bf16": 80,
     "Mistral-7B-Instruct-v0.3": 32,
 }
 
