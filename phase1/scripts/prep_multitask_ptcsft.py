@@ -28,7 +28,9 @@ import numpy as np
 import yaml
 import mlx.core as mx
 from mlx_lm import load
-from gen_helpers import generate_greedy
+def _greedy_sampler(logits):
+    return mx.argmax(logits, axis=-1)
+from mlx_lm import generate as mlx_generate
 from model_config import MODEL_LAYERS, get_model_config
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.metrics import roc_auc_score
@@ -226,8 +228,9 @@ def main():
             [{"role": "user", "content": user_msg}],
             tokenize=False, add_generation_prompt=True,
         )
-        raw = generate_greedy(model, tokenizer, prompt)
-        correct = is_correct_fn(raw, item["gold_answer"])
+        raw = mlx_generate(model, tokenizer, prompt=prompt, max_tokens=1024, verbose=False, sampler=_greedy_sampler)
+        raw_for_scoring = re.split(r'(?i)\bconfidence\b', raw)[0]
+        correct = is_correct_fn(raw_for_scoring, item["gold_answer"])
 
         try:
             hs = extract_hidden_states(model, tokenizer, prompt, raw,

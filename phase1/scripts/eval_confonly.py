@@ -1,45 +1,38 @@
 """
-eval_zeroshot_transfer.py — Test whether TriviaQA PT-CSFT adapter transfers
-zero-shot to GSM8K or ARC-Challenge.
+eval_confonly.py — Two-pass evaluation for confidence-only PT-CSFT.
 
-The question: Does PT-CSFT teach a general confidence calibration capability,
-or is it task-specific? If verbal AUROC₂ improves over the baseline on an
-unseen domain, the answer is "train once, calibrate everywhere."
+Pass 1: Generate answers WITHOUT the adapter (preserves full task performance)
+Pass 2: Rate confidence WITH the adapter (calibrated confidence from probe targets)
+
+This solves the loss dilution problem: the adapter only learns to rate
+confidence, not to generate answers. Answer quality is preserved because
+the adapter is never involved in answer generation.
 
 Usage:
-    # Gemma 12B TriviaQA adapter → GSM8K
-    python3 eval_zeroshot_transfer.py \
+    python3 eval_confonly.py \
         --benchmark gsm8k \
         --model-path ~/mnt/models-lan/foresight/synthesis-archive/gemma-3-12b-it \
         --model-name gemma-3-12b-it \
-        --adapter-path ~/jpwork/results/finetune/gemma-3-12b-it/probe_target/adapters \
+        --adapter-path ~/jpwork/metacog-engineering/phase1/results_raw/finetune/gemma-3-12b-it/confonly_probe_target/adapters \
         --baseline-auroc2 0.546
-
-    # Qwen 7B TriviaQA adapter → ARC
-    python3 eval_zeroshot_transfer.py \
-        --benchmark arc \
-        --model-path ~/mnt/models-lan/foresight/synthesis-archive/Qwen2.5-7B-Instruct-bf16 \
-        --model-name Qwen2.5-7B-Instruct-bf16 \
-        --adapter-path ~/jpwork/results/finetune/Qwen2.5-7B-Instruct-bf16/probe_target/adapters \
-        --baseline-auroc2 0.620
-
-    --baseline-auroc2: verbal AUROC₂ from the probe_check_domain.py run (no adapter).
-                       Used for the delta comparison. If omitted, just reports raw AUROC₂.
-
-Requires: mlx_lm, datasets, sklearn, numpy
-Run from: ~/jpwork/metacog-engineering/phase1/scripts/
 """
-import argparse, json, os, random, re, sys, time
+import argparse, json, os, random, re, time
 import numpy as np
 import mlx.core as mx
-from mlx_lm import load
+from mlx_lm import load, generate as mlx_generate
 from sklearn.metrics import roc_auc_score
 
 SEED = 42
-MAX_TOKENS = 1024  # GSM8K chain-of-thought needs room
+MAX_TOKENS_ANSWER = 1024   # For CoT generation
+MAX_TOKENS_CONF = 30       # For confidence rating (just "Confidence: XX%")
+
+
+def _greedy_sampler(logits):
+    return mx.argmax(logits, axis=-1)
+
 
 # ---------------------------------------------------------------------------
-# Prompts (identical to probe_check_domain.py)
+# Data loading
 # ---------------------------------------------------------------------------
 GSM8K_PROMPT = (
     "Solve this math problem step by step. "
@@ -54,9 +47,7 @@ ARC_PROMPT = (
     "{choices}\n"
 )
 
-# ---------------------------------------------------------------------------
-# Data loading (identical to probe_check_domain.py)
-# ---------------------------------------------------------------------------
+
 def load_gsm8k(seed=SEED):
     from datasets import load_dataset
     ds = load_dataset("gsm8k", "main", split="test")
@@ -73,8 +64,7 @@ def load_gsm8k(seed=SEED):
         })
     random.seed(seed)
     random.shuffle(items)
-    n_cal = 800
-    return items[:n_cal], items[n_cal:]
+    return items[:800], items[800:]
 
 
 def load_arc(seed=SEED):
@@ -95,21 +85,21 @@ def load_arc(seed=SEED):
         })
     random.seed(seed)
     random.shuffle(items)
-    n_cal = 700
-    return items[:n_cal], items[n_cal:]
+    return items[:700], items[700:]
 
 
 # ---------------------------------------------------------------------------
-# Correctness (identical to probe_check_domain.py)
+# Correctness
 # ---------------------------------------------------------------------------
 def is_correct_gsm8k(predicted, gold):
     if not predicted or not gold:
         return False
-    match = re.search(r"####\s*(.+?)(?:\n|$)", predicted)
+    predicted_clean = re.split(r'(?i)\bconfidence\b', predicted)[0]
+    match = re.search(r"####\s*(.+?)(?:\n|$)", predicted_clean)
     if match:
         pred_num = match.group(1).strip().replace(",", "")
     else:
-        numbers = re.findall(r"[-+]?\d[\d,]*\.?\d*", predicted)
+        numbers = re.findall(r"[-+]?\d[\d,]*\.?\d*", predicted_clean)
         if not numbers:
             return False
         pred_num = numbers[-1].replace(",", "")
@@ -134,15 +124,16 @@ def is_correct_arc(predicted, gold):
 
 
 # ---------------------------------------------------------------------------
-# Confidence parsing (identical to probe_check_domain.py)
+# Confidence parsing
 # ---------------------------------------------------------------------------
-_CONFIDENCE_PATTERNS = [
+_CONF_PATTERNS = [
     re.compile(r"confidence\s*:?\s*(\d{1,3})\s*%?", re.IGNORECASE),
     re.compile(r"(\d{1,3})\s*%"),
+    re.compile(r"^(\d{1,3})\s*$", re.MULTILINE),
 ]
 
 def parse_confidence(text):
-    for pat in _CONFIDENCE_PATTERNS:
+    for pat in _CONF_PATTERNS:
         m = pat.search(text)
         if m:
             try:
@@ -155,33 +146,16 @@ def parse_confidence(text):
 
 
 # ---------------------------------------------------------------------------
-# Generation
-# ---------------------------------------------------------------------------
-from mlx_lm import generate as mlx_generate
-
-def _greedy_sampler(logits):
-    return mx.argmax(logits, axis=-1)
-
-def generate_greedy(model, tokenizer, prompt, max_tokens=MAX_TOKENS):
-    """Greedy generation with enough tokens for chain-of-thought."""
-    return mlx_generate(model, tokenizer, prompt=prompt,
-                        max_tokens=max_tokens, verbose=False,
-                        sampler=_greedy_sampler)
-
-
-# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(
-        description="Zero-shot transfer: evaluate TriviaQA PT-CSFT adapter on GSM8K/ARC")
+        description="Two-pass eval: generate answers (no adapter) → rate confidence (with adapter)")
     parser.add_argument("--benchmark", required=True, choices=["gsm8k", "arc"])
     parser.add_argument("--model-path", required=True)
     parser.add_argument("--model-name", required=True)
-    parser.add_argument("--adapter-path", required=True,
-                        help="Path to TriviaQA PT-CSFT LoRA adapter")
-    parser.add_argument("--baseline-auroc2", type=float, default=None,
-                        help="Baseline verbal AUROC₂ from probe_check_domain.py (for delta)")
+    parser.add_argument("--adapter-path", required=True)
+    parser.add_argument("--baseline-auroc2", type=float, default=None)
     parser.add_argument("--output-dir", default=os.path.expanduser(
         "~/jpwork/metacog-engineering/phase1/results_raw/domain_gen"))
     args = parser.parse_args()
@@ -189,13 +163,13 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
 
     print(f"{'='*60}")
-    print(f"  Zero-Shot Transfer Test")
+    print(f"  Two-Pass Confidence-Only Evaluation")
     print(f"  Benchmark: {args.benchmark}")
     print(f"  Model: {args.model_name}")
     print(f"  Adapter: {args.adapter_path}")
     print(f"{'='*60}\n")
 
-    # Load data — eval set only (same split as probe_check_domain.py)
+    # Load data
     print(f"[data] Loading {args.benchmark}...")
     if args.benchmark == "gsm8k":
         _, eval_items = load_gsm8k()
@@ -203,17 +177,14 @@ def main():
         _, eval_items = load_arc()
     print(f"  Eval: {len(eval_items)} items\n")
 
-    # Load model with adapter
-    print(f"[model] Loading {args.model_path} + adapter...")
-    model, tokenizer = load(args.model_path, adapter_path=args.adapter_path)
-    print(f"  Loaded.\n")
-
-    # Run generation on eval set
     is_correct_fn = is_correct_gsm8k if args.benchmark == "gsm8k" else is_correct_arc
+
+    # ── Pass 1: Generate answers WITHOUT adapter ──
+    print(f"=== Pass 1: Generate answers (no adapter) ===")
+    model, tokenizer = load(args.model_path)
     results = []
     t0 = time.time()
 
-    print(f"=== Eval set ({len(eval_items)} items) ===")
     for i, item in enumerate(eval_items):
         if args.benchmark == "gsm8k":
             user_msg = item["prompt_template"].format(question=item["question"])
@@ -222,56 +193,92 @@ def main():
                 question=item["question"],
                 choices=item["choices_text"],
             )
-
         prompt = tokenizer.apply_chat_template(
             [{"role": "user", "content": user_msg}],
             tokenize=False, add_generation_prompt=True,
         )
-
-        raw = generate_greedy(model, tokenizer, prompt)
-        conf = parse_confidence(raw)
-        raw_for_scoring = re.split(r'(?i)\bconfidence\b', raw)[0]
-        correct = is_correct_fn(raw_for_scoring, item["gold_answer"])
+        raw = mlx_generate(model, tokenizer, prompt=prompt,
+                           max_tokens=MAX_TOKENS_ANSWER, verbose=False,
+                           sampler=_greedy_sampler)
+        correct = is_correct_fn(raw, item["gold_answer"])
 
         results.append({
             "id": item["id"],
-            "raw_output": raw,
+            "question": item["question"],
             "gold": item["gold_answer"],
+            "raw_answer": raw,
             "correct": correct,
-            "confidence": conf,
         })
 
         if (i + 1) % 50 == 0:
             elapsed = time.time() - t0
             acc = np.mean([r["correct"] for r in results])
-            confs_so_far = np.array([r["confidence"] for r in results])
-            parse_rate = (~np.isnan(confs_so_far)).mean()
-            print(f"  [{i+1}/{len(eval_items)}]  acc={acc:.3f}  "
-                  f"parse={parse_rate:.3f}  elapsed={elapsed:.0f}s")
+            print(f"  [{i+1}/{len(eval_items)}]  acc={acc:.3f}  elapsed={elapsed:.0f}s")
 
-    # Compute metrics
+    acc_pass1 = np.mean([r["correct"] for r in results])
+    print(f"\n  Pass 1 accuracy: {acc_pass1:.3f}")
+    print(f"  Pass 1 time: {time.time() - t0:.0f}s")
+
+    # Free base model
+    del model
+    mx.metal.clear_cache()
+
+    # ── Pass 2: Rate confidence WITH adapter ──
+    print(f"\n=== Pass 2: Rate confidence (with adapter) ===")
+    model_adapted, tokenizer = load(args.model_path, adapter_path=args.adapter_path)
+    t1 = time.time()
+
+    for i, r in enumerate(results):
+        # Strip confidence from the answer (if model produced one in pass 1)
+        answer_text = re.split(r'(?i)\bconfidence\b', r["raw_answer"])[0].strip()
+
+        # Build confidence-rating prompt (matches training format)
+        conf_prompt_text = (
+            "You answered the following math question.\n"
+            f"Question: {r['question']}\n"
+            f"Your answer: {answer_text}\n"
+            "How confident are you that your answer is correct? "
+            "State your confidence as a percentage from 0 to 100."
+        )
+        prompt = tokenizer.apply_chat_template(
+            [{"role": "user", "content": conf_prompt_text}],
+            tokenize=False, add_generation_prompt=True,
+        )
+        conf_response = mlx_generate(model_adapted, tokenizer, prompt=prompt,
+                                      max_tokens=MAX_TOKENS_CONF, verbose=False,
+                                      sampler=_greedy_sampler)
+        conf = parse_confidence(conf_response)
+        r["conf_response"] = conf_response
+        r["confidence"] = conf
+
+        if (i + 1) % 50 == 0:
+            elapsed = time.time() - t1
+            confs = np.array([r2["confidence"] for r2 in results[:i+1]])
+            parse_rate = (~np.isnan(confs)).mean()
+            print(f"  [{i+1}/{len(results)}]  parse={parse_rate:.3f}  "
+                  f"conf_mean={np.nanmean(confs):.1f}  elapsed={elapsed:.0f}s")
+
+    # ── Compute metrics ──
     corrects = np.array([r["correct"] for r in results], dtype=int)
     confs = np.array([r["confidence"] for r in results])
     mask = ~np.isnan(confs)
 
-    acc = corrects.mean()
     parse_rate = mask.mean()
-    conf_mean = float(np.nanmean(confs)) if mask.sum() > 0 else float("nan")
-    conf_std = float(np.nanstd(confs)) if mask.sum() > 0 else float("nan")
+    conf_mean = float(np.nanmean(confs))
+    conf_std = float(np.nanstd(confs))
 
     if mask.sum() > 10 and corrects[mask].sum() > 0 and corrects[mask].sum() < mask.sum():
         auroc2 = roc_auc_score(corrects[mask], confs[mask])
     else:
         auroc2 = float("nan")
 
-    # Summary
-    elapsed = time.time() - t0
+    # ── Summary ──
+    total_time = time.time() - t0
     print(f"\n{'='*60}")
-    print(f"  RESULTS: {args.benchmark.upper()} zero-shot transfer")
+    print(f"  RESULTS: {args.benchmark.upper()} confidence-only two-pass")
     print(f"  Model: {args.model_name}")
-    print(f"  Adapter: {os.path.basename(os.path.dirname(args.adapter_path))}")
     print(f"{'='*60}")
-    print(f"  Accuracy:       {acc:.3f}")
+    print(f"  Accuracy:       {acc_pass1:.3f}  (no adapter — preserved)")
     print(f"  Parse rate:     {parse_rate:.3f}")
     print(f"  Verbal AUROC₂:  {auroc2:.3f}")
     print(f"  Conf mean:      {conf_mean:.1f}")
@@ -282,25 +289,23 @@ def main():
         print(f"\n  Baseline AUROC₂: {args.baseline_auroc2:.3f}")
         print(f"  Delta:           {delta:+.3f}")
         if delta > 0.02:
-            print(f"\n  >>> TRANSFER DETECTED: verbal AUROC₂ improved by {delta:+.3f}")
-            print(f"  >>> Zero-shot calibration transfer from TriviaQA to {args.benchmark.upper()}")
+            print(f"\n  >>> TRANSFER DETECTED: AUROC₂ improved by {delta:+.3f}")
         elif delta > -0.02:
-            print(f"\n  >>> NO CLEAR TRANSFER: delta within noise ({delta:+.3f})")
+            print(f"\n  >>> NO CLEAR TRANSFER: within noise ({delta:+.3f})")
         else:
-            print(f"\n  >>> NEGATIVE TRANSFER: verbal AUROC₂ degraded ({delta:+.3f})")
-    else:
-        print(f"\n  (No baseline provided — report raw AUROC₂ only)")
+            print(f"\n  >>> NEGATIVE TRANSFER: degraded ({delta:+.3f})")
 
-    print(f"\n  Total time: {elapsed:.0f}s")
+    print(f"\n  Total time: {total_time:.0f}s")
 
-    # Save results
+    # Save
     summary = {
         "benchmark": args.benchmark,
         "model": args.model_name,
         "adapter_path": args.adapter_path,
-        "accuracy": round(acc, 3),
+        "method": "confidence_only_two_pass",
+        "accuracy": round(acc_pass1, 3),
         "parse_rate": round(parse_rate, 3),
-        "verbal_auroc2": round(auroc2, 3),
+        "verbal_auroc2": round(auroc2, 3) if not np.isnan(auroc2) else None,
         "conf_mean": round(conf_mean, 1),
         "conf_std": round(conf_std, 1),
         "baseline_auroc2": args.baseline_auroc2,
@@ -308,20 +313,14 @@ def main():
         "n_eval": len(eval_items),
         "n_correct": int(corrects.sum()),
         "n_parseable": int(mask.sum()),
-        "elapsed_s": round(elapsed, 0),
     }
 
-    label = f"zeroshot_{args.benchmark}_{args.model_name}"
-    outpath = os.path.join(args.output_dir, f"{label}.json")
-    with open(outpath, "w") as f:
+    label = f"confonly_{args.benchmark}_{args.model_name}"
+    with open(os.path.join(args.output_dir, f"{label}.json"), "w") as f:
         json.dump(summary, f, indent=2)
-    print(f"\n  Saved: {outpath}")
-
-    # Save raw responses
-    resp_path = os.path.join(args.output_dir, f"{label}_responses.json")
-    with open(resp_path, "w") as f:
+    with open(os.path.join(args.output_dir, f"{label}_responses.json"), "w") as f:
         json.dump(results, f, indent=2)
-    print(f"  Saved responses: {resp_path}")
+    print(f"\n  Saved: {os.path.join(args.output_dir, label + '.json')}")
 
 
 if __name__ == "__main__":
