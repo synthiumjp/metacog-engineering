@@ -1,0 +1,53 @@
+{
+    "adapter_path": "/Users/chrismarmo/jpwork/metacog-engineering/phase1/finetune/gemma-3-12b-it/brier_e2e_gsm8k/adapter_e2e_ce_gentle_seed9012",
+    "batch_size": 1,
+    "clear_cache_threshold": 0,
+    "config": "/Users/chrismarmo/jpwork/metacog-engineering/phase1/finetune/gemma-3-12b-it/brier_e2e_gsm8k/config_e2e_ce_gentle_seed9012.yaml",
+    "data": "/Users/chrismarmo/jpwork/metacog-engineering/phase1/finetune/gemma-3-12b-it/brier_e2e_gsm8k",
+    "fine_tune_type": "lora",
+    "grad_accumulation_steps": 16,
+    "grad_checkpoint": false,
+    "iters": 2538,
+    "learning_rate": 5e-05,
+    "lora_parameters": {
+        "rank": 16,
+        "scale": 2.0,
+        "dropout": 0.05,
+        "keys": [
+            "self_attn.q_proj",
+            "self_attn.v_proj",
+            "self_attn.k_proj",
+            "self_attn.o_proj"
+        ]
+    },
+    "lr_schedule": {
+        "name": "cosine_decay",
+        "arguments": [
+            5e-05,
+            2538
+        ]
+    },
+    "mask_prompt": true,
+    "max_seq_length": 1024,
+    "model": "/Users/chrismarmo/mnt/models-lan/foresight/synthesis-archive/gemma-3-12b-it",
+    "num_layers": 16,
+    "optimizer": "adam",
+    "optimizer_config": {
+        "adam": {},
+        "adamw": {},
+        "muon": {},
+        "sgd": {},
+        "adafactor": {}
+    },
+    "project_name": null,
+    "report_to": null,
+    "resume_adapter_file": null,
+    "save_every": 100,
+    "seed": 9012,
+    "steps_per_eval": 200,
+    "steps_per_report": 10,
+    "test": false,
+    "test_batches": 500,
+    "train": true,
+    "val_batches": 25
+}
