@@ -1,0 +1,20 @@
+model: /Users/chrismarmo/mnt/models-lan/foresight/synthesis-archive/Meta-Llama-3.1-8B-Instruct-bf16
+data: /Users/chrismarmo/jpwork/metacog-engineering/phase1/finetune/Meta-Llama-3.1-8B-Instruct-bf16/brier_e2e_gsm8k
+train: true
+fine_tune_type: lora
+lora_parameters:
+  rank: 16
+  scale: 2.0
+  dropout: 0.05
+  keys: ["self_attn.q_proj", "self_attn.v_proj", "self_attn.k_proj", "self_attn.o_proj"]
+iters: 1560
+learning_rate: 5e-5
+lr_schedule:
+  name: cosine_decay
+  arguments: [5e-5, 1560]
+batch_size: 1
+grad_accumulation_steps: 16
+max_seq_length: 1024
+seed: 42
+mask_prompt: true
+adapter_path: /Users/chrismarmo/jpwork/metacog-engineering/phase1/finetune/Meta-Llama-3.1-8B-Instruct-bf16/brier_e2e_gsm8k/adapter_e2e_ce_v2
