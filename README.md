@@ -1,124 +1,317 @@
-# metacog-engineering
+# PT-CSFT: Probe-Targeted Confidence-Calibrated Supervised Fine-Tuning
 
-Closing the metacognitive gap in LLMs: from diagnosis to intervention.
+**Making LLMs Say What They Know: Probe-Targeted Fine-Tuning for Verbal Confidence Calibration**
 
-**Phase 0 paper:** [arXiv:2604.24070](https://arxiv.org/abs/2604.24070)
-**Phase 1 paper:** *In preparation for JAIR*
-**Pre-registration:** [OSF (osf.io/mpcr5)](https://osf.io/mpcr5)
+Jon-Paul Cacioli · Independent Researcher, Melbourne, Australia  
+ORCID: [0009-0000-7054-2014](https://orcid.org/0009-0000-7054-2014)
 
-## The Problem
+Pre-registration: [OSF Phase 1](https://osf.io/ngkwc/) · [OSF Phase 0](https://osf.io/mpcr5)  
+Paper: *Submitted to JAIR, May 2026*
 
-Instruct-tuned LLMs report 95–100% confidence regardless of correctness. Linear probes on hidden states achieve AUROC₂ of 0.76–0.88 on the same items. The information is there internally — the verbal channel just doesn't transmit it. This project builds methods to close that gap.
+---
 
-## What We Found
+## Overview
 
-**Phase 0 (Gemma 4B):** Self-consistency-derived confidence targets produce a binary verbal correctness discriminator (AUROC₂ = 0.774) at 4B scale, but the self-consistency signal becomes bimodally degenerate at 12B and 27B (84.6% → 91.4% → 94.5% extreme items). SC-CSFT does not scale.
+Instruct-tuned LLMs know more about their own reliability than they say. Linear probes on hidden states discriminate correct from incorrect responses at AUROC₂ = 0.76–0.88, yet verbal confidence saturates near ceiling (mean 96–99%). PT-CSFT closes this **metacognitive gap** by using the probe's output as LoRA fine-tuning targets, modifying attention key/output projections and MLP projections while leaving queries, values, and the language model head unchanged.
 
-**Phase 1 (6 models, 3 architecture classes):** Probe-targeted CSFT (PT-CSFT) replaces the self-consistency signal with the output of a linear probe trained on the model's own hidden states. Results:
+The method requires a few hundred examples and under 10 minutes of training on consumer hardware (Apple M3 Ultra, 512GB).
 
-| Model | Baseline AUROC₂ | PT-CSFT AUROC₂ | ECE | VRS |
-|-------|----------------|----------------|-----|-----|
-| Gemma 12B | 0.684 | **0.842** | 0.108 | Invalid → Invalid |
-| Gemma 27B | 0.717 | **0.785** | — | Invalid → Indeterminate |
-| Qwen 7B | 0.581 | **0.754** | 0.068 | Invalid → **Valid** |
-| Llama 8B | 0.711 | 0.513 | 0.276 | Invalid → Invalid |
-| Llama 70B | 0.760 | 0.582 | — | Invalid → Invalid |
-| Mistral 7B | 0.584 | diverged | — | n/a |
-
-PT-CSFT succeeds on GemmaForCausalLM and Qwen2ForCausalLM. All LlamaForCausalLM models fail under the same configuration. The failure is not scale-dependent (8B and 70B both fail).
-
-**Key controls:**
-- Shuffled-target control: no improvement (AUROC₂ ≈ 0.50)
-- E10 answer-unchanged diagnostic: AUROC₂ improves +0.08 to +0.21 on items where the answer didn't change
-- Cross-benchmark: confidence calibration transfers from TriviaQA to MMLU
-- Retrained probes: correctness information preserved in Llama after PT-CSFT (middle-layer δ = −0.004) but inaccessible to verbal output
-- Steering: additive inference-time steering along the probe direction has no effect on verbal confidence
-
-## Repository Structure
+## Repository structure
 
 ```
 metacog-engineering/
-├── scripts/                        # Phase 0 pipeline (Windows/ROCm)
-│   ├── utils_phase0.py
-│   ├── step0_substrate_check.py
-│   ├── step1_baseline.py
-│   ├── step1b_probe.py
-│   ├── step2_calibration.py
-│   ├── step2b_no_filter.py
-│   ├── step3_finetune.py
-│   └── step4_evaluation.py
+├── README.md
+├── .gitignore
+├── data/                           # TriviaQA/MMLU partitions
+├── figures/                        # Paper figures
+├── make_figure.py                  # Figure generation
+├── phase0/                         # Self-consistency CSFT (Cacioli, 2026e)
 ├── phase1/
-│   ├── scripts/                    # Phase 1 pipeline (Mac/MLX)
-│   │   ├── model_config.py
-│   │   ├── gen_helpers.py
-│   │   ├── step0_spike_phase1.py
-│   │   ├── step1_baseline_phase1.py
-│   │   ├── step1b_probe_phase1.py
-│   │   ├── step2_calibration_phase1.py
-│   │   ├── step3_finetune_phase1.py
-│   │   ├── step4_eval_phase1.py
-│   │   ├── step_probe_target.py
-│   │   ├── step_steering.py
-│   │   ├── step_exp4_post_pt_probes.py
-│   │   ├── step_prereg_compliance.py
-│   │   └── step_reviewer_experiments.py
-│   └── results/                    # Phase 1 results (JSONs)
-│       ├── step4/                  # PT-CSFT evaluation metrics
-│       ├── steering/               # Steering sweep results
-│       ├── prereg_compliance/      # E10 + meta-d' compliance
-│       ├── reviewer_experiments/   # Retrained probes + ECE/Brier
-│       └── step1_post_pt/          # Post-PT baseline metrics
-├── data/                           # Phase 0 data splits
-├── results/                        # Phase 0 results
-├── figures/                        # Phase 0 figures
-└── .gitignore
+│   ├── scripts/                    # All Phase 1 scripts (see below)
+│   └── results_raw/               # Experimental outputs (gitignored)
+│       ├── step1/                      # Baselines + hidden states
+│       ├── probe/                      # Probe metrics
+│       ├── step4/                      # PT-CSFT eval + rescore JSONs
+│       ├── domain_gen/                 # GSM8K, ARC, OOD, RAG results
+│       └── finetune/                   # Configs + LoRA adapter weights
+└── archive/                        # Superseded/exploration scripts
 ```
 
-## Data
+## Prerequisites
 
-All items from TriviaQA rc.nocontext validation and MMLU. Shuffled with seed 42, partitioned:
+- Python 3.11+ (tested on 3.14)
+- Apple Silicon with MLX, or CUDA GPU with PyTorch
+- ~16GB memory per 7B model, ~32GB per 12B, ~140GB per 70B
 
-- **T-eval:** 1,000 items (held-out evaluation — never used for training or probe fitting)
-- **T-cal:** 2,000 items (probe training + CSFT fine-tuning)
-- **M-eval:** 498 MMLU items (cross-benchmark transfer)
+```bash
+python -m venv .venv_metacog
+source .venv_metacog/bin/activate
+pip install mlx mlx-lm datasets scikit-learn scipy numpy metadpy pyyaml
+```
 
-Partitions identical across Phase 0 and Phase 1. Disjointness verified programmatically.
+Models are loaded from local paths. Update paths in scripts or `model_config.py` for your setup. Models used:
+
+| Model | HuggingFace ID |
+|-------|---------------|
+| Gemma 3 12B-it | `google/gemma-3-12b-it` (bf16) |
+| Gemma 3 27B-it | `google/gemma-3-27b-it` (bf16) |
+| Qwen 2.5 7B-Instruct | `Qwen/Qwen2.5-7B-Instruct` (bf16) |
+| Qwen 2.5 32B-Instruct | `Qwen/Qwen2.5-32B-Instruct` (bf16) |
+| Qwen 2.5 72B-Instruct | `Qwen/Qwen2.5-72B-Instruct` (bf16) |
+| Llama 3.1 8B-Instruct | `meta-llama/Llama-3.1-8B-Instruct` (bf16) |
+| Llama 3.1 70B-Instruct | `meta-llama/Llama-3.1-70B-Instruct` (bf16) |
+| Mistral 7B-Instruct v0.3 | `mistralai/Mistral-7B-Instruct-v0.3` |
+
+---
+
+## Reproducing the experiments
+
+All scripts are in `phase1/scripts/`. Run from that directory with the venv active.
+
+### §5: Core PT-CSFT pipeline (one model, start to finish)
+
+```bash
+# Step 1: Baseline characterisation + hidden state extraction
+python step1_baseline_phase1.py --model_path /path/to/model
+
+# Step 1b: Probe training on extracted hidden states
+python step1b_probe_phase1.py
+
+# Step 2: Target derivation (probe scores → confidence targets)
+python step2_calibration_phase1.py
+
+# Step 3: LoRA fine-tuning
+python step3_finetune_phase1.py
+# OR use mlx_lm directly:
+python -m mlx_lm lora --config ../results_raw/finetune/MODEL/probe_target/config.yaml
+
+# Step 4: Evaluation
+python step4_eval_phase1.py
+# OR standalone eval (recommended):
+python eval_ablation.py \
+    --model-path /path/to/model \
+    --model-name MODEL_NAME \
+    --adapter-path ../results_raw/finetune/MODEL/probe_target/adapters \
+    --label MODEL_LABEL
+
+# Rescore with flex matching (required — eval uses exact match)
+python rescore_all_models.py
+```
+
+The combined pipeline (probe + target derivation + config generation) is also available as:
+```bash
+python step_probe_target.py --model_name MODEL_NAME
+```
+
+### §6: LoRA sensitivity analysis (LlamaForCausalLM)
+
+The ablation tests four configs (primary, gentle-lr, low-rank, gentlest) on Llama 8B, Mistral 7B, and Llama 70B. Each config requires a separate training run. Configs are generated by copying the primary config and changing rank/lr:
+
+```bash
+# Eval all configs for one model
+python eval_ablation.py --model-path /path/to/model --adapter-path .../ablation_gentle_lr/adapters --label gentle_lr
+python eval_ablation.py --model-path /path/to/model --adapter-path .../ablation_low_rank/adapters --label low_rank
+python eval_ablation.py --model-path /path/to/model --adapter-path .../ablation_gentlest/adapters --label gentlest
+
+# Comprehensive rescore with all configs
+python rescore_ablation.py --results-dir ../results_raw/step4/
+```
+
+### §5.3: Multi-seed replication
+
+```bash
+# Train 5 seeds each for Llama 8B, Mistral 7B, Qwen 7B (~15 hours)
+bash multiseed_triviaqa.sh
+
+# Rescore with flex matching
+python rescore_multiseed.py
+```
+
+### §7.2: Domain generalisation probe gating (GSM8K, ARC)
+
+```bash
+# Probe gate check on GSM8K or ARC-Challenge
+python probe_check_domain.py
+```
+
+### §7.3.1: Confidence-only PT-CSFT (ARC-Challenge, TriviaQA)
+
+```bash
+# ARC-Challenge on Qwen 7B
+python arc_confonly_ptcsft.py
+
+# TriviaQA confidence-only eval
+python eval_confonly_triviaqa.py
+python eval_confonly.py
+```
+
+### §7.3.2: End-to-end GSM8K
+
+```bash
+# Gemma 12B GSM8K (10 seeds at lr=5e-5)
+# Training:
+bash E10_e2e_ce_gentle.sh
+# Evaluation with logit readout:
+python eval_e2e_logits.py
+# Multi-seed logit eval:
+bash Eval_logit_multi_seed.sh
+
+# Qwen 7B GSM8K cross-family replication
+python gsm8k_e2e_qwen7b.py
+```
+
+### §7.3.3–7.3.4: 70B two-stage curriculum
+
+```bash
+# Stage 1: Balanced confidence-only
+python prep_balanced_confonly.py
+# Then train with mlx_lm lora using the generated config
+
+# Stage 2: Curriculum (loads Stage 1 adapter as resume point)
+python curriculum_70b.py
+
+# 70B evaluation
+python eval_70b_bonus.py
+python eval_70b_logit.py
+```
+
+### §7.4.1: Verifiability boundary experiments
+
+```bash
+# Brier score loss variant
+python prep_brier_e2e.py
+python train_brier_e2e.py
+python train_brier_patch.py
+```
+
+### §7.4.2: Zero-shot domain transfer
+
+```bash
+python eval_zeroshot_transfer.py
+```
+
+### §7.4.3: Multi-task training
+
+```bash
+python prep_multitask_ptcsft.py
+```
+
+### §8: Logit readout mechanism
+
+```bash
+# Logit readout evaluation (general, works across models)
+python eval_logit_general.py
+
+# Model-specific logit eval
+python eval_e2e_logits.py          # Gemma GSM8K
+python eval_e2e_logits_llama.py    # Llama GSM8K
+```
+
+### §8.5: Activation patching (routing thesis)
+
+```bash
+# Layer sweep — 8 layers × 100 items (~3-4 hours)
+python activation_patching.py --n-items 100 --patch-layer all_sweep
+
+# Parse per-layer statistics
+python parse_patching_results.py
+
+# Controls: reverse, position-specificity, answer selectivity (~2-3 hours)
+python patching_controls.py --n-items 100
+```
+
+### §8.5 (original): Inference-time steering null
+
+```bash
+python step_steering.py
+```
+
+### §9.4: Post-training probe analysis
+
+```bash
+# Llama 8B gentle-lr (successful config)
+python post_probe_standalone.py
+
+# Original analysis (pre-registered config, includes failed Llama 8B)
+python step_exp4_post_pt_probes.py
+```
+
+### §9.5: Confidence-gated retrieval (RAG)
+
+```bash
+python experiment_rag_gating.py
+python experiment_rag_robust.py      # Cross-model replication on Qwen 7B
+python run_rag_experiment.py         # RAG with real retrieval
+```
+
+### §9.6: Out-of-distribution transfer
+
+```bash
+python experiment_ood_generalization.py
+```
+
+### §9.7: Post-hoc calibration (Platt scaling)
+
+```bash
+python posthoc_platt_calibration.py
+python analysis_recalibration.py
+```
+
+### Pre-registration compliance
+
+```bash
+python step_prereg_compliance.py
+```
+
+### Bootstrap confidence intervals
+
+```bash
+python bootstrap_auroc2.py           # Paired bootstrap on AUROC₂ deltas
+python bootstrap_e10_logit.py        # E10 + logit bootstrap
+```
+
+### Diagnostic probes at confidence position
+
+```bash
+python diagnostic_confidence_probe.py        # Llama 8B
+python diagnostic_confidence_probe_gemma.py  # Gemma 12B
+```
+
+---
+
+## Key results
+
+| Result | Value | Script |
+|--------|-------|--------|
+| Probe recovery (7–32B) | 91–113% across 6 models | `rescore_all_models.py` |
+| GSM8K logit readout | AUROC₂ = 0.862 ± 0.013 (10 seeds) | `eval_e2e_logits.py` |
+| 70B curriculum (logit) | 0.797 (66% gap closure) | `curriculum_70b.py` |
+| OOD transfer | NQ: 0.757, PopQA: 0.834 | `experiment_ood_generalization.py` |
+| Platt ECE | 0.042 ± 0.009 | `posthoc_platt_calibration.py` |
+| Patching gradient | Spearman ρ = 0.976 | `activation_patching.py` |
+| Patching controls | Bidirectional 88.6%, position-specific 0.007 vs 0.947, selective 83% | `patching_controls.py` |
+| Llama 8B multi-seed | AUROC₂ = 0.836 ± 0.011 (6 seeds) | `multiseed_triviaqa.sh` |
+
+## Answer matching
+
+PT-CSFT models produce full-sentence answers ("The answer is Montreal"). All reported metrics use **bidirectional flex matching**: correct if any answer alias is a substring of the response or vice versa (min 2 characters). Raw eval scripts use exact matching; always follow with `rescore_*.py`.
 
 ## Hardware
 
-- **Phase 0:** AMD Radeon RX 7900 GRE (16GB VRAM), ROCm PyTorch 2.8.0, Windows 11
-- **Phase 1:** Apple M3 Ultra (512GB unified memory), MLX framework, macOS
-
-## Method: PT-CSFT Pipeline
-
-1. **Baseline** → greedy generation, extract hidden states at 3 layers × 2 token positions
-2. **Probe** → L2-regularised logistic regression on hidden states, 5-fold CV
-3. **Target** → probe P(correct) scaled to 0–100 as confidence target
-4. **Fine-tune** → LoRA (rank 16, α=32) with probe-derived targets
-5. **Evaluate** → AUROC₂, VRS, ECE, Brier, E10, paired-bootstrap CIs
-
-## Related Work
-
-Part of the CMM (Classical Minds, Modern Machines) programme applying Type-2 signal detection theory to LLM metacognition:
-
-- [Do LLMs Know What They Know?](https://arxiv.org/abs/2603.25112) — M1: domain-specific metacognitive profiles
-- [The Metacognitive Monitoring Battery](https://arxiv.org/abs/2604.15702) — M2: cross-domain benchmark (submitted NeurIPS 2026)
-- [Quantisation Reshapes Metacognitive Geometry](https://arxiv.org/abs/2604.08976) — M-ratio profiles restructure across formats
-- [Screen Before You Interpret](https://arxiv.org/abs/2604.17714) — VRS validity protocol
-- [Domain-Level Metacognitive Monitoring](https://arxiv.org/abs/2605.06673) — 33-model atlas
+All experiments run on Apple M3 Ultra (512GB unified memory) using MLX in bfloat16. Total compute for the full study: approximately 1 week of sequential execution. The core method (probe + train + eval on one model) takes under 1 hour.
 
 ## Citation
 
 ```bibtex
 @article{cacioli2026ptcsft,
-  title={Bridging the Metacognitive Gap: Probe-Targeted Fine-Tuning
-         Improves Verbal Confidence Calibration Across {LLM} Architectures},
+  title={Making LLMs Say What They Know: Probe-Targeted Fine-Tuning
+         for Verbal Confidence Calibration},
   author={Cacioli, Jon-Paul},
-  year={2026},
-  note={In preparation}
+  journal={Journal of Artificial Intelligence Research},
+  year={2026}
 }
 ```
 
 ## License
 
-Code: MIT. Data splits are deterministic from publicly available benchmarks (TriviaQA, MMLU).
+MIT
