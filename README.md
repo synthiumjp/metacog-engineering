@@ -315,3 +315,19 @@ All experiments run on Apple M3 Ultra (512GB unified memory) using MLX in bfloat
 ## License
 
 MIT
+
+### VRS recomputation (paper audit)
+
+```bash
+# Single-pass VRS verification of every condition in the paper
+# Covers baselines, PT-CSFT, ablations, multi-seed, Appendix E/F,
+# 70B curriculum (text + logit), balanced confonly, ARC confonly
+python recompute_vrs.py
+```
+
+Canonical VRS thresholds (from `utils_phase0.py`):
+- **Invalid:** L ≥ 0.70 OR TRIN ≥ 0.80 OR |r| < 0.05
+- **Indeterminate:** L ≥ 0.40 OR TRIN ≥ 0.60
+- **Valid:** otherwise
+
+Output: `results_raw/step4/vrs_recomputation_complete.json`
