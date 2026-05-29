@@ -307,7 +307,7 @@ All experiments run on Apple M3 Ultra (512GB unified memory) using MLX in bfloat
   title={Making LLMs Say What They Know: Probe-Targeted Fine-Tuning
          for Verbal Confidence Calibration},
   author={Cacioli, Jon-Paul},
-  journal={Journal of Artificial Intelligence Research},
+  journal={},
   year={2026}
 }
 ```
