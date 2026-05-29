@@ -7,7 +7,7 @@ ORCID: [0009-0000-7054-2014](https://orcid.org/0009-0000-7054-2014)
 
 Pre-registration: [OSF Phase 1](https://osf.io/ngkwc/) · [OSF Phase 0](https://osf.io/mpcr5)  
 Paper: *Submitted to JAIR, May 2026*
-
+Preprint: https://zenodo.org/records/20436841
 ---
 
 ## Overview
